@@ -1,0 +1,3 @@
+TOOL_URL=https://github.com/GloriousEggroll/proton-ge-custom/releases/download/6.16-GE-1/Proton-6.16-GE-1.tar.gz
+TOOL_MD5SUM=cceca53c8edaa2cf303b8856ea685b6b
+TOOL_CMD=proton
