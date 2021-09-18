@@ -77,6 +77,9 @@
 "507490": # Ashes of the Singularity: Escalation
   compat_tool: proton_513
 
+"757320": # Atomicrops
+  compat_tool: Proton-6.16-GE-1
+
 "984800": # Automachef
   compat_tool: proton_411
 
