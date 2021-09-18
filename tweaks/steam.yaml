@@ -625,6 +625,9 @@
 "905340": # Heave Ho
   compat_tool: proton_63
 
+"774201": # Heaven's Vault
+  compat_tool: proton_63
+
 "960910": # Heavy Rain
   compat_tool: proton_5
   launch_options: WINEDLLOVERRIDES="xaudio2_7=native,builtin" %command%
@@ -899,6 +902,9 @@
 "1248990": # Mýrdalssandur, Iceland
   compat_tool: proton_5
 
+"1069530": # Narita Boy
+  compat_tool: proton_63
+
 "349040": # NARUTO SHIPPUDEN: Ultimate Ninja STORM 4
   compat_tool: proton_411
 
@@ -915,6 +921,9 @@
   compat_tool: proton_513
 
 "356820": # Nemo Dungeon
+  compat_tool: proton_513
+
+"994220": # Neon Abyss
   compat_tool: proton_513
 
 "994220": # NEOVERSE
@@ -1022,6 +1031,10 @@
 
 "1013310": # Peaky Blinders: Mastermind
   compat_tool: proton_513
+
+"1016120": # PGA TOUR 2K21
+  compat_tool: proton_63
+  comment: Tutorial only showed keyboard hints
 
 "409870": # Phantom Brave PC
   compat_tool: proton_513
@@ -1136,6 +1149,9 @@
 
 "1092630": # Rogue Glitch
   compat_tool: proton_63
+
+"1067540": # Röki
+  compat_tool: Proton-6.16-GE-1
 
 "4770": # Rome: Total War - Alexander
   compat_tool: Proton-6.1-GE-2
