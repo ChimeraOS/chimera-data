@@ -926,8 +926,8 @@
 "356820": # Nemo Dungeon
   compat_tool: proton_513
 
-"994220": # Neon Abyss
-  compat_tool: proton_513
+"788100": # Neon Abyss
+  compat_tool: proton_63
 
 "994220": # NEOVERSE
   compat_tool: proton_513
