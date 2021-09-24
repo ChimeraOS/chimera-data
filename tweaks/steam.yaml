@@ -1341,6 +1341,9 @@
 "1057750": # The Suicide of Rachel Foster
   compat_tool: Proton-6.1-GE-2
 
+"1525660": # Sunblaze
+  steam_input: enabled
+
 "702700": # Super Bomberman R
   compat_tool: proton_513
 
