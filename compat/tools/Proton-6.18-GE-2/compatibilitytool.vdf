@@ -2,7 +2,7 @@
 {
   "compat_tools"
   {
-    "Proton-6.18-GE-1" // Internal name of this tool
+    "Proton-6.18-GE-2" // Internal name of this tool
     {
       // Can register this tool with Steam in two ways:
       //
@@ -14,7 +14,7 @@
       "install_path" "."
 
       // For this template, we're going to substitute the display_name key in here, e.g.:
-      "display_name" "Proton-6.18-GE-1"
+      "display_name" "Proton-6.18-GE-2"
 
       "from_oslist"  "windows"
       "to_oslist"    "linux"
