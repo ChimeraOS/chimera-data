@@ -260,6 +260,9 @@
 "602770": # Clatter
   compat_tool: proton_513
 
+"678960": # Code Vein
+  compat_tool: proton_63
+
 "260650": # Cold War
   compat_tool: proton_513
 
@@ -667,7 +670,7 @@
   compat_tool: proton_411
 
 "854940": # Ikenfell
-  compat_tool: proton_513
+  compat_tool: proton_63
 
 "890720": # In Other Waters
   compat_tool: proton_513
@@ -700,6 +703,9 @@
   compat_tool: proton_63
   launch_options: mv jetsetradio.exe jsrsetup.exe; %command%
 
+"242110": # Joe Danger 2: The Movie
+  compat_tool: proton_63
+
 "270810": # Jones On Fire
   compat_tool: proton_513
 
@@ -713,6 +719,9 @@
   compat_tool: proton_513
 
 "848350": # Katamari Damacy REROLL
+  compat_tool: proton_63
+
+"460950": # Katana Zero
   compat_tool: proton_63
 
 "370910": # Kathy Rain
@@ -842,6 +851,9 @@
 
 "220860": # McPixel
   compat_tool: proton_411
+
+"764790": # The Messenger
+  compat_tool: proton_63
 
 "1173200": # Metal Unit
   compat_tool: proton_411
@@ -1123,7 +1135,7 @@
   compat_tool: proton_411
 
 "760810": # Retimed
-  compat_tool: proton_513
+  compat_tool: proton_63
 
 "290040": # Retro Game Crunch
   compat_tool: proton_513
@@ -1365,6 +1377,9 @@
 "644830": # The Surge 2
   compat_tool: proton_63
 
+"442210": # Switchcars
+  compat_tool: proton_63
+
 "63500": # Swords and Soldiers HD
   compat_tool: proton_513
 
@@ -1377,6 +1392,9 @@
 "838410": # Tabletop Playground
   compat_tool: proton_63
 
+"429660": # Tales of Berseria
+  compat_tool: proton_63
+
 "568090": # Tattletail
   compat_tool: proton_63
 
@@ -1384,6 +1402,9 @@
   compat_tool: proton_513
 
 "785260": # Team Sonic Racing
+  compat_tool: proton_63
+
+"389730": # Tekken 7
   compat_tool: proton_63
 
 "800270": # Terraforming Mars
