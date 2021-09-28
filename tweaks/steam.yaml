@@ -1440,8 +1440,9 @@
 "7000": # Tomb Raider: Legend
   compat_tool: proton_63
 
-"8140": # Tomb_Raider: Underworld
+"8140": # Tomb Raider: Underworld; older Proton version required to avoid stuttering
   compat_tool: proton_42
+  comment: Requires interaction with DirectX installer and configuration launcher
 
 "224960": # Tomb Raider I
   compat_tool: boxtron
