@@ -862,7 +862,7 @@
   compat_tool: proton_411
 
 "356190": # Middle-earth: Shadow of War
-  compat_tool: proton_42
+  compat_tool: proton_63
   compat_config: noesync,nofsync
 
 "1302050": # Milky Way Prince - The Vampire Star
@@ -909,6 +909,9 @@
 
 "1427800": # Mutant Ops
   compat_tool: proton_513
+
+"557340": # My Friend Pedro
+  compat_tool: proton_63
 
 "666140": # My Time At Portia
   compat_tool: proton_63
