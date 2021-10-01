@@ -667,7 +667,7 @@
   compat_tool: proton_5
 
 "1271700": # Hot Wheels Unleashed
-  compat_tool: proton_63
+  compat_tool: Proton-6.18-GE-2
 
 "453340": # Hustle Cat
   compat_tool: proton_411
