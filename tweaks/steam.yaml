@@ -666,6 +666,9 @@
 "609920": # Hotshot Racing
   compat_tool: proton_5
 
+"1271700": # Hot Wheels Unleashed
+  compat_tool: proton_63
+
 "453340": # Hustle Cat
   compat_tool: proton_411
 
