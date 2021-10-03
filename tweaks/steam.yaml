@@ -1165,9 +1165,6 @@
 "207490": # Rayman Origins
   compat_tool: proton_63
 
-"1067540": # RÖki
-  compat_tool: Proton-6.5-GE-2
-
 "290300": # Rebel Galaxy
   compat_tool: proton_513
 
