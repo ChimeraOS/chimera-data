@@ -468,7 +468,7 @@
 "677880": # Draw Your Game
   compat_tool: proton_513
 
-"312530": Duck Game
+"312530": # Duck Game
   compat_tool: proton_63
   launch_options: -linux
  
@@ -1450,7 +1450,7 @@
 "644830": # The Surge 2
   compat_tool: proton_63
 
-"929010": Swag and Sorcery
+"929010": # Swag and Sorcery
   compat_tool: proton_63
 
 "442210": # Switchcars
