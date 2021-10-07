@@ -1142,6 +1142,14 @@
 "798790": # PolyCube
   compat_tool: proton_513
 
+"374040": # Portal Knights
+  compat_tool: proton_63
+  patch_dir: Portal Knights
+  patches:
+    - copy:
+        src: Portal Knights/portal_knights.cfg
+        dst: portal_knights.cfg
+
 "328500": # Potatoman Seeks the Troof
   compat_tool: proton_513
 
