@@ -43,6 +43,10 @@
 "1210150": # Ageless
   compat_tool: proton_513
 
+"108710": # Alan Wake
+  compat_tool: proton_63
+  launch_options: WINEDLLOVERRIDES="xaudio2_7=native,builtin" %command%
+
 "951940": # Almost There: The Platformer
   compat_tool: proton_411
 
