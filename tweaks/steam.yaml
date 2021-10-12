@@ -1501,6 +1501,9 @@
 "800270": # Terraforming Mars
   compat_tool: proton_513
 
+"1003590": # Tetris Effect: Connected
+  compat_tool: Proton-6.18-GE-2
+
 "573600": # Think of the Children
   compat_tool: proton_513
 
