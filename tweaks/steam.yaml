@@ -9,6 +9,9 @@
 "435790": # 10 Second Ninja X
   compat_tool: proton_411
 
+"793460": # 112 Operator
+  compat_tool: proton_63
+
 "255280": # 1954 Alcatraz
   compat_tool: proton_63
 
@@ -183,6 +186,9 @@
 
 "63710": # BIT.TRIP RUNNER
   compat_tool: Proton-6.16-GE-1
+
+"751820": # Black Future '88  
+  compat_tool: proton_63
 
 "729660": # Blackout Z: Slaughterhouse Edition
   compat_tool: proton_513
@@ -601,6 +607,9 @@
 "1158450": # GALAXIUM
   compat_tool: proton_63
 
+"878580": # Garage: Bad Trip
+  compat_tool: proton_63
+
 "362930": # Garfield Kart
   compat_tool: proton_513
 
@@ -754,6 +763,9 @@
   launch_options: mv jetsetradio.exe jsrsetup.exe; %command%
 
 "242110": # Joe Danger 2: The Movie
+  compat_tool: proton_63
+
+"1405790": # John Wick Hex  
   compat_tool: proton_63
 
 "270810": # Jones On Fire
@@ -1231,6 +1243,9 @@
 "493200": # RiME
   compat_tool: proton_513
 
+"998740": # Ring of Pain  
+  compat_tool: proton_63
+
 "848930": # Rising Dusk
   compat_tool: proton_513
 
@@ -1477,6 +1492,9 @@
 "46510": # Syberia II
   compat_tool: proton_63
 
+"464340": # Syberia 3  
+  compat_tool: proton_63
+
 "410700": # System Shock: Classic
   compat_tool: boxtron
 
@@ -1503,6 +1521,9 @@
 
 "1003590": # Tetris Effect: Connected
   compat_tool: Proton-6.18-GE-2
+
+"940680": # The Textorcist: The Story of Ray Bibbia
+  compat_tool: proton_63
 
 "573600": # Think of the Children
   compat_tool: proton_513
@@ -1546,6 +1567,9 @@
 
 "225020": # Tomb_Raider VI: The Angel of Darkness
    compat_tool: Proton-6.1-GE-2
+
+"1004490": # Tools Up
+  compat_tool: proton_63
 
 "41500": # Torchlight
   compat_tool: proton_513
