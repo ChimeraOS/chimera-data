@@ -832,7 +832,7 @@
   compat_tool: proton_63
 
 "405310": # LEGO MARVEL's Avengers
-  compat_tool: proton_513
+  compat_tool: proton_63
 
 "249130": # LEGO MARVEL Super Heroes
   compat_tool: proton_63
@@ -844,7 +844,7 @@
   compat_tool: proton_411
 
 "640590": # The LEGO NINJAGO Movie Video Game
-  compat_tool: proton_411
+  compat_tool: proton_63
 
 "311770": # LEGO Pirates of the Caribbean The Video Game
   compat_tool: proton_411
@@ -852,6 +852,9 @@
 "285160": # LEGO The Hobbit
   compat_tool: proton_63
 
+"214510": # LEGO The Lord of the Rings
+  compat_tool: Proton-6.19-GE-2
+  
 "332310": # LEGO Worlds
   compat_tool: proton_63
 
