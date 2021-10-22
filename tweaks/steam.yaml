@@ -355,8 +355,8 @@
   compat_tool: proton_63
 
 "243200": # The Dark Eye: Memoria
-  compat_tool: proton_37
-  launch_options: SDL_AUDIODRIVER="directsound" %command%
+  compat_tool: proton_63
+  launch_options: IFS=:; for PROTON_PATH in ${STEAM_COMPAT_TOOL_PATHS}; do if [ -f "$PROTON_PATH/dist/bin/wine" ]; then WINEPREFIX=$STEAM_COMPAT_DATA_PATH/pfx $PROTON_PATH/dist/bin/wine "C:\windows\system32\reg.exe" ADD "HKLM\System\CurrentControlSet\Control\Session Manager\Environment" /v "SDL_AUDIODRIVER" /d "directsound" /f; break; fi; done; %command%
 
 "280640": # Dark Shadows - Army of Evil
   compat_tool: Proton-6.9-GE-2
@@ -1021,6 +1021,10 @@
 "994220": # NEOVERSE
   compat_tool: proton_513
 
+"105000": # A New Beginning - Final Cut
+  compat_tool: proton_63
+  launch_options: IFS=:; for PROTON_PATH in ${STEAM_COMPAT_TOOL_PATHS}; do if [ -f "$PROTON_PATH/dist/bin/wine" ]; then WINEPREFIX=$STEAM_COMPAT_DATA_PATH/pfx $PROTON_PATH/dist/bin/wine "C:\windows\system32\reg.exe" ADD "HKLM\System\CurrentControlSet\Control\Session Manager\Environment" /v "SDL_AUDIODRIVER" /d "winmm" /f; break; fi; done; %command%
+
 "1038300": # New Super Lucky's Tale
   compat_tool: Proton-6.1-GE-2
 
@@ -1042,6 +1046,10 @@
 "219950": # NiGHTS Into Dreams
   compat_tool: proton_513
   compat_config: noesync,nofsync
+
+"230820": # The Night of the Rabbit
+  compat_tool: proton_63
+  launch_options: IFS=:; for PROTON_PATH in ${STEAM_COMPAT_TOOL_PATHS}; do if [ -f "$PROTON_PATH/dist/bin/wine" ]; then WINEPREFIX=$STEAM_COMPAT_DATA_PATH/pfx $PROTON_PATH/dist/bin/wine "C:\windows\system32\reg.exe" ADD "HKLM\System\CurrentControlSet\Control\Session Manager\Environment" /v "SDL_AUDIODRIVER" /d "directsound" /f; break; fi; done; %command%
 
 "405540": # Ninja Senki DX
   compat_tool: proton_513
