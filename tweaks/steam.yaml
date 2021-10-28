@@ -273,6 +273,9 @@
 "598810": # Carcassonne: The Official Board Game
   compat_tool: proton_5
 
+"1172450": # Carto
+  compat_tool: proton_63
+
 "204360": # Castle Crashers; Valve whitelisted proton version no longer works
   compat_tool: proton_63
 
@@ -481,6 +484,9 @@
 "312530": # Duck Game
   compat_tool: proton_63
   launch_options: -linux
+
+"237630": # DuckTales Remastered
+  compat_tool: proton_63
  
 "38480": # Earthworm Jim
   compat_tool: boxtron
@@ -1105,6 +1111,9 @@
 "794260": # Outward
   compat_tool: Proton-5.21-GE-1
 
+"448510": # Overcooked
+  compat_tool: proton_63
+
 "441380": # PAC-MAN CHAMPIONSHIP EDITION 2
   compat_tool: proton_513
 
@@ -1418,6 +1427,9 @@
 "468670": # Speed Brawl
   compat_tool: Proton-6.1-GE-2
 
+"239350": # Spelunky
+  compat_tool: proton_63
+
 "263280": # Spintires
   compat_tool: Proton-6.1-GE-2
 
@@ -1601,7 +1613,7 @@
   compat_tool: proton_63
 
 "287260": # Toybox Turbos
-  compat_tool: proton_513
+  compat_tool: proton_63
   compat_config: noesync,nofsync
 
 "585420": # Trailmakers
