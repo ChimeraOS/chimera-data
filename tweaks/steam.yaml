@@ -1359,6 +1359,9 @@
   compat_tool: proton_63
   launch_options: rm Starships64.exe && ln -s Starships.exe Starships64.exe; %command%
 
+"870200": # SimpleRockets 2
+  compat_tool: proton_63
+
 "712730": # SIMULACRA
   compat_tool: proton_513
 
