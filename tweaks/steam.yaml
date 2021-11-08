@@ -481,6 +481,10 @@
 "677880": # Draw Your Game
   compat_tool: proton_513
 
+"556130": # Drones, The Human Condition
+  compat_tool: proton_63
+  comment: Native version doesn't detect controllers
+  
 "312530": # Duck Game
   compat_tool: proton_63
   launch_options: -linux
