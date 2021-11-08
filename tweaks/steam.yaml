@@ -735,6 +735,9 @@
 "1271700": # Hot Wheels Unleashed
   compat_tool: Proton-6.18-GE-2
 
+"613100": # House Flipper
+  compat_tool: proton_63
+
 "453340": # Hustle Cat
   compat_tool: proton_411
 
