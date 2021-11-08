@@ -151,7 +151,7 @@
   compat_tool: proton_411
 
 "460790": # Bayonetta
-  compat_tool: proton_5
+  compat_tool: proton_63
 
 "792300": # The Beast Inside 
   compat_tool: Proton-6.18-GE-2
@@ -226,7 +226,7 @@
   compat_tool: proton_63
 
 "449960": # Book of Demons
-  compat_tool: proton_411
+  compat_tool: proton_63
 
 "965680": # Boomerang Fu
   compat_tool: proton_63
@@ -390,7 +390,7 @@
   compat_tool: proton_411
 
 "356650": # Death's Gambit
-  compat_tool: proton_411
+  compat_tool: proton_63
 
 "1190460": # Death Stranding
   compat_tool: proton_63
@@ -586,7 +586,7 @@
   compat_config: noesync,nofsync
 
 "751780": # Forager; native version crashes
-  compat_tool: proton_411
+  compat_tool: proton_63
 
 "612570": # Fort Triumph
   steam_input: enabled
@@ -726,7 +726,7 @@
   compat_tool: proton_411
 
 "609920": # Hotshot Racing
-  compat_tool: proton_5
+  compat_tool: proton_63
 
 "1271700": # Hot Wheels Unleashed
   compat_tool: Proton-6.18-GE-2
@@ -1408,7 +1408,8 @@
         dst: installscript.vdf
 
 "637100": # Sonic Forces
-  compat_tool: proton_411
+  compat_tool: proton_63
+  compat_config: noesync,nofsync
 
 "71340": # Sonic Generations
   compat_tool: proton_63
@@ -1498,7 +1499,7 @@
   compat_tool: proton_513
 
 "375120": # Super Star Path; native version does not recognize controllers
-  compat_tool: proton_411
+  compat_tool: proton_63
 
 "1000560": # Supraland Demo; native version has sound issues
   compat_tool: proton_5
@@ -1659,7 +1660,7 @@
  compat_tool: proton_63
 
 "357190": # Ultimate Marvel vs. Capcom 3
-  compat_tool: proton_411
+  compat_tool: proton_63
 
 "45760": # Ultra Street Fighter IV
   compat_tool: proton_63
@@ -1717,8 +1718,8 @@
   compat_tool: proton_63
 
 "607050": # Wargroove
-  compat_tool: proton_411
-  launch_options: --skip-intro
+  compat_tool: proton_63
+  launch_options: '--skip-intro'
 
 "4570": # Warhammer 40,000: Dawn of War - Game of the Year Edition
   compat_tool: proton_63
@@ -1835,7 +1836,7 @@
   steam_input: enabled
 
 "846870": # Yooka-Laylee and the Impossible Lair
-  compat_tool: proton_411
+  compat_tool: proton_63
 
 "597760": # Yuppie Psycho; native version shows incorrect button prompts
   compat_tool: proton_513
