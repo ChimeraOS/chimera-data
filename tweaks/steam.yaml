@@ -1431,6 +1431,9 @@
   compat_tool: proton_63
   compat_config: noesync,nofsync
 
+"329440": # Sonic Lost World
+  compat_tool: proton_63
+
 "584400": # Sonic Mania
   compat_tool: proton_63
 
