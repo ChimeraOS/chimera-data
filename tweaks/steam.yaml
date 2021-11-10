@@ -1592,6 +1592,9 @@
 "340270": # TIMEframe
   compat_tool: proton_513
 
+"1150950": # Timelie
+  compat_tool: proton_63
+
 "475150": # Titan Quest Anniversary Edition
   compat_tool: proton_513
 
