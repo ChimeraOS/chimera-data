@@ -1783,6 +1783,9 @@
 "950850": # The Window Box
   compat_tool: proton_63
 
+"1054490": # WINGSPAN
+  compat_tool: proton_63
+
 "292030": # The Witcher 3: Wild Hunt
   compat_tool: proton_63
 
