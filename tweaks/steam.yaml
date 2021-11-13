@@ -988,6 +988,8 @@
 
 "774171": # Muse Dash
   compat_tool: proton_63
+  status: playable
+  comment: First time welcome/tips prompt not responsive to gamepad controls; mouse required
 
 "1049820": # Must Dash Amigos
   compat_tool: proton_513
