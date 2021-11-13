@@ -949,6 +949,11 @@
 "1302050": # Milky Way Prince - The Vampire Star
   compat_tool: Proton-6.1-GE-2
 
+"1672970": # Minecraft Dungeons
+  compat_tool: proton_63
+  status: playable
+  comment: Requires mouse & keyboard for one time Microsoft account login
+
 "489520": # Minion Masters
   compat_tool: proton_513
 
@@ -990,6 +995,8 @@
 
 "774171": # Muse Dash
   compat_tool: proton_63
+  status: playable
+  comment: First time welcome/tips prompt not responsive to gamepad controls; mouse required
 
 "1049820": # Must Dash Amigos
   compat_tool: proton_513
