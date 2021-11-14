@@ -1837,6 +1837,9 @@
 "70600": # Worms Ultimate Mayhem
   compat_tool: proton_63
 
+"1000410": # WRATH: Aeon of Ruin
+  compat_tool: proton_63
+
 "228380": # Wreckfest
   compat_tool: proton_513
 
