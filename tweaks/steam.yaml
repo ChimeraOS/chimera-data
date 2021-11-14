@@ -481,6 +481,10 @@
 "677880": # Draw Your Game
   compat_tool: proton_513
 
+"556130": # Drones, The Human Condition
+  compat_tool: proton_63
+  comment: Native version doesn't detect controllers
+  
 "312530": # Duck Game
   compat_tool: proton_63
   launch_options: -linux
@@ -730,6 +734,9 @@
 
 "1271700": # Hot Wheels Unleashed
   compat_tool: Proton-6.18-GE-2
+
+"613100": # House Flipper
+  compat_tool: proton_63
 
 "453340": # Hustle Cat
   compat_tool: proton_411
@@ -1202,6 +1209,9 @@
 "958400": # Project CARS 3
   compat_tool: proton_5
 
+"895870": # Project Wingman
+  compat_tool: proton_6.20-GE-1
+
 "607080": # Psychonauts 2
   compat_tool: proton_63
   launch_options: -force -dx11
@@ -1356,6 +1366,9 @@
   compat_tool: proton_63
   launch_options: rm Starships64.exe && ln -s Starships.exe Starships64.exe; %command%
 
+"870200": # SimpleRockets 2
+  compat_tool: proton_63
+
 "712730": # SIMULACRA
   compat_tool: proton_513
 
@@ -1402,6 +1415,9 @@
 "212480": # Sonic & All-Stars Racing Transformed
   compat_tool: proton_63
 
+"213610": # Sonic Adventure 2
+  compat_tool: proton_63
+
 "71250": # Sonic Adventure DX
   compat_tool: proton_63
 
@@ -1421,6 +1437,9 @@
 "71340": # Sonic Generations
   compat_tool: proton_63
   compat_config: noesync,nofsync
+
+"329440": # Sonic Lost World
+  compat_tool: proton_63
 
 "584400": # Sonic Mania
   compat_tool: proton_63
@@ -1764,6 +1783,9 @@
 "950850": # The Window Box
   compat_tool: proton_63
 
+"1054490": # WINGSPAN
+  compat_tool: proton_63
+
 "292030": # The Witcher 3: Wild Hunt
   compat_tool: proton_63
 
@@ -1813,6 +1835,9 @@
   compat_tool: proton_63
 
 "70600": # Worms Ultimate Mayhem
+  compat_tool: proton_63
+
+"1000410": # WRATH: Aeon of Ruin
   compat_tool: proton_63
 
 "228380": # Wreckfest
