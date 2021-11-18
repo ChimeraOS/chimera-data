@@ -1,5 +1,10 @@
 #! /bin/bash
 
+# prevent premature download triggered by Steam
+if echo "$@" | grep "d3ddriverquery64.exe" > /dev/null; then
+	exit
+fi
+
 TOOL_URL=%TOOL_URL%
 TOOL_MD5SUM=%TOOL_MD5SUM%
 TOOL_CMD=%TOOL_CMD%
