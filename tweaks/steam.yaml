@@ -389,6 +389,10 @@
 "520720": # Dear Esther: Landmark Edition
   compat_tool: proton_411
 
+"894020": # Death's Door
+  compat_tool: proton_63
+  status: verified
+
 "356650": # Death's Gambit
   compat_tool: proton_63
 
@@ -399,7 +403,9 @@
   compat_tool: proton_513
 
 "548430": # Deep Rock Galactic
-  compat_tool: proton_411
+  compat_tool: proton_63
+  status: playable
+  comment: Awkward mouse joystick controls in menus
 
 "384310": # Dead In Bermuda
   compat_tool: proton_63
@@ -677,7 +683,8 @@
   launch_options: '%command%'
 
 "1145360": # Hades
-  compat_tool: proton_513
+  compat_tool: proton_63
+  status: verified
 
 "492290": # Has-Been Heroes
   compat_tool: proton_513
@@ -1223,6 +1230,10 @@
   compat_tool: proton_63
   launch_options: WINEDLLOVERRIDES="xaudio2_7=native,builtin" %command%
 
+"546050": # Puyo Puyo Tetris
+  compat_tool: proton_63
+  status: verified
+
 "292380": # Racer 8
   compat_tool: proton_513
 
@@ -1520,6 +1531,10 @@
 
 "314070": # Super Mega Baseball: Extra Innings
   compat_tool: proton_513
+
+"1316910": # Super Monkey Ball Banana Mania
+  compat_tool: proton_63
+  status: verified
 
 "670080": # SuperLuminauts
   compat_tool: proton_513
