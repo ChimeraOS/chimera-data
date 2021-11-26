@@ -276,7 +276,7 @@
 "1172450": # Carto
   compat_tool: proton_63
 
-"204360": # Castle Crashers; Valve whitelisted proton version no longer works
+"204360": # Castle Crashers
   compat_tool: proton_63
 
 "544730": # Catan Universe
@@ -288,8 +288,9 @@
 "518060": # Chess Ultra
   compat_tool: proton_411
 
-"390610": # Circa Infinity; native version crashes on startup
+"390610": # Circa Infinity
   compat_tool: proton_37
+  comment: Native version crashes on startup
 
 "8800": # Civilization IV: Beyond the Sword
   compat_tool: proton_63
@@ -1397,6 +1398,8 @@
 
 "91100": # SkyDrift
   compat_tool: proton_63
+  status: playable
+  comment: Keyboard button hints; initial setup displays a Windows dialog
 
 "361350": # Skyhook
   steam_input: enabled
@@ -1708,6 +1711,8 @@
 
 "45760": # Ultra Street Fighter IV
   compat_tool: proton_63
+  status: playable
+  comment: Cutscene videos are missing audio
 
 "406970": # The Uncertain: Last Quiet Day
   compat_tool: proton_63
