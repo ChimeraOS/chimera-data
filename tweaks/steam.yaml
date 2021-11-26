@@ -377,9 +377,6 @@
 "606280": # Darksiders III
   compat_tool: proton_5
 
-"384310": # Dead In Bermuda
-  compat_tool: proton_63
-
 "838380": # DEAD OR ALIVE 6
   compat_tool: proton_411
   launch_options: '%command%'
