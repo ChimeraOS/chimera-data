@@ -837,6 +837,9 @@
 "812550": # The King's Bird
   compat_tool: proton_411
 
+"35130": # Lara Croft and the Guardian of Light
+  compat_tool: proton_63
+
 "289690": # LARA CROFT AND THE TEMPLE OF OSIRIS
   compat_tool: proton_513
 
@@ -928,6 +931,9 @@
 "529660": # Mages of Mystralia
   compat_tool: Proton-6.1-GE-2
   compat_config: wined3d
+
+"42910": # Magicka
+  compat_tool: proton_63
 
 "1078920": # Main Assembly
   compat_tool: Proton-6.1-GE-2
@@ -1362,6 +1368,12 @@
 "809890": # Shining Resonance Refrain
   compat_tool: proton_5
 
+"244070": # Sid Meier's Ace Patrol
+  compat_tool: proton_63
+
+"244090": # Sid Meier's Ace Patrol: Pacific Skies
+  compat_tool: proton_63
+
 "3900": # Sid Meier's Civilization IV
   compat_tool: proton_63
 
@@ -1600,6 +1612,9 @@
   compat_tool: Proton-6.18-GE-2
 
 "940680": # The Textorcist: The Story of Ray Bibbia
+  compat_tool: proton_63
+
+"518790": # theHunter: Call of the Wild
   compat_tool: proton_63
 
 "573600": # Think of the Children
