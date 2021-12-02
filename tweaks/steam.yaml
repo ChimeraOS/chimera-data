@@ -258,6 +258,9 @@
 "390290": # Bulb Boy
   compat_tool: proton_513
 
+"1286350": # BPM: BULLETS PER MINUTE
+  compat_tool: Proton-6.21-GE-2
+  
 "403290": # Burly Men at Sea
   compat_tool: proton_513
 
