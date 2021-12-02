@@ -1024,6 +1024,9 @@
 "557340": # My Friend Pedro
   compat_tool: proton_63
 
+"276340": # My Riding Stables: Life with Horses
+  compat_tool: proton_63
+
 "666140": # My Time At Portia
   compat_tool: proton_63
   compat_config: noesync,nofsync
