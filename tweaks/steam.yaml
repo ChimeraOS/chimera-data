@@ -983,9 +983,6 @@
 "939560": # Monster Trampoline
   compat_tool: proton_63
 
-"1209360": # Monster Truck Championship
-  compat_tool: Proton-6.5-GE-2
-
 "1331910": # Morkredd
   compat_tool: proton_513
 
@@ -1087,9 +1084,6 @@
 
 "275850": # No Man's Sky
   compat_tool: proton_411
-
-"1147550": # Not For Broadcast
-  compat_tool: Proton-6.5-GE-2
 
 "733790": # Not Tonight
   compat_tool: Proton-5.21-GE-1
