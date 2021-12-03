@@ -258,6 +258,9 @@
 "390290": # Bulb Boy
   compat_tool: proton_513
 
+"1286350": # BPM: BULLETS PER MINUTE
+  compat_tool: Proton-6.21-GE-2
+  
 "403290": # Burly Men at Sea
   compat_tool: proton_513
 
@@ -834,6 +837,9 @@
 "812550": # The King's Bird
   compat_tool: proton_411
 
+"35130": # Lara Croft and the Guardian of Light
+  compat_tool: proton_63
+
 "289690": # LARA CROFT AND THE TEMPLE OF OSIRIS
   compat_tool: proton_513
 
@@ -926,6 +932,9 @@
   compat_tool: Proton-6.1-GE-2
   compat_config: wined3d
 
+"42910": # Magicka
+  compat_tool: proton_63
+
 "1078920": # Main Assembly
   compat_tool: Proton-6.1-GE-2
 
@@ -983,6 +992,9 @@
 "939560": # Monster Trampoline
   compat_tool: proton_63
 
+"1209360": # Monster Truck Championship
+  compat_tool: Proton-6.21-GE-2
+
 "1331910": # Morkredd
   compat_tool: proton_513
 
@@ -1010,6 +1022,9 @@
   compat_tool: proton_513
 
 "557340": # My Friend Pedro
+  compat_tool: proton_63
+
+"276340": # My Riding Stables: Life with Horses
   compat_tool: proton_63
 
 "666140": # My Time At Portia
@@ -1085,6 +1100,9 @@
 "275850": # No Man's Sky
   compat_tool: proton_411
 
+"1147550": # Not For Broadcast
+  compat_tool: Proton-6.21-GE-2
+  
 "733790": # Not Tonight
   compat_tool: Proton-5.21-GE-1
 
@@ -1353,6 +1371,12 @@
 "809890": # Shining Resonance Refrain
   compat_tool: proton_5
 
+"244070": # Sid Meier's Ace Patrol
+  compat_tool: proton_63
+
+"244090": # Sid Meier's Ace Patrol: Pacific Skies
+  compat_tool: proton_63
+
 "3900": # Sid Meier's Civilization IV
   compat_tool: proton_63
 
@@ -1591,6 +1615,9 @@
   compat_tool: Proton-6.18-GE-2
 
 "940680": # The Textorcist: The Story of Ray Bibbia
+  compat_tool: proton_63
+
+"518790": # theHunter: Call of the Wild
   compat_tool: proton_63
 
 "573600": # Think of the Children
