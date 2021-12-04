@@ -153,7 +153,7 @@
 "460790": # Bayonetta
   compat_tool: proton_63
 
-"792300": # The Beast Inside 
+"792300": # The Beast Inside
   compat_tool: Proton-6.18-GE-2
 
 "381320": # Bezier
@@ -187,7 +187,7 @@
 "63710": # BIT.TRIP RUNNER
   compat_tool: Proton-6.16-GE-1
 
-"751820": # Black Future '88  
+"751820": # Black Future '88
   compat_tool: proton_63
 
 "729660": # Blackout Z: Slaughterhouse Edition
@@ -411,9 +411,6 @@
   status: playable
   comment: Awkward mouse joystick controls in menus
 
-"384310": # Dead In Bermuda
-  compat_tool: proton_63
-
 "353700": # The Deadly Tower of Monsters
   compat_tool: proton_5
 
@@ -494,14 +491,14 @@
 "556130": # Drones, The Human Condition
   compat_tool: proton_63
   comment: Native version doesn't detect controllers
-  
+
 "312530": # Duck Game
   compat_tool: proton_63
   launch_options: -linux
 
 "237630": # DuckTales Remastered
   compat_tool: proton_63
- 
+
 "38480": # Earthworm Jim
   compat_tool: boxtron
 
@@ -789,7 +786,7 @@
 "242110": # Joe Danger 2: The Movie
   compat_tool: proton_63
 
-"1405790": # John Wick Hex  
+"1405790": # John Wick Hex
   compat_tool: proton_63
 
 "270810": # Jones On Fire
@@ -881,7 +878,7 @@
 
 "214510": # LEGO The Lord of the Rings
   compat_tool: Proton-6.19-GE-2
-  
+
 "332310": # LEGO Worlds
   compat_tool: proton_63
 
@@ -1291,7 +1288,7 @@
 
 "603800": # ReThink
   compat_tool: Proton-6.8-GE-2
- 
+
 "760810": # Retimed
   compat_tool: proton_63
 
@@ -1307,7 +1304,7 @@
 "493200": # RiME
   compat_tool: proton_513
 
-"998740": # Ring of Pain  
+"998740": # Ring of Pain
   compat_tool: proton_63
 
 "848930": # Rising Dusk
@@ -1501,7 +1498,7 @@
 "996580": # Spyro Reignited Trilogy
   compat_tool: proton_63
 
-"1178030": # Star Fetchers 
+"1178030": # Star Fetchers
   compat_tool: proton_63
 
 "1058020": # STAR WARS Battlefront (Classic, 2004)
@@ -1584,7 +1581,7 @@
 "46510": # Syberia II
   compat_tool: proton_63
 
-"464340": # Syberia 3  
+"464340": # Syberia 3
   compat_tool: proton_63
 
 "410700": # System Shock: Classic
@@ -1811,7 +1808,7 @@
 
 "1016790": # West of Dead
   compat_tool: proton_63
-  
+
 "526160": # The Wild Eight
   compat_tool: proton_5
 
@@ -1877,6 +1874,9 @@
 
 "70600": # Worms Ultimate Mayhem
   compat_tool: proton_63
+
+"327030": # Worms W.M.D
+  launch_options: LD_LIBRARY_PATH= %command%
 
 "1000410": # WRATH: Aeon of Ruin
   compat_tool: proton_63
