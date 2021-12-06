@@ -676,6 +676,9 @@
 "703860": # GRID (2019)
   compat_tool: proton_5
 
+"44350": # GRID 2
+  compat_tool: proton_63
+
 "396900": # Grip: Combat Racing
   compat_tool: proton_63
 
