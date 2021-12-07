@@ -962,6 +962,9 @@
 "1173200": # Metal Unit
   compat_tool: proton_411
 
+"606870": # MetaMorph: Dungeon Creatures
+  compat_tool: Proton-6.21-GE-2
+
 "535850": # Micro Machines World Series; native version has poor controller support
   compat_tool: proton_411
 
@@ -1291,6 +1294,9 @@
 
 "590590": # Remnants of Naezith; native version crashes on startup
   compat_tool: proton_411
+
+"1142390": # Remothered: Broken Porcelain
+  compat_tool: Proton-6.21-GE-2
 
 "254700": # Resident Evil 4
   compat_tool: proton_411
