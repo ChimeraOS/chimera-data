@@ -739,7 +739,10 @@
 
 "55100": # Homefront
   compat_tool: proton_63
-  
+
+"244160": # Homeworld Remastered Collection
+  compat_tool: proton_63
+
 "629090": # Horace
   compat_tool: proton_411
 
