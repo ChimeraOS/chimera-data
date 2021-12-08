@@ -676,6 +676,9 @@
 "703860": # GRID (2019)
   compat_tool: proton_5
 
+"44350": # GRID 2
+  compat_tool: proton_63
+
 "396900": # Grip: Combat Racing
   compat_tool: proton_63
 
@@ -733,6 +736,12 @@
 
 "863550": # HITMAN 2
   compat_tool: proton_411
+
+"55100": # Homefront
+  compat_tool: proton_63
+
+"244160": # Homeworld Remastered Collection
+  compat_tool: proton_63
 
 "629090": # Horace
   compat_tool: proton_411
@@ -952,6 +961,9 @@
 
 "1173200": # Metal Unit
   compat_tool: proton_411
+
+"606870": # MetaMorph: Dungeon Creatures
+  compat_tool: Proton-6.21-GE-2
 
 "535850": # Micro Machines World Series; native version has poor controller support
   compat_tool: proton_411
@@ -1282,6 +1294,9 @@
 
 "590590": # Remnants of Naezith; native version crashes on startup
   compat_tool: proton_411
+
+"1142390": # Remothered: Broken Porcelain
+  compat_tool: Proton-6.21-GE-2
 
 "254700": # Resident Evil 4
   compat_tool: proton_411
