@@ -592,6 +592,9 @@
 "405970": # Flat Kingdom Paper's Cut Edition
   compat_tool: proton_513
 
+"1054430": # Fling to the Finish
+  compat_tool: Proton-6.21-GE-2
+
 "966330": # Flower
   compat_tool: proton_513
   compat_config: noesync,nofsync
@@ -662,6 +665,9 @@
 
 "376300": # GUILTY GEAR Xrd -SIGN-
   compat_tool: proton_513
+
+"1311070": # Greak: Memories of Azur
+  compat_tool: Proton-6.21-GE-2
 
 "48950": # Greed Corp
   compat_tool: proton_513
