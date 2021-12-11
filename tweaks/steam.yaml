@@ -953,6 +953,9 @@
 "1078920": # Main Assembly
   compat_tool: Proton-6.1-GE-2
 
+"629820": # Maneater
+  compat_tool: Proton-6.21-GE-2
+
 "504130": # Manual Samuel
   steam_input: enabled
 
