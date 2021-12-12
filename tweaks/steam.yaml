@@ -1199,6 +1199,9 @@
 "1001230": # Partial Control
   compat_tool: proton_513
 
+"1227530": # Partisans 1941
+  compat_tool: Proton-6.21-GE-2
+
 "1181400": # Path of Giants
   compat_tool: proton_5
 
