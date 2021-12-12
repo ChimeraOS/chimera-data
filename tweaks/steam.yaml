@@ -1016,6 +1016,9 @@
 "1209360": # Monster Truck Championship
   compat_tool: Proton-6.21-GE-2
 
+"629760": # MORDHAU
+  compat_tool: proton_63
+
 "1331910": # Morkredd
   compat_tool: proton_513
 
