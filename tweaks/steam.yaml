@@ -1599,6 +1599,9 @@
 "644830": # The Surge 2
   compat_tool: proton_63
 
+"897450": # The Survivalists
+  compat_tool: proton_63
+
 "929010": # Swag and Sorcery
   compat_tool: proton_63
 
@@ -1673,6 +1676,9 @@
 
 "475150": # Titan Quest Anniversary Edition
   compat_tool: proton_513
+
+"1075200": # Tohu
+  compat_tool: Proton-6.1-GE-2
 
 "8000": # Tomb Raider: Anniversary
   compat_tool: proton_63
@@ -1809,6 +1815,9 @@
   compat_tool: proton_411
 
 "259660": # Void Destroyer
+  compat_tool: proton_63
+
+"1304680": # Voidigo
   compat_tool: proton_63
 
 "207610": # The Walking Dead
