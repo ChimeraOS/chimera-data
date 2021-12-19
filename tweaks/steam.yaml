@@ -556,6 +556,9 @@
   compat_tool: proton_63
   launch_options: rm -f F1_2020_dx12.exe && ln -s F1_2020.exe F1_2020_dx12.exe; %command%
 
+"203680": # F1 Race Stars
+  compat_tool: proton_63
+
 "995980": # Fae Tactics
   compat_tool: proton_513
 
