@@ -328,6 +328,9 @@
 "1000030": # Cook Serve Delicious! 3?!
   compat_tool: proton_513
 
+"209670": # Cortex Command
+  compat_tool: proton_63
+
 "320340": # Cosmonautica
   compat_tool: proton_513
 
@@ -592,6 +595,9 @@
 "405970": # Flat Kingdom Paper's Cut Edition
   compat_tool: proton_513
 
+"1054430": # Fling to the Finish
+  compat_tool: Proton-6.21-GE-2
+
 "966330": # Flower
   compat_tool: proton_513
   compat_config: noesync,nofsync
@@ -662,6 +668,9 @@
 
 "376300": # GUILTY GEAR Xrd -SIGN-
   compat_tool: proton_513
+
+"1311070": # Greak: Memories of Azur
+  compat_tool: Proton-6.21-GE-2
 
 "48950": # Greed Corp
   compat_tool: proton_513
@@ -843,6 +852,9 @@
 "812550": # The King's Bird
   compat_tool: proton_411
 
+"1364100": # Lacuna - A Sci-Fi Noir Adventure
+  compat_tool: proton_63
+
 "35130": # Lara Croft and the Guardian of Light
   compat_tool: proton_63
 
@@ -944,6 +956,9 @@
 "1078920": # Main Assembly
   compat_tool: Proton-6.1-GE-2
 
+"629820": # Maneater
+  compat_tool: Proton-6.21-GE-2
+
 "504130": # Manual Samuel
   steam_input: enabled
 
@@ -1003,6 +1018,9 @@
 
 "1209360": # Monster Truck Championship
   compat_tool: Proton-6.21-GE-2
+
+"629760": # MORDHAU
+  compat_tool: proton_63
 
 "1331910": # Morkredd
   compat_tool: proton_513
@@ -1183,6 +1201,9 @@
 
 "1001230": # Partial Control
   compat_tool: proton_513
+
+"1227530": # Partisans 1941
+  compat_tool: Proton-6.21-GE-2
 
 "1181400": # Path of Giants
   compat_tool: proton_5
@@ -1581,6 +1602,9 @@
 "644830": # The Surge 2
   compat_tool: proton_63
 
+"897450": # The Survivalists
+  compat_tool: proton_63
+
 "929010": # Swag and Sorcery
   compat_tool: proton_63
 
@@ -1655,6 +1679,9 @@
 
 "475150": # Titan Quest Anniversary Edition
   compat_tool: proton_513
+
+"1075200": # Tohu
+  compat_tool: Proton-6.1-GE-2
 
 "8000": # Tomb Raider: Anniversary
   compat_tool: proton_63
@@ -1791,6 +1818,9 @@
   compat_tool: proton_411
 
 "259660": # Void Destroyer
+  compat_tool: proton_63
+
+"1304680": # Voidigo
   compat_tool: proton_63
 
 "207610": # The Walking Dead
