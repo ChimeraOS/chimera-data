@@ -246,6 +246,9 @@
 "371520": # Bounty Train
   compat_tool: proton_513
 
+"879850": # Box: The Game
+  compat_tool: Proton-6.21-GE-2
+
 "1590320": # Bro Falls: Ultimate Showdown
   compat_tool: proton_63
 
@@ -272,6 +275,9 @@
 
 "399810": # Call of Cthulhu
   compat_tool: Proton-6.18-GE-2
+
+"204450": # Call of Juarez: Gunslinger
+  compat_tool: proton_63
 
 "598810": # Carcassonne: The Official Board Game
   compat_tool: proton_5
