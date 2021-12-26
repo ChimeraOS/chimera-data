@@ -123,6 +123,9 @@
 "214790": # The Basement Collection
   compat_tool: proton_513
 
+"35140": # Batman: Arkham Asylum Game of the Year Edition
+  compat_tool: Proton-6.21-GE-2
+
 "57400":  # Batman: Arkham City
   compat_tool: proton_513
 
