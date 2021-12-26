@@ -130,13 +130,13 @@
   compat_tool: proton_513
 
 "200260": # Batman: Arkham City GOTY
-  compat_tool: proton_513
+  compat_tool: proton_63
 
 "57419":  # Batman: Arkham City (Alt)
   compat_tool: proton_513
 
 "208650": # Batman: Arkham Knight
-  compat_tool: proton_513
+  compat_tool: proton_63
 
 "209000": # Batman: Arkham Origins
   compat_tool: proton_63
