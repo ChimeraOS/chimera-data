@@ -873,6 +873,9 @@
 "500": # Left 4 Dead
   compat_tool: proton_513
 
+"21000": # LEGO Batman: The Videogame
+  compat_tool: proton_63
+
 "313690": # LEGO Batman 3: Beyond Gotham
   compat_tool: proton_513
 
