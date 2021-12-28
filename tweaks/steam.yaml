@@ -1647,6 +1647,9 @@
 "429660": # Tales of Berseria
   compat_tool: proton_63
 
+"828740": # Tales of the Neon Sea
+  compat_tool: Proton-6.21-GE-2
+
 "568090": # Tattletail
   compat_tool: proton_63
 
