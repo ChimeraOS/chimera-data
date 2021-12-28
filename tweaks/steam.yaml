@@ -460,6 +460,9 @@
   compat_tool: proton_63
   compat_config: noesync,nofsync
 
+"1038250": # DIRT 5
+  compat_tool: proton_63
+
 "690790": # DiRT Rally 2.0
   compat_tool: proton_63
 
@@ -564,6 +567,9 @@
 "1080110": # F1 2020
   compat_tool: proton_63
   launch_options: rm -f F1_2020_dx12.exe && ln -s F1_2020.exe F1_2020_dx12.exe; %command%
+
+"1134570": # F1 2021
+  compat_tool: proton_63
 
 "203680": # F1 Race Stars
   compat_tool: proton_63
