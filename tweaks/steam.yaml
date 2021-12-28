@@ -123,17 +123,20 @@
 "214790": # The Basement Collection
   compat_tool: proton_513
 
+"35140": # Batman: Arkham Asylum Game of the Year Edition
+  compat_tool: Proton-6.21-GE-2
+
 "57400":  # Batman: Arkham City
   compat_tool: proton_513
 
 "200260": # Batman: Arkham City GOTY
-  compat_tool: proton_513
+  compat_tool: proton_63
 
 "57419":  # Batman: Arkham City (Alt)
   compat_tool: proton_513
 
 "208650": # Batman: Arkham Knight
-  compat_tool: proton_513
+  compat_tool: proton_63
 
 "209000": # Batman: Arkham Origins
   compat_tool: proton_63
@@ -246,6 +249,9 @@
 "371520": # Bounty Train
   compat_tool: proton_513
 
+"879850": # Box: The Game
+  compat_tool: Proton-6.21-GE-2
+
 "1590320": # Bro Falls: Ultimate Showdown
   compat_tool: proton_63
 
@@ -272,6 +278,9 @@
 
 "399810": # Call of Cthulhu
   compat_tool: Proton-6.18-GE-2
+
+"204450": # Call of Juarez: Gunslinger
+  compat_tool: proton_63
 
 "598810": # Carcassonne: The Official Board Game
   compat_tool: proton_5
@@ -686,7 +695,7 @@
     - exec: echo "5c42dc1c0cfb483cee86df0779332168 system/hardware_settings_restrictions.xml" | md5sum --status -c && sed -i 150d system/hardware_settings_restrictions.xml
 
 "703860": # GRID (2019)
-  compat_tool: proton_5
+  compat_tool: Proton-6.21-GE-2
 
 "44350": # GRID 2
   compat_tool: proton_63
@@ -866,6 +875,9 @@
 
 "500": # Left 4 Dead
   compat_tool: proton_513
+
+"21000": # LEGO Batman: The Videogame
+  compat_tool: proton_63
 
 "313690": # LEGO Batman 3: Beyond Gotham
   compat_tool: proton_513
@@ -1634,6 +1646,9 @@
 
 "429660": # Tales of Berseria
   compat_tool: proton_63
+
+"828740": # Tales of the Neon Sea
+  compat_tool: Proton-6.21-GE-2
 
 "568090": # Tattletail
   compat_tool: proton_63
