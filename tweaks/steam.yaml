@@ -695,7 +695,7 @@
     - exec: echo "5c42dc1c0cfb483cee86df0779332168 system/hardware_settings_restrictions.xml" | md5sum --status -c && sed -i 150d system/hardware_settings_restrictions.xml
 
 "703860": # GRID (2019)
-  compat_tool: proton_5
+  compat_tool: Proton-6.21-GE-2
 
 "44350": # GRID 2
   compat_tool: proton_63
