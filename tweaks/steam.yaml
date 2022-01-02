@@ -99,6 +99,9 @@
 "1109690": # Asterix & Obelix XXL 3 - The Crystal Menhir
   compat_tool: proton_63
 
+"805550": # Assetto Corsa Competizione
+  compat_tool: proton_63
+
 "757320": # Atomicrops
   compat_tool: Proton-6.16-GE-1
 
