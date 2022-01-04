@@ -68,10 +68,6 @@
 "390720": # Anarcute
   compat_tool: proton_513
 
-"620590": # Ancestors Legacy
-  compat_config: noesync,nofsync
-  compat_tool: Proton-5.21-GE-1
-
 "536270": # Ancestors: The Humankind Odyssey
   compat_tool: proton_5
 
@@ -116,9 +112,6 @@
 
 "688420": # Bad North
   compat_tool: proton_63
-
-"1035850": # Balancelot
-  compat_tool: Proton-5.21-GE-1
 
 "1260130": # Banana Hell
   compat_tool: proton_63
@@ -529,9 +522,6 @@
 "208140": # Endless Space - Definitive Edition
   compat_tool: proton_513
 
-"392110": # Endless Space 2
-  compat_tool: Proton-5.21-GE-1
-
 "1368450": # Endless Zone
   compat_tool: proton_513
 
@@ -550,9 +540,6 @@
 
 "812160": # Etherborn
   compat_tool: proton_411
-
-"1532180": # Evo\Wave
-  compat_tool: Proton-5.21-GE-1
 
 "1020470": # Evoland Legendary Edition; native version unplayable due to cropped display
   compat_tool: proton_411
@@ -636,9 +623,6 @@
         src: Freedom Planet/control_gamepad.cfg
         dst: control_gamepad.cfg
 
-"1047220": # Frog Detective 2: The Case of the Invisible Wizard
-  compat_tool: Proton-5.21-GE-1
-
 "1142500": # Fun with Ragdolls: The Game
   compat_tool: proton_513
 
@@ -666,9 +650,6 @@
 "704270": # Generation Zero
   compat_tool: proton_411
 
-"712190": # Genesis Alpha One Deluxe Edition
-  compat_tool: Proton-5.21-GE-1
-
 "9500": # Gish
   compat_tool: proton_513
 
@@ -683,9 +664,6 @@
 
 "275390": # Guacamelee! Super Turbo Championship Edition
   compat_tool: proton_63
-
-"520440": # GUILTY GEAR Xrd -REVELATOR-
-  compat_tool: Proton-5.21-GE-1
 
 "376300": # GUILTY GEAR Xrd -SIGN-
   compat_tool: proton_513
@@ -754,9 +732,6 @@
 
 "521890": # Hello Neighbour
   compat_tool: proton_411
-
-"368370": # Her Story
-  compat_tool: Proton-5.21-GE-1
 
 "423620": # HERO DEFENSE
   compat_tool: proton_513
@@ -926,9 +901,6 @@
 
 "332310": # LEGO Worlds
   compat_tool: proton_63
-
-"306680": # Lexica
-  compat_tool: Proton-5.21-GE-1
 
 "116120": # Lightfish
   compat_tool: proton_411
@@ -1154,17 +1126,8 @@
 "1147550": # Not For Broadcast
   compat_tool: Proton-6.21-GE-2
   
-"733790": # Not Tonight
-  compat_tool: Proton-5.21-GE-1
-
 "681730": # Nowhere Prophet
   steam_input: enabled
-
-"306760": # Obduction
-  compat_tool: Proton-5.21-GE-1
-
-"765880": # The Occupation
-  compat_tool: Proton-5.21-GE-1
 
 "314660": # Oddworld: New 'n' Tasty
   steam_input: enabled
@@ -1177,9 +1140,6 @@
 
 "587620": # OKAMI HD / 大神 絶景版
   compat_tool: proton_411
-
-"455820": # Omensight: Definitive Edition
-  compat_tool: Proton-5.21-GE-1
 
 "12830": # Operation Flashpoint: Dragon Rising
   compat_tool: proton_513
@@ -1195,9 +1155,6 @@
 
 "402710": # Osiris: New Dawn
   compat_tool: proton_513
-
-"794260": # Outward
-  compat_tool: Proton-5.21-GE-1
 
 "448510": # Overcooked
   compat_tool: proton_63
@@ -1333,9 +1290,6 @@
 
 "1140630": # Red Wings: Aces of the Sky
   compat_tool: Proton-6.1-GE-2
-
-"941570": # Relicta
-  compat_tool: Proton-5.21-GE-1
 
 "590590": # Remnants of Naezith; native version crashes on startup
   compat_tool: proton_411
@@ -1491,9 +1445,6 @@
 
 "973580": # Sniper Ghost Warrior Contracts
   compat_tool: proton_63
-
-"1096570": # SONG OF HORROR COMPLETE EDITION
-  compat_tool: Proton-5.21-GE-1
 
 "460700": # Song of the Deep
   compat_tool: proton_513
@@ -1760,12 +1711,6 @@
 "585420": # Trailmakers
   compat_tool: proton_63
 
-"914010": # Train Station Renovation
-  compat_tool: Proton-5.21-GE-1
-
-"924980": # Trials of Mana
-  compat_tool: Proton-5.21-GE-1
-
 "319910": # Trine 3: The Artifacts of Power; native version shows generic gamepad hints
   compat_tool: proton_5
 
@@ -1813,9 +1758,6 @@
 
 "790820": # Valkyria Chronicles 4
   compat_tool: proton_513
-
-"600130": # Valfaris
-  compat_tool: Proton-5.21-GE-1
 
 "427290": # Vampyr
   compat_tool: proton_63
