@@ -1762,6 +1762,9 @@
 "790820": # Valkyria Chronicles 4
   compat_tool: proton_513
 
+"600130": # Valfaris
+  compat_tool: Proton-6.21-GE-2
+
 "427290": # Vampyr
   compat_tool: proton_63
 
