@@ -187,7 +187,10 @@
   compat_tool: proton_63
 
 "63710": # BIT.TRIP RUNNER
-  compat_tool: Proton-6.16-GE-1
+  compat_tool: Proton-6.21-GE-2
+  patch_dir: BIT.TRIP RUNNER
+  patches:
+    - exec: rm -f installscript.vdf
 
 "751820": # Black Future '88
   compat_tool: proton_63
