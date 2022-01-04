@@ -1692,6 +1692,9 @@
 "41500": # Torchlight
   compat_tool: proton_513
 
+"1554840": # Toree 3D
+  compat_tool: proton_63
+
 "674500": # Total Tank Simulator
   compat_tool: proton_513
 
