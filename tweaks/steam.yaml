@@ -68,6 +68,10 @@
 "390720": # Anarcute
   compat_tool: proton_513
 
+"620590": # Ancestors Legacy
+  compat_config: noesync,nofsync
+  compat_tool: proton_63
+
 "536270": # Ancestors: The Humankind Odyssey
   compat_tool: proton_5
 
@@ -653,6 +657,9 @@
 "704270": # Generation Zero
   compat_tool: proton_411
 
+"712190": # Genesis Alpha One Deluxe Edition
+  compat_tool: Proton-6.21-GE-2
+
 "9500": # Gish
   compat_tool: proton_513
 
@@ -1132,6 +1139,9 @@
 "681730": # Nowhere Prophet
   steam_input: enabled
 
+"765880": # The Occupation
+  compat_tool: Proton-6.21-GE-2
+
 "314660": # Oddworld: New 'n' Tasty
   steam_input: enabled
 
@@ -1158,6 +1168,9 @@
 
 "402710": # Osiris: New Dawn
   compat_tool: proton_513
+
+"794260": # Outward
+  compat_tool: proton_63
 
 "448510": # Overcooked
   compat_tool: proton_63
