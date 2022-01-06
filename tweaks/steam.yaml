@@ -1284,6 +1284,9 @@
 "803980": # Plane Mechanic Simulator
   compat_tool: proton_513
 
+"354240": # Please, Don't touch anything
+  compat_tool: proton_63
+
 "798790": # PolyCube
   compat_tool: proton_513
 
