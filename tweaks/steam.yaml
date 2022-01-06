@@ -1707,6 +1707,9 @@ compat_tool: proton_63
 "518790": # theHunter: Call of the Wild
   compat_tool: proton_63
 
+"1241700": # There is no game: Jam Edition 2015
+compat_tool: proton_63
+
 "573600": # Think of the Children
   compat_tool: proton_513
 
