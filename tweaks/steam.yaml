@@ -275,7 +275,7 @@
 
 "1286350": # BPM: BULLETS PER MINUTE
   compat_tool: Proton-6.21-GE-2
-  
+
 "403290": # Burly Men at Sea
   compat_tool: proton_513
 
@@ -441,6 +441,15 @@
 "310510": # Deathtrap
   compat_tool: proton_513
 
+"245470": # Democracy 3
+  compat_tool: proton_63
+
+"427470": # Democracy 3 Africa
+  compat_tool: proton_63
+
+"1410710": # Democracy 4
+  compat_tool: proton_63
+
 "755980": # Deployment
   compat_tool: proton_513
 
@@ -559,7 +568,7 @@
 
 "1532180": # Evo\Wave
   compat_tool: Proton-6.21-GE-2
-  
+
 "1020470": # Evoland Legendary Edition; native version unplayable due to cropped display
   compat_tool: proton_411
 
@@ -647,7 +656,7 @@
 
 "1047220": # Frog Detective 2: The Case of the Invisible Wizard
   compat_tool: Proton-6.21-GE-2
-  
+
 "1142500": # Fun with Ragdolls: The Game
   compat_tool: proton_513
 
@@ -765,7 +774,7 @@
   compat_tool: proton_63
 
 "368370": # Her Story
-  compat_tool: Proton-6.21-GE-2  
+  compat_tool: Proton-6.21-GE-2
 
 "423620": # HERO DEFENSE
   compat_tool: proton_513
@@ -938,7 +947,7 @@
 
 "306680": # Lexica
   compat_tool: proton_63
-  
+
 "116120": # Lightfish
   compat_tool: proton_411
 
@@ -1162,16 +1171,16 @@
 
 "1147550": # Not For Broadcast
   compat_tool: Proton-6.21-GE-2
-  
+
 "733790": # Not Tonight
   compat_tool: Proton-6.21-GE-2
-  
+
 "681730": # Nowhere Prophet
   steam_input: enabled
 
 "306760": # Obduction
   compat_tool: Proton-6.21-GE-2
-  
+
 "765880": # The Occupation
   compat_tool: Proton-6.21-GE-2
 
@@ -1189,7 +1198,7 @@
 
 "455820": # Omensight: Definitive Edition
   compat_tool: Proton-6.21-GE-2
-  
+
 "12830": # Operation Flashpoint: Dragon Rising
   compat_tool: proton_513
 
@@ -1345,7 +1354,7 @@
 
 "941570": # Relicta
   compat_tool: Proton-6.21-GE-2
-  
+
 "590590": # Remnants of Naezith; native version crashes on startup
   compat_tool: proton_411
 
@@ -1503,7 +1512,7 @@
 
 "1096570": # SONG OF HORROR COMPLETE EDITION
   compat_tool: Proton-6.21-GE-2
-  
+
 "460700": # Song of the Deep
   compat_tool: proton_513
 
