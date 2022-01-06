@@ -87,6 +87,9 @@
 "1368440": # Armor Of Heroes
   compat_tool: proton_513
 
+"727020": # Arcade Moonlander
+compat_tool: proton_63
+
 "507490": # Ashes of the Singularity: Escalation
   compat_tool: proton_513
 
