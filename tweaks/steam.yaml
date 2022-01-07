@@ -1695,6 +1695,9 @@ compat_tool: proton_63
 "389730": # Tekken 7
   compat_tool: proton_63
 
+"1180660": # Tell Me Why
+compat_tool: proton_63
+
 "800270": # Terraforming Mars
   compat_tool: proton_513
 
