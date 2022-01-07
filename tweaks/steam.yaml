@@ -117,6 +117,9 @@
 "688420": # Bad North
   compat_tool: proton_63
 
+"1035850": # Balancelot
+  compat_tool: Proton-6.21-GE-2
+
 "1260130": # Banana Hell
   compat_tool: proton_63
 
@@ -529,6 +532,9 @@
 "208140": # Endless Space - Definitive Edition
   compat_tool: proton_513
 
+"392110": # Endless Space 2
+  compat_tool: Proton-6.21-GE-2
+
 "1368450": # Endless Zone
   compat_tool: proton_513
 
@@ -548,6 +554,9 @@
 "812160": # Etherborn
   compat_tool: proton_411
 
+"1532180": # Evo\Wave
+  compat_tool: Proton-6.21-GE-2
+  
 "1020470": # Evoland Legendary Edition; native version unplayable due to cropped display
   compat_tool: proton_411
 
@@ -630,6 +639,9 @@
         src: Freedom Planet/control_gamepad.cfg
         dst: control_gamepad.cfg
 
+"1047220": # Frog Detective 2: The Case of the Invisible Wizard
+  compat_tool: Proton-6.21-GE-2
+  
 "1142500": # Fun with Ragdolls: The Game
   compat_tool: proton_513
 
@@ -742,6 +754,9 @@
 
 "521890": # Hello Neighbour
   compat_tool: proton_411
+
+"368370": # Her Story
+  compat_tool: Proton-6.21-GE-2  
 
 "423620": # HERO DEFENSE
   compat_tool: proton_513
@@ -912,6 +927,9 @@
 "332310": # LEGO Worlds
   compat_tool: proton_63
 
+"306680": # Lexica
+  compat_tool: proton_63
+  
 "116120": # Lightfish
   compat_tool: proton_411
 
@@ -1136,9 +1154,15 @@
 "1147550": # Not For Broadcast
   compat_tool: Proton-6.21-GE-2
   
+"733790": # Not Tonight
+  compat_tool: Proton-6.21-GE-2
+  
 "681730": # Nowhere Prophet
   steam_input: enabled
 
+"306760": # Obduction
+  compat_tool: Proton-6.21-GE-2
+  
 "765880": # The Occupation
   compat_tool: Proton-6.21-GE-2
 
@@ -1154,6 +1178,9 @@
 "587620": # OKAMI HD / 大神 絶景版
   compat_tool: proton_411
 
+"455820": # Omensight: Definitive Edition
+  compat_tool: Proton-6.21-GE-2
+  
 "12830": # Operation Flashpoint: Dragon Rising
   compat_tool: proton_513
 
@@ -1307,6 +1334,9 @@
 "1140630": # Red Wings: Aces of the Sky
   compat_tool: Proton-6.1-GE-2
 
+"941570": # Relicta
+  compat_tool: Proton-6.21-GE-2
+  
 "590590": # Remnants of Naezith; native version crashes on startup
   compat_tool: proton_411
 
@@ -1462,6 +1492,9 @@
 "973580": # Sniper Ghost Warrior Contracts
   compat_tool: proton_63
 
+"1096570": # SONG OF HORROR COMPLETE EDITION
+  compat_tool: Proton-6.21-GE-2
+  
 "460700": # Song of the Deep
   compat_tool: proton_513
 
