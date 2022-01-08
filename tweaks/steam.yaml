@@ -165,6 +165,9 @@
 "792300": # The Beast Inside
   compat_tool: Proton-6.18-GE-2
 
+"914750": # Bee Simulator
+  compat_tool: Proton-6.21-GE-2
+
 "381320": # Bezier
   compat_tool: proton_513
 
