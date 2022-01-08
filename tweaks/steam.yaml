@@ -809,6 +809,9 @@
 "230150": # Incredipede
   compat_tool: proton_513
 
+"826630": # Iron Harvest
+  compat_tool: Proton-6.21-GE-2
+
 "224900": # Iron Sky Invasion; native version doesn't work anymore
   compat_tool: proton_513
 
