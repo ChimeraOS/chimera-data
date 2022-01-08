@@ -607,6 +607,9 @@
 "959520": # Fantasy Blacksmith
   compat_tool: proton_513
 
+"678900": # Farmer's Dynasty
+  compat_tool: proton_63
+
 "545040": # Feather
   compat_tool: proton_513
 
