@@ -88,7 +88,7 @@
   compat_tool: proton_513
 
 "727020": # Arcade Moonlander
-compat_tool: proton_63
+  compat_tool: proton_63
 
 "507490": # Ashes of the Singularity: Escalation
   compat_tool: proton_513
@@ -1696,7 +1696,7 @@ compat_tool: proton_63
   compat_tool: proton_63
 
 "1180660": # Tell Me Why
-compat_tool: proton_63
+  compat_tool: proton_63
 
 "800270": # Terraforming Mars
   compat_tool: proton_513
@@ -1711,7 +1711,7 @@ compat_tool: proton_63
   compat_tool: proton_63
 
 "1241700": # There is no game: Jam Edition 2015
-compat_tool: proton_63
+  compat_tool: proton_63
 
 "573600": # Think of the Children
   compat_tool: proton_513
