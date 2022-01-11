@@ -996,7 +996,8 @@
   compat_tool: proton_513
 
 "1030840": # Mafia: Definitive Edition
-  compat_tool: Proton-6.21-GE-2
+  compat_tool: proton_63
+  launch_options: eval $( echo "%command%" | sed "s/2KLauncher\/LauncherPatcher.exe'.*/mafiadefinitiveedition.exe'/" )
 
 "529660": # Mages of Mystralia
   compat_tool: Proton-6.1-GE-2
