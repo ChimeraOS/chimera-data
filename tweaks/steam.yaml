@@ -699,6 +699,9 @@
 "555000": # Goat of Duty
   compat_tool: proton_5
 
+"1593500": # God of War
+  compat_tool: proton_63
+
 "1154810": # Going Under
   compat_tool: proton_63
 
