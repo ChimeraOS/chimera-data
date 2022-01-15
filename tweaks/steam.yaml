@@ -821,6 +821,9 @@
 "230150": # Incredipede
   compat_tool: proton_513
 
+"826630": # Iron Harvest
+  compat_tool: Proton-6.21-GE-2
+
 "224900": # Iron Sky Invasion; native version doesn't work anymore
   compat_tool: proton_513
 
@@ -935,6 +938,7 @@
 
 "640590": # The LEGO NINJAGO Movie Video Game
   compat_tool: proton_63
+  launch_options: WINEDLLOVERRIDES="xaudio2_7=native,builtin" %command%
 
 "311770": # LEGO Pirates of the Caribbean The Video Game
   compat_tool: proton_411
@@ -990,6 +994,10 @@
 
 "40700": # Machinarium
   compat_tool: proton_513
+
+"1030840": # Mafia: Definitive Edition
+  compat_tool: proton_63
+  launch_options: eval $( echo "%command%" | sed "s/2KLauncher\/LauncherPatcher.exe'.*/mafiadefinitiveedition.exe'/" )
 
 "529660": # Mages of Mystralia
   compat_tool: Proton-6.1-GE-2
@@ -1310,6 +1318,9 @@
 "895870": # Project Wingman
   compat_tool: proton_6.20-GE-1
 
+"774861": # Project Winter
+  compat_tool: proton_63
+
 "607080": # Psychonauts 2
   compat_tool: proton_63
   launch_options: -force -dx11
@@ -1378,6 +1389,9 @@
 
 "290040": # Retro Game Crunch
   compat_tool: proton_513
+
+"1239690": # Retrowave
+  compat_tool: proton_63
 
 "1152020": # Return Of The Zombie King
   compat_tool: proton_63
