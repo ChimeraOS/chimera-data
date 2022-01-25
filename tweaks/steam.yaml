@@ -952,6 +952,9 @@
 "214510": # LEGO The Lord of the Rings
   compat_tool: Proton-6.19-GE-2
 
+"438640": # LEGO STAR WARS: The Force Awakens
+  compat_tool: proton_63
+
 "332310": # LEGO Worlds
   compat_tool: proton_63
 
