@@ -1,0 +1,313 @@
+- name: '2064: Read Only Memories'
+  platform: epic-store
+  id: f4e0c1dff48749fa9145c1585699e276
+  banner: steam:330820
+
+- name: Absolute Drift
+  platform: epic-store
+  id: 19927295d6e3467887d4e830d8c85963
+  banner: steam:320140
+  status: verified
+
+- name: Absolute Drift
+  platform: gog
+  id: 1136126792
+  banner: steam:320140
+  status: verified
+
+- name: Abzû
+  platform: epic-store
+  id: Curry
+  banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/33e8dc3b7581c60b4a0d05dc7d57ca6d.png
+  status: verified
+
+- name: AER Memories of Old
+  platform: epic-store
+  id: 26b63c46de9e4dcc856b3c6b106b6777
+  banner: steam:331870
+
+- name: Armagetron Advanced
+  platform: flathub
+  id: org.armagetronad.ArmagetronAdvanced
+  banner: /images/flathub/org.armagetronad.ArmagetronAdvanced
+  status: playable
+
+- name: 'Brigador: Up-Armored Edition'
+  platform: gog
+  id: 1356485086
+  banner: steam:274500
+  status: playable
+  notes:
+    - Displays keyboard icons
+
+- name: Cave Story NX
+  platform: flathub
+  id: com.gitlab.coringao.cavestory-nx
+  banner: /images/flathub/com.gitlab.coringao.cavestory-nx
+  status: playable
+
+- name: Chasm
+  platform: gog
+  id: 1114021228
+  banner: steam:312200
+  status: verified
+
+- name: Chiaki
+  platform: flathub
+  id: re.chiaki.Chiaki
+  banner: /images/flathub/re.chiaki.Chiaki
+  status: playable
+
+- name: Chromium
+  platform: flathub
+  id: org.chromium.Chromium
+  banner: /images/flathub/org.chromium.Chromium
+  status: playable
+  notes:
+    - Requires mouse and keyboard
+    - Requires alternative window mode
+
+- name: Control
+  platform: epic-store
+  id: Calluna
+  banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/05de265b83af799ad4f6753aff62d1ee.png
+
+- name: Creature in the Well
+  platform: epic-store
+  id: a579a08e71b341e6af106dbd170e2ab2
+  banner: steam:852300
+  status: verified
+
+- name: DARQ
+  platform: epic-store
+  id: ee96375fac2f47de978170a24398e581
+  banner: steam:433550
+
+- name: Enter the Gungeon
+  platform: epic-store
+  id: Garlic
+  banner: steam:311690
+  status: verified
+
+- name: The Escapists
+  platform: epic-store
+  id: Peony
+  banner: steam:298630
+
+- name: Firefox
+  platform: flathub
+  id: org.mozilla.firefox
+  banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/2082428d280d13163bb67644f5b0274c.png
+  status: playable
+
+- name: The First Tree
+  platform: epic-store
+  id: cd98b47155654e1f9a9e84e60d0b49e4
+  banner: steam:555150
+  status: verified
+
+- name: 'Ghostbusters: The Video Game Remastered'
+  platform: epic-store
+  id: Mint
+  banner: steam:1449280
+
+- name: Hedgewars
+  platform: flathub
+  id: org.hedgewars.Hedgewars
+  banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/e3408432c1a48a52fb6c74d926b38886.png
+  status: playable
+
+- name: INSIDE
+  platform: epic-store
+  id: Marigold
+  banner: steam:304430
+  status: verified
+
+- name: Into the Breach
+  platform: epic-store
+  id: Blobfish
+  banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/17d2ba79091ad8d77f9ce68731c00986.png
+
+- name: Katawa Shoujo
+  platform: flathub
+  id: com.katawa_shoujo.KatawaShoujo
+  banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/a7282c84a4c2109c3697b6aca8b86aba.png
+  status: playable
+
+- name: Ken Follett's The Pillars of the Earth
+  platform: epic-store
+  id: 819985835fd54090845e3083e28b77bb
+  banner: steam:234270
+  status: verified
+
+- name: Killing Floor 2
+  platform: epic-store
+  id: Finch
+  banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/55b37c5c270e5d84c793e486d798c01d.png
+
+- name: 'Kingdom: New Lands'
+  platform: epic-store
+  id: cacao
+  banner: steam:496300
+
+- name: Kodi
+  platform: flathub
+  id: tv.kodi.Kodi
+  banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/0decbbe8e7f4bbda5ecf7be75866985e.png
+  status: playable
+
+- name: Metro 2033 Redux
+  platform: epic-store
+  id: Petunia
+  banner: steam:286690
+
+- name: 'Metro: Last Light Redux'
+  platform: epic-store
+  id: Speedwell
+  banner: steam:287390
+
+- name: Minecraft
+  platform: flathub
+  id: com.mojang.Minecraft
+  banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/86113dc59e768c1d1a462f18a5d458a0.png
+  status: playable
+  notes:
+    - Requires mouse and keyboard
+
+- name: Minetest
+  platform: flathub
+  id: net.minetest.Minetest
+  banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/4b7a5e62ed921ed7df54741cae0fa89b.png
+  status: playable
+  notes:
+    - Requires mouse and keyboard
+
+- name: Moonlight
+  platform: flathub
+  id: com.moonlight_stream.Moonlight
+  banner: /images/flathub/com.moonlight_stream.Moonlight
+  status: playable
+
+- name: Mr. Rescue
+  platform: flathub
+  id: dk.tangramgames.mrrescue
+  banner: /images/flathub/dk.tangramgames.mrrescue
+  status: verified
+
+- name: My Time at Portia
+  platform: epic-store
+  id: Cobra
+  banner: steam:666140
+
+- name: Overcooked
+  platform: epic-store
+  id: Sage
+  banner: steam:448510
+
+- name: Pathway
+  platform: epic-store
+  id: 8fceb562623c430db9bb6abf0549c43e
+  banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/107323b791247ca0394de28f514ef194.png
+
+- name: Rebel Galaxy
+  platform: epic-store
+  id: Weaver
+  banner: steam:290300
+
+- name: Rocket League
+  platform: epic-store
+  id: Sugar
+  banner: steam:252950
+  status: verified
+
+- name: Shattered Pixel Dungeon
+  platform: flathub
+  id: com.shatteredpixel.shatteredpixeldungeon
+  banner: steam:1769170
+  status: playable
+
+- name: 'Sonic 3: Angel Island Revisited'
+  platform: flathub
+  id: org.sonic3air.Sonic3AIR
+  banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/1dec6d605fbdbf9e3bd583f950311d0b.png
+  status: playable
+  notes:
+    - Requires installation of Sonic 3 & Knuckles from Steam
+
+- name: Sonic Robo Blast 2
+  platform: flathub
+  id: org.srb2.SRB2
+  banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/cae4a57bcd2fa803df2270f5d8bbbbae.png
+  status: playable
+  notes:
+    - Displays keyboard icons
+
+- name: Sonic Robo Blast 2 Kart
+  platform: flathub
+  id: org.srb2.SRB2Kart
+  banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/4703af37c2925cf2191b72dcb5f7f286.png
+  status: playable
+
+- name: Spotify
+  platform: flathub
+  id: com.spotify.Client
+  banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/228395bd8e832bff82a6ce90eb27a1f6.png
+  status: playable
+
+- name: StepMania
+  platform: flathub
+  id: com.stepmania.StepMania
+  banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/c4812a5a8c941cf9d496493c0758e886.png
+  status: playable
+
+- name: SuperTux
+  platform: flathub
+  id: org.supertuxproject.SuperTux
+  banner: steam:1572920
+  status: playable
+
+- name: SuperTuxKart
+  platform: flathub
+  id: net.supertuxkart.SuperTuxKart
+  banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/7f1de29e6da19d22b51c68001e7e0e54.png
+  status: playable
+
+- name: Tanks of Freedom
+  platform: flathub
+  id: in.p1x.TanksOfFreedom
+  banner: /images/flathub/in.p1x.TanksOfFreedom
+  status: playable
+
+- name: SYMMETRY
+  platform: gog
+  id: 1440133968
+  banner: steam:537520
+  status: unsupported
+
+- name: Vampyr
+  platform: epic-store
+  id: Nautilus
+  banner: steam:427290
+
+- name: Veloren
+  platform: flathub
+  id: net.veloren.veloren
+  banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/f7dc8baf811e8e7a2602ee7fe5a3a854.png
+  status: playable
+
+- name: Vintage Story
+  platform: flathub
+  id: at.vintagestory.VintageStory
+  banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/60f4bacddeef710675c768a57768844c.png
+  status: playable
+
+- name: Watch Dogs 2
+  platform: epic-store
+  id: Angelonia
+  banner: steam:447040
+
+- name: Xonotic
+  platform: flathub
+  id: org.xonotic.Xonotic
+  banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/220ddf008416e895e6e649a2bba33484.png
+  status: playable
