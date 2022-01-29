@@ -927,6 +927,9 @@
 "21130": # LEGO Harry Potter: Years 1-4
   compat_tool: proton_63
 
+"204120": # LEGO Harry Potter: Years 5-7
+  compat_tool: proton_63
+
 "352400": # LEGO Jurassic World
   compat_tool: proton_63
 
