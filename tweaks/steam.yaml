@@ -919,12 +919,18 @@
   compat_tool: proton_513
 
 "578330": # LEGO City Undercover
-  compat_tool: proton_513
+  compat_tool: proton_63
 
 "829110": # LEGO DC Super-Villains
   compat_tool: proton_63
 
 "21130": # LEGO Harry Potter: Years 1-4
+  compat_tool: proton_63
+
+"204120": # LEGO Harry Potter: Years 5-7
+  compat_tool: proton_63
+
+"352400": # LEGO Jurassic World
   compat_tool: proton_63
 
 "405310": # LEGO MARVEL's Avengers
@@ -951,6 +957,9 @@
 
 "214510": # LEGO The Lord of the Rings
   compat_tool: Proton-6.19-GE-2
+
+"438640": # LEGO STAR WARS: The Force Awakens
+  compat_tool: proton_63
 
 "332310": # LEGO Worlds
   compat_tool: proton_63
