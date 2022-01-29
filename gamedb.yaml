@@ -64,8 +64,8 @@
   banner: /images/flathub/org.chromium.Chromium
   status: playable
   notes:
-    - Requires mouse and keyboard
-    - Requires alternative window mode
+    - No controller support
+    - Requires alternative window mode to access menus
 
 - name: Control
   platform: epic-store
@@ -99,6 +99,9 @@
   id: org.mozilla.firefox
   banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/2082428d280d13163bb67644f5b0274c.png
   status: playable
+  notes:
+    - No controller support
+    - Requires alternative window mode to access menus
 
 - name: The First Tree
   platform: epic-store
@@ -172,7 +175,7 @@
   banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/86113dc59e768c1d1a462f18a5d458a0.png
   status: playable
   notes:
-    - Requires mouse and keyboard
+    - No controller support
 
 - name: Minetest
   platform: flathub
@@ -180,7 +183,7 @@
   banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/4b7a5e62ed921ed7df54741cae0fa89b.png
   status: playable
   notes:
-    - Requires mouse and keyboard
+    - No controller support
 
 - name: Moonlight
   platform: flathub
