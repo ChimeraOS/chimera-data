@@ -378,6 +378,7 @@
 
 "268910": # Cuphead
   compat_tool: proton_63
+  status: verified
 
 "928840": # Cybarian: The Time Travelling Warrior
   compat_tool: proton_5
