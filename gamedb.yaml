@@ -201,7 +201,9 @@
   platform: flathub
   id: dk.tangramgames.mrrescue
   banner: /images/flathub/dk.tangramgames.mrrescue
-  status: verified
+  status: playable
+  notes:
+    - Displays keyboard icons
 
 - name: My Time at Portia
   platform: epic-store
