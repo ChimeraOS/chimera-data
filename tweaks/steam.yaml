@@ -288,6 +288,9 @@
 "808090": # Bury Me, My Love
   compat_tool: proton_63
 
+"1112890": # Calico
+  compat_tool: proton_63
+
 "399810": # Call of Cthulhu
   compat_tool: Proton-6.18-GE-2
 
