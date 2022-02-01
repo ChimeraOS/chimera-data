@@ -46,6 +46,12 @@
   banner: /images/flathub/com.gitlab.coringao.cavestory-nx
   status: playable
 
+- name: Cave Story's Secret Santa
+  platform: gog
+  id: 1278463559
+  banner: steam:1812280
+  status: verified
+
 - name: Chasm
   platform: gog
   id: 1114021228
