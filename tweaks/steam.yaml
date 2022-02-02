@@ -208,6 +208,9 @@
   patches:
     - exec: rm -f installscript.vdf
 
+"1138660": # Black Book
+  compat_tool: proton_63
+
 "751820": # Black Future '88
   compat_tool: proton_63
 
