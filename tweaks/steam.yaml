@@ -171,6 +171,9 @@
 "914750": # Bee Simulator
   compat_tool: Proton-6.21-GE-2
 
+"1073910": # Before We Leave
+  compat_tool: proton_63
+
 "381320": # Bezier
   compat_tool: proton_513
 
