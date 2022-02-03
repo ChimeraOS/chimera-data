@@ -245,6 +245,12 @@
   notes:
     - Requires installation of Sonic 3 & Knuckles from Steam
 
+- name: Sonic Mania
+  platform: epic-store
+  id: 818447bb519b46d48d365d5753362796
+  banner: steam:584400
+  status: unsupported
+
 - name: Sonic Robo Blast 2
   platform: flathub
   id: org.srb2.SRB2
