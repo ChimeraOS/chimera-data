@@ -83,6 +83,7 @@
   id: a579a08e71b341e6af106dbd170e2ab2
   banner: steam:852300
   status: verified
+  compat_tool: Proton-7.1-GE-2
 
 - name: DARQ
   platform: epic-store
