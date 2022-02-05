@@ -384,3 +384,9 @@
   id: org.xonotic.Xonotic
   banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/220ddf008416e895e6e649a2bba33484.png
   status: playable
+
+- name: Yooka-Laylee and the Impossible Lair
+  platform: epic-store
+  id: Duckbill
+  banner: steam:846870
+  status: unsupported
