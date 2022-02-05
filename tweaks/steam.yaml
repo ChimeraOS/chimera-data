@@ -40,7 +40,7 @@
 "371140": # Aegis Defenders
   compat_tool: proton_411
 
-"331870": # AER Memories of Old; fix black screen in native version
+"331870": # AER Memories of Old; fix screen in native version
   launch_options: '%command% -screen-fullscreen 0'
 
 "221380": # Age of Empires II (2013)
@@ -254,6 +254,9 @@
 
 "1011630": # Border Force
   compat_tool: proton_513
+
+"397540": # Borderlands 3
+  compat_tool: proton_63
 
 "598780": # Boreal Blade
   compat_tool: proton_5
@@ -565,6 +568,9 @@
 
 "1368450": # Endless Zone
   compat_tool: proton_513
+
+"933820": # Endzone - A World Apart
+  compat_tool: proton_63
 
 "285840": # Enemy Mind
   compat_tool: proton_411
@@ -928,6 +934,9 @@
 
 "21000": # LEGO Batman: The Videogame
   compat_tool: proton_63
+
+"213330": # LEGO Batman 2: DC Super Heroes
+  compat_tool: Proton-7.1-GE-2
 
 "313690": # LEGO Batman 3: Beyond Gotham
   compat_tool: proton_513
@@ -1326,6 +1335,9 @@
 
 "798790": # PolyCube
   compat_tool: proton_513
+
+"349730": Popup Dungeon
+  compat_tool: proton_63
 
 "374040": # Portal Knights
   compat_tool: proton_63
