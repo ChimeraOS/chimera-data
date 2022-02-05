@@ -116,6 +116,18 @@
   banner: steam:555150
   status: unsupported
 
+- name: Fortnite
+  platform: epic-store
+  id: Fortnite
+  banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/f5aeecbffe87c62489add19712de0d7e.png
+  status: unsupported
+
+- name: Genshin Impact
+  platform: epic-store
+  id: 41869934302e4b8cafac2d3c0e7c293d
+  banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/c2904ed6cfa731edd18d8ffe285b6695.png
+  status: unsupported
+
 - name: 'Ghostbusters: The Video Game Remastered'
   platform: epic-store
   id: Mint
