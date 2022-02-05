@@ -588,6 +588,9 @@
 "812160": # Etherborn
   compat_tool: proton_411
 
+"1229380": # Everhood
+  compat_tool: proton_63
+
 "1532180": # Evo\Wave
   compat_tool: Proton-6.21-GE-2
 
