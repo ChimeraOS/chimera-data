@@ -7,7 +7,7 @@
   platform: epic-store
   id: 19927295d6e3467887d4e830d8c85963
   banner: steam:320140
-  status: verified
+  status: unsupported
 
 - name: Absolute Drift
   platform: gog
@@ -83,6 +83,7 @@
   id: a579a08e71b341e6af106dbd170e2ab2
   banner: steam:852300
   status: verified
+  compat_tool: Proton-7.1-GE-2
 
 - name: DARQ
   platform: epic-store
@@ -113,7 +114,19 @@
   platform: epic-store
   id: cd98b47155654e1f9a9e84e60d0b49e4
   banner: steam:555150
-  status: verified
+  status: unsupported
+
+- name: Fortnite
+  platform: epic-store
+  id: Fortnite
+  banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/f5aeecbffe87c62489add19712de0d7e.png
+  status: unsupported
+
+- name: Genshin Impact
+  platform: epic-store
+  id: 41869934302e4b8cafac2d3c0e7c293d
+  banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/c2904ed6cfa731edd18d8ffe285b6695.png
+  status: unsupported
 
 - name: 'Ghostbusters: The Video Game Remastered'
   platform: epic-store
@@ -126,6 +139,12 @@
   banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/e3408432c1a48a52fb6c74d926b38886.png
   status: playable
 
+- name: Horizon Chase Turbo
+  platform: epic-store
+  id: bb406082b69a47208489d3616b22b5c2
+  banner: steam:389140
+  status: unsupported
+
 - name: INSIDE
   platform: epic-store
   id: Marigold
@@ -136,6 +155,7 @@
   platform: epic-store
   id: Blobfish
   banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/17d2ba79091ad8d77f9ce68731c00986.png
+  status: unsupported
 
 - name: Katawa Shoujo
   platform: flathub
@@ -147,7 +167,9 @@
   platform: epic-store
   id: 819985835fd54090845e3083e28b77bb
   banner: steam:234270
-  status: verified
+  status: playable
+  notes:
+    - Shows a difficult to close dialog after exiting
 
 - name: Killing Floor 2
   platform: epic-store
@@ -197,6 +219,12 @@
   banner: /images/flathub/com.moonlight_stream.Moonlight
   status: playable
 
+- name: Moving Out
+  platform: epic-store
+  id: 8e29583ae4b44a21883038668f7e301e
+  banner: steam:996770
+  status: unsupported
+
 - name: Mr. Rescue
   platform: flathub
   id: dk.tangramgames.mrrescue
@@ -214,11 +242,24 @@
   platform: epic-store
   id: Sage
   banner: steam:448510
+  status: verified
+
+- name: Overcooked! 2
+  platform: epic-store
+  id: Potoo
+  banner: steam:728880
+  status: unsupported
 
 - name: Pathway
   platform: epic-store
   id: 8fceb562623c430db9bb6abf0549c43e
   banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/107323b791247ca0394de28f514ef194.png
+
+- name: Prey
+  platform: epic-store
+  id: 52d88e9a6df248da913c8e99f1e4c526
+  banner: steam:480490
+  status: verified
 
 - name: Rebel Galaxy
   platform: epic-store
@@ -245,6 +286,12 @@
   notes:
     - Requires installation of Sonic 3 & Knuckles from Steam
 
+- name: Sonic Mania
+  platform: epic-store
+  id: 818447bb519b46d48d365d5753362796
+  banner: steam:584400
+  status: unsupported
+
 - name: Sonic Robo Blast 2
   platform: flathub
   id: org.srb2.SRB2
@@ -265,11 +312,32 @@
   banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/228395bd8e832bff82a6ce90eb27a1f6.png
   status: playable
 
+- name: SteamWorld Dig 2
+  platform: gog
+  id: 1861082507
+  banner: steam:571310
+  status: verified
+
 - name: StepMania
   platform: flathub
   id: com.stepmania.StepMania
   banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/c4812a5a8c941cf9d496493c0758e886.png
   status: playable
+
+- name: Stranded Deep
+  platform: epic-store
+  id: 02107cba432c4551a027d25d597adc49
+  banner: steam:313120
+  status: playable
+  notes:
+    - No controller support
+    - Uses a launcher
+
+- name: 'Stranger Things 3: The Game'
+  platform: epic-store
+  id: 0a697c1235fb4706a635cfa33f0306ec
+  banner: steam:1097800
+  status: unsupported
 
 - name: SuperTux
   platform: flathub
@@ -288,6 +356,12 @@
   id: in.p1x.TanksOfFreedom
   banner: /images/flathub/in.p1x.TanksOfFreedom
   status: playable
+
+- name: Tonight We Riot
+  platform: gog
+  id: 1095982752
+  banner: steam:290690
+  status: verified
 
 - name: SYMMETRY
   platform: gog
@@ -322,3 +396,9 @@
   id: org.xonotic.Xonotic
   banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/220ddf008416e895e6e649a2bba33484.png
   status: playable
+
+- name: Yooka-Laylee and the Impossible Lair
+  platform: epic-store
+  id: Duckbill
+  banner: steam:846870
+  status: unsupported
