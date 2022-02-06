@@ -91,6 +91,11 @@
   status: verified
   compat_tool: Proton-7.1-GE-2
 
+- name: DAEMON X MACHINA
+  platform: epic-store
+  id: f4f0d39fbb4640e0be62aa91d9eca87d
+  banner: steam:1167450
+
 - name: DARQ
   platform: epic-store
   id: ee96375fac2f47de978170a24398e581
