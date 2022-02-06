@@ -78,6 +78,12 @@
   id: Calluna
   banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/05de265b83af799ad4f6753aff62d1ee.png
 
+- name: Costume Quest 2
+  platform: epic-store
+  id: 82a78a4dd6ef4eaa892707791b705073
+  banner: steam:275180
+  status: verified
+
 - name: Creature in the Well
   platform: epic-store
   id: a579a08e71b341e6af106dbd170e2ab2
