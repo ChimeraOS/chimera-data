@@ -1317,6 +1317,9 @@
 "1037910": # Paw Paw Paw
   compat_tool: proton_63
 
+"621060": # PC Building Simulator
+  compat_tool: proton_63
+
 "1013310": # Peaky Blinders: Mastermind
   compat_tool: proton_513
 
