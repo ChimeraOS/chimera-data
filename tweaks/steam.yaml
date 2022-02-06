@@ -1296,6 +1296,9 @@
 "1160220": # Paradise Killer
   compat_tool: proton_513
 
+"982720": # Paradise Lost
+  compat_tool: proton_63
+
 "1001230": # Partial Control
   compat_tool: proton_513
 
