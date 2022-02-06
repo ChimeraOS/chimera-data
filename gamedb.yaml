@@ -25,6 +25,7 @@
   platform: epic-store
   id: 26b63c46de9e4dcc856b3c6b106b6777
   banner: steam:331870
+  status: unsupported
 
 - name: Armagetron Advanced
   platform: flathub
