@@ -178,9 +178,6 @@
   platform: epic-store
   id: 819985835fd54090845e3083e28b77bb
   banner: steam:234270
-  status: playable
-  notes:
-    - Shows a difficult to close dialog after exiting
 
 - name: Killing Floor 2
   platform: epic-store
