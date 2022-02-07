@@ -1323,6 +1323,9 @@
 "1013310": # Peaky Blinders: Mastermind
   compat_tool: proton_513
 
+"803050": # Per Aspera
+  compat_tool: proton_63
+
 "1016120": # PGA TOUR 2K21
   compat_tool: proton_63
   comment: Tutorial only showed keyboard hints
