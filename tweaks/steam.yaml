@@ -547,6 +547,9 @@
   compat_tool: proton_63
   comment: Native version doesn't detect controllers
 
+"456780": # DUCATI - 90th Anniversary
+  compat_tool: proton_63
+
 "312530": # Duck Game
   compat_tool: proton_63
   launch_options: -linux
@@ -1368,6 +1371,9 @@
 "328500": # Potatoman Seeks the Troof
   compat_tool: proton_513
 
+"1448030": # Press Any Button
+  compat_tool: proton_63
+
 "958400": # Project CARS 3
   compat_tool: proton_5
 
@@ -1862,6 +1868,9 @@
 
 "585420": # Trailmakers
   compat_tool: proton_63
+
+"914010": # Train Station Renovation
+  compat_tool: Proton-7.1-GE-2
 
 "319910": # Trine 3: The Artifacts of Power; native version shows generic gamepad hints
   compat_tool: proton_5
