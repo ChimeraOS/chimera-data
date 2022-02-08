@@ -9,6 +9,12 @@
   banner: steam:320140
   status: unsupported
 
+- name: 20XX
+  platform: epic-store
+  id: Quail
+  banner: steam:322110
+  status: unsupported
+
 - name: Absolute Drift
   platform: gog
   id: 1136126792
@@ -25,6 +31,7 @@
   platform: epic-store
   id: 26b63c46de9e4dcc856b3c6b106b6777
   banner: steam:331870
+  status: unsupported
 
 - name: Armagetron Advanced
   platform: flathub
@@ -39,6 +46,12 @@
   status: playable
   notes:
     - Displays keyboard icons
+
+- name: Cave Story+
+  platform: epic-store
+  id: 1dea8a6ddb544842a58e4b5c8675ff58
+  banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/24246693bd6404fae9999736716fdbc7.png
+  status: unsupported
 
 - name: Cave Story NX
   platform: flathub
@@ -78,12 +91,29 @@
   id: Calluna
   banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/05de265b83af799ad4f6753aff62d1ee.png
 
+- name: Costume Quest 2
+  platform: epic-store
+  id: 82a78a4dd6ef4eaa892707791b705073
+  banner: steam:275180
+  status: verified
+
 - name: Creature in the Well
   platform: epic-store
   id: a579a08e71b341e6af106dbd170e2ab2
   banner: steam:852300
   status: verified
   compat_tool: Proton-7.1-GE-2
+
+- name: Cyberpunk 2077
+  platform: gog
+  id: 1423049311
+  banner: steam:1091500
+  status: unsupported
+
+- name: DAEMON X MACHINA
+  platform: epic-store
+  id: f4f0d39fbb4640e0be62aa91d9eca87d
+  banner: steam:1167450
 
 - name: DARQ
   platform: epic-store
@@ -133,11 +163,23 @@
   id: Mint
   banner: steam:1449280
 
+- name: Hand of Fate 2
+  platform: epic-store
+  id: 808f0dfbf3b84c2680793724d7f207bf
+  banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/359c4daad63a9a11c06960df0a6ed480.jpg
+  status: unsupported
+
 - name: Hedgewars
   platform: flathub
   id: org.hedgewars.Hedgewars
   banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/e3408432c1a48a52fb6c74d926b38886.png
   status: playable
+
+- name: Hell is Other Demons
+  platform: epic-store
+  id: 5ade01bafec54a148024665ce978b2a4
+  banner: steam:595790
+  status: verified
 
 - name: Horizon Chase Turbo
   platform: epic-store
@@ -167,9 +209,6 @@
   platform: epic-store
   id: 819985835fd54090845e3083e28b77bb
   banner: steam:234270
-  status: playable
-  notes:
-    - Shows a difficult to close dialog after exiting
 
 - name: Killing Floor 2
   platform: epic-store
@@ -254,6 +293,12 @@
   platform: epic-store
   id: 8fceb562623c430db9bb6abf0549c43e
   banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/107323b791247ca0394de28f514ef194.png
+
+- name: Pine
+  platform: epic-store
+  id: 6d564ff21f9c45b7b782b7113ad60be8
+  banner: steam:1042780
+  status: verified
 
 - name: Prey
   platform: epic-store
@@ -350,6 +395,12 @@
   id: net.supertuxkart.SuperTuxKart
   banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/7f1de29e6da19d22b51c68001e7e0e54.png
   status: playable
+
+- name: Tacoma
+  platform: epic-store
+  id: Flagfin
+  banner: steam:343860
+  status: unsupported
 
 - name: Tanks of Freedom
   platform: flathub
