@@ -330,6 +330,14 @@
   banner: steam:1769170
   status: playable
 
+- name: Solitairica
+  platform: epic-store
+  id: 4c76beac4e8a4156aa8dfb9c6db09746
+  banner: steam:463980
+  status: playable
+  notes:
+    - No controller support
+
 - name: 'Sonic 3: Angel Island Revisited'
   platform: flathub
   id: org.sonic3air.Sonic3AIR
