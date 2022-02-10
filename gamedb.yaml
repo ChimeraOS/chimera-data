@@ -311,6 +311,13 @@
   id: Weaver
   banner: steam:290300
 
+- name: Relicta
+  platform: epic-store
+  id: b4670484aae24db492f0b468a98fe361
+  banner: steam:941570
+  status: verified
+  compat_tool: Proton-7.1-GE-2
+
 - name: Rocket League
   platform: epic-store
   id: Sugar
