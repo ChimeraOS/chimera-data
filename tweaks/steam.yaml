@@ -171,6 +171,9 @@
 "914750": # Bee Simulator
   compat_tool: Proton-6.21-GE-2
 
+"1073910": # Before We Leave
+  compat_tool: proton_63
+
 "381320": # Bezier
   compat_tool: proton_513
 
@@ -204,6 +207,9 @@
   patch_dir: BIT.TRIP RUNNER
   patches:
     - exec: rm -f installscript.vdf
+
+"1138660": # Black Book
+  compat_tool: proton_63
 
 "751820": # Black Future '88
   compat_tool: proton_63
@@ -240,6 +246,9 @@
 "1220150": # Blue Fire
   compat_tool: proton_63
 
+"1793350": # Blue Fire: Void Maker
+  compat_tool: proton_63
+
 "449960": # Book of Demons
   compat_tool: proton_63
 
@@ -248,6 +257,9 @@
 
 "1011630": # Border Force
   compat_tool: proton_513
+
+"397540": # Borderlands 3
+  compat_tool: proton_63
 
 "598780": # Boreal Blade
   compat_tool: proton_5
@@ -286,6 +298,9 @@
   compat_tool: proton_411
 
 "808090": # Bury Me, My Love
+  compat_tool: proton_63
+
+"1112890": # Calico
   compat_tool: proton_63
 
 "399810": # Call of Cthulhu
@@ -532,6 +547,9 @@
   compat_tool: proton_63
   comment: Native version doesn't detect controllers
 
+"456780": # DUCATI - 90th Anniversary
+  compat_tool: proton_63
+
 "312530": # Duck Game
   compat_tool: proton_63
   launch_options: -linux
@@ -557,6 +575,9 @@
 "1368450": # Endless Zone
   compat_tool: proton_513
 
+"933820": # Endzone - A World Apart
+  compat_tool: proton_63
+
 "285840": # Enemy Mind
   compat_tool: proton_411
 
@@ -572,6 +593,9 @@
 
 "812160": # Etherborn
   compat_tool: proton_411
+
+"1229380": # Everhood
+  compat_tool: proton_63
 
 "1532180": # Evo\Wave
   compat_tool: Proton-6.21-GE-2
@@ -869,6 +893,9 @@
 "648350": # Jurassic World Evolution
   compat_tool: proton_513
 
+"979070": # Just Die Already
+  compat_tool: proton_63
+
 "571520": # Kalaban
   compat_tool: proton_513
 
@@ -919,6 +946,9 @@
 
 "21000": # LEGO Batman: The Videogame
   compat_tool: proton_63
+
+"213330": # LEGO Batman 2: DC Super Heroes
+  compat_tool: Proton-7.1-GE-2
 
 "313690": # LEGO Batman 3: Beyond Gotham
   compat_tool: proton_513
@@ -1269,6 +1299,9 @@
 "1160220": # Paradise Killer
   compat_tool: proton_513
 
+"982720": # Paradise Lost
+  compat_tool: proton_63
+
 "1001230": # Partial Control
   compat_tool: proton_513
 
@@ -1287,8 +1320,14 @@
 "1037910": # Paw Paw Paw
   compat_tool: proton_63
 
+"621060": # PC Building Simulator
+  compat_tool: proton_63
+
 "1013310": # Peaky Blinders: Mastermind
   compat_tool: proton_513
+
+"803050": # Per Aspera
+  compat_tool: proton_63
 
 "1016120": # PGA TOUR 2K21
   compat_tool: proton_63
@@ -1318,6 +1357,9 @@
 "798790": # PolyCube
   compat_tool: proton_513
 
+"349730": # Popup Dungeon
+  compat_tool: proton_63
+
 "374040": # Portal Knights
   compat_tool: proton_63
   patch_dir: Portal Knights
@@ -1328,6 +1370,9 @@
 
 "328500": # Potatoman Seeks the Troof
   compat_tool: proton_513
+
+"1448030": # Press Any Button
+  compat_tool: proton_63
 
 "958400": # Project CARS 3
   compat_tool: proton_5
@@ -1823,6 +1868,9 @@
 
 "585420": # Trailmakers
   compat_tool: proton_63
+
+"914010": # Train Station Renovation
+  compat_tool: Proton-7.1-GE-2
 
 "319910": # Trine 3: The Artifacts of Power; native version shows generic gamepad hints
   compat_tool: proton_5
