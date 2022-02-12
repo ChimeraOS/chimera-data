@@ -38,7 +38,7 @@
   compat_tool: proton_411
 
 "371140": # Aegis Defenders
-  compat_tool: proton_411
+  compat_tool: proton_63
 
 "331870": # AER Memories of Old; fix black screen in native version
   launch_options: '%command% -screen-fullscreen 0'
@@ -582,8 +582,8 @@
   compat_tool: proton_411
 
 "245280": # ENSLAVED: Odyssey to the West Premium Edition
-  compat_tool: proton_411
-  compat_config: d9vk,noesync,nofsync
+  compat_tool: proton_63
+  compat_config: noesync,nofsync
 
 "975950": # Effie
   compat_tool: Proton-6.1-GE-2
@@ -1075,7 +1075,7 @@
   compat_tool: proton_63
 
 "1173200": # Metal Unit
-  compat_tool: proton_411
+  compat_tool: proton_63
 
 "606870": # MetaMorph: Dungeon Creatures
   compat_tool: Proton-6.21-GE-2
