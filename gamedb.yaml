@@ -163,6 +163,12 @@
   id: Mint
   banner: steam:1449280
 
+- name: God of War
+  platform: steam
+  id: 1593500
+  status: verified
+  store: humble:god-of-war
+
 - name: Hand of Fate 2
   platform: epic-store
   id: 808f0dfbf3b84c2680793724d7f207bf
@@ -378,6 +384,12 @@
   banner: steam:571310
   status: verified
 
+- name: SteamWorld Dig 2
+  platform: steam
+  id: 571310
+  status: verified
+  store: humble:steamworld-dig-2
+
 - name: StepMania
   platform: flathub
   id: com.stepmania.StepMania
@@ -398,6 +410,12 @@
   id: 0a697c1235fb4706a635cfa33f0306ec
   banner: steam:1097800
   status: unsupported
+
+- name: Streets of Rage 4
+  platform: steam
+  id: 985890
+  status: verified
+  store: humble:streets-of-rage-4
 
 - name: SuperTux
   platform: flathub
@@ -422,6 +440,11 @@
   id: in.p1x.TanksOfFreedom
   banner: /images/flathub/in.p1x.TanksOfFreedom
   status: playable
+
+- name: Timelie
+  platform: steam
+  id: 1150950
+  status: verified
 
 - name: Tonight We Riot
   platform: gog
