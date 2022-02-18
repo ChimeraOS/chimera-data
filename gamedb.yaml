@@ -457,6 +457,12 @@
   id: Angelonia
   banner: steam:447040
 
+- name: Windbound
+  platform: epic-store
+  id: a95bf4df6627431ca5baff8173c59635
+  banner: steam:1162130
+  status: unsupported
+
 - name: Xonotic
   platform: flathub
   id: org.xonotic.Xonotic
