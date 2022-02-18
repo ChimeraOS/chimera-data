@@ -226,6 +226,11 @@
   banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/0decbbe8e7f4bbda5ecf7be75866985e.png
   status: playable
 
+- name: Magic The Gathering Arena
+  platform: epic-store
+  id: stargazer
+  banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/d6d124ffdb821cc19f989f2fa5a28ce7.png
+
 - name: Metro 2033 Redux
   platform: epic-store
   id: Petunia
