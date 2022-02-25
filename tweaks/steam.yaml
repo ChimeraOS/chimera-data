@@ -1056,8 +1056,8 @@
   launch_options: eval $( echo "%command%" | sed "s/2KLauncher\/LauncherPatcher.exe'.*/mafiadefinitiveedition.exe'/" )
 
 "529660": # Mages of Mystralia
-  compat_tool: Proton-6.1-GE-2
-  compat_config: wined3d
+  compat_tool: proton_7
+  status: verified
 
 "42910": # Magicka
   compat_tool: proton_63
