@@ -392,7 +392,7 @@
   compat_tool: proton_63
 
 "268910": # Cuphead
-  compat_tool: proton_63
+  compat_tool: proton_7
   status: verified
 
 "928840": # Cybarian: The Time Travelling Warrior
@@ -437,7 +437,7 @@
   compat_tool: proton_411
 
 "894020": # Death's Door
-  compat_tool: proton_63
+  compat_tool: proton_7
   status: verified
 
 "356650": # Death's Gambit
@@ -501,7 +501,8 @@
   compat_config: noesync,nofsync
 
 "1038250": # DIRT 5
-  compat_tool: proton_63
+  compat_tool: proton_7
+  status: verified
 
 "690790": # DiRT Rally 2.0
   compat_tool: proton_63
@@ -618,7 +619,8 @@
   launch_options: rm -f F1_2020_dx12.exe && ln -s F1_2020.exe F1_2020_dx12.exe; %command%
 
 "1134570": # F1 2021
-  compat_tool: proton_63
+  compat_tool: proton_7
+  status: verified
 
 "203680": # F1 Race Stars
   compat_tool: proton_63
@@ -728,7 +730,8 @@
   compat_tool: proton_5
 
 "1593500": # God of War
-  compat_tool: proton_63
+  compat_tool: proton_7
+  status: verified
 
 "1154810": # Going Under
   compat_tool: proton_63
@@ -833,7 +836,8 @@
   compat_tool: proton_63
 
 "1271700": # Hot Wheels Unleashed
-  compat_tool: Proton-6.18-GE-2
+  compat_tool: proton_7
+  status: verified
 
 "613100": # House Flipper
   compat_tool: proton_63
