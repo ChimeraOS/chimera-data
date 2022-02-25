@@ -832,6 +832,10 @@
 "629090": # Horace
   compat_tool: proton_411
 
+"1151640": # Horizon Zero Dawn
+  compat_tool: proton_7
+  status: verified
+
 "609920": # Hotshot Racing
   compat_tool: proton_63
 
