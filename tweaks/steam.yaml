@@ -803,8 +803,7 @@
   launch_options: WINEDLLOVERRIDES="xaudio2_7=native,builtin" %command%
 
 "414340": # Hellblade: Senua's Sacrifice
-  compat_tool: proton_63
-  launch_options: -dx11
+  compat_tool: proton_7
 
 "521890": # Hello Neighbour
   compat_tool: proton_411
