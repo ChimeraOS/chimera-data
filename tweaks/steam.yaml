@@ -1005,6 +1005,11 @@
 "438640": # LEGO STAR WARS: The Force Awakens
   compat_tool: proton_63
 
+"32440": # LEGO Star Wars - The Complete Saga
+  compat_tool: proton_7
+  steam_input: enabled
+  status: verified
+
 "332310": # LEGO Worlds
   compat_tool: proton_63
 
