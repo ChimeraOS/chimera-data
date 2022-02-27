@@ -954,7 +954,9 @@
   compat_tool: proton_513
 
 "21000": # LEGO Batman: The Videogame
-  compat_tool: proton_63
+  compat_tool: proton_7
+  steam_input: enabled
+  status: verified
 
 "213330": # LEGO Batman 2: DC Super Heroes
   compat_tool: Proton-7.1-GE-2
@@ -1153,9 +1155,8 @@
   status: verified
 
 "774171": # Muse Dash
-  compat_tool: proton_63
-  status: playable
-  comment: First time welcome/tips prompt not responsive to gamepad controls; mouse required
+  compat_tool: proton_7
+  status: verified
 
 "1049820": # Must Dash Amigos
   compat_tool: proton_513
@@ -1411,7 +1412,7 @@
   launch_options: WINEDLLOVERRIDES="xaudio2_7=native,builtin" %command%
 
 "546050": # Puyo Puyo Tetris
-  compat_tool: proton_63
+  compat_tool: proton_7
   status: verified
 
 "292380": # Racer 8
@@ -1448,7 +1449,8 @@
   compat_tool: Proton-6.1-GE-2
 
 "941570": # Relicta
-  compat_tool: Proton-6.21-GE-2
+  compat_tool: proton_7
+  status: verified
 
 "590590": # Remnants of Naezith; native version crashes on startup
   compat_tool: proton_411
