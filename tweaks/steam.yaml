@@ -1653,8 +1653,10 @@
   compat_tool: proton_63
 
 "544750": # Soul Calibur VI
-  compat_tool: Proton-6.10-GE-1
-  launch_options: '%command%'
+  compat_tool: proton_7
+  status: playable
+  notes:
+    - Requires keyboard for custom character name
 
 "213670": # South Park: The Stick of Truth
   compat_tool: proton_63
