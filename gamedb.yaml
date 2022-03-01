@@ -367,7 +367,9 @@
   platform: epic-store
   id: 818447bb519b46d48d365d5753362796
   banner: steam:584400
-  status: verified
+  status: playable
+  notes:
+    - Crashes when changing video settings
 
 - name: Sonic Robo Blast 2
   platform: flathub
