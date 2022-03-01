@@ -3,17 +3,17 @@
   id: f4e0c1dff48749fa9145c1585699e276
   banner: steam:330820
 
-- name: Absolute Drift
-  platform: epic-store
-  id: 19927295d6e3467887d4e830d8c85963
-  banner: steam:320140
-  status: verified
-
 - name: 20XX
   platform: epic-store
   id: Quail
   banner: steam:322110
   status: unsupported
+
+- name: Absolute Drift
+  platform: epic-store
+  id: 19927295d6e3467887d4e830d8c85963
+  banner: steam:320140
+  status: verified
 
 - name: Absolute Drift
   platform: gog
