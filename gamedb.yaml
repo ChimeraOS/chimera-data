@@ -7,7 +7,7 @@
   platform: epic-store
   id: 19927295d6e3467887d4e830d8c85963
   banner: steam:320140
-  status: unsupported
+  status: verified
 
 - name: 20XX
   platform: epic-store
@@ -51,7 +51,9 @@
   platform: epic-store
   id: 1dea8a6ddb544842a58e4b5c8675ff58
   banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/24246693bd6404fae9999736716fdbc7.png
-  status: unsupported
+  status: playable
+  notes:
+    - No controller support
 
 - name: Cave Story NX
   platform: flathub
@@ -147,7 +149,7 @@
   platform: epic-store
   id: cd98b47155654e1f9a9e84e60d0b49e4
   banner: steam:555150
-  status: unsupported
+  status: verified
 
 - name: Fortnite
   platform: epic-store
@@ -296,12 +298,18 @@
   platform: epic-store
   id: Potoo
   banner: steam:728880
-  status: unsupported
+  status: verified
 
 - name: Pathway
   platform: epic-store
   id: 8fceb562623c430db9bb6abf0549c43e
   banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/107323b791247ca0394de28f514ef194.png
+
+- name: Pikuniku
+  platform: epic-store
+  id: 48619f5656da446abccb727b78cda644
+  banner: steam:572890
+  status: verified
 
 - name: Pine
   platform: epic-store
@@ -442,6 +450,12 @@
   platform: gog
   id: 1440133968
   banner: steam:537520
+  status: unsupported
+
+- name: VALORANT
+  platform: epic-store
+  id: 602eb4abc8764c87b7f2607a1ef8c18e
+  banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/3031edd9d9431ac8a6598b5a47997a9c.jpg
   status: unsupported
 
 - name: Vampyr
