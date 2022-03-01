@@ -114,6 +114,9 @@
   platform: epic-store
   id: f4f0d39fbb4640e0be62aa91d9eca87d
   banner: steam:1167450
+  status: playable
+  notes:
+    - Requires keyboard to customize character name
 
 - name: DARQ
   platform: epic-store
@@ -185,7 +188,7 @@
   platform: epic-store
   id: bb406082b69a47208489d3616b22b5c2
   banner: steam:389140
-  status: unsupported
+  status: verified
 
 - name: INSIDE
   platform: epic-store
@@ -209,6 +212,7 @@
   platform: epic-store
   id: 819985835fd54090845e3083e28b77bb
   banner: steam:234270
+  status: verified
 
 - name: Killing Floor 2
   platform: epic-store
@@ -267,7 +271,7 @@
   platform: epic-store
   id: 8e29583ae4b44a21883038668f7e301e
   banner: steam:996770
-  status: unsupported
+  status: verified
 
 - name: Mr. Rescue
   platform: flathub
@@ -355,7 +359,7 @@
   platform: epic-store
   id: 818447bb519b46d48d365d5753362796
   banner: steam:584400
-  status: unsupported
+  status: verified
 
 - name: Sonic Robo Blast 2
   platform: flathub
@@ -402,7 +406,7 @@
   platform: epic-store
   id: 0a697c1235fb4706a635cfa33f0306ec
   banner: steam:1097800
-  status: unsupported
+  status: verified
 
 - name: SuperTux
   platform: flathub
@@ -478,4 +482,4 @@
   platform: epic-store
   id: Duckbill
   banner: steam:846870
-  status: unsupported
+  status: verified
