@@ -116,7 +116,7 @@
   compat_tool: proton_513
 
 "484900": # Aven Colony
-  compat_tool: Proton-6.1-GE-2
+  compat_tool: proton_7
 
 "688420": # Bad North
   compat_tool: proton_63
@@ -275,7 +275,7 @@
   compat_tool: proton_513
 
 "879850": # Box: The Game
-  compat_tool: Proton-6.21-GE-2
+  compat_tool: proton_7
 
 "1590320": # Bro Falls: Ultimate Showdown
   compat_tool: proton_63
@@ -596,6 +596,9 @@
 "812160": # Etherborn
   compat_tool: proton_411
 
+"1110050": # Evans Remains
+  compat_tool: proton_7
+
 "1229380": # Everhood
   compat_tool: proton_63
 
@@ -620,7 +623,7 @@
   launch_options: rm -f F1_2020_dx12.exe && ln -s F1_2020.exe F1_2020_dx12.exe; %command%
 
 "1134570": # F1 2021
-  compat_tool: proton_7
+  compat_tool: 
   status: verified
 
 "203680": # F1 Race Stars
@@ -1369,6 +1372,9 @@
 
 "354240": # Please, Don't touch anything
   compat_tool: proton_63
+
+"539470": # Police Stories
+  compat_tool: proton_7
 
 "798790": # PolyCube
   compat_tool: proton_513
