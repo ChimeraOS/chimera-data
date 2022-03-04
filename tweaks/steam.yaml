@@ -1453,6 +1453,9 @@
 "265590": # The Red Solstice
   compat_tool: proton_513
 
+"768520": # Red Solstice 2: Survivors
+  compat_tool: proton_7
+
 "1140630": # Red Wings: Aces of the Sky
   compat_tool: Proton-6.1-GE-2
 
