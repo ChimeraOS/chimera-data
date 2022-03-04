@@ -1220,6 +1220,9 @@
 "589360": # Ni no Kuni II: Revenant Kingdom
   compat_tool: proton_411
 
+"1414850": # Nickelodeon All-Star Brawl
+  compat_tool: proton_7
+
 "94400": # Nidhogg
   compat_tool: proton_5
 
