@@ -60,7 +60,7 @@
   compat_tool: proton_5
 
 "934780": # American Fugitive
-  compat_tool: Proton-6.16-GE-1
+  compat_tool: proton_7
 
 "945360": # Among Us
   compat_tool: proton_63
@@ -108,6 +108,9 @@
 "757320": # Atomicrops
   compat_tool: proton_7
   status: verified
+
+"458680": # Auto Age Standoff
+  compat_tool: proton_7
 
 "984800": # Automachef
   compat_tool: proton_411
