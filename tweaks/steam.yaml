@@ -626,7 +626,7 @@
   launch_options: rm -f F1_2020_dx12.exe && ln -s F1_2020.exe F1_2020_dx12.exe; %command%
 
 "1134570": # F1 2021
-  compat_tool: 
+  compat_tool: proton_7
   status: verified
 
 "203680": # F1 Race Stars
