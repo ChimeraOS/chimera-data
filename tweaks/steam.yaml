@@ -60,7 +60,7 @@
   compat_tool: proton_5
 
 "934780": # American Fugitive
-  compat_tool: Proton-6.16-GE-1
+  compat_tool: proton_7
 
 "945360": # Among Us
   compat_tool: proton_63
@@ -109,6 +109,9 @@
   compat_tool: proton_7
   status: verified
 
+"458680": # Auto Age Standoff
+  compat_tool: proton_7
+
 "984800": # Automachef
   compat_tool: proton_411
 
@@ -116,7 +119,7 @@
   compat_tool: proton_513
 
 "484900": # Aven Colony
-  compat_tool: Proton-6.1-GE-2
+  compat_tool: proton_7
 
 "688420": # Bad North
   compat_tool: proton_63
@@ -275,7 +278,7 @@
   compat_tool: proton_513
 
 "879850": # Box: The Game
-  compat_tool: Proton-6.21-GE-2
+  compat_tool: proton_7
 
 "1590320": # Bro Falls: Ultimate Showdown
   compat_tool: proton_63
@@ -595,6 +598,9 @@
 
 "812160": # Etherborn
   compat_tool: proton_411
+
+"1110050": # Evan's Remains
+  compat_tool: proton_7
 
 "1229380": # Everhood
   compat_tool: proton_63
@@ -1217,6 +1223,9 @@
 "589360": # Ni no Kuni II: Revenant Kingdom
   compat_tool: proton_411
 
+"1414850": # Nickelodeon All-Star Brawl
+  compat_tool: proton_7
+
 "94400": # Nidhogg
   compat_tool: proton_5
 
@@ -1370,6 +1379,9 @@
 "354240": # Please, Don't touch anything
   compat_tool: proton_63
 
+"539470": # Police Stories
+  compat_tool: proton_7
+
 "798790": # PolyCube
   compat_tool: proton_513
 
@@ -1443,6 +1455,9 @@
 
 "265590": # The Red Solstice
   compat_tool: proton_513
+
+"768520": # Red Solstice 2: Survivors
+  compat_tool: proton_7
 
 "1140630": # Red Wings: Aces of the Sky
   compat_tool: Proton-6.1-GE-2
