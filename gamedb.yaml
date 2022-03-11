@@ -21,7 +21,7 @@
   banner: steam:320140
   status: verified
 
-- name: Abzû
+- name: ABZU
   platform: epic-store
   id: Curry
   banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/33e8dc3b7581c60b4a0d05dc7d57ca6d.png
@@ -254,6 +254,7 @@
   status: playable
   notes:
     - No controller support
+    - Uses a launcher
 
 - name: Minetest
   platform: flathub
