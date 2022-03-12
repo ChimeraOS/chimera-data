@@ -505,6 +505,134 @@
 
 # Steam games
 
+- name: Ultra Street Fighter IV
+  platform: steam
+  id: 45760
+  store: humble:ultra-street-fighter-iv
+  status: playable
+  notes:
+    - Story cutscene videos are missing audio
+
+- name: Super Monkey Ball Banana Mania
+  platform: steam
+  id: 1316910
+  store: humble:super-monkey-ball-banana-mania
+  status: verified
+
+- name: SkyDrift
+  platform: steam
+  id: 91100
+  status: playable
+  notes:
+    - Displays keyboard icons
+    - Displays a Windows dialog during initial setup
+
+- name: Relicta
+  platform: steam
+  id: 941570
+  store: humble:relicta
+  status: verified
+
+- name: Puyo Puyo Tetris
+  platform: steam
+  id: 546050
+  store: humble:puyo-puyo-tetris
+  status: verified
+
+- name: PGA TOUR 2K21
+  platform: steam
+  id: 1016120
+  store: humble:pga-tour-2k21
+  status: playable
+  notes:
+    - Tutorial shows keyboard hints
+
+- name: "New Super Lucky's Tale"
+  platform: steam
+  id: 1038300
+  store: humble:new-super-luckys-tale
+  status: verified
+
+- name: Muse Dash
+  platform: steam
+  id: 774171
+  status: verified
+
+- name: Minecraft Dungeons
+  platform: steam
+  id: 1672970
+  status: playable
+  notes:
+    - Requires mouse & keyboard for one time Microsoft account login
+
+- name: Hot Wheels Unleashed
+  platform: steam
+  id: 1271700
+  store: humble:hot-wheels-unleashed
+  status: verified
+
+- name: Horizon Zero Dawn Complete Edition
+  platform: steam
+  id: 1151640
+  store: humble:horizon-zero-dawn-complete-edition
+  status: verified
+
+- name: Hades
+  platform: steam
+  id: 1145360
+  status: verified
+
+- name: Deep Rock Galactic
+  platform: steam
+  id: 548430
+  store: humble:deep-rock-galactic
+  status: playable
+  notes:
+    - Awkward mouse joystick controls in menus
+
+- name: "Death's Door"
+  platform: steam
+  id: 894020
+  store: humble:deaths-door
+  status: verified
+
+- name: Cuphead
+  platform: steam
+  id: 268910
+  store: humble:cuphead
+  status: verified
+
+- name: The Surge 2
+  platform: steam
+  id: 644830
+  store: humble:the-surge-2
+  status: verified
+
+- name: Toree 3D
+  platform: steam
+  id: 1554840
+  status: verified
+
+- name: F1 Race Stars
+  platform: steam
+  id: 203680
+  status: verified
+
+- name: GRID 2
+  platform: steam
+  id: 44350
+  status: verified
+
+- name: F1 2021
+  platform: steam
+  id: 1134570
+  status: verified
+
+- name: DIRT 5
+  platform: steam
+  id: 1038250
+  status: verified
+
 - name: Rocket League
   platform: steam
   id: 252950
@@ -611,8 +739,10 @@
 - name: SOULCALIBUR VI
   platform: steam
   id: 544750
-  status: verified
   store: humble:soulcalibur-vi
+  status: playable
+  notes:
+    - Requires keyboard for custom character name
 
 - name: F1 2020
   platform: steam
