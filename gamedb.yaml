@@ -545,7 +545,7 @@
   store: humble:pga-tour-2k21
   status: playable
   notes:
-    - Tutorial shows keyboard hints
+    - Display keyboard icons during tutorial
 
 - name: "New Super Lucky's Tale"
   platform: steam
