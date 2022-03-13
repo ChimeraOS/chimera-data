@@ -505,6 +505,11 @@
 
 # Steam games
 
+- name: ELDEN RING
+  platform: steam
+  id: 1245620
+  status: verified
+
 - name: GRID (2019)
   platform: steam
   id: 703860
