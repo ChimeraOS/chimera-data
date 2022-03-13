@@ -134,6 +134,9 @@
 "38490": # Earthworm Jim 2
   compat_tool: boxtron
 
+"1245620": # ELDEN RING
+  compat_tool: proton-experimental
+
 "411300": # ELEX
   compat_tool: Proton-6.1-GE-2
 
