@@ -158,11 +158,11 @@
 
 "928600": # F1 2019
   compat_tool: proton-stable
-  launch_options: rm -f F1_2019_dx12.exe && ln -s F1_2019.exe F1_2019_dx12.exe; %command%
+  launch_options: eval $(echo "%command%" | sed "s/F1_2019_dx12.exe/F1_2019.exe/")
 
 "1080110": # F1 2020
   compat_tool: proton-stable
-  launch_options: rm -f F1_2020_dx12.exe && ln -s F1_2020.exe F1_2020_dx12.exe; %command%
+  launch_options: eval $(echo "%command%" | sed "s/F1_2020_dx12.exe/F1_2020.exe/")
 
 "38400": # Fallout: A Post Nuclear Role Playing Game
   compat_tool: boxtron
@@ -246,7 +246,7 @@
 
 "205950": # Jet Set Radio
   compat_tool: proton-stable
-  launch_options: mv jetsetradio.exe jsrsetup.exe; %command%
+  launch_options: eval $(echo "%command%" | sed "s/jsrsetup.exe/jetsetradio.exe/")
 
 "242110": # Joe Danger 2: The Movie; native version doesn't work with DLC
   compat_tool: proton-stable
@@ -428,7 +428,7 @@
 
 "282210": # Sid Meier's Starships
   compat_tool: proton-stable
-  launch_options: rm Starships64.exe && ln -s Starships.exe Starships64.exe; %command%
+  launch_options: eval $(echo "%command%" | sed "s/Starships64.exe/Starships.exe/")
 
 "361350": # Skyhook
   steam_input: enabled
@@ -474,7 +474,7 @@
 
 "312670": # Strange Brigade
   compat_tool: proton-stable
-  launch_options: mv bin/StrangeBrigade_Vulkan.exe bin/StrangeBrigade.exe; %command%
+  launch_options: eval $(echo "%command%" | sed "s/StrangeBrigade.exe/StrangeBrigade_Vulkan.exe/")
 
 "1057750": # The Suicide of Rachel Foster
   compat_tool: Proton-6.1-GE-2
