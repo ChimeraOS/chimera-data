@@ -352,9 +352,7 @@
   platform: epic-store
   id: 4c76beac4e8a4156aa8dfb9c6db09746
   banner: steam:463980
-  status: playable
-  notes:
-    - No controller support
+  status: unsupported
 
 - name: 'Sonic 3: Angel Island Revisited'
   platform: flathub
@@ -435,7 +433,7 @@
   platform: epic-store
   id: Flagfin
   banner: steam:343860
-  status: unsupported
+  status: verified
 
 - name: Tanks of Freedom
   platform: flathub
@@ -487,7 +485,9 @@
   platform: epic-store
   id: a95bf4df6627431ca5baff8173c59635
   banner: steam:1162130
-  status: unsupported
+  status: playable
+  notes:
+    - Tutorial videos do not play # GE Proton does not fix this
 
 - name: Xonotic
   platform: flathub
