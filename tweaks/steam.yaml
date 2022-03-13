@@ -411,6 +411,9 @@
 "603800": # ReThink
   compat_tool: Proton-6.8-GE-2
 
+"252950": # Rocket League; native version no longer supported and does not work online
+  compat_tool: proton-stable
+
 "4770": # Rome: Total War - Alexander
   compat_tool: Proton-6.1-GE-2
 
