@@ -505,6 +505,11 @@
 
 # Steam games
 
+- name: GRID (2019)
+  platform: steam
+  id: 703860
+  status: verified
+
 - name: Ultra Street Fighter IV
   platform: steam
   id: 45760
