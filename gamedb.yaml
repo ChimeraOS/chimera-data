@@ -232,6 +232,25 @@
   banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/0decbbe8e7f4bbda5ecf7be75866985e.png
   status: playable
 
+- name: LEGO® Batman™: The Videogame
+  platform: epic-store
+  id: Goldeneye
+  banner: steam:21000
+  status: verified
+  
+- name: LEGO® Batman™ 2: DC Super Heroes
+  platform: epic-store
+  id: Grackle
+  banner: steam:213330
+  status: playable
+  notes:
+    - Displays a Windows dialog during initial setup
+  
+- name: LEGO® Batman™ 3: Beyond Gotham
+  platform: epic-store
+  id: Gull 
+  banner: steam:313690
+
 - name: Magic The Gathering Arena
   platform: epic-store
   id: stargazer
@@ -440,6 +459,18 @@
   id: in.p1x.TanksOfFreedom
   banner: /images/flathub/in.p1x.TanksOfFreedom
   status: playable
+
+- name: THE KING OF FIGHTERS 2002
+  platform: gog
+  id: 2114035213
+  banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/be4d7403582645fe41d3921ac8ce530d.png 
+  status: verified
+
+- name: The Wolf Among Us
+  platform: epic-store
+  id: Cobbler
+  banner: steam:250320
+  status: verified
 
 - name: Tonight We Riot
   platform: gog
