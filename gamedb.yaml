@@ -232,13 +232,13 @@
   banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/0decbbe8e7f4bbda5ecf7be75866985e.png
   status: playable
 
-- name: LEGO® Batman™: The Videogame
+- name: 'LEGO Batman: The Videogame'
   platform: epic-store
   id: Goldeneye
   banner: steam:21000
   status: verified
   
-- name: LEGO® Batman™ 2: DC Super Heroes
+- name: 'LEGO Batman 2: DC Super Heroes'
   platform: epic-store
   id: Grackle
   banner: steam:213330
@@ -246,7 +246,7 @@
   notes:
     - Displays a Windows dialog during initial setup
   
-- name: LEGO® Batman™ 3: Beyond Gotham
+- name: 'LEGO Batman 3: Beyond Gotham'
   platform: epic-store
   id: Gull 
   banner: steam:313690
