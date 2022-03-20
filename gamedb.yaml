@@ -104,7 +104,7 @@
   id: a579a08e71b341e6af106dbd170e2ab2
   banner: steam:852300
   status: verified
-  compat_tool: Proton-7.1-GE-2
+  compat_tool: GE-Proton7-9
 
 - name: Cyberpunk 2077
   platform: gog
@@ -353,7 +353,7 @@
   id: b4670484aae24db492f0b468a98fe361
   banner: steam:941570
   status: verified
-  compat_tool: Proton-7.1-GE-2
+  compat_tool: GE-Proton7-9
 
 - name: Rocket League
   platform: epic-store

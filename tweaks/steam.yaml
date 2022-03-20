@@ -266,7 +266,7 @@
   status: verified
 
 "213330": # LEGO Batman 2: DC Super Heroes
-  compat_tool: Proton-7.1-GE-2
+  compat_tool: GE-Proton7-9
 
 "640590": # The LEGO NINJAGO Movie Video Game
   compat_tool: proton-stable
@@ -524,7 +524,7 @@
   compat_config: noesync,nofsync
 
 "914010": # Train Station Renovation
-  compat_tool: Proton-7.1-GE-2
+  compat_tool: GE-Proton7-9
 
 "319910": # Trine 3: The Artifacts of Power; native version shows generic gamepad hints
   compat_tool: proton-stable
