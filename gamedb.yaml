@@ -99,6 +99,14 @@
   banner: steam:275180
   status: verified
 
+- name: Cris Tales
+  platform: epic-store
+  id: e7d92786abe54fae9319c1ddb94ae271
+  banner: steam:1079830
+  status: playable
+  notes:
+    - Videos do not play # GE Proton does not fix this
+
 - name: Creature in the Well
   platform: epic-store
   id: a579a08e71b341e6af106dbd170e2ab2
