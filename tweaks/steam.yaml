@@ -322,6 +322,9 @@
 "1209360": # Monster Truck Championship
   compat_tool: Proton-6.21-GE-2
 
+"323850": # Move or Die; native version has no sound
+  compat_tool: proton-stable
+
 "666140": # My Time At Portia
   compat_tool: proton-stable
   compat_config: noesync,nofsync
