@@ -547,6 +547,7 @@
 - name: Move or Die
   platform: steam
   id: 323850
+  store: humble:move-or-die
   status: playable
   compat_tool: steamlinuxruntime
   notes:
@@ -555,6 +556,7 @@
 - name: ELDEN RING
   platform: steam
   id: 1245620
+  store: humble:elden-ring
   status: verified
 
 - name: GRID (2019)
