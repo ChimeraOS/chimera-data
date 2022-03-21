@@ -65,12 +65,6 @@
 "491040": # Bot Vice; native version does not recognize controllers
   compat_tool: proton-stable
 
-"1286350": # BPM: BULLETS PER MINUTE
-  compat_tool: Proton-6.21-GE-2
-
-"399810": # Call of Cthulhu
-  compat_tool: Proton-6.18-GE-2
-
 "390610": # Circa Infinity
   compat_tool: proton_37
   comment: Native version crashes on startup
@@ -81,12 +75,6 @@
 "243200": # The Dark Eye: Memoria
   compat_tool: proton-stable
   launch_options: IFS=:; for PROTON_PATH in ${STEAM_COMPAT_TOOL_PATHS}; do if [ -f "$PROTON_PATH/dist/bin/wine" ]; then WINEPREFIX=$STEAM_COMPAT_DATA_PATH/pfx $PROTON_PATH/dist/bin/wine "C:\windows\system32\reg.exe" ADD "HKLM\System\CurrentControlSet\Control\Session Manager\Environment" /v "SDL_AUDIODRIVER" /d "directsound" /f; break; fi; done; %command%
-
-"280640": # Dark Shadows - Army of Evil
-  compat_tool: Proton-6.9-GE-2
-
-"710920": # Darksiders Genesis
-  compat_tool: Proton-6.1-GE-2
 
 "12840": # DiRT 2
   compat_tool: proton-stable
@@ -110,9 +98,6 @@
 "525040": # The Disney Afternoon Collection
   compat_tool: proton-stable
   compat_config: forcelgadd
-
-"739650": # Drake Hollow
-  compat_tool: Proton-6.9-GE-2
 
 "556130": # Drones, The Human Condition
   compat_tool: proton-stable
