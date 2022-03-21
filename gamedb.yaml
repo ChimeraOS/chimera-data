@@ -546,12 +546,14 @@
 
 - name: LEGO Star Wars - The Complete Saga
   id: 32440
+  store: humble:lego-star-wars-the-complete-saga
   compat_tool: proton-stable
   steam_input: enabled
   status: verified
 
 - name: 'LEGO Batman: The Videogame'
   id: 21000
+  store: humble:lego-batman-the-videogame
   compat_tool: proton-stable
   steam_input: enabled
   status: verified
