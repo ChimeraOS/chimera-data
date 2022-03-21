@@ -25,20 +25,14 @@
 "401120": # Anode
   steam_input: enabled
 
-"1035850": # Balancelot
-  compat_tool: Proton-6.21-GE-2
-
 "35140": # Batman: Arkham Asylum Game of the Year Edition
-  compat_tool: Proton-6.21-GE-2
+  compat_tool: GE-Proton7-9
 
 "238460": # BattleBlock Theater; native version crashes on startup with AMD GPUs
   compat_tool: proton-stable
 
 "792300": # The Beast Inside
   compat_tool: Proton-6.18-GE-2
-
-"914750": # Bee Simulator
-  compat_tool: Proton-6.21-GE-2
 
 "8870": # BioShock Infinite
   steam_input: enabled
@@ -54,7 +48,7 @@
   launch_options: -nointro
 
 "63700": # BIT.TRIP BEAT
-  compat_tool: Proton-6.16-GE-1
+  compat_tool: GE-Proton7-9
 
 "218060": # BIT.TRIP Presents... Runner2: Future Legend of Rhythm Alien; native version has severe controller issues
   compat_tool: proton-stable
