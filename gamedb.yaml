@@ -544,6 +544,18 @@
 
 # Steam games
 
+- name: LEGO Star Wars - The Complete Saga
+  id: 32440
+  compat_tool: proton-stable
+  steam_input: enabled
+  status: verified
+
+- name: 'LEGO Batman: The Videogame'
+  id: 21000
+  compat_tool: proton-stable
+  steam_input: enabled
+  status: verified
+
 - name: Move or Die
   platform: steam
   id: 323850
