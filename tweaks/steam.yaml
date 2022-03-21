@@ -514,13 +514,13 @@
   compat_tool: boxtron
 
 "225300": # Tomb Raider II
- compat_tool: Proton-6.1-GE-2
+  compat_tool: Proton-6.1-GE-2
 
 "225320": # Tomb Raider III
- compat_tool: Proton-6.1-GE-2
+  compat_tool: Proton-6.1-GE-2
 
 "225020": # Tomb_Raider VI: The Angel of Darkness
-   compat_tool: Proton-6.1-GE-2
+  compat_tool: Proton-6.1-GE-2
 
 "287260": # Toybox Turbos
   compat_tool: proton-stable
