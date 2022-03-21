@@ -31,9 +31,6 @@
 "238460": # BattleBlock Theater; native version crashes on startup with AMD GPUs
   compat_tool: proton-stable
 
-"792300": # The Beast Inside
-  compat_tool: Proton-6.18-GE-2
-
 "8870": # BioShock Infinite
   steam_input: enabled
 
@@ -126,15 +123,6 @@
   compat_tool: proton-stable
   compat_config: noesync,nofsync
 
-"975950": # Effie
-  compat_tool: Proton-6.1-GE-2
-
-"727850": # ELDERBORN
-  compat_tool: Proton-6.1-GE-2
-
-"1532180": # Evo\Wave
-  compat_tool: Proton-6.21-GE-2
-
 "928600": # F1 2019
   compat_tool: proton-stable
   launch_options: eval $(echo "%command%" | sed "s/F1_2019_dx12.exe/F1_2019.exe/")
@@ -158,9 +146,6 @@
         src: common/xlive.dll
         dst: xlive.dll
 
-"1054430": # Fling to the Finish
-  compat_tool: Proton-6.21-GE-2
-
 "966330": # Flower
   compat_tool: proton-stable
   compat_config: noesync,nofsync
@@ -177,12 +162,6 @@
     - copy:
         src: Freedom Planet/control_gamepad.cfg
         dst: control_gamepad.cfg
-
-"1047220": # Frog Detective 2: The Case of the Invisible Wizard
-  compat_tool: Proton-6.21-GE-2
-
-"712190": # Genesis Alpha One Deluxe Edition
-  compat_tool: Proton-6.21-GE-2
 
 "1311070": # Greak: Memories of Azur
   compat_tool: Proton-6.21-GE-2
@@ -203,10 +182,7 @@
   launch_options: WINEDLLOVERRIDES="xaudio2_7=native,builtin" %command%
 
 "368370": # Her Story
-  compat_tool: Proton-6.21-GE-2
-
-"826630": # Iron Harvest
-  compat_tool: Proton-6.21-GE-2
+  compat_tool: GE-Proton7-9
 
 "331670": # The Jackbox Party Pack; native version unplayable due to cropped display
   compat_tool: proton-stable
@@ -231,7 +207,7 @@
   compat_tool: proton-stable
 
 "699240": # Keyboard Killers
-  compat_tool: Proton-6.9-GE-2
+  compat_tool: GE-Proton7-9
 
 "261110": # Killer is Dead - Nightmare Edition # Patch according to https://www.pcgamingwiki.com/wiki/Killer_Is_Dead#Issues_fixed
   compat_tool: proton-stable
@@ -252,7 +228,7 @@
   launch_options: WINEDLLOVERRIDES="xaudio2_7=native,builtin" %command%
 
 "214510": # LEGO The Lord of the Rings
-  compat_tool: Proton-6.19-GE-2
+  compat_tool: GE-Proton7-9
 
 "32440": # LEGO Star Wars - The Complete Saga
   compat_tool: proton-stable
@@ -270,17 +246,8 @@
   compat_tool: proton-stable
   launch_options: eval $( echo "%command%" | sed "s/2KLauncher\/LauncherPatcher.exe'.*/mafiadefinitiveedition.exe'/" )
 
-"1078920": # Main Assembly
-  compat_tool: Proton-6.1-GE-2
-
-"629820": # Maneater
-  compat_tool: Proton-6.21-GE-2
-
 "504130": # Manual Samuel
   steam_input: enabled
-
-"606870": # MetaMorph: Dungeon Creatures
-  compat_tool: Proton-6.21-GE-2
 
 "535850": # Micro Machines World Series; native version has poor controller support
   compat_tool: proton-stable
@@ -289,17 +256,11 @@
   compat_tool: proton-stable
   compat_config: noesync,nofsync
 
-"1302050": # Milky Way Prince - The Vampire Star
-  compat_tool: Proton-6.1-GE-2
-
 "17410": # Mirror's Edge
   compat_tool: proton-stable
   patch_dir: mirrors edge
   patches:
     - exec: echo "fc73cf63e54e9858a45e1786f5881ad9 17410_install.vdf" | md5sum --status -c && sed -i 122,143d 17410_install.vdf
-
-"1209360": # Monster Truck Championship
-  compat_tool: Proton-6.21-GE-2
 
 "323850": # Move or Die
   compat_tool: steamlinuxruntime
@@ -307,9 +268,6 @@
 "666140": # My Time At Portia
   compat_tool: proton-stable
   compat_config: noesync,nofsync
-
-"1265860": # NASCAR Heat 5
-  compat_tool: Proton-6.16-GE-1
 
 "105000": # A New Beginning - Final Cut
   compat_tool: proton-stable
@@ -323,34 +281,13 @@
   compat_tool: proton-stable
   launch_options: IFS=:; for PROTON_PATH in ${STEAM_COMPAT_TOOL_PATHS}; do if [ -f "$PROTON_PATH/dist/bin/wine" ]; then WINEPREFIX=$STEAM_COMPAT_DATA_PATH/pfx $PROTON_PATH/dist/bin/wine "C:\windows\system32\reg.exe" ADD "HKLM\System\CurrentControlSet\Control\Session Manager\Environment" /v "SDL_AUDIODRIVER" /d "directsound" /f; break; fi; done; %command%
 
-"1147550": # Not For Broadcast
-  compat_tool: Proton-6.21-GE-2
-
-"733790": # Not Tonight
-  compat_tool: Proton-6.21-GE-2
-
 "681730": # Nowhere Prophet
   steam_input: enabled
-
-"306760": # Obduction
-  compat_tool: Proton-6.21-GE-2
-
-"765880": # The Occupation
-  compat_tool: Proton-6.21-GE-2
 
 "314660": # Oddworld: New 'n' Tasty
   steam_input: enabled
 
-"455820": # Omensight: Definitive Edition
-  compat_tool: Proton-6.21-GE-2
-
-"389670": # Pacer
-  compat_tool: Proton-6.16-GE-1
-
 "1178880": # Panzer Dragoon: Remake
-  compat_tool: Proton-6.1-GE-2
-
-"1227530": # Partisans 1941
   compat_tool: Proton-6.21-GE-2
 
 "749800": # PixelJunk Monsters Ultimate; native version does not recognize controllers
@@ -367,9 +304,6 @@
         src: Portal Knights/portal_knights.cfg
         dst: portal_knights.cfg
 
-"895870": # Project Wingman
-  compat_tool: Proton-6.20-GE-1
-
 "607080": # Psychonauts 2
   compat_tool: proton-stable
   launch_options: -force -dx11
@@ -384,26 +318,11 @@
 "1057560": # Rebound Dodgeball Evolved
   compat_tool: Proton-6.1-GE-2
 
-"1140630": # Red Wings: Aces of the Sky
-  compat_tool: Proton-6.1-GE-2
-
 "590590": # Remnants of Naezith; native version crashes on startup
   compat_tool: proton-stable
 
-"1142390": # Remothered: Broken Porcelain
-  compat_tool: Proton-6.21-GE-2
-
-"603800": # ReThink
-  compat_tool: Proton-6.8-GE-2
-
 "252950": # Rocket League; native version no longer supported and does not work online
   compat_tool: proton-stable
-
-"4770": # Rome: Total War - Alexander
-  compat_tool: Proton-6.1-GE-2
-
-"585450": # Shadows Awakening
-  compat_tool: Proton-6.1-GE-2
 
 "289070": # Sid Meier's Civilization VI
   launch_options: LD_PRELOAD=/usr/lib/libfreetype.so.6 %command%
@@ -421,9 +340,6 @@
 "238090": # Sniper Elite 3
   compat_tool: proton-stable
   launch_options: PROTON_SET_GAME_DRIVE=1 %command%
-
-"1096570": # SONG OF HORROR COMPLETE EDITION
-  compat_tool: Proton-6.21-GE-2
 
 "200940": # Sonic CD
   compat_tool: proton-stable
@@ -445,21 +361,12 @@
 "50300": # Spec Ops: The Line
   steam_input: enabled
 
-"468670": # Speed Brawl
-  compat_tool: Proton-6.1-GE-2
-
-"263280": # Spintires
-  compat_tool: Proton-6.1-GE-2
-
 "32400": # STAR WARS: Dark Forces
   compat_tool: boxtron
 
 "312670": # Strange Brigade
   compat_tool: proton-stable
   launch_options: eval $(echo "%command%" | sed "s/StrangeBrigade.exe/StrangeBrigade_Vulkan.exe/")
-
-"1057750": # The Suicide of Rachel Foster
-  compat_tool: Proton-6.1-GE-2
 
 "1525660": # Sunblaze
   steam_input: enabled
@@ -473,16 +380,10 @@
 "410700": # System Shock: Classic
   compat_tool: boxtron
 
-"828740": # Tales of the Neon Sea
-  compat_tool: Proton-6.21-GE-2
-
 "1003590": # Tetris Effect: Connected
   compat_tool: Proton-6.18-GE-2
 
 "1003090": # Through the Darkest of Times
-  compat_tool: Proton-6.1-GE-2
-
-"1075200": # Tohu
   compat_tool: Proton-6.1-GE-2
 
 "8140": # Tomb Raider: Underworld; older Proton version required to avoid stuttering
@@ -505,14 +406,8 @@
   compat_tool: proton-stable
   compat_config: noesync,nofsync
 
-"914010": # Train Station Renovation
-  compat_tool: GE-Proton7-9
-
 "319910": # Trine 3: The Artifacts of Power; native version shows generic gamepad hints
   compat_tool: proton-stable
-
-"626610": # TT Isle of Man Ride on the Edge
-  compat_tool: Proton-6.1-GE-2
 
 "499520": # The Turing Test
   compat_tool: proton-stable
