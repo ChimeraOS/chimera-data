@@ -128,6 +128,12 @@
   notes:
     - Requires keyboard to customize character name
 
+- name: 'Dandara: Trials of Fear Edition'
+  platform: epic-store
+  id: c35b9699c4e24c56976b5bd8eceba464
+  banner: steam:612390
+  status: verified
+
 - name: DARQ
   platform: epic-store
   id: ee96375fac2f47de978170a24398e581
@@ -181,6 +187,12 @@
   platform: epic-store
   id: Mint
   banner: steam:1449280
+  
+- name: GoNNER
+  platform: epic-store
+  id: Emperor
+  banner: steam:437570
+  status: verified
 
 - name: Hand of Fate 2
   platform: epic-store
@@ -533,6 +545,12 @@
   platform: epic-store
   id: Angelonia
   banner: steam:447040
+
+- name: Wheels of Aurelia
+  platform: epic-store
+  id: Escolar
+  banner: steam:508740
+  status: verified
 
 - name: Windbound
   platform: epic-store
