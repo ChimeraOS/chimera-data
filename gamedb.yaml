@@ -144,6 +144,12 @@
   id: Peony
   banner: steam:298630
 
+- name: Fez
+  platform: epic-store
+  id: Bluebird
+  banner: steam:224760
+  status: verified
+
 - name: Firefox
   platform: flathub
   id: org.mozilla.firefox
