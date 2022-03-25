@@ -258,6 +258,7 @@
   platform: epic-store
   id: Gull 
   banner: steam:313690
+  status: playable
 
 - name: Magic The Gathering Arena
   platform: epic-store
@@ -478,6 +479,13 @@
   platform: epic-store
   id: Cobbler
   banner: steam:250320
+  status: verified
+
+- name: The World Next Door
+  platform: epic-store
+  id: 39a0313492c84cf79b119efb09df90e5
+  banner: steam:755470
+  compat_tool: Proton-6.21-GE-2
   status: verified
 
 - name: Tonight We Riot
