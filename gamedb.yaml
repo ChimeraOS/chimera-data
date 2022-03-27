@@ -47,6 +47,12 @@
   notes:
     - Displays keyboard icons
 
+- name: Brothers - A Tale of Two Sons
+  platform: epic-store
+  id: Tamarind
+  banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/f730dba64b56c5b89a94bcb8cc3b0fba.jpg
+  status: verified
+
 - name: Cave Story+
   platform: epic-store
   id: 1dea8a6ddb544842a58e4b5c8675ff58
