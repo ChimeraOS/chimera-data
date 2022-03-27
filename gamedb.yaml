@@ -363,6 +363,12 @@
   id: Cobra
   banner: steam:666140
 
+- name: MudRunner
+  platform: epic-store
+  id: Bulbul
+  banner: steam:675010
+  status: unsupported
+
 - name: Overcooked
   platform: epic-store
   id: Sage
