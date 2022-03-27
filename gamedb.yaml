@@ -47,6 +47,12 @@
   notes:
     - Displays keyboard icons
 
+- name: Brothers - A Tale of Two Sons
+  platform: epic-store
+  id: Tamarind
+  banner: steam:225080
+  status: verified
+
 - name: Cave Story+
   platform: epic-store
   id: 1dea8a6ddb544842a58e4b5c8675ff58
@@ -114,6 +120,14 @@
   status: verified
   compat_tool: GE-Proton7-9
 
+- name: Crying Suns
+  platform: epic-store
+  id: 18fafa2d70d64831ab500a9d65ba9ab8
+  banner: steam:873940
+  status: playable
+  notes:
+    - No controller support
+
 - name: Cyberpunk 2077
   platform: gog
   id: 1423049311
@@ -149,6 +163,14 @@
   platform: epic-store
   id: Peony
   banner: steam:298630
+
+- name: Faster Than Light
+  platform: epic-store
+  id: Blowfish
+  banner: steam:212680
+  status: playable
+  notes:
+    - No controller support
 
 - name: Fez
   platform: epic-store
@@ -187,7 +209,13 @@
   platform: epic-store
   id: Mint
   banner: steam:1449280
-  
+
+- name: GNOG
+  platform: epic-store
+  id: Penguin
+  banner: steam:290510
+  status: verified
+
 - name: GoNNER
   platform: epic-store
   id: Emperor
@@ -205,6 +233,12 @@
   id: org.hedgewars.Hedgewars
   banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/e3408432c1a48a52fb6c74d926b38886.png
   status: playable
+
+- name: Hello Neighbor
+  platform: epic-store
+  id: Ursus
+  banner: steam:521890
+  status: verified
 
 - name: Hell is Other Demons
   platform: epic-store
@@ -235,6 +269,12 @@
   id: com.katawa_shoujo.KatawaShoujo
   banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/a7282c84a4c2109c3697b6aca8b86aba.png
   status: playable
+
+- name: Jotun Valhalla Edition
+  platform: epic-store
+  id: Grouse
+  banner: steam:323580
+  status: verified
 
 - name: Ken Follett's The Pillars of the Earth
   platform: epic-store
@@ -334,6 +374,12 @@
   platform: epic-store
   id: Cobra
   banner: steam:666140
+
+- name: MudRunner
+  platform: epic-store
+  id: Bulbul
+  banner: steam:675010
+  status: unsupported
 
 - name: Overcooked
   platform: epic-store
