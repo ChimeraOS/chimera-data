@@ -228,6 +228,12 @@
   banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/e3408432c1a48a52fb6c74d926b38886.png
   status: playable
 
+- name: Hello Neighbor
+  platform: epic-store
+  id: Ursus
+  banner: steam: 521890
+  status: verified
+
 - name: Hell is Other Demons
   platform: epic-store
   id: 5ade01bafec54a148024665ce978b2a4
