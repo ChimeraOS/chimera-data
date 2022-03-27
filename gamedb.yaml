@@ -114,6 +114,14 @@
   status: verified
   compat_tool: GE-Proton7-9
 
+- name: Crying Suns
+  platform: epic-store
+  id: 18fafa2d70d64831ab500a9d65ba9ab8
+  banner: steam:873940
+  status: playable
+  notes:
+    - No controller support
+
 - name: Cyberpunk 2077
   platform: gog
   id: 1423049311
