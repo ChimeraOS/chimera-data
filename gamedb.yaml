@@ -158,6 +158,14 @@
   id: Peony
   banner: steam:298630
 
+- name: Faster Than Light
+  platform: epic-store
+  id: Blowfish
+  banner: steam:212680
+  status: playable
+  notes:
+    - No controller support
+
 - name: Fez
   platform: epic-store
   id: Bluebird
