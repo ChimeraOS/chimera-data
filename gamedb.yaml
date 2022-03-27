@@ -50,7 +50,7 @@
 - name: Brothers - A Tale of Two Sons
   platform: epic-store
   id: Tamarind
-  banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/f730dba64b56c5b89a94bcb8cc3b0fba.jpg
+  banner: steam:225080
   status: verified
 
 - name: Cave Story+
@@ -237,7 +237,7 @@
 - name: Hello Neighbor
   platform: epic-store
   id: Ursus
-  banner: steam: 521890
+  banner: steam:521890
   status: verified
 
 - name: Hell is Other Demons
