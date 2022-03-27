@@ -203,7 +203,13 @@
   platform: epic-store
   id: Mint
   banner: steam:1449280
-  
+
+- name: GNOG
+  platform: epic-store
+  id: Penguin
+  banner: steam:290510
+  status: verified
+
 - name: GoNNER
   platform: epic-store
   id: Emperor
