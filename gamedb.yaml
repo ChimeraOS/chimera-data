@@ -1,3 +1,9 @@
+- id: 0
+  platform: steam
+  name: Steam Play for all other titles
+  compat_tool: proton-stable
+  priority: 70
+
 - name: '2064: Read Only Memories'
   platform: epic-store
   id: f4e0c1dff48749fa9145c1585699e276
@@ -33,11 +39,30 @@
   banner: steam:331870
   status: unsupported
 
+# fix black screen in native version
+- name: AER Memories of Old
+  platform: steam
+  id: 331870
+  launch_options: '%command% -screen-fullscreen 0'
+
 - name: Armagetron Advanced
   platform: flathub
   id: org.armagetronad.ArmagetronAdvanced
   banner: /images/flathub/org.armagetronad.ArmagetronAdvanced
   status: playable
+
+- name: BIT.TRIP BEAT
+  platform: steam
+  id: 63700
+  compat_tool: GE-Proton7-9
+
+- name: BIT.TRIP RUNNER
+  platform: steam
+  id: 63710
+  compat_tool: proton-stable
+  patch_dir: BIT.TRIP RUNNER
+  patches:
+    - exec: rm -f installscript.vdf
 
 - name: 'Brigador: Up-Armored Edition'
   platform: gog
@@ -94,6 +119,13 @@
     - No controller support
     - Requires alternative window mode to access menus
 
+# native version crashes on startup
+# requires a specific proton version
+- name: Circa Infinity
+  platform: steam
+  id: 390610
+  compat_tool: proton_37
+
 - name: Control
   platform: epic-store
   id: Calluna
@@ -148,10 +180,21 @@
   banner: steam:612390
   status: verified
 
+- name: 'The Dark Eye: Memoria'
+  platform: steam
+  id: 243200
+  compat_tool: proton-stable
+  launch_options: IFS=:; for PROTON_PATH in ${STEAM_COMPAT_TOOL_PATHS}; do if [ -f "$PROTON_PATH/dist/bin/wine" ]; then WINEPREFIX=$STEAM_COMPAT_DATA_PATH/pfx $PROTON_PATH/dist/bin/wine "C:\windows\system32\reg.exe" ADD "HKLM\System\CurrentControlSet\Control\Session Manager\Environment" /v "SDL_AUDIODRIVER" /d "directsound" /f; break; fi; done; %command%
+
 - name: DARQ
   platform: epic-store
   id: ee96375fac2f47de978170a24398e581
   banner: steam:433550
+
+- name: DiRT Showdown
+  platform: steam
+  id: 201700
+  steam_input: enabled
 
 - name: Enter the Gungeon
   platform: epic-store
@@ -652,6 +695,7 @@
   id: 1245620
   store: humble:elden-ring
   status: verified
+  compat_tool: proton-experimental
 
 - name: GRID (2019)
   platform: steam
@@ -786,10 +830,12 @@
   id: 1038250
   status: verified
 
+# native version no longer supported and does not work online
 - name: Rocket League
   platform: steam
   id: 252950
   status: verified
+  compat_tool: proton-stable
 
 - name: God of War
   platform: steam
@@ -836,6 +882,7 @@
   id: 1525660
   status: verified
   store: humble:sunblaze
+  steam_input: enabled
 
 - name: Team Sonic Racing
   platform: steam
@@ -877,6 +924,8 @@
   id: 607080
   status: verified
   store: humble:psychonauts-2
+  compat_tool: proton-stable
+  launch_options: -force -dx11
 
 - name: LEGO Worlds
   platform: steam
@@ -901,6 +950,8 @@
   platform: steam
   id: 1080110
   status: verified
+  compat_tool: proton-stable
+  launch_options: eval $(echo "%command%" | sed "s/F1_2020_dx12.exe/F1_2020.exe/")
 
 - name: Skatemasta Tcheco
   platform: steam
@@ -929,6 +980,8 @@
   id: 424840
   status: verified
   store: humble:little-nightmares
+  compat_tool: proton-stable
+  launch_options: -onethread
 
 - name: Primal Light
   platform: steam
@@ -946,6 +999,7 @@
   id: 411300
   status: verified
   store: humble:elex
+  compat_tool: Proton-6.1-GE-2
 
 - name: WWE 2K BATTLEGROUNDS
   platform: steam
@@ -1029,11 +1083,13 @@
   id: 1181400
   status: verified
 
+# native version displays incorrect controller icons
 - name: Yuppie Psycho
   platform: steam
   id: 597760
   status: verified
   store: humble:yuppie-psycho
+  compat_tool: proton-stable
 
 - name: Struggling
   platform: steam
@@ -1052,10 +1108,12 @@
   id: 996580
   status: verified
 
+# native version crashes on startup with AMD GPUs
 - name: BattleBlock Theater
   platform: steam
   id: 238460
   status: verified
+  compat_tool: proton-stable
 
 - name: Shining Resonance Refrain
   platform: steam
@@ -1115,12 +1173,15 @@
   id: 245280
   status: verified
   store: humble:enslaved-odyssey-to-the-west-premium-edition
+  compat_tool: proton-stable
+  compat_config: noesync,nofsync
 
 - name: Blasphemous
   platform: steam
   id: 774361
   status: verified
   store: humble:blasphemous
+  steam_input: enabled
 
 - name: DuckTales Remastered
   platform: steam
@@ -1143,6 +1204,9 @@
   id: 409710
   status: verified
   store: humble:bioshock-remastered
+  compat_tool: proton-stable
+  compat_config: noesync,nofsync
+  launch_options: -nointro
 
 - name: Generation Zero
   platform: steam
@@ -1167,12 +1231,16 @@
   id: 312670
   status: verified
   store: humble:strange-brigade
+  compat_tool: proton-stable
+  launch_options: eval $(echo "%command%" | sed "s/StrangeBrigade.exe/StrangeBrigade_Vulkan.exe/")
 
+# native version crashes
 - name: Forager
   platform: steam
   id: 751780
   status: verified
   store: humble:forager
+  compat_tool: proton-stable
 
 - name: Yooka-Laylee and the Impossible Lair
   platform: steam
@@ -1190,6 +1258,9 @@
   platform: steam
   id: 409720
   status: verified
+  compat_tool: proton-stable
+  compat_config: noesync,nofsync
+  launch_options: -nointro
 
 - name: NBA 2K20
   platform: steam
@@ -1230,11 +1301,13 @@
   id: 207490
   status: verified
 
+# native version has poor controller support
 - name: 'The Coma 2: Vicious Sisters'
   platform: steam
   id: 1045720
   status: verified
   store: humble:the-coma-2-vicious-sisters
+  compat_tool: proton-stable
 
 - name: Void Bastards
   platform: steam
@@ -1280,6 +1353,13 @@
   platform: steam
   id: 200940
   status: verified
+  compat_tool: proton-stable
+  launch_options: WINEDLLOVERRIDES="xaudio2_7=native,builtin" %command%
+  patch_dir: Sonic CD
+  patches:
+    - copy:
+        src: Sonic CD/installscript.vdf
+        dst: installscript.vdf
 
 - name: Fantasy Strike
   platform: steam
@@ -1309,11 +1389,13 @@
   status: verified
   store: humble:lethal-league-blaze
 
+# native version crashes on startup
 - name: Remnants of Naezith
   platform: steam
   id: 590590
   status: verified
   store: humble:remnants-of-naezith
+  compat_tool: proton-stable
 
 - name: Bayonetta
   platform: steam
@@ -1363,11 +1445,13 @@
   status: verified
   store: humble:the-messenger
 
+# native version controller mappings are wrong
 - name: "The Swords of Ditto: Mormo's Curse"
   platform: steam
   id: 619780
   status: verified
   store: humble:the-swords-of-ditto-mormos-curse
+  compat_tool: proton-stable
 
 - name: Horace
   platform: steam
@@ -1385,6 +1469,7 @@
   id: 504130
   status: verified
   store: humble:manual-samuel
+  steam_input: enabled
 
 - name: 'Ni no Kuni II: Revenant Kingdom'
   platform: steam
@@ -1432,15 +1517,19 @@
   status: verified
   store: humble:runner3
 
+# native version has poor controller support
 - name: Micro Machines World Series
   platform: steam
   id: 535850
   status: verified
+  compat_tool: proton-stable
 
+# native version does not recognize controllers
 - name: Super Star Path
   platform: steam
   id: 375120
   status: verified
+  compat_tool: proton-stable
 
 - name: Atari Vault
   platform: steam
@@ -1458,11 +1547,14 @@
   platform: steam
   id: 401120
   status: verified
+  steam_input: enabled
 
 - name: F1 2019
   platform: steam
   id: 928600
   status: verified
+  compat_tool: proton-stable
+  launch_options: eval $(echo "%command%" | sed "s/F1_2019_dx12.exe/F1_2019.exe/")
 
 - name: Among the Sleep
   platform: steam
@@ -1492,6 +1584,8 @@
   id: 285820
   status: verified
   store: humble:action-henk
+  launch_options: LD_LIBRARY_PATH= %command%
+  steam_input: enabled
 
 - name: '140'
   platform: steam
@@ -1551,6 +1645,8 @@
   id: 356190
   status: verified
   store: humble:middleearth-shadow-of-war
+  compat_tool: proton-stable
+  compat_config: noesync,nofsync
 
 - name: Them's Fightin' Herds
   platform: steam
@@ -1563,6 +1659,7 @@
   id: 50300
   status: verified
   store: humble:spec-ops-the-line
+  steam_input: enabled
 
 - name: Victor Vran
   platform: steam
@@ -1575,6 +1672,7 @@
   id: 361350
   status: verified
   store: humble:skyhook
+  steam_input: enabled
 
 - name: Trailmakers
   platform: steam
@@ -1611,12 +1709,16 @@
   id: 205950
   status: verified
   store: humble:jet-set-radio
+  compat_tool: proton-stable
+  launch_options: eval $(echo "%command%" | sed "s/jsrsetup.exe/jetsetradio.exe/")
 
+# native version displays generic controller icons
 - name: 'Trine 3: The Artifacts of Power'
   platform: steam
   id: 319910
   status: verified
   store: humble:trine-3-the-artifacts-of-power
+  compat_tool: proton-stable
 
 - name: 'Alien: Isolation'
   platform: steam
@@ -1754,12 +1856,15 @@
   platform: steam
   id: 262690
   status: verified
+  compat_tool: steamlinuxruntime
 
 - name: The Disney Afternoon Collection
   platform: steam
   id: 525040
   status: verified
   store: humble:the-disney-afternoon-collection
+  compat_tool: proton-stable
+  compat_config: forcelgadd
 
 - name: 'Wolfenstein: The New Order'
   platform: steam
@@ -1813,6 +1918,7 @@
   id: 8870
   status: verified
   store: humble:bioshock-infinite
+  steam_input: enabled
 
 - name: Yakuza Kiwami
   platform: steam
@@ -1825,6 +1931,8 @@
   id: 666140
   status: verified
   store: humble:my-time-at-portia
+  compat_tool: proton-stable
+  compat_config: noesync,nofsync
 
 - name: Sky Rogue
   platform: steam
@@ -1867,6 +1975,7 @@
   platform: steam
   id: 355010
   status: verified
+  steam_input: enabled
 
 - name: Life is Strange
   platform: steam
@@ -1878,6 +1987,7 @@
   id: 314660
   status: verified
   store: humble:oddworld-new-n-tasty
+  steam_input: enabled
 
 - name: A Story About My Uncle
   platform: steam
@@ -1930,11 +2040,13 @@
   status: verified
   store: humble:guacamelee-super-turbo-championship-edition
 
+# native version crashes on startup
 - name: PixelJunk Shooter
   platform: steam
   id: 255870
   status: verified
   store: humble:pixeljunk-shooter
+  compat_tool: proton-stable
 
 - name: Monster Trampoline
   platform: steam
@@ -1957,47 +2069,63 @@
   platform: steam
   id: 287260
   status: verified
+  compat_tool: proton-stable
+  compat_config: noesync,nofsync
 
+# native version unplayable due to cropped display
 - name: The Jackbox Party Pack 5
   platform: steam
   id: 774461
   status: verified
   store: humble:the-jackbox-party-pack-5
+  compat_tool: proton-stable
 
+# native version unplayable due to cropped display
 - name: The Jackbox Party Pack 4
   platform: steam
   id: 610180
   status: verified
   store: humble:the-jackbox-party-pack-4
+  compat_tool: proton-stable
 
+# native version unplayable due to cropped display
 - name: The Jackbox Party Pack 3
   platform: steam
   id: 434170
   status: verified
   store: humble:the-jackbox-party-pack-3
+  compat_tool: proton-stable
 
+# native version unplayable due to cropped display
 - name: The Jackbox Party Pack 2
   platform: steam
   id: 397460
   status: verified
   store: humble:the-jackbox-party-pack-2
+  compat_tool: proton-stable
 
+# native version unplayable due to cropped display
 - name: The Jackbox Party Pack
   platform: steam
   id: 331670
   status: verified
   store: humble:the-jackbox-party-pack
+  compat_tool: proton-stable
 
+# native version does not recognize controllers
 - name: Bot Vice
   platform: steam
   id: 491040
   status: verified
+  compat_tool: proton-stable
 
+# native version has controller issues
 - name: 'BIT.TRIP Presents... Runner2: Future Legend of Rhythm Alien'
   platform: steam
   id: 218060
   status: verified
   store: humble:bittrip-presents-runner2-future-legend-of-rhythm-alien
+  compat_tool: proton-stable
 
 - name: Sonic Mania
   platform: steam
@@ -2266,10 +2394,15 @@
   id: 237110
   status: verified
 
-- name: GRID
+- name: GRID (2008)
   platform: steam
   id: 12750
   status: verified
+  compat_tool: proton-stable
+  patch_dir: Grid
+  patches:
+    - exec: echo "2960d17d77d44b259674e0b099b9e5a6 installscript.vdf" | md5sum --status -c && sed -i '62i \\t\t\t"Command 1"\t\t"/S"^M' installscript.vdf
+    - exec: echo "5c42dc1c0cfb483cee86df0779332168 system/hardware_settings_restrictions.xml" | md5sum --status -c && sed -i 150d system/hardware_settings_restrictions.xml
 
 - name: DiRT 2
   platform: steam
@@ -2277,8 +2410,337 @@
   status: playable
   notes:
     - Customizing player name requires a keyboard
+  compat_tool: proton-stable
+  patch_dir: Dirt 2
+  patches:
+    - exec: echo "02c6dd46d6d89347d721ba87dcf443c3 12840_install.vdf" | md5sum --status -c && sed -i 56,69d 12840_install.vdf
+    - copy:
+        src: common/xlive.ini
+        dst: xlive.ini
+    - copy:
+        src: common/xlive.dll
+        dst: xlive.dll
 
 - name: DiRT 3 Complete Edition
   platform: steam
   id: 321040
   status: verified
+  compat_tool: proton-stable
+  compat_config: noesync,nofsync
+
+- id: 108710
+  platform: steam
+  name: Alan Wake
+  compat_tool: proton-stable
+  launch_options: WINEDLLOVERRIDES="xaudio2_7=native,builtin" %command%
+
+- id: 35140
+  platform: steam
+  name: 'Batman: Arkham Asylum Game of the Year Edition'
+  compat_tool: GE-Proton7-9
+
+- id: 556130
+  platform: steam
+  name: Drones, The Human Condition
+  compat_tool: proton-stable
+  comment: Native version doesn't detect controllers
+
+- id: 312530
+  platform: steam
+  name: Duck Game
+  compat_tool: proton-stable
+  launch_options: -linux
+
+- id: 38480
+  platform: steam
+  name: Earthworm Jim
+  compat_tool: boxtron
+
+- id: 38490
+  platform: steam
+  name: Earthworm Jim 2
+  compat_tool: boxtron
+
+- id: 392110
+  platform: steam
+  name: Endless Space 2
+  compat_tool: Proton-6.21-GE-2
+
+- id: 38400
+  platform: steam
+  name: 'Fallout: A Post Nuclear Role Playing Game'
+  compat_tool: boxtron
+
+- id: 966330
+  platform: steam
+  name: Flower
+  compat_tool: proton-stable
+  compat_config: noesync,nofsync
+
+- id: 612570
+  platform: steam
+  name: Fort Triumph
+  steam_input: enabled
+  status: verified
+
+- id: 248310
+  platform: steam
+  name: Freedom Planet
+  status: playable
+  notes:
+    - Displays incorrect controller icons
+  patch_dir: Freedom Planet
+  patches:
+    - copy:
+        src: Freedom Planet/control_gamepad.cfg
+        dst: control_gamepad.cfg
+
+- id: 1311070
+  platform: steam
+  name: 'Greak: Memories of Azur'
+  compat_tool: Proton-6.21-GE-2
+
+- id: 960910
+  platform: steam
+  name: Heavy Rain
+  compat_tool: proton-stable
+  launch_options: WINEDLLOVERRIDES="xaudio2_7=native,builtin" %command%
+
+- id: 1048290
+  platform: steam
+  name: Heavy Rain Demo
+  compat_tool: proton-stable
+  launch_options: WINEDLLOVERRIDES="xaudio2_7=native,builtin" %command%
+
+- id: 368370
+  platform: steam
+  name: Her Story
+  compat_tool: GE-Proton7-9
+
+# native version doesn't work with DLC
+- id: 242110
+  platform: steam
+  name: 'Joe Danger 2: The Movie'
+  compat_tool: proton-stable
+
+- id: 699240
+  platform: steam
+  name: Keyboard Killers
+  compat_tool: GE-Proton7-9
+
+# Patch according to https://www.pcgamingwiki.com/wiki/Killer_Is_Dead#Issues_fixed
+- id: 261110
+  platform: steam
+  name: Killer is Dead - Nightmare Edition
+  compat_tool: proton-stable
+  patch_dir: KillerIsDead
+  patches:
+    - exec: mv KidGame/Config/KidEngine.ini KidGame/Config/KidEngine.ini.bak && sed '/\[XAudio2.XAudio2Device\]/{n;N;N;N;N;N;d}' KidGame/Config/KidEngine.ini.bak | sed '/\[XAudio2.XAudio2Device\]/'a'MaxChannels=64\nCommonAudioPoolSize=320\nMinCompressedDurationGame=0.3\nMinCompressedDurationEditor=500\nLowPassFilterResonance=0.9\nWorkAroundXDKRegression=FALSE' > KidGame/Config/KidEngine.ini
+
+- id: 213330
+  platform: steam
+  name: 'LEGO Batman 2: DC Super Heroes'
+  compat_tool: GE-Proton7-9
+
+- id: 640590
+  platform: steam
+  name: The LEGO NINJAGO Movie Video Game
+  compat_tool: proton-stable
+  launch_options: WINEDLLOVERRIDES="xaudio2_7=native,builtin" %command%
+
+- id: 214510
+  platform: steam
+  name: LEGO The Lord of the Rings
+  compat_tool: GE-Proton7-9
+
+- id: 1030840
+  platform: steam
+  name: 'Mafia: Definitive Edition'
+  compat_tool: proton-stable
+  launch_options: eval $( echo "%command%" | sed "s/2KLauncher\/LauncherPatcher.exe'.*/mafiadefinitiveedition.exe'/" )
+
+- id: 17410
+  platform: steam
+  name: Mirror's Edge
+  compat_tool: proton-stable
+  patch_dir: mirrors edge
+  patches:
+    - exec: echo "fc73cf63e54e9858a45e1786f5881ad9 17410_install.vdf" | md5sum --status -c && sed -i 122,143d 17410_install.vdf
+
+- id: 105000
+  platform: steam
+  name: A New Beginning - Final Cut
+  compat_tool: proton-stable
+  launch_options: IFS=:; for PROTON_PATH in ${STEAM_COMPAT_TOOL_PATHS}; do if [ -f "$PROTON_PATH/dist/bin/wine" ]; then WINEPREFIX=$STEAM_COMPAT_DATA_PATH/pfx $PROTON_PATH/dist/bin/wine "C:\windows\system32\reg.exe" ADD "HKLM\System\CurrentControlSet\Control\Session Manager\Environment" /v "SDL_AUDIODRIVER" /d "winmm" /f; break; fi; done; %command%
+
+- id: 219950
+  platform: steam
+  name: NiGHTS Into Dreams
+  compat_tool: proton-stable
+  compat_config: noesync,nofsync
+
+- id: 230820
+  platform: steam
+  name: The Night of the Rabbit
+  compat_tool: proton-stable
+  launch_options: IFS=:; for PROTON_PATH in ${STEAM_COMPAT_TOOL_PATHS}; do if [ -f "$PROTON_PATH/dist/bin/wine" ]; then WINEPREFIX=$STEAM_COMPAT_DATA_PATH/pfx $PROTON_PATH/dist/bin/wine "C:\windows\system32\reg.exe" ADD "HKLM\System\CurrentControlSet\Control\Session Manager\Environment" /v "SDL_AUDIODRIVER" /d "directsound" /f; break; fi; done; %command%
+
+- id: 681730
+  platform: steam
+  name: Nowhere Prophet
+  steam_input: enabled
+
+- id: 1178880
+  platform: steam
+  name: 'Panzer Dragoon: Remake'
+  compat_tool: Proton-6.21-GE-2
+
+# native version does not recognize controllers
+- id: 749800
+  platform: steam
+  name: PixelJunk Monsters Ultimate
+  compat_tool: proton-stable
+
+- id: 374040
+  platform: steam
+  name: Portal Knights
+  compat_tool: proton-stable
+  patch_dir: Portal Knights
+  patches:
+    - copy:
+        src: Portal Knights/portal_knights.cfg
+        dst: portal_knights.cfg
+
+- id: 971620
+  platform: steam
+  name: Puyo Puyo Champions
+  compat_tool: proton-stable
+  status: verified
+  launch_options: WINEDLLOVERRIDES="xaudio2_7=native,builtin" %command%
+
+- id: 1057560
+  platform: steam
+  name: Rebound Dodgeball Evolved
+  compat_tool: Proton-6.1-GE-2
+
+- id: 289070
+  platform: steam
+  name: Sid Meier's Civilization VI
+  launch_options: LD_PRELOAD=/usr/lib/libfreetype.so.6 %command%
+
+- id: 282210
+  platform: steam
+  name: Sid Meier's Starships
+  compat_tool: proton-stable
+  launch_options: eval $(echo "%command%" | sed "s/Starships64.exe/Starships.exe/")
+
+- id: 1018850
+  platform: steam
+  name: Smile For Me
+  compat_tool: Proton-6.1-GE-2
+
+- id: 238090
+  platform: steam
+  name: Sniper Elite 3
+  compat_tool: proton-stable
+  launch_options: PROTON_SET_GAME_DRIVE=1 %command%
+
+- id: 637100
+  platform: steam
+  name: Sonic Forces
+  compat_tool: proton-stable
+  compat_config: noesync,nofsync
+
+- id: 71340
+  platform: steam
+  name: Sonic Generations
+  compat_tool: proton-stable
+  compat_config: noesync,nofsync
+
+- id: 32400
+  platform: steam
+  name: 'STAR WARS: Dark Forces'
+  compat_tool: boxtron
+
+- id: 410700
+  platform: steam
+  name: 'System Shock: Classic'
+  compat_tool: boxtron
+
+- id: 1003590
+  platform: steam
+  name: 'Tetris Effect: Connected'
+  compat_tool: Proton-6.18-GE-2
+
+- id: 1003090
+  platform: steam
+  name: Through the Darkest of Times
+  compat_tool: Proton-6.1-GE-2
+
+# older Proton version required to avoid stuttering
+- id: 8140
+  platform: steam
+  name: 'Tomb Raider: Underworld'
+  compat_tool: proton_42
+  comment: Requires interaction with DirectX installer and configuration launcher
+
+- id: 224960
+  platform: steam
+  name: Tomb Raider I
+  compat_tool: boxtron
+
+- id: 225300
+  platform: steam
+  name: Tomb Raider II
+  compat_tool: Proton-6.1-GE-2
+
+- id: 225320
+  platform: steam
+  name: Tomb Raider III
+  compat_tool: Proton-6.1-GE-2
+
+- id: 225020
+  platform: steam
+  name: 'Tomb_Raider VI: The Angel of Darkness'
+  compat_tool: Proton-6.1-GE-2
+
+- id: 499520
+  platform: steam
+  name: The Turing Test
+  compat_tool: proton-stable
+  patch_dir: The Turing Test
+  patches:
+    - exec: echo "459610a64e715fda06fc3caaa1bcb266 installer.vdf" | md5sum --status -c && sed -i 1,26d installer.vdf
+
+- id: 294860
+  platform: steam
+  name: Valkyria Chronicles
+  compat_tool: proton-stable
+  compat_config: noesync
+
+- id: 607050
+  platform: steam
+  name: Wargroove
+  compat_tool: proton-stable
+  launch_options: '--skip-intro'
+
+# native version doesn't have cross-platform multiplayer
+- id: 22600
+  platform: steam
+  name: Worms Reloaded
+  compat_tool: proton-stable
+
+- id: 327030
+  platform: steam
+  name: Worms W.M.D
+  launch_options: LD_LIBRARY_PATH= %command%
+
+- id: 7760
+  platform: steam
+  name: 'X-COM: UFO Defense'
+  compat_tool: boxtron
+
+- id: 360830
+  platform: steam
+  name: Yooka-Laylee
+  steam_input: enabled
