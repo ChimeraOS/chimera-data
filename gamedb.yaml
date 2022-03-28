@@ -61,7 +61,6 @@
   id: 63710
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/bc61fae6a5150b4280424a14f747464a.png
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/ef0eff6088e2ed94f6caf720239f40d5.png
-  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/a3147b88259a8e5745ebd59394aee83e.png
   compat_tool: proton-stable
   patch_dir: BIT.TRIP RUNNER
   patches:
@@ -2406,7 +2405,6 @@
   id: 12750
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/51b2a44f5d5b92e8bd92343c104cc2ca.jpg
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/6467c327eaf8940b4dd07a08c63c5e85.png
-  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/0192adec1a16b0565dc3f70b5d235a40.png
   status: verified
   compat_tool: proton-stable
   patch_dir: Grid
