@@ -395,6 +395,11 @@
   notes:
     - No controller support
 
+- name: Mini Ninjas
+  platform: steam
+  id: 35000
+  status: verified
+
 - name: Moonlight
   platform: flathub
   id: com.moonlight_stream.Moonlight
