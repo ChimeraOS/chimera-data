@@ -355,7 +355,7 @@
   banner: steam:213330
   status: playable
   notes:
-    - Displays a Windows dialog during initial setup
+    - Displays a Windows dialog during first time setup
   
 - name: 'LEGO Batman 3: Beyond Gotham'
   platform: epic-store
@@ -724,7 +724,7 @@
   status: playable
   notes:
     - Displays keyboard icons
-    - Displays a Windows dialog during initial setup
+    - Displays a Windows dialog during first time setup
 
 - name: Relicta
   platform: steam
@@ -2450,11 +2450,11 @@
   name: 'Batman: Arkham Asylum Game of the Year Edition'
   compat_tool: GE-Proton7-9
 
+# native version doesn't detect controllers
 - id: 556130
   platform: steam
   name: Drones, The Human Condition
   compat_tool: proton-stable
-  comment: Native version doesn't detect controllers
 
 - id: 312530
   platform: steam
@@ -2693,7 +2693,9 @@
   platform: steam
   name: 'Tomb Raider: Underworld'
   compat_tool: proton_42
-  comment: Requires interaction with DirectX installer and configuration launcher
+  notes:
+    - Requires installer interaction during first time setup
+    - Uses a launcher
 
 - id: 224960
   platform: steam
