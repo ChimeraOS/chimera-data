@@ -398,6 +398,7 @@
 - name: Mini Ninjas
   platform: steam
   id: 35000
+  store: humble:mini-ninjas
   status: verified
 
 - name: Moonlight
