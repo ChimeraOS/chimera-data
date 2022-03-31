@@ -54,7 +54,7 @@
 - name: Among Us
   platform: epic-store
   id: 963137e4c29d4c79a81323b8fab03a40
-  poster: steam:945360
+  banner: steam:945360
   status: unsupported  
 
 - name: Armagetron Advanced
@@ -782,6 +782,12 @@
   platform: epic-store
   id: Escolar
   banner: steam:508740
+  status: verified
+
+- name: Where the Water Tastes Like Wine
+  platform: epic-store
+  id: e8964b869b6849bea41eefec766cd665
+  banner: steam:447120
   status: verified
 
 - name: Windbound
