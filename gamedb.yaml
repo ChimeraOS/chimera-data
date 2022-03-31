@@ -420,7 +420,9 @@
   platform: epic-store
   id: Goldeneye
   banner: steam:21000
-  status: verified
+  status: playable
+  notes:
+    - Displays a Windows dialog during first time setup
   
 - name: 'LEGO Batman 2: DC Super Heroes'
   platform: epic-store
@@ -434,7 +436,7 @@
   platform: epic-store
   id: Gull 
   banner: steam:313690
-  status: playable
+  status: verified
 
 - name: 'Lifeless Planet: Premier Edition'
   platform: epic-store
