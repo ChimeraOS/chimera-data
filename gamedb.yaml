@@ -79,7 +79,7 @@
   banner: steam:261640
   launch_options: -nolauncher  
   status: verified
-  
+
 - name: 'Brigador: Up-Armored Edition'
   platform: gog
   id: 1356485086
@@ -113,6 +113,11 @@
   id: 1278463559
   banner: steam:1812280
   status: verified
+
+- name: Centipede Recharged
+  platform: epic-store
+  id: 8727e9d0693542bda60769dc2ce33c20
+  banner: steam:1630960
 
 - name: Chasm
   platform: gog
@@ -196,6 +201,18 @@
   banner: steam:612390
   status: verified
 
+- name: Deponia The Complete Journey
+  platform: epic-store
+  id: 03b7b25a77024cc0adf44777f791ffc4
+  banner: steam:214340
+  status: unsupported
+
+- name: Drawful 2
+  platform: epic-store
+  id: Daisy
+  banner: steam:442070
+  status: unsupported
+
 - name: 'The Dark Eye: Memoria'
   platform: steam
   id: 243200
@@ -275,11 +292,29 @@
   banner: steam:290510
   status: verified
 
+- name: Gods Will Fall
+  platform: epic-store
+  id: 69911638c74449d2a2651241be1b3ad4
+  banner: steam:1243690
+  status: unsupported
+
+- name: Gone Home
+  platform: epic-store
+  id: Flier
+  banner: steam:232430
+  status: unsupported
+
 - name: GoNNER
   platform: epic-store
   id: Emperor
   banner: steam:437570
   status: verified
+
+- name: Guild of Dungeoneering
+  platform: epic-store
+  id: b8bdc716e79e461bbf161d99f842f29a
+  banner: steam:317820
+  status: unsupported
 
 - name: Hand of Fate 2
   platform: epic-store
@@ -305,11 +340,29 @@
   banner: steam:595790
   status: verified
 
+- name: Hob
+  platform: epic-store
+  id: Lyrebird
+  banner: steam:404680
+  status: unsupported
+
+- name: Horace
+  platform: epic-store
+  id: Palila
+  banner: steam:629090
+  status: unsupported
+
 - name: Horizon Chase Turbo
   platform: epic-store
   id: bb406082b69a47208489d3616b22b5c2
   banner: steam:389140
   status: verified
+
+- name: In Sound Mind
+  platform: epic-store
+  id: 29ee5d32f328471590b3bd3ac03ed7d0
+  banner: steam:1119980
+  status: unsupported
 
 - name: INSIDE
   platform: epic-store
@@ -377,6 +430,18 @@
   banner: steam:313690
   status: playable
 
+- name: 'Lifeless Planet: Premier Edition'
+  platform: epic-store
+  id: 860a4feefe2a4f48905ae86c61d5db64
+  banner: steam:261530
+  status: unsupported
+
+- name: Loop Hero
+  platform: epic-store
+  id: f7a0ebb44f93430fb1c4388a395eba96
+  banner: steam:1282730
+  status: unsupported  
+
 - name: Magic The Gathering Arena
   platform: epic-store
   id: stargazer
@@ -387,10 +452,22 @@
   id: Petunia
   banner: steam:286690
 
+- name: Metro 2033 Redux
+  platform: gog
+  id: 1436434037
+  banner: steam:286690
+  status: unsupported  
+
 - name: 'Metro: Last Light Redux'
   platform: epic-store
   id: Speedwell
   banner: steam:287390
+
+- name: 'Metro: Last Light Redux'
+  platform: gog
+  id: 1430740172
+  banner: steam:287390
+  status: unsupported 
 
 - name: Minecraft
   platform: flathub
@@ -446,6 +523,12 @@
   banner: steam:675010
   status: unsupported
 
+- name: Night in the Woods
+  platform: epic-store
+  id: cd1b8a6e5b6c47369e2a1e2cf7b7f536
+  banner: steam:481510
+  status: unsupported
+
 - name: Overcooked
   platform: epic-store
   id: Sage
@@ -498,6 +581,12 @@
   id: Sugar
   banner: steam:252950
   status: verified
+
+- name: SAMURAI SHODOWN NEOGEO COLLECTION
+  platform: epic-store
+  id: 75553c71fa1744a4be89f71d5b862eae
+  banner: steam:999660
+  status: unsupported  
 
 - name: Shattered Pixel Dungeon
   platform: flathub
@@ -623,6 +712,12 @@
   banner: steam:290690
   status: verified
 
+- name: Tormentor X Punisher
+  platform: epic-store
+  id: Goby
+  banner: steam:500670
+  status: unsupported
+
 - name: SYMMETRY
   platform: gog
   id: 1440133968
@@ -651,6 +746,12 @@
   id: at.vintagestory.VintageStory
   banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/60f4bacddeef710675c768a57768844c.png
   status: playable
+
+- name: Void Bastards
+  platform: epic-store
+  id: 595e35287b824902a2f7107139603732
+  banner: steam:857980
+  status: unsupported
 
 - name: Watch Dogs 2
   platform: epic-store
