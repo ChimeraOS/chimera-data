@@ -51,6 +51,12 @@
   banner: steam:214490
   status: verified
 
+- name: Among Us
+  platform: epic-store
+  id: 963137e4c29d4c79a81323b8fab03a40
+  poster: steam:945360
+  status: unsupported  
+
 - name: Armagetron Advanced
   platform: flathub
   id: org.armagetronad.ArmagetronAdvanced
