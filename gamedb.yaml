@@ -130,6 +130,7 @@
   platform: epic-store
   id: 8727e9d0693542bda60769dc2ce33c20
   banner: steam:1630960
+  status: unsupported
 
 - name: Chasm
   platform: gog
@@ -251,6 +252,12 @@
   platform: epic-store
   id: Peony
   banner: steam:298630
+
+- name: The Escapists 2
+  platform: epic-store
+  id: Fowl
+  banner: steam:641990
+  status: verified
 
 - name: Farming Simulator 19
   platform: epic-store
