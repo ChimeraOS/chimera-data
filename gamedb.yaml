@@ -240,6 +240,12 @@
   id: Peony
   banner: steam:298630
 
+- name: Farming Simulator 19
+  platform: epic-store
+  id: Stellula
+  banner: steam:787860
+  status: verified
+
 - name: Faster Than Light
   platform: epic-store
   id: Blowfish
