@@ -591,6 +591,12 @@
   banner: steam:480490
   status: verified
 
+- name: Rayman Legends
+  platform: epic-store
+  id: Anchovy
+  banner: steam:242550
+  status: unsupported
+
 - name: Rebel Galaxy
   platform: epic-store
   id: Weaver
@@ -656,6 +662,12 @@
   id: org.srb2.SRB2Kart
   banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/4703af37c2925cf2191b72dcb5f7f286.png
   status: playable
+
+- name: Speed Brawl
+  platform: epic-store
+  id: 6ffe878bb1ce490ba6d3a359a1f88df2
+  banner: steam:468670
+  status: verified
 
 - name: Spotify
   platform: flathub
