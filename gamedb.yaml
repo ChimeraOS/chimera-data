@@ -45,6 +45,12 @@
   id: 331870
   launch_options: '%command% -screen-fullscreen 0'
 
+- name: 'Alien: Isolation'
+  platform: epic-store
+  id: 8935bb3e1420443a9789fe01758039a5
+  banner: steam:214490
+  status: verified
+
 - name: Armagetron Advanced
   platform: flathub
   id: org.armagetronad.ArmagetronAdvanced
