@@ -66,6 +66,20 @@
   patches:
     - exec: rm -f installscript.vdf
 
+- name: Borderlands 2
+  platform: epic-store
+  id: Dodo
+  banner: steam:49520
+  launch_options: -nolauncher  
+  status: verified
+
+- name: 'Borderlands: The Pre-Sequel'
+  platform: epic-store
+  id: Turkey
+  banner: steam:261640
+  launch_options: -nolauncher  
+  status: verified
+  
 - name: 'Brigador: Up-Armored Edition'
   platform: gog
   id: 1356485086
