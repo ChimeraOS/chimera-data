@@ -741,6 +741,14 @@
   banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/be4d7403582645fe41d3921ac8ce530d.png 
   status: verified
 
+- name: The Textorcist
+  platform: epic-store
+  id: 50d8518151d0498b83ff5d18a7bdb68b
+  banner: steam:940680 
+  status: playable
+  notes:
+    - No controller support
+
 - name: The Wolf Among Us
   platform: epic-store
   id: Cobbler
