@@ -279,6 +279,15 @@
   banner: steam:224760
   status: verified
 
+- name: Figment
+  platform: epic-store
+  id: ed5e8d42b2ac461eb6f9176d163b9515
+  banner: steam:493540
+  compat_tool: Proton-6.21-GE-2
+  status: playable
+  notes:
+    - Uses a launcher
+
 - name: Firefox
   platform: flathub
   id: org.mozilla.firefox
