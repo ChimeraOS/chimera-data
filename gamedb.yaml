@@ -217,7 +217,7 @@
 - name: Deponia The Complete Journey
   platform: epic-store
   id: 03b7b25a77024cc0adf44777f791ffc4
-  banner: steam:214340
+  banner: steam:292910
   status: unsupported
 
 - name: Drawful 2
@@ -347,7 +347,8 @@
 - name: Guild of Dungeoneering
   platform: epic-store
   id: b8bdc716e79e461bbf161d99f842f29a
-  banner: steam:317820
+  banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/9f14624f63ae50ba15788ea4593212d4.jpg
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/c1d124b6de65138005096879ceb69ae2.png
   status: unsupported
 
 - name: Hand of Fate 2
