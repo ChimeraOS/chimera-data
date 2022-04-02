@@ -827,6 +827,14 @@
   banner: steam:447120
   status: verified
 
+- name: 'while True: learn()'
+  platform: epic-store
+  id: 4f272a49a39742b795d63e1f483a7c7d
+  banner: steam:619150
+  status: playable
+  notes:
+    - No controller support
+
 - name: Windbound
   platform: epic-store
   id: a95bf4df6627431ca5baff8173c59635
