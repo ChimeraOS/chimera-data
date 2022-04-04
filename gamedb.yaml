@@ -259,6 +259,12 @@
   banner: steam:641990
   status: verified
 
+# proton versons after 5.13 cause massive graphical artifacts
+- name: Fable Anniversary
+  platform: steam
+  id: 288470  
+  compat_tool: proton_513
+  
 - name: Farming Simulator 19
   platform: epic-store
   id: Stellula
