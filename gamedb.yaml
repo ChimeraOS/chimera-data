@@ -1,9 +1,3 @@
-- id: 0
-  platform: steam
-  name: Steam Play for all other titles
-  compat_tool: proton-stable
-  priority: 70
-
 - name: '2064: Read Only Memories'
   platform: epic-store
   id: f4e0c1dff48749fa9145c1585699e276
