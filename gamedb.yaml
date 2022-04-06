@@ -303,6 +303,16 @@
   banner: steam:555150
   status: verified
 
+- name: Flight Control HD
+  platform: steam
+  id: 62000
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/ec169a34f974ccb7e834fbfc88d61ff3.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/d04863f100d59b3eb688a11f95b0ae60.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/e992111e4ab9985366e806733383bd8c.png
+  status: playable
+  notes:
+    - Requires a mouse or touchscreen
+
 - name: Fortnite
   platform: epic-store
   id: Fortnite
@@ -2627,6 +2637,9 @@
 - name: DiRT 3 Complete Edition
   platform: steam
   id: 321040
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/19b837f06cf349de37a3df0f699ba9e8.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/9a7c22ed48340ab6cd2a273912d51767.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/d47844673f2db74d78da8687d794523d.png
   status: verified
   compat_tool: proton-stable
   compat_config: noesync,nofsync
