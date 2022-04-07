@@ -138,6 +138,11 @@
   banner: /images/flathub/re.chiaki.Chiaki
   status: playable
 
+- name: Chicken Police
+  platform: steam
+  id: 1084640
+  compat_tool: Proton-6.21-GE-2
+
 - name: Chromium
   platform: flathub
   id: org.chromium.Chromium
