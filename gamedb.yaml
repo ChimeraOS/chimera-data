@@ -57,6 +57,24 @@
   banner: steam:214490
   status: verified
 
+- name: 'Amnesia: The Dark Descent'
+  platform: epic-store
+  id: ece4c58603d04bcb97454be9a7492fa6
+  banner: steam:57300
+  status: playable
+  notes:
+    - Uses a launcher
+    - No controller support
+
+- name: 'Amnesia: A Machine for Pigs'
+  platform: epic-store
+  id: d7db33dfe7634d6b8a188c708f2caa3c
+  banner: steam:239200
+  status: playable
+  notes:
+    - Uses a launcher
+    - No controller support
+
 - name: Among Us
   platform: epic-store
   id: 963137e4c29d4c79a81323b8fab03a40
@@ -102,7 +120,7 @@
   patches:
     - exec: rm -f installscript.vdf
 
-- name: Black Widow: Recharged
+- name: 'Black Widow: Recharged'
   platform: epic-store
   id: a21fd90517bf428eb7c995a8c3261722
   banner: steam:1714180
