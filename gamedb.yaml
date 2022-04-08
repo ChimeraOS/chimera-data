@@ -683,6 +683,12 @@
   status: verified
   compat_tool: GE-Proton7-9
 
+- name: Rogue Legacy
+  platform: epic-store
+  id: 01f1e8046e9e433db190a611a0411579
+  banner: steam:241600
+  status: unsupported
+
 - name: Rocket League
   platform: epic-store
   id: Sugar
