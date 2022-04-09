@@ -2665,6 +2665,9 @@
 - name: Mortal Kombat Komplete Edition
   platform: steam
   id: 237110
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/c9c9f8e41433ff4ad15aa577a465e599.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/19e733acd3ee9f9362a484e5915c132b.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/013d407166ec4fa56eb1e1f8cbe183b9.png
   status: verified
 
 - name: GRID (2008)
