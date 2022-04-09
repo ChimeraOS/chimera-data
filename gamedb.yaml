@@ -9,6 +9,12 @@
   banner: steam:322110
   status: unsupported
 
+- name: A Short Hike
+  platform: epic-store
+  id: d6407c9e6fd54cb492b8c6635480d792
+  banner: steam:1055540
+  status: verified
+
 - name: Absolute Drift
   platform: epic-store
   id: 19927295d6e3467887d4e830d8c85963
@@ -39,11 +45,35 @@
   id: 331870
   launch_options: '%command% -screen-fullscreen 0'
 
+- name: Alan Wake
+  platform: epic-store
+  id: Heron
+  banner: steam:108710
+  status: unsupported
+
 - name: 'Alien: Isolation'
   platform: epic-store
   id: 8935bb3e1420443a9789fe01758039a5
   banner: steam:214490
   status: verified
+
+- name: 'Amnesia: The Dark Descent'
+  platform: epic-store
+  id: ece4c58603d04bcb97454be9a7492fa6
+  banner: steam:57300
+  status: playable
+  notes:
+    - Uses a launcher
+    - No controller support
+
+- name: 'Amnesia: A Machine for Pigs'
+  platform: epic-store
+  id: d7db33dfe7634d6b8a188c708f2caa3c
+  banner: steam:239200
+  status: playable
+  notes:
+    - Uses a launcher
+    - No controller support
 
 - name: Among Us
   platform: epic-store
@@ -51,11 +81,29 @@
   banner: steam:945360
   status: unsupported  
 
+- name: 'Anodyne 2: Return to Dust'
+  platform: epic-store
+  id: Tanzanite
+  banner: steam:877810
+  status: verified
+
+- name: APE OUT
+  platform: epic-store
+  id: Coley
+  banner: steam:447150
+  status: verified
+
 - name: Armagetron Advanced
   platform: flathub
   id: org.armagetronad.ArmagetronAdvanced
   banner: /images/flathub/org.armagetronad.ArmagetronAdvanced
   status: playable
+
+- name: 'Bad North: Jotunn Edition'
+  platform: epic-store
+  id: Chives
+  banner: steam:688420
+  status: verified
 
 - name: BIT.TRIP BEAT
   platform: steam
@@ -71,6 +119,12 @@
   patch_dir: BIT.TRIP RUNNER
   patches:
     - exec: rm -f installscript.vdf
+
+- name: 'Black Widow: Recharged'
+  platform: epic-store
+  id: a21fd90517bf428eb7c995a8c3261722
+  banner: steam:1714180
+  status: unsupported
 
 - name: Borderlands 2
   platform: epic-store
@@ -628,6 +682,12 @@
   banner: steam:941570
   status: verified
   compat_tool: GE-Proton7-9
+
+- name: Rogue Legacy
+  platform: epic-store
+  id: 01f1e8046e9e433db190a611a0411579
+  banner: steam:241600
+  status: unsupported
 
 - name: Rocket League
   platform: epic-store
