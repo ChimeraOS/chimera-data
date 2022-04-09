@@ -481,6 +481,13 @@
   banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/a7282c84a4c2109c3697b6aca8b86aba.png
   status: playable
 
+- name: Jamestown
+  platform: steam
+  id: 94200
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/2719f59c3f9f0eca9a49ecc2c4023e3d.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/fec52d41a265530aedd9cb7794e32ed9.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/9a96876e2f8f3dc4f3cf45f02c61c0c1.png
+
 - name: Jotun Valhalla Edition
   platform: epic-store
   id: Grouse
@@ -2439,6 +2446,9 @@
 - name: Hyper Light Drifter
   platform: steam
   id: 257850
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/0c8983a6682002961dfb4a003a866d84.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/ca9c267dad0305d1a6308d2a0cf1c39c.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/f6d9e459b9fbf6dd26c4f7d621adec1d.png
   status: verified
   store: humble:hyper-light-drifter
 
