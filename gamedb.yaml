@@ -549,6 +549,7 @@
   banner: steam:261530
   status: unsupported
 
+# Controller works only with Steam Input enabled
 - name: The Long Dark
   platform: steam
   id: 305620
