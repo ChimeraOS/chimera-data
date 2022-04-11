@@ -219,6 +219,12 @@
   banner: steam:275180
   status: verified
 
+- name: Crashlands
+  platform: epic-store
+  id: afdf59e3dc8f40ec8fd887b5d3fcef23
+  banner: steam:391730
+  status: unsupported
+
 - name: Cris Tales
   platform: epic-store
   id: e7d92786abe54fae9319c1ddb94ae271
@@ -261,6 +267,20 @@
   id: c35b9699c4e24c56976b5bd8eceba464
   banner: steam:612390
   status: verified
+
+- name: Darkest Dungeon
+  platform: epic-store
+  id: 36cbf259e631478eaac6ea244e55a709
+  banner: steam:262060
+  status: playable
+  notes:
+    - No controller support
+
+- name: DEMON'S TILT
+  platform: epic-store
+  id: b8b37813c5634dbdac61d88ff411135c
+  banner: steam:422510
+  status: unsupported
 
 - name: Deponia The Complete Journey
   platform: epic-store
@@ -313,6 +333,14 @@
   id: 288470  
   compat_tool: proton_513
   
+- name: Faeria
+  platform: epic-store
+  id: Vulture
+  banner: steam:397060
+  status: playable
+  notes:
+    - No controller support
+
 - name: Farming Simulator 19
   platform: epic-store
   id: Stellula
@@ -457,6 +485,12 @@
   banner: steam:389140
   status: verified
 
+- name: Hyper Light Drifter
+  platform: epic-store
+  id: Parakeet
+  banner: steam:257850
+  status: unsupported
+
 - name: In Sound Mind
   platform: epic-store
   id: 29ee5d32f328471590b3bd3ac03ed7d0
@@ -599,6 +633,13 @@
   banner: /images/flathub/com.moonlight_stream.Moonlight
   status: playable
 
+- name: Mothergunship
+  platform: epic-store
+  id: ee5c6a659d0f478fba0049fa44429a1f
+  compat_tool: GE-Proton7-10
+  banner: steam:574090
+  status: verified
+
 - name: Moving Out
   platform: epic-store
   id: 8e29583ae4b44a21883038668f7e301e
@@ -624,11 +665,29 @@
   banner: steam:675010
   status: unsupported
 
+- name: Mutazione
+  platform: epic-store
+  id: 1fe19232c0f7476a8e99fd8752e800c2
+  banner: steam:1080750
+  status: verified
+
+- name: Never Alone (Kisima Ingitchuna)
+  platform: epic-store
+  id: f38de9fa4c6d43eabac080942cb394a1
+  banner: steam:295790
+  status: verified
+
 - name: Night in the Woods
   platform: epic-store
   id: cd1b8a6e5b6c47369e2a1e2cf7b7f536
   banner: steam:481510
   status: unsupported
+
+- name: Nuclear Throne
+  platform: epic-store
+  id: Turaco
+  banner: steam:242680
+  status: verified
 
 - name: Overcooked
   platform: epic-store
