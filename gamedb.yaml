@@ -100,6 +100,13 @@
   banner: steam:447150
   status: verified
 
+- name: Aritana and the Harpy's Feather
+  platform: steam
+  id: 314360
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/1960f728c26175c4b3ccfac49a2679cf.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/e6dbc8adead86fe2fcc18a8682c1ec7e.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/7b7324f8841c5f9a929c7c3a3cb60391.png
+
 - name: 'ARK: Survival Of The Fittest'
   platform: steam
   id: 407530
