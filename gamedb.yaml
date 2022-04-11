@@ -671,6 +671,39 @@
   banner: steam:1080750
   status: verified
 
+- name: 'NARUTO: Ultimate Ninja STORM'
+  platform: steam
+  id: 495140
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/913034dd0b1b8c3d5bcccbac38d13b9a.png
+
+- name: 'NARUTO SHIPPUDEN: Ultimate Ninja STORM 2'
+  platform: steam
+  id: 543870
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/2e65a677c21745f63cfd654e86ba4525.png
+
+- name: 'NARUTO SHIPPUDEN: Ultimate Ninja STORM 3 Full Burst HD'
+  platform: steam
+  id: 234670
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/f0b8024455e6c0cb3ab7495325afee5c.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/232efe14b864588c1d368b35b460e2d2.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/8860a4e27cbbe4c63821b429211684a3.png
+  notes:
+    - Uses a launcher
+
+- name: 'NARUTO SHIPPUDEN: Ultimate Ninja STORM 4'
+  platform: steam
+  id: 349040
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/5bab3d30b59cbfa316cc0f6d9f8e6ac7.png
+
+- name: 'NARUTO SHIPPUDEN: Ultimate Ninja STORM Revolution'
+  platform: steam
+  id: 272510
+  compat_tool: Proton-6.21-GE-2
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/791608b685d1c61fb2fe8acdc69dc6b5.jpg
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/c44799b04a1c72e3c8593a53e8000c78.png
+  notes:
+    - Uses a launcher
+
 - name: Never Alone (Kisima Ingitchuna)
   platform: epic-store
   id: f38de9fa4c6d43eabac080942cb394a1
