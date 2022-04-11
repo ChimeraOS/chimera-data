@@ -742,6 +742,13 @@
   banner: steam:728880
   status: verified
 
+- name: PAC-MAN CHAMPIONSHIP EDITION 2
+  platform: steam
+  id: 441380
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/db0c1011f0192e45d4cf718603d42784.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/6f5e4e86a87220e5d361ad82f1ebc335.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/254b6cccc84a3b7e5c696e67c9ef656e.png
+
 - name: Pathway
   platform: epic-store
   id: 8fceb562623c430db9bb6abf0549c43e
@@ -1065,7 +1072,7 @@
 - name: World of Goo
   platform: epic-store
   id: Anemone
-  banner: 22000
+  banner: steam:22000
   status: playable
   notes:
     - No controller support
