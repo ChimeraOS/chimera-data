@@ -765,6 +765,12 @@
   banner: steam:480490
   status: verified
 
+- name: Prison Architect
+  platform: epic-store
+  id: 668ffa8fce0847ef9f1c005995cee6df
+  banner: steam:233450
+  status: unsupported
+
 - name: Rayman Legends
   platform: epic-store
   id: Anchovy
@@ -806,6 +812,12 @@
   id: com.shatteredpixel.shatteredpixeldungeon
   banner: steam:1769170
   status: playable
+
+- name: Sludge Life
+  platform: epic-store
+  id: Morganite
+  banner: steam:1144770
+  status: verified
 
 - name: Solitairica
   platform: epic-store
@@ -906,11 +918,36 @@
   banner: /images/flathub/in.p1x.TanksOfFreedom
   status: playable
 
+- name: The Alto Collection
+  platform: epic-store
+  id: Hornbill
+  banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/763c4588edd1e9224afacb924a1ee160.png
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/99bec383f442456b15e91d19bfd8b379.png
+  status: unsupported
+
+- name: The Bridge
+  platform: epic-store
+  id: Sunbird
+  banner: steam:204240
+  status: verified
+
 - name: THE KING OF FIGHTERS 2002
   platform: gog
   id: 2114035213
   banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/be4d7403582645fe41d3921ac8ce530d.png 
   status: verified
+
+- name: The Fall
+  platform: epic-store
+  id: daac7fe46e3647cb80530411d7ec1dc5
+  banner: steam:290770
+  status: unsupported
+
+- name: The Lion's Song
+  platform: epic-store
+  id: ee41ac4954314d18b18b8e7789c4e4eb
+  banner: steam:437160
+  status: unsupported
 
 - name: The Textorcist
   platform: epic-store
@@ -944,6 +981,12 @@
   id: Goby
   banner: steam:500670
   status: unsupported
+
+- name: Towerfall Ascension
+  platform: epic-store
+  id: Bichir
+  banner: steam:251470
+  status: verified
 
 - name: SYMMETRY
   platform: gog
@@ -1005,6 +1048,12 @@
   notes:
     - No controller support
 
+- name: Wilmot's Warehouse
+  platform: epic-store
+  id: 9b40e3ffb4074f22a856a521be5ce858
+  banner: steam:839870
+  status: playable
+
 - name: Windbound
   platform: epic-store
   id: a95bf4df6627431ca5baff8173c59635
@@ -1012,6 +1061,14 @@
   status: playable
   notes:
     - Tutorial videos do not play # GE Proton does not fix this
+
+- name: World of Goo
+  platform: epic-store
+  id: Anemone
+  banner: 22000
+  status: playable
+  notes:
+    - No controller support
 
 - name: Xonotic
   platform: flathub
