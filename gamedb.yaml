@@ -722,6 +722,14 @@
   banner: steam:242680
   status: verified
 
+- name: One Piece Pirate Warriors 3
+  platform: steam
+  id: 331600
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/115f08592f4c2bb29013efbbc46608fc.jpg
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/3b48bc98ee641fb7f5af80d729ab8f76.jpg
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/d8ab1a52f058358b947cdf8261b5e1a2.png
+  status: verified
+
 - name: Overcooked
   platform: epic-store
   id: Sage
