@@ -276,7 +276,7 @@
   notes:
     - No controller support
 
-- name: 'DEMON'S TILT'
+- name: "DEMON'S TILT"
   platform: epic-store
   id: b8b37813c5634dbdac61d88ff411135c
   banner: steam:422510
@@ -1055,7 +1055,7 @@
   notes:
     - No controller support
 
-- name: 'Wilmot's Warehouse'
+- name: "Wilmot's Warehouse"
   platform: epic-store
   id: 9b40e3ffb4074f22a856a521be5ce858
   banner: steam:839870
