@@ -387,13 +387,6 @@
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/9a83eabfb7fa303a2d85dbc6f37483e5.png
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/dea184826614d3f4c608731389ed0c74.png
 
-- name: DiRT 3 Complete Edition
-  platform: steam
-  id: 321040
-  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/90796fb200ce1df9b83c21f1c1493715.png
-  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/f9b902fc3289af4dd08de5d1de54f68f.jpg
-  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/faa67cda86f6134f05275319f3e3251b.png
-
 - name: 'DOOM 3: Resurrection of Evil'
   platform: steam
   id: 9070
