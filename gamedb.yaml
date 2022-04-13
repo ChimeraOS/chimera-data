@@ -219,6 +219,12 @@
   banner: steam:275180
   status: verified
 
+- name: Crashlands
+  platform: epic-store
+  id: afdf59e3dc8f40ec8fd887b5d3fcef23
+  banner: steam:391730
+  status: unsupported
+
 - name: Cris Tales
   platform: epic-store
   id: e7d92786abe54fae9319c1ddb94ae271
@@ -261,6 +267,20 @@
   id: c35b9699c4e24c56976b5bd8eceba464
   banner: steam:612390
   status: verified
+
+- name: Darkest Dungeon
+  platform: epic-store
+  id: 36cbf259e631478eaac6ea244e55a709
+  banner: steam:262060
+  status: playable
+  notes:
+    - No controller support
+
+- name: "DEMON'S TILT"
+  platform: epic-store
+  id: b8b37813c5634dbdac61d88ff411135c
+  banner: steam:422510
+  status: unsupported
 
 - name: Deponia The Complete Journey
   platform: epic-store
@@ -313,6 +333,14 @@
   id: 288470  
   compat_tool: proton_513
   
+- name: Faeria
+  platform: epic-store
+  id: Vulture
+  banner: steam:397060
+  status: playable
+  notes:
+    - No controller support
+
 - name: Farming Simulator 19
   platform: epic-store
   id: Stellula
@@ -413,7 +441,7 @@
   id: b8bdc716e79e461bbf161d99f842f29a
   banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/9f14624f63ae50ba15788ea4593212d4.jpg
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/c1d124b6de65138005096879ceb69ae2.png
-  status: unsupported
+  status: verified
 
 - name: Hand of Fate 2
   platform: epic-store
@@ -456,6 +484,12 @@
   id: bb406082b69a47208489d3616b22b5c2
   banner: steam:389140
   status: verified
+
+- name: Hyper Light Drifter
+  platform: epic-store
+  id: Parakeet
+  banner: steam:257850
+  status: unsupported
 
 - name: In Sound Mind
   platform: epic-store
@@ -606,6 +640,13 @@
   banner: /images/flathub/com.moonlight_stream.Moonlight
   status: playable
 
+- name: Mothergunship
+  platform: epic-store
+  id: ee5c6a659d0f478fba0049fa44429a1f
+  compat_tool: GE-Proton7-10
+  banner: steam:574090
+  status: verified
+
 - name: Moving Out
   platform: epic-store
   id: 8e29583ae4b44a21883038668f7e301e
@@ -631,11 +672,70 @@
   banner: steam:675010
   status: unsupported
 
+- name: Mutazione
+  platform: epic-store
+  id: 1fe19232c0f7476a8e99fd8752e800c2
+  banner: steam:1080750
+  status: verified
+
+- name: 'NARUTO: Ultimate Ninja STORM'
+  platform: steam
+  id: 495140
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/913034dd0b1b8c3d5bcccbac38d13b9a.png
+
+- name: 'NARUTO SHIPPUDEN: Ultimate Ninja STORM 2'
+  platform: steam
+  id: 543870
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/2e65a677c21745f63cfd654e86ba4525.png
+
+- name: 'NARUTO SHIPPUDEN: Ultimate Ninja STORM 3 Full Burst HD'
+  platform: steam
+  id: 234670
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/f0b8024455e6c0cb3ab7495325afee5c.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/232efe14b864588c1d368b35b460e2d2.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/8860a4e27cbbe4c63821b429211684a3.png
+  notes:
+    - Uses a launcher
+
+- name: 'NARUTO SHIPPUDEN: Ultimate Ninja STORM 4'
+  platform: steam
+  id: 349040
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/5bab3d30b59cbfa316cc0f6d9f8e6ac7.png
+
+- name: 'NARUTO SHIPPUDEN: Ultimate Ninja STORM Revolution'
+  platform: steam
+  id: 272510
+  compat_tool: Proton-6.21-GE-2
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/791608b685d1c61fb2fe8acdc69dc6b5.jpg
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/c44799b04a1c72e3c8593a53e8000c78.png
+  notes:
+    - Uses a launcher
+
+- name: Never Alone (Kisima Ingitchuna)
+  platform: epic-store
+  id: f38de9fa4c6d43eabac080942cb394a1
+  banner: steam:295790
+  status: verified
+
 - name: Night in the Woods
   platform: epic-store
   id: cd1b8a6e5b6c47369e2a1e2cf7b7f536
   banner: steam:481510
   status: unsupported
+
+- name: Nuclear Throne
+  platform: epic-store
+  id: Turaco
+  banner: steam:242680
+  status: verified
+
+- name: One Piece Pirate Warriors 3
+  platform: steam
+  id: 331600
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/115f08592f4c2bb29013efbbc46608fc.jpg
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/3b48bc98ee641fb7f5af80d729ab8f76.jpg
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/d8ab1a52f058358b947cdf8261b5e1a2.png
+  status: verified
 
 - name: Overcooked
   platform: epic-store
@@ -648,6 +748,13 @@
   id: Potoo
   banner: steam:728880
   status: verified
+
+- name: PAC-MAN CHAMPIONSHIP EDITION 2
+  platform: steam
+  id: 441380
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/db0c1011f0192e45d4cf718603d42784.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/6f5e4e86a87220e5d361ad82f1ebc335.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/254b6cccc84a3b7e5c696e67c9ef656e.png
 
 - name: Pathway
   platform: epic-store
@@ -671,6 +778,12 @@
   id: 52d88e9a6df248da913c8e99f1e4c526
   banner: steam:480490
   status: verified
+
+- name: Prison Architect
+  platform: epic-store
+  id: 668ffa8fce0847ef9f1c005995cee6df
+  banner: steam:233450
+  status: unsupported
 
 - name: Rayman Legends
   platform: epic-store
@@ -713,6 +826,12 @@
   id: com.shatteredpixel.shatteredpixeldungeon
   banner: steam:1769170
   status: playable
+
+- name: Sludge Life
+  platform: epic-store
+  id: Morganite
+  banner: steam:1144770
+  status: verified
 
 - name: Solitairica
   platform: epic-store
@@ -818,11 +937,36 @@
   banner: /images/flathub/in.p1x.TanksOfFreedom
   status: playable
 
+- name: The Alto Collection
+  platform: epic-store
+  id: Hornbill
+  banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/763c4588edd1e9224afacb924a1ee160.png
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/99bec383f442456b15e91d19bfd8b379.png
+  status: unsupported
+
+- name: The Bridge
+  platform: epic-store
+  id: Sunbird
+  banner: steam:204240
+  status: verified
+
 - name: THE KING OF FIGHTERS 2002
   platform: gog
   id: 2114035213
   banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/be4d7403582645fe41d3921ac8ce530d.png 
   status: verified
+
+- name: The Fall
+  platform: epic-store
+  id: daac7fe46e3647cb80530411d7ec1dc5
+  banner: steam:290770
+  status: unsupported
+
+- name: The Lion's Song
+  platform: epic-store
+  id: ee41ac4954314d18b18b8e7789c4e4eb
+  banner: steam:437160
+  status: unsupported
 
 - name: The Textorcist
   platform: epic-store
@@ -856,6 +1000,12 @@
   id: Goby
   banner: steam:500670
   status: unsupported
+
+- name: Towerfall Ascension
+  platform: epic-store
+  id: Bichir
+  banner: steam:251470
+  status: verified
 
 - name: SYMMETRY
   platform: gog
@@ -917,6 +1067,12 @@
   notes:
     - No controller support
 
+- name: "Wilmot's Warehouse"
+  platform: epic-store
+  id: 9b40e3ffb4074f22a856a521be5ce858
+  banner: steam:839870
+  status: playable
+
 - name: Windbound
   platform: epic-store
   id: a95bf4df6627431ca5baff8173c59635
@@ -924,6 +1080,14 @@
   status: playable
   notes:
     - Tutorial videos do not play # GE Proton does not fix this
+
+- name: World of Goo
+  platform: epic-store
+  id: Anemone
+  banner: steam:22000
+  status: playable
+  notes:
+    - No controller support
 
 - name: Xonotic
   platform: flathub
