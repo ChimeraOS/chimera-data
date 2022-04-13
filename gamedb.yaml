@@ -1120,13 +1120,6 @@
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/d468450d5d4a188412141af1e50e20ee.png
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/36a1c366bf2be376685c6ae023e666fd.png
 
-- name: 'STAR WARS™: Dark Forces'
-  platform: steam
-  id: 32400
-  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/5d1633ade7aed302c261f97ee5a8bedd.png
-  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/42e7aaa88b48137a16a1acd04ed91125.jpg
-  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/847cc55b7032108eee6dd897f3bca8a5.png
-
 - name: 'STAR WARS™ Jedi Knight: Dark Forces II'
   platform: steam
   id: 32380
@@ -1233,13 +1226,6 @@
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/484862041befb1d3e8fada76b4f2e0d1.png
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/e327b1649d06bf74fceb4fe73f83bdba.jpg
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/767d01b4bac1a1e8824c9b9f7cc79a04.png
-
-- name: 'System Shock: Classic'
-  platform: steam
-  id: 410700
-  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/79241931403f948d94ea4ea5168f3b12.png
-  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/7d8d39116004c0df3b4a9e2e421dd2a2.jpg
-  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/c52f1bd66cc19d05628bd8bf27af3ad6.png
 
 - name: Tacoma
   platform: epic-store
@@ -3454,11 +3440,17 @@
   platform: steam
   name: 'STAR WARS: Dark Forces'
   compat_tool: boxtron
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/5d1633ade7aed302c261f97ee5a8bedd.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/42e7aaa88b48137a16a1acd04ed91125.jpg
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/847cc55b7032108eee6dd897f3bca8a5.png
 
 - id: 410700
   platform: steam
   name: 'System Shock: Classic'
   compat_tool: boxtron
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/79241931403f948d94ea4ea5168f3b12.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/7d8d39116004c0df3b4a9e2e421dd2a2.jpg
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/c52f1bd66cc19d05628bd8bf27af3ad6.png
 
 - id: 1003590
   platform: steam
