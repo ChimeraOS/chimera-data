@@ -1139,20 +1139,20 @@
   status: playable
 
 # needs background
-- name: 'Sid Meier's Civilization IV'
+- name: "Sid Meier's Civilization IV"
   platform: steam
   id: 3900
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/be925cdb6f03c1b58212df4c2831aedd.png
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/8e7448cf2a83ce427ec7087739e915b7.png
 
 # needs background
-- name: 'Sid Meier's Civilization IV: Beyond the Sword'
+- name: "Sid Meier's Civilization IV: Beyond the Sword"
   platform: steam
-  id: 3900
+  id: 8800
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/4f0707d3501c6ff1532c927f43685768.png
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/30f78b78eb6b8d7de98bbf938311962b.png
 
-- name: 'Sid Meier's Covert Action (Classic)'
+- name: Sid Meier's Covert Action (Classic)
   platform: steam
   id: 327390
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/6e4fd1f8d7082b92ba9842ab88aab57e.jpg
@@ -1430,14 +1430,14 @@
   banner: steam:290690
   status: verified
 
-- name: 'Tom Clancy's Rainbow Six: Vegas'
+- name: "Tom Clancy's Rainbow Six: Vegas"
   platform: steam
   id: 13540
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/1087e958e1f1eb9ef2cd21cb270bb30b.png
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/1be3bc32e6564055d5ca3e5a354acbef.png
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/0dd95a7728742f77d0bcd4a5988b0daa.png
 
-- name: 'Tom Clancy's Rainbow Six: Vegas 2'
+- name: "Tom Clancy's Rainbow Six: Vegas 2"
   platform: steam
   id: 15120
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/1bebc4f67cbeda086e5ac2d8d0eea72f.png
@@ -1450,7 +1450,7 @@
   banner: steam:500670
   status: unsupported
 
-- name: Toy Odyssey: The Lost and Found
+- name: "Toy Odyssey: The Lost and Found"
   platform: steam
   id: 392410
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/c937a83c368471c796797f022e275555.png
