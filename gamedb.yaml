@@ -164,6 +164,15 @@
   id: 63700
   compat_tool: GE-Proton7-9
 
+# native version has controller issues
+- name: 'BIT.TRIP Presents... Runner2: Future Legend of Rhythm Alien'
+  platform: steam
+  id: 218060
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/7b54cb6c7740203b722d395215ed5ba2.png
+  status: verified
+  store: humble:bittrip-presents-runner2-future-legend-of-rhythm-alien
+  compat_tool: proton-stable
+
 - name: BIT.TRIP RUNNER
   platform: steam
   id: 63710
@@ -1045,6 +1054,12 @@
   banner: steam:728880
   status: verified
 
+- name: PAC-MAN 256
+  platform: steam
+  id: 455400
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/115627429ce0a6b0c876779fc835f1e1.png
+  status: verified
+
 - name: Painters Guild
   platform: steam
   id: 384550
@@ -1122,6 +1137,12 @@
   banner: steam:242550
   status: unsupported
 
+- name: Rayman Origins
+  platform: steam
+  id: 207490
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/cb1a716a70ad58a2f02792dcc8db2039.png
+  status: verified
+
 - name: Rebel Galaxy
   platform: epic-store
   id: Weaver
@@ -1152,6 +1173,15 @@
   id: Sugar
   banner: steam:252950
   status: verified
+
+- name: Runner3
+  platform: steam
+  id: 516130
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/46cbec5dc4417a29773d07f28919ac11.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/0fb94b5238b785967da7765e33a7d8aa.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/fc322c6bd467dc6e4a70ece4ce0245f8.png
+  status: verified
+  store: humble:runner3
 
 - name: SAMURAI SHODOWN NEOGEO COLLECTION
   platform: epic-store
@@ -2248,11 +2278,6 @@
   status: verified
   store: humble:blackhole
 
-- name: Rayman Origins
-  platform: steam
-  id: 207490
-  status: verified
-
 # native version has poor controller support
 - name: 'The Coma 2: Vicious Sisters'
   platform: steam
@@ -2462,12 +2487,6 @@
   platform: steam
   id: 421020
   status: verified
-
-- name: Runner3
-  platform: steam
-  id: 516130
-  status: verified
-  store: humble:runner3
 
 # native version has poor controller support
 - name: Micro Machines World Series
@@ -3071,14 +3090,6 @@
   status: verified
   compat_tool: proton-stable
 
-# native version has controller issues
-- name: 'BIT.TRIP Presents... Runner2: Future Legend of Rhythm Alien'
-  platform: steam
-  id: 218060
-  status: verified
-  store: humble:bittrip-presents-runner2-future-legend-of-rhythm-alien
-  compat_tool: proton-stable
-
 - name: Sonic Mania
   platform: steam
   id: 584400
@@ -3113,11 +3124,6 @@
   id: 207140
   status: verified
   store: humble:speedrunners
-
-- name: PAC-MAN 256
-  platform: steam
-  id: 455400
-  status: verified
 
 - name: Hyper Light Drifter
   platform: steam
