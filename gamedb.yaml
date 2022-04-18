@@ -422,7 +422,7 @@
 - name: DiRT Showdown
   platform: steam
   id: 201700
-  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/b068a05e6150657fae301cefcbc9bec0.png
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/4328ad1978e9bcb7b297600e3019a5a6.png
   steam_input: enabled
 
 - name: 'DOOM 3: Resurrection of Evil'
