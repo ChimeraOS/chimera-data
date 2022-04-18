@@ -94,6 +94,11 @@
   banner: steam:877810
   status: verified
 
+- name: Another World
+  platform: steam
+  id: 233550
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/fd17be0e14bb74f125868e331a111448.png
+
 - name: APE OUT
   platform: epic-store
   id: Coley
@@ -209,6 +214,13 @@
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/d0a3473e3d1e0b3758a82a9dab5327d0.png
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/05e41bc57a80ca4bbef3c523cc0d40d9.png
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/2f601bfe0cde0094470c1add322af541.png
+
+- name: Braid
+  platform: steam
+  id: 26800
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/b068a05e6150657fae301cefcbc9bec0.png
+  status: verified
+  store: humble:braid
 
 - name: 'Brigador: Up-Armored Edition'
   platform: gog
@@ -407,6 +419,12 @@
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/9a83eabfb7fa303a2d85dbc6f37483e5.png
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/dea184826614d3f4c608731389ed0c74.png
 
+- name: DiRT Showdown
+  platform: steam
+  id: 201700
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/b068a05e6150657fae301cefcbc9bec0.png
+  steam_input: enabled
+
 - name: 'DOOM 3: Resurrection of Evil'
   platform: steam
   id: 9070
@@ -431,16 +449,25 @@
   id: ee96375fac2f47de978170a24398e581
   banner: steam:433550
 
-- name: DiRT Showdown
-  platform: steam
-  id: 201700
-  steam_input: enabled
-
 - name: Enter the Gungeon
   platform: epic-store
   id: Garlic
   banner: steam:311690
   status: verified
+
+- name: Escape Goat 2
+  platform: steam
+  id: 255340
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/7f45ea9c5f39c225789eaefdc0c65368.png
+  status: verified
+  store: humble:escape-goat-2
+
+- name: Escape Goat
+  platform: steam
+  id: 251370
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/0470d319da49296886f236d3557fbbab.png
+  status: verified
+  store: humble:escape-goat
 
 - name: The Escapists
   platform: epic-store
@@ -3216,18 +3243,6 @@
   status: verified
   store: humble:fez
 
-- name: Escape Goat 2
-  platform: steam
-  id: 255340
-  status: verified
-  store: humble:escape-goat-2
-
-- name: Escape Goat
-  platform: steam
-  id: 251370
-  status: verified
-  store: humble:escape-goat
-
 - name: 'Dust: An Elysian Tail'
   platform: steam
   id: 236090
@@ -3245,12 +3260,6 @@
   id: 312200
   status: verified
   store: humble:chasm
-
-- name: Braid
-  platform: steam
-  id: 26800
-  status: verified
-  store: humble:braid
 
 - name: Birdsketball
   platform: steam
