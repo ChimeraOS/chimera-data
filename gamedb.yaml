@@ -367,6 +367,13 @@
   notes:
     - No controller support
 
+- name: Cthulu Saves the World
+  platform: steam
+  id: 107310
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/dc0f8098bdd0f226d02f66c032857a3f.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/98c7242894844ecd6ec94af67ac8247d.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/e46bc064f8e92ac2c404b9871b2a4ef2.png
+
 - name: Cyberpunk 2077
   platform: gog
   id: 1423049311
@@ -457,6 +464,17 @@
   platform: epic-store
   id: ee96375fac2f47de978170a24398e581
   banner: steam:433550
+
+- name: 'ENSLAVED: Odyssey to the West Premium Edition'
+  platform: steam
+  id: 245280
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/d6140c51d9f0507b9a747e63e335be7d.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/e0ec453e28e061cc58ac43f91dc2f3f0.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/96ea64f3a1aa2fd00c72faacf0cb8ac9.png
+  status: verified
+  store: humble:enslaved-odyssey-to-the-west-premium-edition
+  compat_tool: proton-stable
+  compat_config: noesync,nofsync
 
 - name: Enter the Gungeon
   platform: epic-store
@@ -1104,6 +1122,12 @@
   banner: steam:480490
   status: verified
 
+- name: Prison Architect
+  platform: epic-store
+  id: 668ffa8fce0847ef9f1c005995cee6df
+  banner: steam:233450
+  status: unsupported
+
 - name: 'Quake Mission Pack 1: Scourge of Armagon'
   platform: steam
   id: 9040
@@ -1124,12 +1148,6 @@
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/b36019444e116803b9dc9f27eebd56be.png
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/cd61a580392a70389e27b0bc2b439f49.png
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/06ee4c5c93a9957c9b1bb3bd89e800c8.png
-
-- name: Prison Architect
-  platform: epic-store
-  id: 668ffa8fce0847ef9f1c005995cee6df
-  banner: steam:233450
-  status: unsupported
 
 - name: Rayman Legends
   platform: epic-store
@@ -1161,6 +1179,13 @@
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/f06270e164ef9303bd2d4d5cb2975d5b.png
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/84f2e494266e3d8bff012509c07be604.jpg
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/b5b03f06271f8917685d14cea7c6c50a.png
+
+- name: Rochard
+  platform: steam
+  id: 107800
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/6d339a9333c80e852255f005cb4ae83a.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/7f9f3bdfd5974f2c11e9d6cd27c5f9f7.jpg
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/a733fa9b25f33689e2adbe72199f0e62.png
 
 - name: Rogue Legacy
   platform: epic-store
@@ -1533,6 +1558,13 @@
   id: 1440133968
   banner: steam:537520
   status: unsupported
+
+- name: "Valdis Story: Abyssal City"
+  platform: steam
+  id: 252030
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/0b807f93ee02b555362dd5667d80f5bc.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/1013c8b99e603831ad123eab4b27660f.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/4496bf24afe7fab6f046bf4923da8de6.png
 
 - name: VALORANT
   platform: epic-store
@@ -2149,14 +2181,6 @@
   platform: steam
   id: 999220
   status: verified
-
-- name: 'ENSLAVED: Odyssey to the West Premium Edition'
-  platform: steam
-  id: 245280
-  status: verified
-  store: humble:enslaved-odyssey-to-the-west-premium-edition
-  compat_tool: proton-stable
-  compat_config: noesync,nofsync
 
 - name: Blasphemous
   platform: steam
