@@ -1330,6 +1330,7 @@
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/0781c82b50d158791bfe033e631af1f0.png
   compat_tool: proton-stable
   status: verified
+  store: humble:star-horizon
 
 - name: 'STAR WARS Empire at War: Gold Pack'
   platform: steam
@@ -1337,6 +1338,7 @@
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/67e91755751b124a5e752c5fdcaa3a48.png
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/d468450d5d4a188412141af1e50e20ee.png
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/36a1c366bf2be376685c6ae023e666fd.png
+  store: humble:star-wars-empire-at-war-gold-pack
 
 - name: 'STAR WARS Jedi Knight: Dark Forces II'
   platform: steam
@@ -1344,6 +1346,7 @@
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/33326cedeb66cb0ac593d182ccd68bd0.png
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/30a237d18c50f563cba4531f1db44acf.png
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/6add07cf50424b14fdf649da87843d01.png
+  store: humble:star-wars-jedi-knight-dark-forces-ii
 
 - name: 'STAR WARS Jedi Knight II: Jedi Outcast'
   platform: steam
@@ -1351,6 +1354,7 @@
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/58569a2fed02f8a05ce01756595f0487.png
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/21adc1868d67ad76612abec6167046e4.png
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/291597a100aadd814d197af4f4bab3a7.png
+  store: humble:star-wars-jedi-knight-ii-jedi-outcast
 
 - name: 'STAR WARS Jedi Knight: Jedi Academy'
   platform: steam
@@ -1358,6 +1362,7 @@
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/d75f5329450826822ae35da4c1e7d103.png
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/60f867113bb0db6350f596add02dec5f.jpg
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/67e103b0761e60683e83c559be18d40c.png
+  store: humble:star-wars-jedi-knight-jedi-academy
 
 - name: 'STAR WARS Republic Commando'
   platform: steam
@@ -1365,6 +1370,7 @@
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/87f7f8f823a0bc9edecdf4c22aa2007a.png
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/7c4121d27bf970f00f1dfdcee8f43a5d.png
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/4216a63a4a40cd16ad257098ec9d361a.png
+  store: humble:star-wars-republic-commando
 
 - name: 'STAR WARS Starfighter'
   platform: steam
@@ -1372,6 +1378,7 @@
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/9b316a2cacfb19a4e8dcf917278bd816.png
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/ddf9029977a61241841edeae15e9b53f.jpg
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/884d247c6f65a96a7da4d1105d584ddd.png
+  store: humble:star-wars-starfighter
 
 - name: 'STAR WARS: The Force Unleashed Ultimate Sith Edition'
   platform: steam
@@ -1379,6 +1386,7 @@
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/6fcbe11b19a4827c0a8ef7cfc1e33eaf.png
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/5a5eab21ca2a8fef4af5e35709ecca15.png
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/ab233b682ec355648e7891e66c54191b.png
+  store: humble:star-wars-the-force-unleashed-ultimate-sith-edition
 
 - name: 'STAR WARS: The Force Unleashed II'
   platform: steam
@@ -1386,11 +1394,7 @@
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/0319d8c48c991a68588b363d776d2720.png
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/881e945c3b5ccf17103ecca2b675585f.jpg
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/dfc9e4d35fdc35e6f3afeec8d7e0e474.png
-
-- name: SteamVR
-  platform: steam
-  id: 250820
-  compat_tool: steamlinuxruntime
+  store: humble:star-wars-the-force-unleashed-ii
 
 - name: SteamWorld Dig 2
   platform: gog
