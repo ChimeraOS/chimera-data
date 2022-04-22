@@ -1322,6 +1322,7 @@
   banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/228395bd8e832bff82a6ce90eb27a1f6.png
   status: playable
 
+# native version does not recognize controllers
 - name: Star Horizon
   platform: steam
   id: 352960
