@@ -450,11 +450,30 @@
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/9a83eabfb7fa303a2d85dbc6f37483e5.png
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/dea184826614d3f4c608731389ed0c74.png
 
+- name: DiRT
+  platform: steam
+  id: 11440
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/c4be91d0adfdc7561f69c90bdf8084f8.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/8f5104ad65b098931047fbd28d8fcaaf.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/053c837dca3a5636ad1c9bccd6af3415.png
+  status: playable
+  compat_tool: proton-stable
+  notes:
+    - Displays keyboard icons
+    - Customizing player name requires a keyboard
+    - Videos do not play
+
+# Native version does not launch
 - name: DiRT Showdown
   platform: steam
   id: 201700
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/4328ad1978e9bcb7b297600e3019a5a6.png
-  steam_input: enabled
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/7c4e2c89a4054ce79d83c88031174b3d.jpg
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/250413d2982f1f83aa62a3a323cd2a87.png
+  compat_tool: proton-stable
+  status: playable
+  notes:
+    - Customizing player name requires a keyboard
 
 - name: 'DOOM 3: Resurrection of Evil'
   platform: steam
