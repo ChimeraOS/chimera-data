@@ -904,6 +904,12 @@
   platform: epic-store
   id: stargazer
   banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/d6d124ffdb821cc19f989f2fa5a28ce7.png
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/c42ccd0ed27d9e2fbe9a413cdb88a200.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/84e2d85ac232c681a641da1ec663888c.jpg
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/ce89f6b11bdc5b365085a84036e9365b.png
+  status: playable
+  notes:
+    - No controller support
 
 - name: Metro 2033 Redux
   platform: epic-store
