@@ -192,11 +192,6 @@
   banner: /images/flathub/re.chiaki.Chiaki
   status: playable
 
-- name: Chicken Police
-  platform: steam
-  id: 1084640
-  compat_tool: Proton-6.21-GE-2
-
 - name: Chromium
   platform: flathub
   id: org.chromium.Chromium
@@ -548,12 +543,6 @@
   id: 860a4feefe2a4f48905ae86c61d5db64
   banner: steam:261530
   status: unsupported
-
-# Controller works only with Steam Input enabled
-- name: The Long Dark
-  platform: steam
-  id: 305620
-  steam_input: enabled
 
 - name: Loop Hero
   platform: epic-store
