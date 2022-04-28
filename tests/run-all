@@ -1,0 +1,3 @@
+#! /bin/bash
+./tests/01-gamedb-syntax.py
+./tests/02-gamedb-duplicates.sh
