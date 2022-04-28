@@ -1,3 +1,11 @@
+- name: 198X
+  platform: steam
+  id: 1086010
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/7b42e2bdd7970b25e929cfd12c64f23c.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/e1c1c18c55ad8fad38e352a95bf4192e.png
+  compat_tool: proton-stable
+  status: verified
+
 - name: '2064: Read Only Memories'
   platform: epic-store
   id: f4e0c1dff48749fa9145c1585699e276
@@ -57,6 +65,13 @@
   banner: steam:214490
   status: verified
 
+- name: 'Alpha Kimori™ Episode One'
+  platform: steam
+  id: 265870
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/9c70cb2f32394f12a8527ccb82da9942.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/0c22d45f31acf0f4192c8c12b7a55dee.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/5a12243d83e5d4340291fd74318bffe2.png
+
 - name: 'Amnesia: The Dark Descent'
   platform: epic-store
   id: ece4c58603d04bcb97454be9a7492fa6
@@ -87,11 +102,30 @@
   banner: steam:877810
   status: verified
 
+- name: Another World
+  platform: steam
+  id: 233550
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/fd17be0e14bb74f125868e331a111448.png
+
 - name: APE OUT
   platform: epic-store
   id: Coley
   banner: steam:447150
   status: verified
+
+- name: Aritana and the Harpy's Feather
+  platform: steam
+  id: 314360
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/1960f728c26175c4b3ccfac49a2679cf.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/e6dbc8adead86fe2fcc18a8682c1ec7e.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/7b7324f8841c5f9a929c7c3a3cb60391.png
+
+- name: 'ARK: Survival Of The Fittest'
+  platform: steam
+  id: 407530
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/934b9dca01de63374a93d5436ca7cd32.jpg
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/5c469784eafc2ded9338dedda197db25.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/e2f374c3418c50bc30d67d5f7454a5b4.png
 
 - name: Armagetron Advanced
   platform: flathub
@@ -105,10 +139,47 @@
   banner: steam:688420
   status: verified
 
+- name: Battle Riders
+  platform: steam
+  id: 418060
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/077eb87be8f6ea0f644a0051afb10678.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/3b5f657f49a25ad6dae77d4e048d1003.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/b83210dd590047ee38c4660f1f6060e5.png
+
+- name: 'Battleplan: American Civil War'
+  platform: steam
+  id: 285130
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/6e9365004b6395b837cbc0515b726caf.jpg
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/5624e6ca4bb96789d1a7658ac27895d1.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/ac9768a5017d092a06f8b8b1fc28c20c.png
+
+- name: Bezier
+  platform: steam
+  id: 381320
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/cad8a995edf56073bf7f693deccb0685.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/ec4de54f2f3afa14175e5eabfc16ce1f.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/6dc4166c5aa3123f245a786381d0eb9c.png
+
+# needs logo
+- name: Biology Battle
+  platform: steam
+  id: 335080
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/83ac8b4d3275014fb480cf49c2a855c0.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/3c4dbca5fa732d03efb4b0a88a837b29.png
+
 - name: BIT.TRIP BEAT
   platform: steam
   id: 63700
   compat_tool: GE-Proton7-9
+
+# native version has controller issues
+- name: 'BIT.TRIP Presents... Runner2: Future Legend of Rhythm Alien'
+  platform: steam
+  id: 218060
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/7b54cb6c7740203b722d395215ed5ba2.png
+  status: verified
+  store: humble:bittrip-presents-runner2-future-legend-of-rhythm-alien
+  compat_tool: proton-stable
 
 - name: BIT.TRIP RUNNER
   platform: steam
@@ -126,6 +197,20 @@
   banner: steam:1714180
   status: unsupported
 
+- name: Blockstorm
+  platform: steam
+  id: 263060
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/107fce5988735e531cae0da812db9a62.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/a4939072217b46203c4f5764cb4dac40.jpg
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/1f150b5bb708ed3c5bc048e673208672.png
+
+- name: Bomb Defense
+  platform: steam
+  id: 656680
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/96113cc06ed225c5dd3dbbba2bed9330.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/a3209347dfea2ac488fc4595df350a9a.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/282bb8a7afdb969e5ac8e1848f741d9a.png
+
 - name: Borderlands 2
   platform: epic-store
   id: Dodo
@@ -140,6 +225,20 @@
   launch_options: -nolauncher  
   status: verified
 
+- name: 'Box: The Game'
+  platform: steam
+  id: 879850
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/d0a3473e3d1e0b3758a82a9dab5327d0.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/05e41bc57a80ca4bbef3c523cc0d40d9.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/2f601bfe0cde0094470c1add322af541.png
+
+- name: Braid
+  platform: steam
+  id: 26800
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/b068a05e6150657fae301cefcbc9bec0.png
+  status: verified
+  store: humble:braid
+
 - name: 'Brigador: Up-Armored Edition'
   platform: gog
   id: 1356485086
@@ -153,6 +252,13 @@
   id: Tamarind
   banner: steam:225080
   status: verified
+
+- name: Castle of no Escape 2
+  platform: steam
+  id: 542350
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/e41415343bc2a455161dfe7d19386d0f.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/0f304eddb4ad6007a3093fd6d963a1d2.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/34609bdc08a07ace4e1526bbb1777673.png
 
 - name: Cave Story+
   platform: epic-store
@@ -174,6 +280,13 @@
   banner: steam:1812280
   status: verified
 
+- name: 'Cataegis : The White Wind'
+  platform: steam
+  id: 344130
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/61f904fcab3a88ffe4d319eea75f0a7b.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/7e448ed9dd44e6e22442dac8e21856ae.jpg
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/288cc0ff022877bd3df94bc9360b9c5d.png
+
 - name: Centipede Recharged
   platform: epic-store
   id: 8727e9d0693542bda60769dc2ce33c20
@@ -192,6 +305,13 @@
   banner: /images/flathub/re.chiaki.Chiaki
   status: playable
 
+- name: Chronicle of Innsmouth
+  platform: steam
+  id: 420180
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/2b094148a9d10109b903715267c4dd14.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/035ff65d29f2b40d2ff462ffa36dd48a.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/5859953a451c4084472660061581b8cc.png
+
 - name: Chromium
   platform: flathub
   id: org.chromium.Chromium
@@ -208,6 +328,13 @@
   id: 390610
   compat_tool: proton_37
 
+- name: ClusterPuck 99
+  platform: steam
+  id: 337960
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/46227ca5c688200b321f5a8b74982c41.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/4d7a968bb636e25818ff2a3941db08c1.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/62161512d8b1b5db826778917e974b21.png
+
 - name: Control
   platform: epic-store
   id: Calluna
@@ -218,6 +345,12 @@
   id: 82a78a4dd6ef4eaa892707791b705073
   banner: steam:275180
   status: verified
+
+- name: Crashlands
+  platform: epic-store
+  id: afdf59e3dc8f40ec8fd887b5d3fcef23
+  banner: steam:391730
+  status: unsupported
 
 - name: Cris Tales
   platform: epic-store
@@ -242,6 +375,13 @@
   notes:
     - No controller support
 
+- name: Cthulu Saves the World
+  platform: steam
+  id: 107310
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/dc0f8098bdd0f226d02f66c032857a3f.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/98c7242894844ecd6ec94af67ac8247d.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/e46bc064f8e92ac2c404b9871b2a4ef2.png
+
 - name: Cyberpunk 2077
   platform: gog
   id: 1423049311
@@ -262,11 +402,85 @@
   banner: steam:612390
   status: verified
 
+- name: Darkest Dungeon
+  platform: epic-store
+  id: 36cbf259e631478eaac6ea244e55a709
+  banner: steam:262060
+  status: playable
+  notes:
+    - No controller support
+
+- name: Dead Island
+  platform: steam
+  id: 91310
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/f7884361e9e5dea725fd37eb0d320d7e.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/3f882a4bb95c43e27924205306955021.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/d9eb09a4dbf0b2098faf20331f294afe.png
+
+- name: "DEMON'S TILT"
+  platform: epic-store
+  id: b8b37813c5634dbdac61d88ff411135c
+  banner: steam:422510
+  status: unsupported
+
+- name: 'Depth Hunter 2: Deep Dive'
+  platform: steam
+  id: 248530
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/3e79c62a8c156c71bc7d1ff24609d223.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/1ce83e5d4135b07c0b82afffbe2b3436.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/e5654b80531b9a7338900193f90fbba5.png
+
 - name: Deponia The Complete Journey
   platform: epic-store
   id: 03b7b25a77024cc0adf44777f791ffc4
   banner: steam:292910
   status: unsupported
+
+- name: 'Deus Ex: Human Revolution'
+  platform: steam
+  id: 28050
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/29f0b80e008bc42acf8cb46561055dc6.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/421b6c7bd8b9288a148d2c3431b6692b.jpg
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/a7a3d70c6d17a73140918996d03c014f.png
+
+- name: Dimension Jump
+  platform: steam
+  id: 564750
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/29a4715e01c0bc217d96855f193c7be9.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/9a83eabfb7fa303a2d85dbc6f37483e5.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/dea184826614d3f4c608731389ed0c74.png
+
+- name: DiRT
+  platform: steam
+  id: 11440
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/c4be91d0adfdc7561f69c90bdf8084f8.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/8f5104ad65b098931047fbd28d8fcaaf.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/053c837dca3a5636ad1c9bccd6af3415.png
+  status: playable
+  compat_tool: proton-stable
+  notes:
+    - Displays keyboard icons
+    - Customizing player name requires a keyboard
+    - Videos do not play
+
+# Native version does not launch
+- name: DiRT Showdown
+  platform: steam
+  id: 201700
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/4328ad1978e9bcb7b297600e3019a5a6.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/7c4e2c89a4054ce79d83c88031174b3d.jpg
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/250413d2982f1f83aa62a3a323cd2a87.png
+  compat_tool: proton-stable
+  status: playable
+  notes:
+    - Customizing player name requires a keyboard
+
+- name: 'DOOM 3: Resurrection of Evil'
+  platform: steam
+  id: 9070
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/26511c846287c3f96c29a0f9ec488abc.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/1a69e2bdf33aa15664ad3c3cfb4d9453.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/354ac345fd8c6d7ef634d9a8e3d47b83.png
 
 - name: Drawful 2
   platform: epic-store
@@ -285,16 +499,36 @@
   id: ee96375fac2f47de978170a24398e581
   banner: steam:433550
 
-- name: DiRT Showdown
+- name: 'ENSLAVED: Odyssey to the West Premium Edition'
   platform: steam
-  id: 201700
-  steam_input: enabled
+  id: 245280
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/d6140c51d9f0507b9a747e63e335be7d.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/e0ec453e28e061cc58ac43f91dc2f3f0.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/96ea64f3a1aa2fd00c72faacf0cb8ac9.png
+  status: verified
+  store: humble:enslaved-odyssey-to-the-west-premium-edition
+  compat_tool: proton-stable
+  compat_config: noesync,nofsync
 
 - name: Enter the Gungeon
   platform: epic-store
   id: Garlic
   banner: steam:311690
   status: verified
+
+- name: Escape Goat 2
+  platform: steam
+  id: 255340
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/7f45ea9c5f39c225789eaefdc0c65368.png
+  status: verified
+  store: humble:escape-goat-2
+
+- name: Escape Goat
+  platform: steam
+  id: 251370
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/0470d319da49296886f236d3557fbbab.png
+  status: verified
+  store: humble:escape-goat
 
 - name: The Escapists
   platform: epic-store
@@ -313,6 +547,14 @@
   id: 288470  
   compat_tool: proton_513
   
+- name: Faeria
+  platform: epic-store
+  id: Vulture
+  banner: steam:397060
+  status: playable
+  notes:
+    - No controller support
+
 - name: Farming Simulator 19
   platform: epic-store
   id: Stellula
@@ -326,6 +568,13 @@
   status: playable
   notes:
     - No controller support
+
+- name: 'F.E.X (Forced Evolution Experiment)'
+  platform: steam
+  id: 655700
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/637e792e31fc5a514ff82f7a002282c4.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/4d58faf697d47b2ab9908dd1353ac190.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/12f9ed7d561f5536e2316645dba28c66.png
 
 - name: Fez
   platform: epic-store
@@ -341,6 +590,13 @@
   status: playable
   notes:
     - Uses a launcher
+
+- name: 'Filthy, Stinking, Orcs!'
+  platform: steam
+  id: 590560
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/03f3f6c6fc5282947fec976a86c76c58.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/58d2d622ed4026cae2e56dffc5818a11.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/0b3f44d9054402de39441e165a4bdfe0.png
 
 - name: Firefox
   platform: flathub
@@ -413,7 +669,21 @@
   id: b8bdc716e79e461bbf161d99f842f29a
   banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/9f14624f63ae50ba15788ea4593212d4.jpg
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/c1d124b6de65138005096879ceb69ae2.png
-  status: unsupported
+  status: verified
+
+- name: Guns of Icarus Online
+  platform: steam
+  id: 209080
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/c883697e8ca2ec060c5af75c84033a59.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/3244ef4c2aeb17c03511c93cb43caef0.jpg
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/4e87337f366f72daa424dae11df0538c.png
+
+- name: Gurgamoth
+  platform: steam
+  id: 418360
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/0443e13d26cef6b4b389eeeec9ab25c0.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/07b1c04a30f798b5506c1ec5acfb9031.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/0602940f23884f782058efac46f64b0f.png
 
 - name: Hand of Fate 2
   platform: epic-store
@@ -457,11 +727,24 @@
   banner: steam:389140
   status: verified
 
+- name: Hyper Light Drifter
+  platform: epic-store
+  id: Parakeet
+  banner: steam:257850
+  status: unsupported
+
 - name: In Sound Mind
   platform: epic-store
   id: 29ee5d32f328471590b3bd3ac03ed7d0
   banner: steam:1119980
   status: unsupported
+
+- name: 'Injustice: Gods Among Us Ultimate Edition'
+  platform: steam
+  id: 242700
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/aa0952d4ab66756202e6a7dcd7616bda.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/51f3eb940fd73a19119534c063967bff.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/97194d08565841c08a6d1ce3c82da0b3.png
 
 - name: INSIDE
   platform: epic-store
@@ -469,17 +752,18 @@
   banner: steam:304430
   status: verified
 
+- name: 'Intelligent Design: An Evolutionary Sandbox'
+  platform: steam
+  id: 627620
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/1bedd8e0dad21b385b0e6faa09042843.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/81b44841fd564c347f7f21ae19b97659.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/7dc8b441cf4e6fe9bc806679c4579e68.png
+
 - name: Into the Breach
   platform: epic-store
   id: Blobfish
   banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/17d2ba79091ad8d77f9ce68731c00986.png
   status: unsupported
-
-- name: Katawa Shoujo
-  platform: flathub
-  id: com.katawa_shoujo.KatawaShoujo
-  banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/a7282c84a4c2109c3697b6aca8b86aba.png
-  status: playable
 
 - name: Jamestown
   platform: steam
@@ -500,6 +784,12 @@
   banner: steam:234270
   status: verified
 
+- name: Katawa Shoujo
+  platform: flathub
+  id: com.katawa_shoujo.KatawaShoujo
+  banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/a7282c84a4c2109c3697b6aca8b86aba.png
+  status: playable
+
 - name: Killing Floor 2
   platform: epic-store
   id: Finch
@@ -510,11 +800,52 @@
   id: cacao
   banner: steam:496300
 
+- name: Kingdoms
+  platform: steam
+  id: 409590
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/271b03e712a11c8c4c4b4b9153c2e29a.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/0d012a47399f189a1fd2a147eb59130a.png
+
 - name: Kodi
   platform: flathub
   id: tv.kodi.Kodi
   banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/0decbbe8e7f4bbda5ecf7be75866985e.png
   status: playable
+
+- name: Larva Mortus
+  platform: steam
+  id: 11340
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/9338c9d9365d0f2793a7723c264660b4.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/74564920d4b9f130298880d010c929cd.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/a4c22565dfafb162a17a7c357ca9e0be.png
+
+- name: The Last Remnant
+  platform: steam
+  id: 23310
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/e71fc4c35a684450f5eff49d2046f880.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/6f900a87ef0131f00d829e58b5891ead.jpg
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/bd74971af53184c9911331d4f7bdb4a0.png
+
+- name: Legend of Grimrock 2
+  platform: steam
+  id: 251730
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/2488294e5b8aa832810695a56cbeacdf.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/57b33ae6c0bf00c454900bea31d88893.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/09ba3f0df1447f40e98674ba9d62c747.png
+
+- name: Legends of Dawn
+  platform: steam
+  id: 234980
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/87e4bedff38bedf99ed1a77a74213ee0.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/0c95054981de037de06e544a52eb3613.jpg
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/ef1890585bae446a0668afed3012daa2.png
+
+- name: Legends of Dawn Reborn
+  platform: steam
+  id: 403200
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/cec9daad6b41a5362f43a65656bbb953.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/0c95054981de037de06e544a52eb3613.jpg
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/ef1890585bae446a0668afed3012daa2.png
 
 - name: 'LEGO Batman: The Videogame'
   platform: epic-store
@@ -548,12 +879,37 @@
   platform: epic-store
   id: f7a0ebb44f93430fb1c4388a395eba96
   banner: steam:1282730
-  status: unsupported  
+  status: unsupported
+
+- name: LostWinds
+  platform: steam
+  id: 447780
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/fb5ead1fd337d4ac2581b075b6244ad1.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/1ae5168b14a6091d623291902ac36e7c.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/fa183ba81b8f82c988245d8d4e701366.png
+
+- name: Lust for Darkness
+  platform: steam
+  id: 523650
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/ce1147ec605e5fbac6b692e762db8881.png
+
+- name: 'Mad Nords: Probably an Epic Quest'
+  platform: steam
+  id: 407880
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/7c2a9475d838760f95b61a3e9aac0d4d.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/bc3fb8a4b6e4a83feb535917ce574d31.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/5d785002be68f41c87a4ba51760dcaf9.png
 
 - name: Magic The Gathering Arena
   platform: epic-store
   id: stargazer
   banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/d6d124ffdb821cc19f989f2fa5a28ce7.png
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/c42ccd0ed27d9e2fbe9a413cdb88a200.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/84e2d85ac232c681a641da1ec663888c.jpg
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/ce89f6b11bdc5b365085a84036e9365b.png
+  status: playable
+  notes:
+    - No controller support
 
 - name: Metro 2033 Redux
   platform: epic-store
@@ -576,6 +932,13 @@
   id: 1430740172
   banner: steam:287390
   status: unsupported 
+
+- name: 'Mimic Arena'
+  platform: steam
+  id: 432620
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/193e18b230b42fabda4f14db928df688.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/8c44646b12108d3e1b2e0c547ecf7b7e.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/5bbf4a75e68db03be98166f8f87acd4b.png
 
 - name: Minecraft
   platform: flathub
@@ -600,11 +963,25 @@
   store: humble:mini-ninjas
   status: verified
 
+- name: 'Mirage: Arcane Warfare'
+  platform: steam
+  id: 368420
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/77e7c7b72501504c02856fc119adf4cf.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/55a9f4ef0702c7d0df11424f4d538ce9.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/81a1e36d1d8c565e1554959779ce2aad.png
+
 - name: Moonlight
   platform: flathub
   id: com.moonlight_stream.Moonlight
   banner: /images/flathub/com.moonlight_stream.Moonlight
   status: playable
+
+- name: Mothergunship
+  platform: epic-store
+  id: ee5c6a659d0f478fba0049fa44429a1f
+  compat_tool: GE-Proton7-10
+  banner: steam:574090
+  status: verified
 
 - name: Moving Out
   platform: epic-store
@@ -631,11 +1008,97 @@
   banner: steam:675010
   status: unsupported
 
+- name: 'MURDERED: SOUL SUSPECT™'
+  platform: steam
+  id: 233290
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/9a759a33eb79b2130920a5e736219f37.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/3464ce4186536a9855a8a7967b121b3e.jpg
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/955fda27a2b8c63b1a738968656ce939.png
+
+# needs background and logo
+- name: Murnatan
+  platform: steam
+  id: 634070
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/2823676e1710dd493a2ec868aefd8a86.jpg
+
+- name: Nanooborg
+  platform: steam
+  id: 518100
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/45a5b6b62be6e002305d48a08a024f82.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/560003ffda27cda2328b3e17a0ed7f0f.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/29e7daaa3971f473a9406009cca3bed2.png
+
+- name: Mutazione
+  platform: epic-store
+  id: 1fe19232c0f7476a8e99fd8752e800c2
+  banner: steam:1080750
+  status: verified
+
+- name: 'NARUTO: Ultimate Ninja STORM'
+  platform: steam
+  id: 495140
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/913034dd0b1b8c3d5bcccbac38d13b9a.png
+
+- name: 'NARUTO SHIPPUDEN: Ultimate Ninja STORM 2'
+  platform: steam
+  id: 543870
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/2e65a677c21745f63cfd654e86ba4525.png
+
+- name: 'NARUTO SHIPPUDEN: Ultimate Ninja STORM 3 Full Burst HD'
+  platform: steam
+  id: 234670
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/f0b8024455e6c0cb3ab7495325afee5c.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/232efe14b864588c1d368b35b460e2d2.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/8860a4e27cbbe4c63821b429211684a3.png
+  notes:
+    - Uses a launcher
+
+- name: 'NARUTO SHIPPUDEN: Ultimate Ninja STORM 4'
+  platform: steam
+  id: 349040
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/5bab3d30b59cbfa316cc0f6d9f8e6ac7.png
+
+- name: 'NARUTO SHIPPUDEN: Ultimate Ninja STORM Revolution'
+  platform: steam
+  id: 272510
+  compat_tool: Proton-6.21-GE-2
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/791608b685d1c61fb2fe8acdc69dc6b5.jpg
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/c44799b04a1c72e3c8593a53e8000c78.png
+  notes:
+    - Uses a launcher
+
+- name: Never Alone (Kisima Ingitchuna)
+  platform: epic-store
+  id: f38de9fa4c6d43eabac080942cb394a1
+  banner: steam:295790
+  status: verified
+
 - name: Night in the Woods
   platform: epic-store
   id: cd1b8a6e5b6c47369e2a1e2cf7b7f536
   banner: steam:481510
   status: unsupported
+
+- name: 'Offensive Combat: Redux!'
+  platform: steam
+  id: 622170
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/0c52fe90a6eedf614da3c5515a78175e.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/ab4c389364232588a6680ad92ec170c7.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/1b38735595369838f208dd2b25315195.png
+
+- name: Nuclear Throne
+  platform: epic-store
+  id: Turaco
+  banner: steam:242680
+  status: verified
+
+- name: One Piece Pirate Warriors 3
+  platform: steam
+  id: 331600
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/115f08592f4c2bb29013efbbc46608fc.jpg
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/3b48bc98ee641fb7f5af80d729ab8f76.jpg
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/d8ab1a52f058358b947cdf8261b5e1a2.png
+  status: verified
 
 - name: Overcooked
   platform: epic-store
@@ -648,6 +1111,26 @@
   id: Potoo
   banner: steam:728880
   status: verified
+
+- name: PAC-MAN 256
+  platform: steam
+  id: 455400
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/115627429ce0a6b0c876779fc835f1e1.png
+  status: verified
+
+- name: Painters Guild
+  platform: steam
+  id: 384550
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/e2af985bca54c63adac6fe130dde21cb.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/297b631a88835f8931aa5aabdd06ece9.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/e9dcb63ca828d0e00cd05b445099ed2e.png
+
+- name: PAC-MAN CHAMPIONSHIP EDITION 2
+  platform: steam
+  id: 441380
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/db0c1011f0192e45d4cf718603d42784.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/6f5e4e86a87220e5d361ad82f1ebc335.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/254b6cccc84a3b7e5c696e67c9ef656e.png
 
 - name: Pathway
   platform: epic-store
@@ -666,17 +1149,57 @@
   banner: steam:1042780
   status: verified
 
+- name: Pixplode
+  platform: steam
+  id: 631770
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/743a7d655fee852e8f2d1ac726b6d0dd.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/ba7fb7aa93b1203a1f5e19b0857870e3.jpg
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/da43646f8d1a36b67a87aa2e48f5194f.png
+
 - name: Prey
   platform: epic-store
   id: 52d88e9a6df248da913c8e99f1e4c526
   banner: steam:480490
   status: verified
 
+- name: Prison Architect
+  platform: epic-store
+  id: 668ffa8fce0847ef9f1c005995cee6df
+  banner: steam:233450
+  status: unsupported
+
+- name: 'Quake Mission Pack 1: Scourge of Armagon'
+  platform: steam
+  id: 9040
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/4f6cc81490f80454657181033c0f0214.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/e265b71426b39bb25ccf6eca0a578a03.jpg
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/41b0db49fd10d95920281dead0710f58.png
+
+- name: 'Quake Mission Pack 2: Dissolution of Eternity'
+  platform: steam
+  id: 9030
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/bae824f6ad7669415ae060fcc8f2d14d.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/4bbb5420ed2dc9a8eaaedc7ae59de448.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/fefe447107ab48d504ca4865c1a69dd2.png
+
+- name: 'Q.U.B.E.'
+  platform: steam
+  id: 203730
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/b36019444e116803b9dc9f27eebd56be.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/cd61a580392a70389e27b0bc2b439f49.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/06ee4c5c93a9957c9b1bb3bd89e800c8.png
+
 - name: Rayman Legends
   platform: epic-store
   id: Anchovy
   banner: steam:242550
   status: unsupported
+
+- name: Rayman Origins
+  platform: steam
+  id: 207490
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/cb1a716a70ad58a2f02792dcc8db2039.png
+  status: verified
 
 - name: Rebel Galaxy
   platform: epic-store
@@ -690,6 +1213,20 @@
   status: verified
   compat_tool: GE-Proton7-9
 
+- name: Realms of the Haunting
+  platform: steam
+  id: 292390
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/f06270e164ef9303bd2d4d5cb2975d5b.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/84f2e494266e3d8bff012509c07be604.jpg
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/b5b03f06271f8917685d14cea7c6c50a.png
+
+- name: Rochard
+  platform: steam
+  id: 107800
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/6d339a9333c80e852255f005cb4ae83a.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/7f9f3bdfd5974f2c11e9d6cd27c5f9f7.jpg
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/a733fa9b25f33689e2adbe72199f0e62.png
+
 - name: Rogue Legacy
   platform: epic-store
   id: 01f1e8046e9e433db190a611a0411579
@@ -702,6 +1239,15 @@
   banner: steam:252950
   status: verified
 
+- name: Runner3
+  platform: steam
+  id: 516130
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/46cbec5dc4417a29773d07f28919ac11.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/0fb94b5238b785967da7765e33a7d8aa.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/fc322c6bd467dc6e4a70ece4ce0245f8.png
+  status: verified
+  store: humble:runner3
+
 - name: SAMURAI SHODOWN NEOGEO COLLECTION
   platform: epic-store
   id: 75553c71fa1744a4be89f71d5b862eae
@@ -713,6 +1259,47 @@
   id: com.shatteredpixel.shatteredpixeldungeon
   banner: steam:1769170
   status: playable
+
+# needs background
+- name: "Sid Meier's Civilization IV"
+  platform: steam
+  id: 3900
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/be925cdb6f03c1b58212df4c2831aedd.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/8e7448cf2a83ce427ec7087739e915b7.png
+
+# needs background
+- name: "Sid Meier's Civilization IV: Beyond the Sword"
+  platform: steam
+  id: 8800
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/4f0707d3501c6ff1532c927f43685768.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/30f78b78eb6b8d7de98bbf938311962b.png
+
+- name: Sid Meier's Covert Action (Classic)
+  platform: steam
+  id: 327390
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/6e4fd1f8d7082b92ba9842ab88aab57e.jpg
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/7dc8ba1fb483784bbd6125233ef65165.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/825acdfe9638ae235c0b9a6fe5d13120.png
+
+- name: Sixtieth Kilometer
+  platform: steam
+  id: 448780
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/5335070ac7209de713d925ab05cea19e.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/19415392e1213854f465b52ba2abf0ed.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/2c601ad9d2ff9bc8b282670cdd54f69f.png
+
+- name: 'Skara - The Blade Remains'
+  platform: steam
+  id: 274620
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/21675fc8afec8db716b774649f566ce3.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/697f31b39c120bea0d95112b65484d3f.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/afab9e1401c7c4b559e2723add38e05a.png
+
+- name: Sludge Life
+  platform: epic-store
+  id: Morganite
+  banner: steam:1144770
+  status: verified
 
 - name: Solitairica
   platform: epic-store
@@ -750,6 +1337,11 @@
   banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/4703af37c2925cf2191b72dcb5f7f286.png
   status: playable
 
+- name: 'Soulblight'
+  platform: steam
+  id: 530930
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/627905f21b5ae408516847694d6bf571.png
+
 - name: Speed Brawl
   platform: epic-store
   id: 6ffe878bb1ce490ba6d3a359a1f88df2
@@ -762,10 +1354,79 @@
   banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/228395bd8e832bff82a6ce90eb27a1f6.png
   status: playable
 
-- name: SteamVR
+# native version does not recognize controllers
+- name: Star Horizon
   platform: steam
-  id: 250820
-  compat_tool: steamlinuxruntime
+  id: 352960
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/b2090261581e1835b906d9594efd0e55.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/0781c82b50d158791bfe033e631af1f0.png
+  compat_tool: proton-stable
+  status: verified
+  store: humble:star-horizon
+
+- name: 'STAR WARS Empire at War: Gold Pack'
+  platform: steam
+  id: 32470
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/67e91755751b124a5e752c5fdcaa3a48.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/d468450d5d4a188412141af1e50e20ee.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/36a1c366bf2be376685c6ae023e666fd.png
+  store: humble:star-wars-empire-at-war-gold-pack
+
+- name: 'STAR WARS Jedi Knight: Dark Forces II'
+  platform: steam
+  id: 32380
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/33326cedeb66cb0ac593d182ccd68bd0.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/30a237d18c50f563cba4531f1db44acf.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/6add07cf50424b14fdf649da87843d01.png
+  store: humble:star-wars-jedi-knight-dark-forces-ii
+
+- name: 'STAR WARS Jedi Knight II: Jedi Outcast'
+  platform: steam
+  id: 6030
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/58569a2fed02f8a05ce01756595f0487.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/21adc1868d67ad76612abec6167046e4.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/291597a100aadd814d197af4f4bab3a7.png
+  store: humble:star-wars-jedi-knight-ii-jedi-outcast
+
+- name: 'STAR WARS Jedi Knight: Jedi Academy'
+  platform: steam
+  id: 6020
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/d75f5329450826822ae35da4c1e7d103.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/60f867113bb0db6350f596add02dec5f.jpg
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/67e103b0761e60683e83c559be18d40c.png
+  store: humble:star-wars-jedi-knight-jedi-academy
+
+- name: 'STAR WARS Republic Commando'
+  platform: steam
+  id: 6000
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/87f7f8f823a0bc9edecdf4c22aa2007a.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/7c4121d27bf970f00f1dfdcee8f43a5d.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/4216a63a4a40cd16ad257098ec9d361a.png
+  store: humble:star-wars-republic-commando
+
+- name: 'STAR WARS Starfighter'
+  platform: steam
+  id: 32350
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/9b316a2cacfb19a4e8dcf917278bd816.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/ddf9029977a61241841edeae15e9b53f.jpg
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/884d247c6f65a96a7da4d1105d584ddd.png
+  store: humble:star-wars-starfighter
+
+- name: 'STAR WARS: The Force Unleashed Ultimate Sith Edition'
+  platform: steam
+  id: 32430
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/6fcbe11b19a4827c0a8ef7cfc1e33eaf.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/5a5eab21ca2a8fef4af5e35709ecca15.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/ab233b682ec355648e7891e66c54191b.png
+  store: humble:star-wars-the-force-unleashed-ultimate-sith-edition
+
+- name: 'STAR WARS: The Force Unleashed II'
+  platform: steam
+  id: 32500
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/0319d8c48c991a68588b363d776d2720.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/881e945c3b5ccf17103ecca2b675585f.jpg
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/dfc9e4d35fdc35e6f3afeec8d7e0e474.png
+  store: humble:star-wars-the-force-unleashed-ii
 
 - name: SteamWorld Dig 2
   platform: gog
@@ -794,6 +1455,13 @@
   banner: steam:1097800
   status: verified
 
+- name: Super Monday Night Combat
+  platform: steam
+  id: 104700
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/0d04f7c940c8229d157f55426468e790.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/78b8d6620afcd434a4b7fb41b22e595b.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/cde380b0be4740a127dd89cc20ecf6f8.png
+
 - name: SuperTux
   platform: flathub
   id: org.supertuxproject.SuperTux
@@ -805,6 +1473,13 @@
   id: net.supertuxkart.SuperTuxKart
   banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/7f1de29e6da19d22b51c68001e7e0e54.png
   status: playable
+
+- name: Sword Coast Legends
+  platform: steam
+  id: 325600
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/484862041befb1d3e8fada76b4f2e0d1.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/e327b1649d06bf74fceb4fe73f83bdba.jpg
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/767d01b4bac1a1e8824c9b9f7cc79a04.png
 
 - name: Tacoma
   platform: epic-store
@@ -818,11 +1493,43 @@
   banner: /images/flathub/in.p1x.TanksOfFreedom
   status: playable
 
+- name: Team Racing League
+  platform: steam
+  id: 504460
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/aa88e378a965701e56a86261272cd22d.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/a1d2a5b05d09395f32299a4d270a9a32.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/cf9a063bb9be814a77a491171cca236d.png
+
+- name: The Alto Collection
+  platform: epic-store
+  id: Hornbill
+  banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/763c4588edd1e9224afacb924a1ee160.png
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/99bec383f442456b15e91d19bfd8b379.png
+  status: unsupported
+
+- name: The Bridge
+  platform: epic-store
+  id: Sunbird
+  banner: steam:204240
+  status: verified
+
 - name: THE KING OF FIGHTERS 2002
   platform: gog
   id: 2114035213
   banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/be4d7403582645fe41d3921ac8ce530d.png 
   status: verified
+
+- name: The Fall
+  platform: epic-store
+  id: daac7fe46e3647cb80530411d7ec1dc5
+  banner: steam:290770
+  status: unsupported
+
+- name: The Lion's Song
+  platform: epic-store
+  id: ee41ac4954314d18b18b8e7789c4e4eb
+  banner: steam:437160
+  status: unsupported
 
 - name: The Textorcist
   platform: epic-store
@@ -845,11 +1552,32 @@
   compat_tool: Proton-6.21-GE-2
   status: verified
 
+- name: TinyKeep
+  platform: steam
+  id: 278620
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/5401dcd73b04026a909623f2d3c2d691.jpg
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/fd570928c75cc9b4e22488e1661d846e.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/ce50d5be7b6c6e7afb55b9db35388d43.png
+
 - name: Tonight We Riot
   platform: gog
   id: 1095982752
   banner: steam:290690
   status: verified
+
+- name: "Tom Clancy's Rainbow Six: Vegas"
+  platform: steam
+  id: 13540
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/1087e958e1f1eb9ef2cd21cb270bb30b.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/1be3bc32e6564055d5ca3e5a354acbef.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/0dd95a7728742f77d0bcd4a5988b0daa.png
+
+- name: "Tom Clancy's Rainbow Six: Vegas 2"
+  platform: steam
+  id: 15120
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/1bebc4f67cbeda086e5ac2d8d0eea72f.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/35051070e572e47d2c26c241ab88307f.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/3767ce596a099bc691ee43e67fb6ec03.png
 
 - name: Tormentor X Punisher
   platform: epic-store
@@ -857,11 +1585,39 @@
   banner: steam:500670
   status: unsupported
 
+- name: "Toy Odyssey: The Lost and Found"
+  platform: steam
+  id: 392410
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/c937a83c368471c796797f022e275555.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/0a30a980e3540e51eb25423caa79f0cb.jpg
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/37c9216b00a111ac0e1f81de25ddff77.png
+
+# needs background and logo
+- name: TUG
+  platform: steam
+  id: 277930
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/e773dbc579a0ef997675d836974d747c.png
+  background:
+  logo:
+
+- name: Towerfall Ascension
+  platform: epic-store
+  id: Bichir
+  banner: steam:251470
+  status: verified
+
 - name: SYMMETRY
   platform: gog
   id: 1440133968
   banner: steam:537520
   status: unsupported
+
+- name: "Valdis Story: Abyssal City"
+  platform: steam
+  id: 252030
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/0b807f93ee02b555362dd5667d80f5bc.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/1013c8b99e603831ad123eab4b27660f.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/4496bf24afe7fab6f046bf4923da8de6.png
 
 - name: VALORANT
   platform: epic-store
@@ -897,6 +1653,20 @@
   id: Angelonia
   banner: steam:447040
 
+- name: 'Warhammer 40,000: Eternal Crusade'
+  platform: steam
+  id: 375230
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/498251b55c9d559d2ce5448191f3a853.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/0390d17683e77e7e9d8c923134b1f5a1.jpg
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/eebe038e47780c96e2762b5e2003cef7.png
+
+- name: Wasted Pizza
+  platform: steam
+  id: 709820
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/830e6edbfbc984ea5501ddbbad492bb6.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/52bdba949576e6bcec5682a4993bfb58.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/32b683d9d8e73d3eeb6bf08fe0817402.png
+
 - name: Wheels of Aurelia
   platform: epic-store
   id: Escolar
@@ -917,6 +1687,12 @@
   notes:
     - No controller support
 
+- name: "Wilmot's Warehouse"
+  platform: epic-store
+  id: 9b40e3ffb4074f22a856a521be5ce858
+  banner: steam:839870
+  status: playable
+
 - name: Windbound
   platform: epic-store
   id: a95bf4df6627431ca5baff8173c59635
@@ -924,6 +1700,21 @@
   status: playable
   notes:
     - Tutorial videos do not play # GE Proton does not fix this
+
+- name: Wishmaster
+  platform: steam
+  id: 434010
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/53c2bdd5d508f5cbe32477af2aeae3b0.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/8fb276fc273796ca929b7fc45c2bc661.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/83469d31a109c3b788af763f8353ff1f.png
+
+- name: World of Goo
+  platform: epic-store
+  id: Anemone
+  banner: steam:22000
+  status: playable
+  notes:
+    - No controller support
 
 - name: Xonotic
   platform: flathub
@@ -1444,14 +2235,6 @@
   id: 999220
   status: verified
 
-- name: 'ENSLAVED: Odyssey to the West Premium Edition'
-  platform: steam
-  id: 245280
-  status: verified
-  store: humble:enslaved-odyssey-to-the-west-premium-edition
-  compat_tool: proton-stable
-  compat_config: noesync,nofsync
-
 - name: Blasphemous
   platform: steam
   id: 774361
@@ -1571,11 +2354,6 @@
   id: 322680
   status: verified
   store: humble:blackhole
-
-- name: Rayman Origins
-  platform: steam
-  id: 207490
-  status: verified
 
 # native version has poor controller support
 - name: 'The Coma 2: Vicious Sisters'
@@ -1786,12 +2564,6 @@
   platform: steam
   id: 421020
   status: verified
-
-- name: Runner3
-  platform: steam
-  id: 516130
-  status: verified
-  store: humble:runner3
 
 # native version has poor controller support
 - name: Micro Machines World Series
@@ -2395,14 +3167,6 @@
   status: verified
   compat_tool: proton-stable
 
-# native version has controller issues
-- name: 'BIT.TRIP Presents... Runner2: Future Legend of Rhythm Alien'
-  platform: steam
-  id: 218060
-  status: verified
-  store: humble:bittrip-presents-runner2-future-legend-of-rhythm-alien
-  compat_tool: proton-stable
-
 - name: Sonic Mania
   platform: steam
   id: 584400
@@ -2437,11 +3201,6 @@
   id: 207140
   status: verified
   store: humble:speedrunners
-
-- name: PAC-MAN 256
-  platform: steam
-  id: 455400
-  status: verified
 
 - name: Hyper Light Drifter
   platform: steam
@@ -2517,6 +3276,7 @@
 - name: One Ship Two Ship Redshift Blueshift
   platform: steam
   id: 367430
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/3ee5bbf49053b0476c94304156f2e0f4.png
   status: verified
 
 - name: Owlboy
@@ -2567,18 +3327,6 @@
   status: verified
   store: humble:fez
 
-- name: Escape Goat 2
-  platform: steam
-  id: 255340
-  status: verified
-  store: humble:escape-goat-2
-
-- name: Escape Goat
-  platform: steam
-  id: 251370
-  status: verified
-  store: humble:escape-goat
-
 - name: 'Dust: An Elysian Tail'
   platform: steam
   id: 236090
@@ -2596,12 +3344,6 @@
   id: 312200
   status: verified
   store: humble:chasm
-
-- name: Braid
-  platform: steam
-  id: 26800
-  status: verified
-  store: humble:braid
 
 - name: Birdsketball
   platform: steam
@@ -2955,11 +3697,17 @@
   platform: steam
   name: 'STAR WARS: Dark Forces'
   compat_tool: boxtron
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/5d1633ade7aed302c261f97ee5a8bedd.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/42e7aaa88b48137a16a1acd04ed91125.jpg
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/847cc55b7032108eee6dd897f3bca8a5.png
 
 - id: 410700
   platform: steam
   name: 'System Shock: Classic'
   compat_tool: boxtron
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/79241931403f948d94ea4ea5168f3b12.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/7d8d39116004c0df3b4a9e2e421dd2a2.jpg
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/c52f1bd66cc19d05628bd8bf27af3ad6.png
 
 - id: 1003590
   platform: steam
