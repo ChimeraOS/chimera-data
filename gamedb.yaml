@@ -133,6 +133,20 @@
   banner: /images/flathub/org.armagetronad.ArmagetronAdvanced
   status: playable
 
+- name: Assassin's Creed
+  platform: steam
+  id: 15100
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/a5eb02f2e24db13fe5e4826cfd515b84.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/bd9e928c0f0fba89b5c8254bef1f9937.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/1c336b8080f82bcc2cd2499b4c57261d.png
+
+- name: Assassin's Creed Revelations
+  platform: steam
+  id: 201870
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/105fb0578a9e90c458f69bad63c38709.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/fd22a77ffd3cc179b3c1407d6ea0637b.jpg
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/bf2fb7d1825a1df3ca308ad0bf48591e.png
+
 - name: 'Bad North: Jotunn Edition'
   platform: epic-store
   id: Chives
@@ -618,6 +632,11 @@
   banner: steam:555150
   status: verified
 
+- name: 'FlatOut: Ultimate Carnage'
+  platform: steam
+  id: 12360
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/c977cc56493aead3ae02a7b9ea7a5ce5.png
+
 - name: Flight Control HD
   platform: steam
   id: 62000
@@ -915,6 +934,11 @@
   status: playable
   notes:
     - No controller support
+
+- name: MegaSphere
+  platform: steam
+  id: 386340
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/674799a0755561627d8eeb4164dc1bf4.png
 
 - name: Metro 2033 Redux
   platform: epic-store
