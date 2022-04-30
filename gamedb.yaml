@@ -1286,6 +1286,13 @@
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/7dc8ba1fb483784bbd6125233ef65165.png
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/825acdfe9638ae235c0b9a6fe5d13120.png
 
+- name: "Silent Hill: Homecoming"
+  platform: steam
+  id: 19000
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/33fe8ff56f35eddfd39d1df621c9f57a.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/2fc4a68635c26db1019047965180ce1b.jpg
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/1e48c4420b7073bc11916c6c1de226bb.png
+
 - name: Sixtieth Kilometer
   platform: steam
   id: 448780
