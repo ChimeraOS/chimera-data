@@ -3824,3 +3824,9 @@
   platform: steam
   name: Yooka-Laylee
   steam_input: enabled
+
+- id: 404540
+  platform: steam
+  name: Nex Machina
+  compat_config: noesync,nofsync
+  launch_options: PULSE_LATENCY_MSEC=60 %command%
