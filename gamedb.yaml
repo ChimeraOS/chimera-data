@@ -715,6 +715,11 @@
   banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/359c4daad63a9a11c06960df0a6ed480.jpg
   status: unsupported
 
+- name: "Half-Life: Alyx"
+  platform: steam
+  id: 546560
+  compat_tool: steamlinuxruntime
+
 - name: Hedgewars
   platform: flathub
   id: org.hedgewars.Hedgewars
