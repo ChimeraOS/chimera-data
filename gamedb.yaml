@@ -3836,3 +3836,9 @@
   name: Nex Machina
   compat_config: noesync,nofsync
   launch_options: PULSE_LATENCY_MSEC=60 %command%
+
+# native version has controller issues
+- id: 323220
+  platform: steam
+  name: Vagante
+  compat_tool: proton-stable
