@@ -1247,6 +1247,41 @@
   banner: steam:480490
   status: verified
 
+- name: Prince of Persia
+  platform: steam
+  id: 19980
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/003b36afc53d4e078a9df02e0e43fb28.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/b571ecea16a9824023ee1af16897a582.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/b6aef86083b784fdf8a5418bb69d66a1.png
+
+- name: 'Prince of Persia: The Forgotton Sands'
+  platform: steam
+  id: 33320
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/f6266e0a2d3f1140b64c74fc4810e3f3.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/9da187a7a191431db943a9a5a6fec6f4.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/7553e94d39fd4649ff75386a83ed3789.png
+
+- name: 'Prince of Persia: The Two Thrones'
+  platform: steam
+  id: 13530
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/abae7d98a0ce038be2705fc36f5de8d9.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/7974a38b2a42268066c03442b2cc922b.jpg
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/0bc10d8a74dbafbf242e30433e83aa56.png
+
+- name: 'Prince of Persia: The Sands of Time'
+  platform: steam
+  id: 13600
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/6a8cfab2aa11fbb342063df25c16a5f1.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/c4211b6fddf7ddf821087989ae514550.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/22f2729737ae3dc9702e4cee0eb3e900.png
+
+- name: 'Prince of Persia: Warrior Within'
+  platform: steam
+  id: 13500
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/0e81202a194c3198d45cceb0edec2ff0.jpg
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/2a084e55c87b1ebcdaad1f62fdbbac8e.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/7cbbc409ec990f19c78c75bd1e06f215.png
+
 - name: Prison Architect
   platform: epic-store
   id: 668ffa8fce0847ef9f1c005995cee6df
