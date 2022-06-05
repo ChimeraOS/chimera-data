@@ -147,6 +147,13 @@
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/fd22a77ffd3cc179b3c1407d6ea0637b.jpg
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/bf2fb7d1825a1df3ca308ad0bf48591e.png
 
+- name: Aquaria
+  platform: steam
+  id: 24420
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/c881b9a54d4eb04a01da953f05b19df1.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/c92a10324374fac681719d63979d00fe.jpg
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/883e881bb4d22a7add958f2d6b052c9f.png
+
 - name: 'Bad North: Jotunn Edition'
   platform: epic-store
   id: Chives
@@ -266,6 +273,13 @@
   id: Tamarind
   banner: steam:225080
   status: verified
+
+- name: 'Call of Duty: United Offensive'
+  platform: steam
+  id: 2640
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/f9fb7c79045fc492a18b051150c2b269.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/3546ab441e56fa333f8b44b610d95691.jpg
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/50c3d7614917b24303ee6a220679dab3.png
 
 - name: Castle of no Escape 2
   platform: steam
@@ -462,6 +476,13 @@
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/421b6c7bd8b9288a148d2c3431b6692b.jpg
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/a7a3d70c6d17a73140918996d03c014f.png
 
+- name: The Dig
+  platform: steam
+  id: 6040
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/5148de37b36193bcf588c1bc4a3833c0.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/ee23e7ad9b473ad072d57aaa9b2a5222.jpg
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/38913e1d6a7b94cb0f55994f679f5956.png
+
 - name: Dimension Jump
   platform: steam
   id: 564750
@@ -559,6 +580,27 @@
   id: Fowl
   banner: steam:641990
   status: verified
+
+- name: F1 2010
+  platform: steam
+  id: 44310
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/b5f8135a73424be1c5efe1ec1354ab54.jpg
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/5d55e7c13b0f4d7cf9d5d55d3af329c8.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/5e9d17e41f784ae361ada1d0817186f6.png
+
+- name: F1 2011
+  platform: steam
+  id: 44360
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/fc3b60165411bb4ca7b0f03fecc0cdb5.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/a760880003e7ddedfef56acb3b09697f.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/fd4f21f2556dad0ea8b7a5c04eabebda.png
+
+- name: Fable III
+  platform: steam
+  id: 105400
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/8f24f9bb371471be344cdb6fbcd99688.jpg
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/063e26c670d07bb7c4d30e6fc69fe056.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/f8e59f4b2fe7c5705bf878bbd494ccdf.png
 
 # proton versions after 5.13 cause massive graphical artifacts
 - name: Fable Anniversary
