@@ -1505,6 +1505,12 @@
   banner: steam:1097800
   status: verified
 
+- name: Super Hexagon
+  platform: steam
+  id: 221640
+  store: humble:super-hexagon
+  status: verified
+
 - name: Super Monday Night Combat
   platform: steam
   id: 104700
