@@ -3939,3 +3939,10 @@
   platform: steam
   name: N++ (NPLUSPLUS)
   compat_tool: proton-stable
+
+# Doesn't work with Proton >5.13.9
+- id: 396710
+  platform: steam
+  name: The Adventure Pals
+  compat_tool: Proton-5.13
+  
