@@ -3933,3 +3933,9 @@
   platform: steam
   name: Vagante
   compat_tool: proton-stable
+
+# native versions crashes
+- id: 230270
+  platform: steam
+  name: N++ (NPLUSPLUS)
+  compat_tool: proton-stable
