@@ -3944,5 +3944,5 @@
 - id: 396710
   platform: steam
   name: The Adventure Pals
-  compat_tool: Proton-5.13
+  compat_tool: proton_513
   
