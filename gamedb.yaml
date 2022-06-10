@@ -979,6 +979,15 @@
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/bc3fb8a4b6e4a83feb535917ce574d31.png
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/5d785002be68f41c87a4ba51760dcaf9.png
 
+- name: Mages of Mystralia
+  platform: steam
+  id: 529660
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/ce7fb789d312196518f2a053adc75382.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/fdbe012e2e11314b96402b32c0df26b7.jpg
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/32f6c513b25df1c670753eb7335c4258.png
+  status: verified
+  store: humble:mages-of-mystralia
+
 - name: Magic The Gathering Arena
   platform: epic-store
   id: stargazer
@@ -1054,6 +1063,13 @@
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/77e7c7b72501504c02856fc119adf4cf.png
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/55a9f4ef0702c7d0df11424f4d538ce9.png
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/81a1e36d1d8c565e1554959779ce2aad.png
+
+- name: "Monkey Island 2 Special Edition: LeChuck's Revenge"
+  platform: steam
+  id: 32460
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/ae5ef52da81b8f483ac166475587ad87.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/136aac05ca42889ec353b13ec6dbda0e.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/f1daf122cde863010844459363cd31db.png
 
 - name: Moonlight
   platform: flathub
@@ -1373,6 +1389,13 @@
   id: 75553c71fa1744a4be89f71d5b862eae
   banner: steam:999660
   status: unsupported  
+
+- name: 'The Secret of Monkey Island: Special Edition'
+  platform: steam
+  id: 32360
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/536b6cdafca2ed6eab8ec7fd981fea65.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/a1a2c3fed88e9b3ba5bc3625c074a04e.jpg
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/fc95fa5740ba01a870cfa52f671fe1e4.png
 
 - name: Shattered Pixel Dungeon
   platform: flathub
@@ -2860,12 +2883,6 @@
   id: 585420
   status: verified
   store: humble:trailmakers
-
-- name: Mages of Mystralia
-  platform: steam
-  id: 529660
-  status: verified
-  store: humble:mages-of-mystralia
 
 - name: 'Bad North: Jotunn Edition'
   platform: steam
