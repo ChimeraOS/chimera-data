@@ -3933,3 +3933,16 @@
   platform: steam
   name: Vagante
   compat_tool: proton-stable
+
+# native versions crashes
+- id: 230270
+  platform: steam
+  name: N++ (NPLUSPLUS)
+  compat_tool: proton-stable
+
+# Doesn't work with Proton >5.13.9
+- id: 396710
+  platform: steam
+  name: The Adventure Pals
+  compat_tool: proton_513
+  
