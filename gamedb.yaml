@@ -857,6 +857,15 @@
   banner: steam:323580
   status: verified
 
+- name: JumpJet Rex
+  platform: steam
+  id: 329460
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/912a5c5978ebf1e452a4ed30658aa102.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/8232e119d8f59aa83050a741631803a6.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/5d2c2cee8ab0b9a36bd1ed7196bd6c4a.png
+  status: verified
+  store: humble:jumpjet-rex
+
 - name: Ken Follett's The Pillars of the Earth
   platform: epic-store
   id: 819985835fd54090845e3083e28b77bb
@@ -1213,6 +1222,15 @@
   banner: steam:728880
   status: verified
 
+- name: Overload
+  platform: steam
+  id: 448850
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/d0f1a9b2f77a08666d7e113e418643d0.jpg
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/95e2b3bc377ab32c26e010300ce0081b.jpg
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/a00e5eb0973d24649a4a920fc53d9564.png
+  status: verified
+  store: humble:overload
+
 - name: PAC-MAN 256
   platform: steam
   id: 455400
@@ -1249,6 +1267,17 @@
   id: 6d564ff21f9c45b7b782b7113ad60be8
   banner: steam:1042780
   status: verified
+
+# native version crashes on startup
+- name: PixelJunk Shooter
+  platform: steam
+  id: 255870
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/8b7c35169673ff7fcc30a43cf41079d3.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/c5658c711ba9170700fc7d3ee3f63e40.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/5a9d8bf5b7a4b35f3110dde8673bdda2.png
+  status: verified
+  store: humble:pixeljunk-shooter
+  compat_tool: proton-stable
 
 - name: Pixplode
   platform: steam
@@ -1714,6 +1743,15 @@
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/5401dcd73b04026a909623f2d3c2d691.jpg
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/fd570928c75cc9b4e22488e1661d846e.png
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/ce50d5be7b6c6e7afb55b9db35388d43.png
+
+- name: Toki Tori 2+
+  platform: steam
+  id: 201420
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/467ef93e6176e6804e902a897b006023.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/752d25a1f8dbfb2d656bac3094bfb81c.jpg
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/0f46c64b74a6c964c674853a89796c8e.png
+  status: verified
+  store: humble:toki-tori-2
 
 - name: Tonight We Riot
   platform: gog
@@ -2488,12 +2526,6 @@
   status: verified
   store: humble:sundered
 
-- name: JumpJet Rex
-  platform: steam
-  id: 329460
-  status: verified
-  store: humble:jumpjet-rex
-
 - name: Super Bit Blaster XL
   platform: steam
   id: 865040
@@ -2612,12 +2644,6 @@
   id: 460790
   status: verified
   store: humble:bayonetta
-
-- name: Overload
-  platform: steam
-  id: 448850
-  status: verified
-  store: humble:overload
 
 - name: The King's Bird
   platform: steam
@@ -3204,12 +3230,6 @@
   id: 213670
   status: verified
 
-- name: Toki Tori 2+
-  platform: steam
-  id: 201420
-  status: verified
-  store: humble:toki-tori-2
-
 - name: Castle Crashers
   platform: steam
   id: 204360
@@ -3237,14 +3257,6 @@
   id: 275390
   status: verified
   store: humble:guacamelee-super-turbo-championship-edition
-
-# native version crashes on startup
-- name: PixelJunk Shooter
-  platform: steam
-  id: 255870
-  status: verified
-  store: humble:pixeljunk-shooter
-  compat_tool: proton-stable
 
 - name: Monster Trampoline
   platform: steam
