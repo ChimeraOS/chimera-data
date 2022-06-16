@@ -1722,6 +1722,10 @@
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/a1d2a5b05d09395f32299a4d270a9a32.png
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/cf9a063bb9be814a77a491171cca236d.png
 
+- name: "Teenage Mutant Ninja Turtles: Shredder's Revenge"
+  platform: steam
+  id: 1361510
+  status: verified
 
 - name: The Textorcist
   platform: epic-store
