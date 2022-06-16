@@ -1064,7 +1064,7 @@
   id: 35000
   store: humble:mini-ninjas
   status: verified
-  compat_tool: proton_63 # controllers do not work with proton_7
+  compat_tool: proton-stable
 
 - name: 'Mirage: Arcane Warfare'
   platform: steam
