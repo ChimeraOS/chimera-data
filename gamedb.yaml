@@ -72,6 +72,13 @@
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/0c22d45f31acf0f4192c8c12b7a55dee.png
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/5a12243d83e5d4340291fd74318bffe2.png
 
+- name: The Alto Collection
+  platform: epic-store
+  id: Hornbill
+  banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/763c4588edd1e9224afacb924a1ee160.png
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/99bec383f442456b15e91d19bfd8b379.png
+  status: unsupported
+
 - name: 'Amnesia: The Dark Descent'
   platform: epic-store
   id: ece4c58603d04bcb97454be9a7492fa6
@@ -259,6 +266,12 @@
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/b068a05e6150657fae301cefcbc9bec0.png
   status: verified
   store: humble:braid
+
+- name: The Bridge
+  platform: epic-store
+  id: Sunbird
+  banner: steam:204240
+  status: verified
 
 - name: 'Brigador: Up-Armored Edition'
   platform: gog
@@ -616,6 +629,12 @@
   notes:
     - No controller support
 
+- name: The Fall
+  platform: epic-store
+  id: daac7fe46e3647cb80530411d7ec1dc5
+  banner: steam:290770
+  status: unsupported
+
 - name: 'Fall Guys: Ultimate Knockout'
   platform: steam
   id: 1097150
@@ -866,22 +885,28 @@
   status: verified
   store: humble:jumpjet-rex
 
-- name: Ken Follett's The Pillars of the Earth
-  platform: epic-store
-  id: 819985835fd54090845e3083e28b77bb
-  banner: steam:234270
-  status: verified
-
 - name: Katawa Shoujo
   platform: flathub
   id: com.katawa_shoujo.KatawaShoujo
   banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/a7282c84a4c2109c3697b6aca8b86aba.png
   status: playable
 
+- name: Ken Follett's The Pillars of the Earth
+  platform: epic-store
+  id: 819985835fd54090845e3083e28b77bb
+  banner: steam:234270
+  status: verified
+
 - name: Killing Floor 2
   platform: epic-store
   id: Finch
   banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/55b37c5c270e5d84c793e486d798c01d.png
+
+- name: THE KING OF FIGHTERS 2002
+  platform: gog
+  id: 2114035213
+  banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/be4d7403582645fe41d3921ac8ce530d.png
+  status: verified
 
 - name: 'Kingdom: New Lands'
   platform: epic-store
@@ -961,6 +986,12 @@
   platform: epic-store
   id: 860a4feefe2a4f48905ae86c61d5db64
   banner: steam:261530
+  status: unsupported
+
+- name: The Lion's Song
+  platform: epic-store
+  id: ee41ac4954314d18b18b8e7789c4e4eb
+  banner: steam:437160
   status: unsupported
 
 - name: Loop Hero
@@ -1691,36 +1722,6 @@
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/a1d2a5b05d09395f32299a4d270a9a32.png
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/cf9a063bb9be814a77a491171cca236d.png
 
-- name: The Alto Collection
-  platform: epic-store
-  id: Hornbill
-  banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/763c4588edd1e9224afacb924a1ee160.png
-  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/99bec383f442456b15e91d19bfd8b379.png
-  status: unsupported
-
-- name: The Bridge
-  platform: epic-store
-  id: Sunbird
-  banner: steam:204240
-  status: verified
-
-- name: THE KING OF FIGHTERS 2002
-  platform: gog
-  id: 2114035213
-  banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/be4d7403582645fe41d3921ac8ce530d.png 
-  status: verified
-
-- name: The Fall
-  platform: epic-store
-  id: daac7fe46e3647cb80530411d7ec1dc5
-  banner: steam:290770
-  status: unsupported
-
-- name: The Lion's Song
-  platform: epic-store
-  id: ee41ac4954314d18b18b8e7789c4e4eb
-  banner: steam:437160
-  status: unsupported
 
 - name: The Textorcist
   platform: epic-store
@@ -1729,19 +1730,6 @@
   status: playable
   notes:
     - No controller support
-
-- name: The Wolf Among Us
-  platform: epic-store
-  id: Cobbler
-  banner: steam:250320
-  status: verified
-
-- name: The World Next Door
-  platform: epic-store
-  id: 39a0313492c84cf79b119efb09df90e5
-  banner: steam:755470
-  compat_tool: Proton-6.21-GE-2
-  status: verified
 
 - name: TinyKeep
   platform: steam
@@ -1907,6 +1895,19 @@
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/53c2bdd5d508f5cbe32477af2aeae3b0.png
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/8fb276fc273796ca929b7fc45c2bc661.png
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/83469d31a109c3b788af763f8353ff1f.png
+
+- name: The Wolf Among Us
+  platform: epic-store
+  id: Cobbler
+  banner: steam:250320
+  status: verified
+
+- name: The World Next Door
+  platform: epic-store
+  id: 39a0313492c84cf79b119efb09df90e5
+  banner: steam:755470
+  compat_tool: Proton-6.21-GE-2
+  status: verified
 
 - name: World of Goo
   platform: epic-store
