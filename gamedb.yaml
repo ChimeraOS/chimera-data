@@ -711,6 +711,13 @@
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/58d2d622ed4026cae2e56dffc5818a11.png
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/0b3f44d9054402de39441e165a4bdfe0.png
 
+- name: FINAL FANTASY VII REMAKE INTERGRADE
+  platform: steam
+  id: 1462040
+  status: verified
+  store: humble:final-fantasy-vii-remake-intergrade
+  compat_tool: proton-stable
+
 - name: Firefox
   platform: flathub
   id: org.mozilla.firefox
