@@ -1,3 +1,8 @@
+- name: 11-11 Memories Retold
+  platform: steam
+  id: 735580
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/d0e0c05662a67856724221e9d363e2fe.png
+
 - name: 198X
   platform: steam
   id: 1086010
@@ -181,6 +186,11 @@
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/5624e6ca4bb96789d1a7658ac27895d1.png
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/ac9768a5017d092a06f8b8b1fc28c20c.png
 
+- name: 'Beatbuddy: Tale of the Guardians'
+  platform: steam
+  id: 231040
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/c90f4ac1bac07a2c7c435f474b3aa98e.png
+
 - name: Bezier
   platform: steam
   id: 381320
@@ -266,6 +276,11 @@
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/b068a05e6150657fae301cefcbc9bec0.png
   status: verified
   store: humble:braid
+
+- name: Breath of Death VII
+  platform: steam
+  id: 107300
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/65d30ce7ebeb224fbdafebfb0c1fae4f.png
 
 - name: The Bridge
   platform: epic-store
@@ -594,6 +609,11 @@
   banner: steam:641990
   status: verified
 
+- name: The Expendabros
+  platform: steam
+  id: 312990
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/acc51fbcbcb7e218430df58a98d4a181.png
+
 - name: F1 2010
   platform: steam
   id: 44310
@@ -669,6 +689,11 @@
   id: Bluebird
   banner: steam:224760
   status: verified
+
+- name: Fight The Dragon
+  platform: steam
+  id: 250560
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/8f7531bdd47d10aec79487868e6d2f37.png
 
 - name: Figment
   platform: epic-store
