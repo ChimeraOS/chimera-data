@@ -1571,6 +1571,13 @@
   notes:
     - Crashes when changing video settings
 
+- name: Sonic Origins
+  platform: steam
+  id: 1794960
+  compat_tool: proton-stable
+  status: verified
+  store: humble:sonic-origins
+
 - name: Sonic Robo Blast 2
   platform: flathub
   id: org.srb2.SRB2
