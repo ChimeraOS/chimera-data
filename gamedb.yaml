@@ -1549,6 +1549,14 @@
   banner: steam:1144770
   status: verified
 
+- name: 'SpongeBob SquarePants: Battle for Bikini Bottom - Rehydrated'
+  platform: steam
+  id: 969990
+  launch_options: PULSE_LATENCY_MSEC=30 %command%
+  status: verified
+  store: humble:spongebob-squarepants-battle-for-bikini-bottom-rehydrated
+  compat_tool: proton-stable
+
 - name: Solitairica
   platform: epic-store
   id: 4c76beac4e8a4156aa8dfb9c6db09746
