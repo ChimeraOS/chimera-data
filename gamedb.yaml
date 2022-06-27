@@ -46,6 +46,13 @@
   banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/33e8dc3b7581c60b4a0d05dc7d57ca6d.png
   status: verified
 
+- name: 'ACE COMBAT 7: SKIES UNKNOWN'
+  platform: steam
+  id: 502500
+  status: verified
+  store: humble:ace-combat-7-skies-unknown
+  compat_tool: proton-stable
+
 - name: AER Memories of Old
   platform: epic-store
   id: 26b63c46de9e4dcc856b3c6b106b6777
@@ -241,6 +248,14 @@
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/107fce5988735e531cae0da812db9a62.png
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/a4939072217b46203c4f5764cb4dac40.jpg
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/1f150b5bb708ed3c5bc048e673208672.png
+
+- name: Bloons TD 6
+  platform: steam
+  id: 960090
+  compat_tool: proton-stable
+  status: playable
+  notes:
+    - No controller support
 
 - name: Bomb Defense
   platform: steam
@@ -462,6 +477,18 @@
   id: c35b9699c4e24c56976b5bd8eceba464
   banner: steam:612390
   status: verified
+
+- name: 'STAR WARS: Dark Forces'
+  platform: steam
+  id: 32400
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/5d1633ade7aed302c261f97ee5a8bedd.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/42e7aaa88b48137a16a1acd04ed91125.jpg
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/847cc55b7032108eee6dd897f3bca8a5.png
+  status: playable
+  store: humble:star-wars-dark-forces
+  compat_tool: boxtron
+  notes:
+    - No controller support
 
 - name: Darkest Dungeon
   platform: epic-store
@@ -964,6 +991,12 @@
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/74564920d4b9f130298880d010c929cd.png
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/a4c22565dfafb162a17a7c357ca9e0be.png
 
+- name: The Last Campfire
+  platform: steam
+  id: 990630
+  compat_tool: proton-stable
+  status: verified
+
 - name: The Last Remnant
   platform: steam
   id: 23310
@@ -1013,6 +1046,13 @@
   id: Gull 
   banner: steam:313690
   status: verified
+
+- name: 'LEGO Star Wars: The Skywalker Saga'
+  platform: steam
+  id: 920210
+  status: verified
+  store: humble:lego-star-wars-the-skywalker-saga
+  compat_tool: proton-stable
 
 - name: 'Lifeless Planet: Premier Edition'
   platform: epic-store
@@ -1246,6 +1286,13 @@
   banner: steam:295790
   status: verified
 
+- name: Ni no Kuni Wrath of the White Witch Remastered
+  platform: steam
+  id: 798460
+  status: verified
+  store: humble:ni-no-kuni-wrath-of-the-white-witch-remastered
+  compat_tool: proton-stable
+
 - name: Night in the Woods
   platform: epic-store
   id: cd1b8a6e5b6c47369e2a1e2cf7b7f536
@@ -1402,6 +1449,13 @@
   banner: steam:233450
   status: unsupported
 
+- name: Pumpkin Jack
+  platform: steam
+  id: 1186640
+  status: verified
+  store: humble:pumpkin-jack
+  compat_tool: proton-stable
+
 - name: 'Quake Mission Pack 1: Scourge of Armagon'
   platform: steam
   id: 9040
@@ -1494,6 +1548,12 @@
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/536b6cdafca2ed6eab8ec7fd981fea65.png
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/a1a2c3fed88e9b3ba5bc3625c074a04e.jpg
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/fc95fa5740ba01a870cfa52f671fe1e4.png
+
+- name: 'Sekiro: Shadows Die Twice'
+  platform: steam
+  id: 814380
+  compat_tool: proton-stable
+  status: verified
 
 - name: Shattered Pixel Dungeon
   platform: flathub
@@ -1667,6 +1727,14 @@
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/4216a63a4a40cd16ad257098ec9d361a.png
   store: humble:star-wars-republic-commando
 
+- name: 'STAR WARS: Squadrons'
+  platform: steam
+  id: 1222730
+  compat_tool: proton-stable
+  status: playable
+  notes:
+    - Displays flashing artifacts during startup
+
 - name: 'STAR WARS Starfighter'
   platform: steam
   id: 32350
@@ -1817,6 +1885,12 @@
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/1bebc4f67cbeda086e5ac2d8d0eea72f.png
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/35051070e572e47d2c26c241ab88307f.png
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/3767ce596a099bc691ee43e67fb6ec03.png
+
+- name: Toree 2
+  platform: steam
+  id: 1722620
+  compat_tool: proton-stable
+  status: verified
 
 - name: Tormentor X Punisher
   platform: epic-store
@@ -2028,6 +2102,12 @@
   status: playable
   notes:
     - Story cutscene videos are missing audio
+
+- name: Untitled Goose Game
+  platform: steam
+  id: 837470
+  status: verified
+  compat_tool: proton-stable
 
 - name: Super Monkey Ball Banana Mania
   platform: steam
@@ -3913,14 +3993,6 @@
   name: Sonic Generations
   compat_tool: proton-stable
   compat_config: noesync,nofsync
-
-- id: 32400
-  platform: steam
-  name: 'STAR WARS: Dark Forces'
-  compat_tool: boxtron
-  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/5d1633ade7aed302c261f97ee5a8bedd.png
-  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/42e7aaa88b48137a16a1acd04ed91125.jpg
-  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/847cc55b7032108eee6dd897f3bca8a5.png
 
 - id: 410700
   platform: steam
