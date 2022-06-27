@@ -1234,18 +1234,18 @@
   id: 634070
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/2823676e1710dd493a2ec868aefd8a86.jpg
 
+- name: Mutazione
+  platform: epic-store
+  id: 1fe19232c0f7476a8e99fd8752e800c2
+  banner: steam:1080750
+  status: verified
+
 - name: Nanooborg
   platform: steam
   id: 518100
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/45a5b6b62be6e002305d48a08a024f82.png
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/560003ffda27cda2328b3e17a0ed7f0f.png
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/29e7daaa3971f473a9406009cca3bed2.png
-
-- name: Mutazione
-  platform: epic-store
-  id: 1fe19232c0f7476a8e99fd8752e800c2
-  banner: steam:1080750
-  status: verified
 
 - name: 'NARUTO: Ultimate Ninja STORM'
   platform: steam
@@ -1609,14 +1609,6 @@
   banner: steam:1144770
   status: verified
 
-- name: 'SpongeBob SquarePants: Battle for Bikini Bottom - Rehydrated'
-  platform: steam
-  id: 969990
-  launch_options: PULSE_LATENCY_MSEC=30 %command%
-  status: verified
-  store: humble:spongebob-squarepants-battle-for-bikini-bottom-rehydrated
-  compat_tool: proton-stable
-
 - name: Solitairica
   platform: epic-store
   id: 4c76beac4e8a4156aa8dfb9c6db09746
@@ -1670,6 +1662,14 @@
   id: 6ffe878bb1ce490ba6d3a359a1f88df2
   banner: steam:468670
   status: verified
+
+- name: 'SpongeBob SquarePants: Battle for Bikini Bottom - Rehydrated'
+  platform: steam
+  id: 969990
+  launch_options: PULSE_LATENCY_MSEC=30 %command%
+  status: verified
+  store: humble:spongebob-squarepants-battle-for-bikini-bottom-rehydrated
+  compat_tool: proton-stable
 
 - name: Spotify
   platform: flathub
@@ -1866,12 +1866,6 @@
   status: verified
   store: humble:toki-tori-2
 
-- name: Tonight We Riot
-  platform: gog
-  id: 1095982752
-  banner: steam:290690
-  status: verified
-
 - name: "Tom Clancy's Rainbow Six: Vegas"
   platform: steam
   id: 13540
@@ -1885,6 +1879,12 @@
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/1bebc4f67cbeda086e5ac2d8d0eea72f.png
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/35051070e572e47d2c26c241ab88307f.png
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/3767ce596a099bc691ee43e67fb6ec03.png
+
+- name: Tonight We Riot
+  platform: gog
+  id: 1095982752
+  banner: steam:290690
+  status: verified
 
 - name: Toree 2
   platform: steam
