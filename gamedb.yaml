@@ -1392,7 +1392,6 @@
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/c5658c711ba9170700fc7d3ee3f63e40.png
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/5a9d8bf5b7a4b35f3110dde8673bdda2.png
   status: verified
-  store: humble:pixeljunk-shooter
   compat_tool: proton-stable
 
 - name: Pixplode
