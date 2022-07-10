@@ -1053,6 +1053,16 @@
   banner: steam:313690
   status: verified
 
+- name: 'LEGO Marvel Super Heroes 2'
+  platform: steam
+  id: 647830
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/16738419b15b05e74e1ecb164430bfa8.png
+
+- name: 'The LEGO Movie - Videogame'
+  platform: steam
+  id: 267530
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/0401ed6796f1f9b637d18a4ba337e1d6.png
+
 - name: 'LEGO Star Wars: The Skywalker Saga'
   platform: steam
   id: 920210
@@ -3893,6 +3903,8 @@
   platform: steam
   name: The LEGO NINJAGO Movie Video Game
   compat_tool: proton-stable
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/f615f73c15958c1b072e4dafcac7c38b.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/5addc429b39957a9752b0f32f6a4019c.jpg
   launch_options: WINEDLLOVERRIDES="xaudio2_7=native,builtin" %command%
 
 - id: 214510
