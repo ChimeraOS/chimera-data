@@ -1132,6 +1132,11 @@
   id: 386340
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/674799a0755561627d8eeb4164dc1bf4.png
 
+- name: 'METAL GEAR SOLID V: GROUND ZEROES'
+  platform: steam
+  id: 311340
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/3d5cbcad747c5477f33557043b62bbeb.png
+
 - name: Metro 2033 Redux
   platform: epic-store
   id: Petunia
@@ -1470,6 +1475,11 @@
   status: verified
   store: humble:pumpkin-jack
   compat_tool: proton-stable
+
+- name: Puzzle Agent
+  platform: steam
+  id: 31270
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/8c05cf5bf084d8a1908738d8f5f6bad7.png
 
 - name: 'Quake Mission Pack 1: Scourge of Armagon'
   platform: steam
