@@ -1811,6 +1811,11 @@
   banner: steam:1097800
   status: verified
 
+- name: Stray
+  platform: steam
+  id: 1332010
+  compat_tool: proton-stable
+
 - name: Super Hexagon
   platform: steam
   id: 221640
