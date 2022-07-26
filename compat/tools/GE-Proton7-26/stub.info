@@ -1,0 +1,3 @@
+TOOL_URL=https://github.com/GloriousEggroll/proton-ge-custom/releases/download/GE-Proton7-26/GE-Proton7-26.tar.gz
+TOOL_MD5SUM=cd6faa28fd335ac9aa4371671a85f1ec
+TOOL_CMD=proton
