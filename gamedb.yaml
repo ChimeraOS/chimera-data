@@ -4145,4 +4145,9 @@
   notes:
     - Requires launcher/installer interaction during first time setup
     - Uses a launcher which is bypassed after first installation
-  
+
+- name: In Sound Mind
+  platform: steam
+  id: 1119980
+  compat_tool: GE-Proton7-28
+
