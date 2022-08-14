@@ -4138,3 +4138,16 @@
   name: The Adventure Pals
   compat_tool: proton_513
   
+- name: Unravel Two
+  platform: steam
+  id: 1225570
+  compat_tool: GE-Proton7-28
+  notes:
+    - Requires launcher/installer interaction during first time setup
+    - Uses a launcher which is bypassed after first installation
+
+- name: In Sound Mind
+  platform: steam
+  id: 1119980
+  compat_tool: GE-Proton7-28
+
