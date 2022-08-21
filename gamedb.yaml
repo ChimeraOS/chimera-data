@@ -1514,6 +1514,13 @@
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/cb1a716a70ad58a2f02792dcc8db2039.png
   status: verified
 
+- name: Realms of the Haunting
+  platform: steam
+  id: 292390
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/f06270e164ef9303bd2d4d5cb2975d5b.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/84f2e494266e3d8bff012509c07be604.jpg
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/b5b03f06271f8917685d14cea7c6c50a.png
+
 - name: Rebel Galaxy
   platform: epic-store
   id: Weaver
@@ -1526,12 +1533,10 @@
   status: verified
   compat_tool: GE-Proton7-9
 
-- name: Realms of the Haunting
+- name: Republique
   platform: steam
-  id: 292390
-  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/f06270e164ef9303bd2d4d5cb2975d5b.png
-  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/84f2e494266e3d8bff012509c07be604.jpg
-  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/b5b03f06271f8917685d14cea7c6c50a.png
+  id: 317100
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/68c7fca1e3bba5e49ec90847dcdd456b.png
 
 - name: Rochard
   platform: steam
