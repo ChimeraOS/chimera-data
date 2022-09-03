@@ -2634,7 +2634,6 @@
 - name: BioShock Remastered
   platform: steam
   id: 409710
-  status: verified
   store: humble:bioshock-remastered
   compat_tool: proton-stable
   compat_config: noesync,nofsync
@@ -2689,7 +2688,6 @@
 - name: BioShock 2 Remastered
   platform: steam
   id: 409720
-  status: verified
   compat_tool: proton-stable
   compat_config: noesync,nofsync
   launch_options: -nointro
@@ -3319,7 +3317,6 @@
 - name: BioShock Infinite
   platform: steam
   id: 8870
-  status: verified
   store: humble:bioshock-infinite
   steam_input: enabled
 
