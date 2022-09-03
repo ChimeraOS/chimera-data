@@ -221,7 +221,6 @@
 - name: 'BIT.TRIP Presents... Runner2: Future Legend of Rhythm Alien'
   platform: steam
   id: 218060
-  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/7b54cb6c7740203b722d395215ed5ba2.png
   status: verified
   store: humble:bittrip-presents-runner2-future-legend-of-rhythm-alien
   compat_tool: proton-stable
@@ -229,7 +228,6 @@
 - name: BIT.TRIP RUNNER
   platform: steam
   id: 63710
-  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/bc61fae6a5150b4280424a14f747464a.png
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/ef0eff6088e2ed94f6caf720239f40d5.png
   compat_tool: proton-stable
   patch_dir: BIT.TRIP RUNNER
@@ -1560,7 +1558,6 @@
 - name: Runner3
   platform: steam
   id: 516130
-  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/46cbec5dc4417a29773d07f28919ac11.png
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/0fb94b5238b785967da7765e33a7d8aa.png
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/fc322c6bd467dc6e4a70ece4ce0245f8.png
   status: verified
