@@ -1822,6 +1822,7 @@
 - name: Stray
   platform: steam
   id: 1332010
+  status: verified
   compat_tool: proton-stable
 
 - name: Super Hexagon
