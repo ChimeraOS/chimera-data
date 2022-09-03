@@ -402,6 +402,12 @@
   id: 390610
   compat_tool: proton_37
 
+- name: Circuit Superstars
+  platform: steam
+  id: 1097130
+  status: verified
+  store: humble:circuit-superstars
+
 - name: ClusterPuck 99
   platform: steam
   id: 337960
