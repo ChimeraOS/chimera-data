@@ -330,6 +330,12 @@
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/3546ab441e56fa333f8b44b610d95691.jpg
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/50c3d7614917b24303ee6a220679dab3.png
 
+- name: Cannon Brawl
+  platform: steam
+  id: 230860
+  status: verified
+  store: humble:cannon-brawl
+
 - name: Castle of no Escape 2
   platform: steam
   id: 542350
