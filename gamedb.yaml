@@ -179,6 +179,14 @@
   banner: steam:688420
   status: verified
 
+# native version has controller issues
+- name: Ballistic Tanks
+  platform: steam
+  id: 493060
+  compat_tool: proton-stable
+  status: verified
+  store: humble:ballistic-tanks
+
 - name: Battle Riders
   platform: steam
   id: 418060
