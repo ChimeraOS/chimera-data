@@ -4171,3 +4171,7 @@
   id: 1119980
   compat_tool: GE-Proton7-28
 
+- name: Crown Trick
+  platform: steam
+  id: 1000010
+  compat_tool: Proton-6.1-GE-2
