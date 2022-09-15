@@ -2655,7 +2655,7 @@
   store: humble:bioshock-remastered
   compat_tool: proton-stable
   compat_config: noesync,nofsync
-  launch_options: -nointro
+  launch_options: eval $( echo "%command%" | sed "s/2KLauncher\/LauncherPatcher.exe'.*/Build\/Final\/BioshockHD.exe'/" ) -nointro
 
 - name: Generation Zero
   platform: steam
@@ -2708,7 +2708,7 @@
   id: 409720
   compat_tool: proton-stable
   compat_config: noesync,nofsync
-  launch_options: -nointro
+  launch_options: eval $( echo "%command%" | sed "s/2KLauncher\/LauncherPatcher.exe'.*/Build\/Final\/Bioshock2HD.exe'/" ) -nointro
 
 - name: NBA 2K20
   platform: steam
@@ -3336,7 +3336,9 @@
   platform: steam
   id: 8870
   store: humble:bioshock-infinite
+  compat_tool: proton-stable
   steam_input: enabled
+  launch_options: eval $( echo "%command%" | sed "s/2KLauncher\/LauncherPatcher.exe'.*/Binaries\/Win32\/BioShockInfinite.exe'/" ) -nointro
 
 - name: Yakuza Kiwami
   platform: steam
@@ -4015,7 +4017,8 @@
 - id: 289070
   platform: steam
   name: Sid Meier's Civilization VI
-  launch_options: LD_PRELOAD=/usr/lib/libfreetype.so.6 %command%
+  compat_tool: proton-stable
+  launch_options: eval $( echo "%command%" | sed "s/2KLauncher\/LauncherPatcher.exe'.*/Base\/Binaries\/Win64Steam\/CivilizationVI.exe'/" )
 
 - id: 282210
   platform: steam
