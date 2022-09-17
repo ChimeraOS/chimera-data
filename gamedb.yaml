@@ -4178,3 +4178,10 @@
   platform: steam
   id: 1000010
   compat_tool: Proton-6.1-GE-2
+
+# native versions crashes
+- id: 217120
+  platform: steam
+  name: Waves 2: Notorious
+  compat_tool: proton-stable
+
