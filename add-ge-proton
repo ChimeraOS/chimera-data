@@ -1,0 +1,42 @@
+#! /bin/bash
+
+set -e
+
+pushd compat/tools
+
+if [ -z "${1}" ]; then
+	echo "Please specify the GE Proton version to add."
+	echo "For example: '7-16'"
+	exit
+fi
+
+VERSION="${1}" # e.g. 7-16
+NAME="GE-Proton${VERSION}"
+TOOL_URL="https://github.com/GloriousEggroll/proton-ge-custom/releases/download/${NAME}/${NAME}.tar.gz"
+SHA_URL="https://github.com/GloriousEggroll/proton-ge-custom/releases/download/${NAME}/${NAME}.sha512sum"
+
+curl -L -O ${SHA_URL}
+curl -L -O ${TOOL_URL}
+
+TOOL_MD5SUM=`md5sum ${NAME}.tar.gz | cut -d' ' -f 1`
+
+sha512sum -c ${NAME}.sha512sum
+tar xf ${NAME}.tar.gz
+
+cp ${NAME}/compatibilitytool.vdf .
+cp ${NAME}/toolmanifest.vdf .
+
+rm -rf ${NAME}
+
+mkdir ${NAME}
+mv toolmanifest.vdf compatibilitytool.vdf ${NAME}
+echo "TOOL_URL=${TOOL_URL}
+TOOL_MD5SUM=${TOOL_MD5SUM}
+TOOL_CMD=proton" > ${NAME}/stub.info
+
+rm ${NAME}.tar.gz
+rm ${NAME}.sha512sum
+
+git add ${NAME}
+
+popd
