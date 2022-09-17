@@ -4182,6 +4182,6 @@
 # native versions crashes
 - id: 217120
   platform: steam
-  name: Waves 2: Notorious
+  name: 'Waves 2: Notorious'
   compat_tool: proton-stable
 
