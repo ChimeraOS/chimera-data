@@ -1188,6 +1188,9 @@
   platform: flathub
   id: com.mojang.Minecraft
   banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/86113dc59e768c1d1a462f18a5d458a0.png
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/ee897a8699b37568c5c8dd72f78c2bf1.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/47f4b6321e9fd8e8f7326a6adc1a7c1e.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/90915208c601cc8c86ad01250ee90c12.png
   status: playable
   notes:
     - No controller support
@@ -1196,7 +1199,8 @@
 - name: Minetest
   platform: flathub
   id: net.minetest.Minetest
-  banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/4b7a5e62ed921ed7df54741cae0fa89b.png
+  banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/8ee6e4e1336149052f9ad82c2a7e5d06.png
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/f469edbf1a33bef986953ae249e3abdc.png
   status: playable
   notes:
     - No controller support
