@@ -1689,6 +1689,9 @@
   platform: flathub
   id: org.srb2.SRB2
   banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/cae4a57bcd2fa803df2270f5d8bbbbae.png
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/f655d686ece627fa58304aa1b6bf8b39.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/f9beb1e831faf6aaec2a5cecaf1af293.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/06b44f22bf01b4bad31391ffe00009c4.png
   status: playable
   notes:
     - Displays keyboard icons
