@@ -676,8 +676,8 @@
 - name: F1 22
   platform: steam
   id: 1692250
-  status: unsupported
-  compat_tool: proton-stable
+  status: verified
+  compat_tool: proton-experimental
 
 - name: Fable III
   platform: steam
