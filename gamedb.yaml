@@ -1978,6 +1978,13 @@
   banner: steam:251470
   status: verified
 
+- name: Trombone Champ
+  platform: steam
+  id: 1059990
+  status: playable
+  notes:
+    - No controller support
+
 - name: SYMMETRY
   platform: gog
   id: 1440133968
