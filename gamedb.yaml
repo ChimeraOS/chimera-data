@@ -3585,7 +3585,6 @@
 - name: Hyper Light Drifter
   platform: steam
   id: 257850
-  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/0c8983a6682002961dfb4a003a866d84.png
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/ca9c267dad0305d1a6308d2a0cf1c39c.png
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/f6d9e459b9fbf6dd26c4f7d621adec1d.png
   status: verified
