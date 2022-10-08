@@ -1145,6 +1145,15 @@
   notes:
     - No controller support
 
+- name: Mega Coin Squad
+  platform: steam
+  id: 312510
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/853267151491651de0b06db27ba51ed9.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/8303a79b1e19a194f1875981be5bdb6f.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/42853a61b26fef79e2ae788d97356799.png
+  store: humble:mega-coin-squad
+  status: verified
+
 - name: MegaSphere
   platform: steam
   id: 386340
