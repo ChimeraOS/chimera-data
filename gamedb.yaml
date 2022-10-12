@@ -1416,7 +1416,7 @@
   platform: steam
   id: 1178880
   status: verified
-  compat_tool: Proton-6.21-GE-2
+  compat_tool: proton-experimental
 
 - name: Pathway
   platform: epic-store
