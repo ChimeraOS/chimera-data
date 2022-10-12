@@ -3902,6 +3902,7 @@
   platform: steam
   name: Freedom Planet
   status: playable
+  store: humble:freedom-planet
   notes:
     - Displays incorrect controller icons
   patch_dir: Freedom Planet
@@ -3909,6 +3910,11 @@
     - copy:
         src: Freedom Planet/control_gamepad.cfg
         dst: control_gamepad.cfg
+
+- id: 595500
+  platform: steam
+  name: Freedom Planet 2
+  status: verified
 
 - id: 1311070
   platform: steam
