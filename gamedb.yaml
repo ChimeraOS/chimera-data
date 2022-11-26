@@ -4212,3 +4212,40 @@
   name: 'Waves 2: Notorious'
   compat_tool: proton-stable
 
+- name: Super Mega Baseball 2
+  platform: steam
+  id: 414870
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/d4b843554caa89f1dc333d8782a11d40.png
+
+- name: TANKS
+  platform: steam
+  id: 866420
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/e4468feba65b34be3ab870882109d5af.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/ae0752582ef51ba1b182f3d7f7cd9751.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/eb2c115996de9709efa58507c07b40ab.png
+
+- name: NBA Playgrounds
+  platform: steam
+  id: 545270
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/d5eac1e9308bcc90cb100d80979f8d98.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/5de310fd9365cd111d778791085b1eb3.jpg
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/c5b3966bd2d4c690da368b3ecbece868.png
+
+- name: Monopoly Plus
+  platform: steam
+  id: 562810
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/3acc60912ab5edf5da1810c51c8ccb21.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/995e1fda4a2b5f55ef0df50868bf2a8f.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/8562ae5e286544710b2e7ebe9858833b.png
+
+- name: Kalimba
+  platform: steam
+  id: 324140
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/ef95b846b1e8469e32e7831643ca00ef.jpg
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/fa99ccdbea597263a88f27075bd6eb49.png
+
+- name: Killer Instinct
+  platform: steam
+  id: 577940
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/6aed000af86a084f9cb0264161e29dd3.jpg
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/bd6a06f41bae67be959e5b44addc880f.png
