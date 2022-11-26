@@ -1396,6 +1396,8 @@
   platform: steam
   id: 455400
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/115627429ce0a6b0c876779fc835f1e1.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/2de8d3829c34f96ae608052ecd132895.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/7c250678f61f49092fa0d4040e5e54e9.png
   status: verified
 
 - name: PAC-MAN CHAMPIONSHIP EDITION 2
