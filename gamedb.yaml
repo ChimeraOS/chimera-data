@@ -1527,6 +1527,12 @@
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/4bbb5420ed2dc9a8eaaedc7ae59de448.png
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/fefe447107ab48d504ca4865c1a69dd2.png
 
+- name: Quantum Break
+  platform: steam
+  id: 474960
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/6a5dfac4be1502501489fc0f5a24b667.jpg
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/a8166da05c5a094f7dc03724b41886e5.png
+
 - name: 'Q.U.B.E.'
   platform: steam
   id: 203730
