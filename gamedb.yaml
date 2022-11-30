@@ -1920,6 +1920,11 @@
   platform: steam
   id: 1361510
   status: verified
+  
+- name: Tell Me Why
+  platform: steam
+  id: 1180660
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/e1d351219a44905eb5f80749d63ce379.png
 
 - name: The Textorcist
   platform: epic-store
