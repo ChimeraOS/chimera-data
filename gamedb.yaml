@@ -1006,6 +1006,9 @@
   platform: flathub
   id: tv.kodi.Kodi
   banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/0decbbe8e7f4bbda5ecf7be75866985e.png
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/ba7a7accbfd45c83d4eae936f454db2e.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/01de4c21eacf934da60552507a4696e6.jpg
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/cc535d6609c5a9ed0fec0f30ba78b7fd.png
   status: playable
 
 - name: Larva Mortus
