@@ -629,6 +629,11 @@
   banner: steam:311690
   status: verified
 
+- name: "Eryi's Action"
+  platform: steam
+  id: 261700
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/53f5040ad7f51d37a525e86c91241235.jpg
+
 - name: Escape Goat 2
   platform: steam
   id: 255340
@@ -839,6 +844,11 @@
   id: Emperor
   banner: steam:437570
   status: verified
+
+- name: Grow Home
+  platform: steam
+  id: 323320
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/bb053e19fd02a0e5a374e90a3ddf16fc.png
 
 - name: Guild of Dungeoneering
   platform: epic-store
@@ -1587,9 +1597,17 @@
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/a733fa9b25f33689e2adbe72199f0e62.png
 
 - name: Rogue Legacy
+  platform: steam
+  id: 241600
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/0ed59365c9661717a5809aba12f64c5c.png
+  status: verified
+  store: humble:rogue-legacy
+
+- name: Rogue Legacy
   platform: epic-store
   id: 01f1e8046e9e433db190a611a0411579
   banner: steam:241600
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/0ed59365c9661717a5809aba12f64c5c.png
   status: unsupported
 
 - name: Rocket League
@@ -1735,6 +1753,11 @@
   id: 6ffe878bb1ce490ba6d3a359a1f88df2
   banner: steam:468670
   status: verified
+
+- name: Splice
+  platform: steam
+  id: 209790
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/a45e778f52ba7a67429d0fd958421ed6.png
 
 - name: 'SpongeBob SquarePants: Battle for Bikini Bottom - Rehydrated'
   platform: steam
@@ -3661,12 +3684,6 @@
   platform: steam
   id: 355050
   status: verified
-
-- name: Rogue Legacy
-  platform: steam
-  id: 241600
-  status: verified
-  store: humble:rogue-legacy
 
 - name: One Ship Two Ship Redshift Blueshift
   platform: steam
