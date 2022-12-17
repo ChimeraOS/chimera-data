@@ -900,6 +900,13 @@
   banner: steam:595790
   status: verified
 
+- name: Hoard
+  platform: steam
+  id: 63000
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/86d5334824b3cf306d28b1fff0b45dc2.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/a3eb043e7bf775de87763e9f8121c953.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/ff6d1b5b3af6380be53a3d677b773576.png
+
 - name: Hob
   platform: epic-store
   id: Lyrebird
