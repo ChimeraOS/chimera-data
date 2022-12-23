@@ -4289,3 +4289,10 @@
   id: 577940
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/6aed000af86a084f9cb0264161e29dd3.jpg
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/bd6a06f41bae67be959e5b44addc880f.png
+
+# native version doesn't play cut scenes 
+- id: 280160
+  platform: steam
+  name: Aragami
+  compat_tool: proton-stable
+
