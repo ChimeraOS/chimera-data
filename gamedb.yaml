@@ -1120,6 +1120,12 @@
   banner: steam:437160
   status: unsupported
 
+- name: 'Little Witch Academia: Chamber of Time'
+  platform: steam
+  id: 710470
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/be927bca44610c3531b44df841d5c577.png
+  status: verified
+
 - name: Loop Hero
   platform: epic-store
   id: f7a0ebb44f93430fb1c4388a395eba96
