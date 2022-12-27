@@ -931,6 +931,12 @@
   banner: steam:257850
   status: unsupported
 
+- name: Ikaruga
+  platform: steam
+  id: 253750
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/a08d4caad8819a0e906dd03ce11143c9.jpg
+  status: verified
+
 - name: In Sound Mind
   platform: epic-store
   id: 29ee5d32f328471590b3bd3ac03ed7d0
