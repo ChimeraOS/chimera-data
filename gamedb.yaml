@@ -1,3 +1,9 @@
+- name: Steam Play for all other titles
+  platform: steam
+  id: 0
+  compat_tool: proton-stable
+  priority: 74
+
 - name: 11-11 Memories Retold
   platform: steam
   id: 735580
