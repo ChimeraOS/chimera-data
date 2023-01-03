@@ -3294,9 +3294,11 @@
   id: 515220
   status: verified
 
-- name: HITMAN
+# native version doesn't start 
+- id: 236870
   platform: steam
-  id: 236870
+  name: HITMAN
+  compat_tool: proton-stable
   status: verified
 
 - name: EVERSPACE
