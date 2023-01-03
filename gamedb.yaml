@@ -3296,8 +3296,8 @@
 
 # native version doesn't start 
 - name: HITMAN
-  id: 236870
   platform: steam
+  id: 236870
   compat_tool: proton-stable
   status: verified
 
