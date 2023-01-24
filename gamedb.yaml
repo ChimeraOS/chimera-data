@@ -4315,4 +4315,22 @@
   platform: steam
   name: Aragami
   compat_tool: proton-stable
+  
+# Enable -steamdeck to fix Forespoken
+- name: Forespoken
+  platform: steam
+  id: 1680880
+  launch_options: SteamDeck=1 %command%
+  
+ # Disable -steamdeck to fix controller issues for Sackboy
+- name: Sackboy A Big Adventure
+  platform: steam
+  id: 1599660
+  launch_options: SteamDeck=0 %command%
 
+ # Fix for the launcher not detecting the available space correctly
+- name: Elder Scrolls Online
+  platform: steam
+  id: 306130
+  launch_options: PROTON_SET_GAME_DRIVE=1 %command%
+  
