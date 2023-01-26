@@ -20,12 +20,12 @@ rm -f "$TOOL_FILE"
 curl -L -O $TOOL_URL -# 2>&1 | \
   stdbuf -oL tr '\r' '\n' | \
   grep --color=auto --line-buffered -oP '[0-9]*+(?=.[0-9])' > $"PROGRESS_PIPE" &
-curl_pid=$?
+curl_pid="$!"
 
 splash_pid=0
 if [ -e /usr/bin/chimera-splash ] ; then
 	/usr/bin/chimera-splash --tool "$TOOL_DIR" --pipe-file "$PROGRESS_PIPE" &
-	splash_pid=$?
+	splash_pid="$!"
 fi
 
 wait $curl_pid
