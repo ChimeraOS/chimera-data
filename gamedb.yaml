@@ -1322,6 +1322,11 @@
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/3464ce4186536a9855a8a7967b121b3e.jpg
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/955fda27a2b8c63b1a738968656ce939.png
 
+- name: Murder Miners
+  platform: steam
+  id: 274900
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/33d84d6852006fdb220a0b7094b76c46.png
+
 # needs background and logo
 - name: Murnatan
   platform: steam
