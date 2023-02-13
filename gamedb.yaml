@@ -1031,6 +1031,11 @@
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/271b03e712a11c8c4c4b4b9153c2e29a.png
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/0d012a47399f189a1fd2a147eb59130a.png
 
+- name: Kings of Kung Fu
+  platform: steam
+  id: 316930
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/1b4383c1d170ec4880c75de4b5299085.png
+
 - name: Kodi
   platform: flathub
   id: tv.kodi.Kodi
