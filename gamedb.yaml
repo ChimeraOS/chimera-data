@@ -1950,6 +1950,11 @@
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/e327b1649d06bf74fceb4fe73f83bdba.jpg
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/767d01b4bac1a1e8824c9b9f7cc79a04.png
 
+- name: Syberia II
+  platform: steam
+  id: 46510
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/16d52d2df6ddd1e6efcf6851dec3cf85.png
+
 - name: Tacoma
   platform: epic-store
   id: Flagfin
