@@ -212,6 +212,12 @@
   id: 231040
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/c90f4ac1bac07a2c7c435f474b3aa98e.png
 
+- name: 'Beyond: Two Souls'
+  platform: steam
+  id: 960990
+  compat_tool: proton-stable
+  status: verified
+
 - name: Bezier
   platform: steam
   id: 381320
