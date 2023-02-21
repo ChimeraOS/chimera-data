@@ -4361,3 +4361,9 @@
   id: 306130
   launch_options: PROTON_SET_GAME_DRIVE=1 %command%
   
+ # Disable -steamdeck to fix the game failing to launch in game mode
+- name: HITMAN 3
+  platform: steam
+  id: 1659040
+  launch_options: SteamDeck=0 %command%
+  
