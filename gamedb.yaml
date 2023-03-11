@@ -4367,3 +4367,10 @@
   id: 1659040
   launch_options: SteamDeck=0 %command%
   
+# proton stable doesn't play cut scenes 
+- id: 1069690
+  platform: steam
+  name: Rogue Lords
+  compat_tool: GE-Proton7-49
+  
+
