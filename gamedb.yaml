@@ -2132,6 +2132,15 @@
   id: Angelonia
   banner: steam:447040
 
+- name: Warcraft II Battle.net Edition
+  platform: gog
+  id: 1418669891
+  exe: Warcraft II BNE.exe
+  logo: https://images.gog-statics.com/ef95ddadacb1d6e177ab3029adb1e01aa718186ff3aac58455c4e7e67ba52a9e_product_card_v2_logo_480x285.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/530468698061c34fe19ecbdf1a5fb950.png
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/6b4a50a07d9f35739bd158b83cca2b48.png
+  icon: https://cdn2.steamgriddb.com/file/sgdb-cdn/icon/3e89ebdb49f712c7d90d1b39e348bbbf.ico
+
 - name: 'Warhammer 40,000: Eternal Crusade'
   platform: steam
   id: 375230
