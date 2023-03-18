@@ -3878,6 +3878,13 @@
   status: verified
   store: humble:celeste
 
+- name: Celeste
+  platform: epic-store
+  id: b671fbc7be424e888c9346a9a6d3d9db:38c07a09dc174b69b756aa51890c3dd4:Salt
+  status: verified
+  store: humble:celeste
+  launch_options: FNA3D_FORCE_DRIVER=OpenGL %command%
+
 - name: Assault Android Cactus
   platform: steam
   id: 250110
