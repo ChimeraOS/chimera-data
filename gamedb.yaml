@@ -3882,7 +3882,6 @@
   platform: epic-store
   id: Salt
   status: verified
-  store: humble:celeste
   launch_options: FNA3D_FORCE_DRIVER=OpenGL %command%
 
 - name: Assault Android Cactus
