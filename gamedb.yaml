@@ -2309,10 +2309,7 @@
 - name: Ultra Street Fighter IV
   platform: steam
   id: 45760
-  store: humble:ultra-street-fighter-iv
-  status: playable
-  notes:
-    - Story cutscene videos are missing audio
+  status: verified
 
 - name: Untitled Goose Game
   platform: steam
