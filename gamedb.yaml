@@ -28,6 +28,11 @@
   banner: steam:322110
   status: unsupported
 
+- name: The 39 Steps
+  platform: steam
+  id: 234940
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/72b06526c9563289847a9be2d9b33336.png
+
 - name: A Short Hike
   platform: epic-store
   id: d6407c9e6fd54cb492b8c6635480d792
@@ -70,6 +75,11 @@
   platform: steam
   id: 331870
   launch_options: '%command% -screen-fullscreen 0'
+
+- name: 'Air Conflicts: Pacific Carriers'
+  platform: steam
+  id: 214910
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/450b97a48568c3118ff397f73abe4e4a.png
 
 - name: Alan Wake
   platform: epic-store
@@ -132,11 +142,36 @@
   id: 233550
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/fd17be0e14bb74f125868e331a111448.png
 
+- name: Antichamber
+  platform: steam
+  id: 219890
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/0395b98de9a261e0dbc630e72b6bf183.png
+
 - name: APE OUT
   platform: epic-store
   id: Coley
   banner: steam:447150
   status: verified
+
+- name: 'ARCADE GAME SERIES: DIG DUG'
+  platform: steam
+  id: 403400
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/9512192a18d42848eef03f3f0a3dfbf6.png
+
+- name: 'ARCADE GAME SERIES: GALAGA'
+  platform: steam
+  id: 403430
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/9165d83699e3d014274f4737d169a2a0.png
+
+- name: 'ARCADE GAME SERIES: Ms. PAC-MAN'
+  platform: steam
+  id: 403410
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/e2f964e176efb40969652e3249023645.png
+
+- name: 'ARCADE GAME SERIES: PAC-MAN'
+  platform: steam
+  id: 394160
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/02dd0428a167bde5e5b544cc1aae3f74.png
 
 - name: Aritana and the Harpy's Feather
   platform: steam
