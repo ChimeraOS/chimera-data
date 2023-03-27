@@ -219,6 +219,11 @@
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/c92a10324374fac681719d63979d00fe.jpg
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/883e881bb4d22a7add958f2d6b052c9f.png
 
+- name: Bad Hotel
+  platform: steam
+  id: 231720
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/90a968fc0f70ab11c67b304474027f73.png
+
 - name: 'Bad North: Jotunn Edition'
   platform: epic-store
   id: Chives
@@ -252,6 +257,11 @@
   id: 231040
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/c90f4ac1bac07a2c7c435f474b3aa98e.png
 
+- name: Beyond Good & Evil
+  platform: steam
+  id: 15130
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/9599bdab29c403b39cf3df8634b11b63.jpg
+
 - name: 'Beyond: Two Souls'
   platform: steam
   id: 960990
@@ -271,6 +281,11 @@
   id: 335080
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/83ac8b4d3275014fb480cf49c2a855c0.png
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/3c4dbca5fa732d03efb4b0a88a837b29.png
+
+- name: Bionic Dues
+  platform: steam
+  id: 238910
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/3e3218bd33c9b0f06b2887aafce565df.png
 
 - name: BIT.TRIP BEAT
   platform: steam
