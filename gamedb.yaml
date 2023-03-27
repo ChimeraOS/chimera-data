@@ -131,6 +131,11 @@
   banner: steam:945360
   status: unsupported  
 
+- name: And Yet It Moves
+  platform: steam
+  id: 18700
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/79eb48bb4409051aab1602e390c98736.png
+
 - name: 'Anodyne 2: Return to Dust'
   platform: epic-store
   id: Tanzanite
