@@ -365,6 +365,11 @@
   status: verified
   store: humble:braid
 
+- name: Breach & Clear
+  platform: steam
+  id: 266130
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/4dd472bdb30a606e5306342fa82246f8.png
+
 - name: Breath of Death VII
   platform: steam
   id: 107300
@@ -384,11 +389,31 @@
   notes:
     - Displays keyboard icons
 
+- name: "Broken Sword: Director's Cut"
+  platform: steam
+  id: 57640
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/6871e7ecc0d05b7e8c849dcbbc92c9b8.png
+
+- name: "Broken Sword 2 - the Smoking Mirror: Remastered"
+  platform: steam
+  id: 33600
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/43829cbde6a6862b0f13133736da5c0c.png
+
 - name: Brothers - A Tale of Two Sons
   platform: epic-store
   id: Tamarind
   banner: steam:225080
   status: verified
+
+- name: Bulletstorm
+  platform: steam
+  id: 99810
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/8525d6d5e6d0b3c70790c9d45ec0f7d9.png
+
+- name: B.U.T.T.O.N.
+  platform: steam
+  id: 92400
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/55b8db1a622cf24ddc99462f2444e226.png
 
 - name: 'Call of Duty: United Offensive'
   platform: steam
@@ -396,6 +421,11 @@
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/f9fb7c79045fc492a18b051150c2b269.png
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/3546ab441e56fa333f8b44b610d95691.jpg
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/50c3d7614917b24303ee6a220679dab3.png
+
+- name: Canabalt
+  platform: steam
+  id: 358960
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/0ad61421999b551a73c65aa7b140ff03.png
 
 - name: Cannon Brawl
   platform: steam
