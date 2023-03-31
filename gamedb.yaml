@@ -4471,4 +4471,9 @@
   name: Rogue Lords
   compat_tool: GE-Proton7-49
   
+# proton stable doesn't play cut scenes 
+- id: 1079830
+  platform: steam
+  name: Cris Tales
+  compat_tool: GE-Proton7-50
 
