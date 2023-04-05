@@ -238,6 +238,13 @@
   status: verified
   store: humble:ballistic-tanks
 
+- name: 'Battle Chasers: Nightwar'
+  platform: steam
+  id: 451020
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/ff84eeace059e44588c3bd6c6ef0f399.png
+  status: verified
+  store: humble:battle-chasers-nightwar
+
 - name: Battle Riders
   platform: steam
   id: 418060
@@ -490,6 +497,11 @@
   id: 1084640
   compat_tool: Proton-6.21-GE-2
 
+- name: Choice of Robots
+  platform: steam
+  id: 339350
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/f2a4309400b8bfb6816f838a5729815b.png
+
 - name: Chronicle of Innsmouth
   platform: steam
   id: 420180
@@ -525,6 +537,16 @@
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/46227ca5c688200b321f5a8b74982c41.png
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/4d7a968bb636e25818ff2a3941db08c1.png
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/62161512d8b1b5db826778917e974b21.png
+
+- name: Cogs
+  platform: steam
+  id: 26500
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/b809bdf0840b940f7648840d2825b392.png
+
+- name: Continue?9876543210
+  platform: steam
+  id: 263340
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/9157ac7255043e99b7fcbf71fbea2c4f.png
 
 - name: Control
   platform: epic-store
@@ -565,6 +587,16 @@
   status: playable
   notes:
     - No controller support
+
+- name: Crysis Wars
+  platform: steam
+  id: 17340
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/a69b9ecf4cf7f3f9b68464232048c737.png
+
+- name: Crystal Catacombs
+  platform: steam
+  id: 325880
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/a5d8bb936c943624140ddade75f55b79.png
 
 - name: Cthulu Saves the World
   platform: steam
@@ -3007,12 +3039,6 @@
   platform: steam
   id: 390560
   status: verified
-
-- name: 'Battle Chasers: Nightwar'
-  platform: steam
-  id: 451020
-  status: verified
-  store: humble:battle-chasers-nightwar
 
 - name: Journey
   platform: steam
