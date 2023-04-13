@@ -691,6 +691,11 @@
   id: 287780
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/9476cf24b5fd9683baf684feba072a97.png
 
+- name: 'Descent: Underground'
+  platform: steam
+  id: 360950
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/13602f4cdec52bd97a46254441b3388d.png
+
 - name: 'Detroit: Become Human'
   platform: steam
   id: 1222140
@@ -854,10 +859,10 @@
   banner: steam:641990
   status: verified
 
-- name: Eufloria
+- name: Eufloria HD
   platform: steam
-  id: 41210
-  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/bc9f0f7cc74131bec2707aad4acb1c46.png
+  id: 221180
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/5db98ad3d38184a2f9db88f5bb1c62c1.png
 
 - name: Evergarden
   platform: steam
