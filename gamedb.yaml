@@ -605,6 +605,16 @@
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/98c7242894844ecd6ec94af67ac8247d.png
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/e46bc064f8e92ac2c404b9871b2a4ef2.png
 
+- name: Cubemen
+  platform: steam
+  id: 207250
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/781870bb5979fcc948dcc48da5fb798a.png
+
+- name: Cubemen 2
+  platform: steam
+  id: 228440
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/83e6341c952eb1f0fe899a7ddfa30ffd.png
+
 - name: Cyberpunk 2077
   platform: gog
   id: 1423049311
@@ -652,6 +662,11 @@
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/3f882a4bb95c43e27924205306955021.png
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/d9eb09a4dbf0b2098faf20331f294afe.png
 
+- name: The Deer God
+  platform: steam
+  id: 328940
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/8f0c43ab19d80d7b035b5c2244284695.png
+
 - name: "DEMON'S TILT"
   platform: epic-store
   id: b8b37813c5634dbdac61d88ff411135c
@@ -671,6 +686,11 @@
   banner: steam:292910
   status: unsupported
 
+- name: Derrick the Deathfin
+  platform: steam
+  id: 287780
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/9476cf24b5fd9683baf684feba072a97.png
+
 - name: 'Detroit: Become Human'
   platform: steam
   id: 1222140
@@ -683,6 +703,11 @@
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/29f0b80e008bc42acf8cb46561055dc6.png
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/421b6c7bd8b9288a148d2c3431b6692b.jpg
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/a7a3d70c6d17a73140918996d03c014f.png
+
+- name: Diamond Deeps
+  platform: steam
+  id: 367800
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/c3d9cd91e8a53083be88be53c3b369dc.png
 
 - name: The Dig
   platform: steam
@@ -747,6 +772,41 @@
   id: ee96375fac2f47de978170a24398e581
   banner: steam:433550
 
+- name: 'Duke Nukem 3D: Megaton Edition'
+  platform: steam
+  id: 225140
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/a2f85694da56232b78977a73c590cd5b.png
+
+- name: Dungeon Hearts
+  platform: steam
+  id: 229520
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/5f3eff882438b387a6f1ad1608b4c44c.jpg
+
+- name: Dungeon League
+  platform: steam
+  id: 362310
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/d4a758aadfcc265a9e34f76415246c42.png
+
+- name: Dungeons of Dredmor
+  platform: steam
+  id: 98800
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/83b887e6ca1b28752a8d05b96c04ba35.jpg
+
+- name: Dustforce DX
+  platform: steam
+  id: 65300
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/be5217178566cd40305d7c11a95f156e.png
+
+- name: EDGE
+  platform: steam
+  id: 38740
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/105aac7339ea6074ed9d912c0d10d67e.png
+
+- name: English Country Tune
+  platform: steam
+  id: 207570
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/e6964314af433b4e0457fdba57c06f58.png
+
 - name: 'ENSLAVED: Odyssey to the West Premium Edition'
   platform: steam
   id: 245280
@@ -793,6 +853,16 @@
   id: Fowl
   banner: steam:641990
   status: verified
+
+- name: Eufloria
+  platform: steam
+  id: 41210
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/bc9f0f7cc74131bec2707aad4acb1c46.png
+
+- name: Evergarden
+  platform: steam
+  id: 576500
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/84197cb58253061874fcc43fce417a7c.png
 
 - name: The Expendabros
   platform: steam
