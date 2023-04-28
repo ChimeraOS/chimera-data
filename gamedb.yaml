@@ -2755,7 +2755,6 @@
 - name: "Death Stranding Director's Cut"
   platform: steam
   id: 1850570
-  compat_tool: proton-stable
   status: verified
 
 - name: ELEX
