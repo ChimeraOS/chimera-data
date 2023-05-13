@@ -1,0 +1,3 @@
+TOOL_URL=https://github.com/GloriousEggroll/proton-ge-custom/releases/download/GE-Proton8-3/GE-Proton8-3.tar.gz
+TOOL_MD5SUM=15481f3f9e37dfe868523d9f2503abb4
+TOOL_CMD=proton
