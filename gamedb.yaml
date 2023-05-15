@@ -291,7 +291,7 @@
 - name: BIT.TRIP BEAT
   platform: steam
   id: 63700
-  compat_tool: GE-Proton7-9
+  compat_tool: GE-Proton7-55
 
 # native version has controller issues
 - name: 'BIT.TRIP Presents... Runner2: Future Legend of Rhythm Alien'
@@ -486,11 +486,6 @@
   banner: /images/flathub/re.chiaki.Chiaki
   status: playable
 
-- name: Chicken Police
-  platform: steam
-  id: 1084640
-  compat_tool: Proton-6.21-GE-2
-
 - name: Choice of Robots
   platform: steam
   id: 339350
@@ -572,7 +567,7 @@
   id: a579a08e71b341e6af106dbd170e2ab2
   banner: steam:852300
   status: verified
-  compat_tool: GE-Proton7-9
+  compat_tool: GE-Proton7-55
 
 - name: Crying Suns
   platform: epic-store
@@ -895,12 +890,6 @@
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/063e26c670d07bb7c4d30e6fc69fe056.png
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/f8e59f4b2fe7c5705bf878bbd494ccdf.png
 
-# proton versions after 5.13 cause massive graphical artifacts
-- name: Fable Anniversary
-  platform: steam
-  id: 288470
-  compat_tool: proton_513
-  
 - name: Faeria
   platform: epic-store
   id: Vulture
@@ -918,7 +907,7 @@
 - name: 'Fall Guys: Ultimate Knockout'
   platform: steam
   id: 1097150
-  compat_tool: GE-Proton7-54
+  compat_tool: GE-Proton7-55
   status: playable
   notes:
     - Requires keyboard for inviting or joining friends
@@ -1484,9 +1473,8 @@
 - name: Mothergunship
   platform: epic-store
   id: ee5c6a659d0f478fba0049fa44429a1f
-  compat_tool: GE-Proton7-10
+  compat_tool: GE-Proton7-55
   banner: steam:574090
-  status: verified
 
 - name: Moving Out
   platform: epic-store
@@ -1815,7 +1803,7 @@
   id: b4670484aae24db492f0b468a98fe361
   banner: steam:941570
   status: verified
-  compat_tool: GE-Proton7-9
+  compat_tool: GE-Proton7-55
 
 - name: Republique
   platform: steam
@@ -2450,7 +2438,7 @@
   id: 1245620
   store: humble:elden-ring
   status: verified
-  compat_tool: proton-experimental
+  compat_tool: proton-stable
 
 - name: GRID (2019)
   platform: steam
@@ -2709,7 +2697,6 @@
   id: 1080110
   status: verified
   compat_tool: proton-stable
-  launch_options: eval $(echo "%command%" | sed "s/F1_2020_dx12.exe/F1_2020.exe/")
 
 - name: Skatemasta Tcheco
   platform: steam
@@ -2756,13 +2743,6 @@
   platform: steam
   id: 1850570
   status: verified
-
-- name: ELEX
-  platform: steam
-  id: 411300
-  status: verified
-  store: humble:elex
-  compat_tool: Proton-6.1-GE-2
 
 - name: WWE 2K BATTLEGROUNDS
   platform: steam
@@ -3278,7 +3258,6 @@
   id: 928600
   status: verified
   compat_tool: proton-stable
-  launch_options: eval $(echo "%command%" | sed "s/F1_2019_dx12.exe/F1_2019.exe/")
 
 - name: Among the Sleep
   platform: steam
@@ -4131,7 +4110,7 @@
 - id: 35140
   platform: steam
   name: 'Batman: Arkham Asylum Game of the Year Edition'
-  compat_tool: GE-Proton7-9
+  compat_tool: GE-Proton7-55
 
 # native version doesn't detect controllers
 - id: 556130
@@ -4154,11 +4133,6 @@
   platform: steam
   name: Earthworm Jim 2
   compat_tool: boxtron
-
-- id: 392110
-  platform: steam
-  name: Endless Space 2
-  compat_tool: Proton-6.21-GE-2
 
 - id: 38400
   platform: steam
@@ -4195,11 +4169,6 @@
   name: Freedom Planet 2
   status: verified
 
-- id: 1311070
-  platform: steam
-  name: 'Greak: Memories of Azur'
-  compat_tool: Proton-6.21-GE-2
-
 - id: 960910
   platform: steam
   name: Heavy Rain
@@ -4212,11 +4181,6 @@
   compat_tool: proton-stable
   launch_options: WINEDLLOVERRIDES="xaudio2_7=native,builtin" %command%
 
-- id: 368370
-  platform: steam
-  name: Her Story
-  compat_tool: GE-Proton7-9
-
 # native version doesn't work with DLC
 - id: 242110
   platform: steam
@@ -4226,7 +4190,7 @@
 - id: 699240
   platform: steam
   name: Keyboard Killers
-  compat_tool: GE-Proton7-9
+  compat_tool: GE-Proton7-55
 
 # Patch according to https://www.pcgamingwiki.com/wiki/Killer_Is_Dead#Issues_fixed
 - id: 261110
@@ -4240,7 +4204,7 @@
 - id: 213330
   platform: steam
   name: 'LEGO Batman 2: DC Super Heroes'
-  compat_tool: GE-Proton7-9
+  compat_tool: GE-Proton7-55
 
 - id: 640590
   platform: steam
@@ -4253,7 +4217,7 @@
 - id: 214510
   platform: steam
   name: LEGO The Lord of the Rings
-  compat_tool: GE-Proton7-9
+  compat_tool: GE-Proton7-55
 
 - id: 1030840
   platform: steam
@@ -4332,16 +4296,11 @@
   compat_tool: proton-stable
   launch_options: eval $(echo "%command%" | sed "s/Starships64.exe/Starships.exe/")
 
-- id: 1018850
-  platform: steam
-  name: Smile For Me
-  compat_tool: Proton-6.1-GE-2
-
 - id: 238090
   platform: steam
   name: Sniper Elite 3
   compat_tool: proton-stable
-  launch_options: PROTON_SET_GAME_DRIVE=1 %command%
+  compat_config: gamedrive
 
 - id: 637100
   platform: steam
@@ -4362,16 +4321,6 @@
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/79241931403f948d94ea4ea5168f3b12.png
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/7d8d39116004c0df3b4a9e2e421dd2a2.jpg
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/c52f1bd66cc19d05628bd8bf27af3ad6.png
-
-- id: 1003590
-  platform: steam
-  name: 'Tetris Effect: Connected'
-  compat_tool: Proton-6.18-GE-2
-
-- id: 1003090
-  platform: steam
-  name: Through the Darkest of Times
-  compat_tool: Proton-6.1-GE-2
 
 # older Proton version required to avoid stuttering
 - id: 8140
@@ -4461,25 +4410,6 @@
   name: N++ (NPLUSPLUS)
   compat_tool: proton-stable
 
-# Doesn't work with Proton >5.13.9
-- id: 396710
-  platform: steam
-  name: The Adventure Pals
-  compat_tool: proton_513
-  
-- name: Unravel Two
-  platform: steam
-  id: 1225570
-  compat_tool: GE-Proton7-28
-  notes:
-    - Requires launcher/installer interaction during first time setup
-    - Uses a launcher which is bypassed after first installation
-
-- name: In Sound Mind
-  platform: steam
-  id: 1119980
-  compat_tool: GE-Proton7-28
-
 - name: Crown Trick
   platform: steam
   id: 1000010
@@ -4551,7 +4481,7 @@
 - name: Elder Scrolls Online
   platform: steam
   id: 306130
-  launch_options: PROTON_SET_GAME_DRIVE=1 %command%
+  compat_config: gamedrive
   
  # Disable -steamdeck to fix the game failing to launch in game mode
 - name: HITMAN 3
@@ -4563,11 +4493,4 @@
 - id: 1069690
   platform: steam
   name: Rogue Lords
-  compat_tool: GE-Proton7-49
-  
-# proton stable doesn't play cut scenes 
-- id: 1079830
-  platform: steam
-  name: Cris Tales
-  compat_tool: GE-Proton7-50
-
+  compat_tool: GE-Proton7-55
