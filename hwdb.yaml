@@ -20,7 +20,8 @@
   micro_sd: supported
   video_out: supported
   ethernet: supported
-  tdp_control: supported
+  tdp_control: unsupported
+  egpu: unknown
 
 - name: Aya Neo 2
   vendor: AYANEO
@@ -45,6 +46,7 @@
   video_out: supported
   ethernet: supported
   tdp_control: supported
+  egpu: unknown
 
 - name: Aya Neo 2021
   type: handheld
@@ -64,6 +66,7 @@
   video_out: unknown
   ethernet: unknown
   tdp_control: unsupported
+  egpu: unknown
 
 - name: Aya Neo Air
   type: handheld
@@ -83,6 +86,7 @@
   video_out: unknown
   ethernet: unknown
   tdp_control: unsupported
+  egpu: unknown
   notes: Requires manual steps to fix out of phase speakers on some devices
 
 - name: Aya Neo Air Plus
@@ -103,6 +107,7 @@
   video_out: unknown
   ethernet: unknown
   tdp_control: unsupported
+  egpu: unknown
   notes: Requires manual steps to fix gamepad lag issues
 
 - name: OneXPlayer Mini AMD
@@ -123,6 +128,7 @@
   video_out: unknown
   ethernet: unknown
   tdp_control: unsupported
+  egpu: unknown
 
 - name: Steam Deck
   type: handheld
@@ -143,3 +149,4 @@
   video_out: unknown
   ethernet: unknown
   tdp_control: unsupported
+  egpu: unknown
