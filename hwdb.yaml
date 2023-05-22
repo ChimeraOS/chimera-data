@@ -97,7 +97,7 @@
   headphone_jack: unknown
   bluetooth: supported
   wifi: supported
-  gamepad: limited-supported
+  gamepad: limited-support
   volume_buttons: supported
   extra_buttons: supported
   suspend: unknown
