@@ -70,7 +70,7 @@
   extra_buttons: supported
   finger_print_reader: not applicable
   gyro: unknown
-  micro_sd: unknown
+  micro_sd: supported
   video_out: unknown
   ethernet: unknown
   tdp_control: unsupported
