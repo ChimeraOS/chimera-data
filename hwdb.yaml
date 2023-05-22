@@ -21,7 +21,7 @@
   video_out: supported
   ethernet: supported
   tdp_control: unsupported
-  egpu: unknown
+  egpu: supported
 
 - name: Aya Neo 2
   vendor: AYANEO
@@ -145,8 +145,8 @@
   suspend: supported
   finger_print_reader: not-applicable
   gyro: supported
-  micro_sd: unknown
-  video_out: unknown
+  micro_sd: supported
+  video_out: supported
   ethernet: unknown
   tdp_control: unsupported
   egpu: unknown
