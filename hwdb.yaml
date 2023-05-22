@@ -1,0 +1,115 @@
+- name: Aya Neo 2
+  vendor: AYANEO
+  product: AYANEO 2
+  type: handheld
+  min_tdp: 5
+  max_tdp: 33
+  max_boost: 5
+  speakers: supported
+  touch_screen: supported
+  screen_orientation: supported
+  headphone_jack: unsupported
+  bluetooth: supported
+  wifi: supported
+  gamepad: supported
+  volume_buttons: supported
+  extra_buttons: supported
+  finger_print_reader: unsupported
+  gyro: unsupported
+  micro_sd: supported
+  video_out: supported
+  ethernet: supported
+  tdp_control: supported
+
+- name: Aya Neo 2021
+  type: handheld
+  speakers: supported
+  touch_screen: supported
+  screen_orientation: supported
+  headphone_jack: supported
+  bluetooth: supported
+  wifi: supported
+  gamepad: supported
+  volume_buttons: supported
+  extra_buttons: supported
+  finger_print_reader: not applicable
+  gyro: supported
+  micro_sd: not applicable
+  video_out: unknown
+  ethernet: unknown
+  tdp_control: unsupported
+
+- name: OneXPlayer Mini AMD
+  type: handheld
+  speakers: supported
+  touch_screen: supported
+  screen_orientation: supported
+  headphone_jack: supported
+  bluetooth: supported
+  wifi: supported
+  gamepad: supported
+  volume_buttons: supported
+  extra_buttons: supported
+  finger_print_reader: not applicable
+  gyro: unknown
+  micro_sd: not applicable
+  video_out: unknown
+  ethernet: unknown
+  tdp_control: unsupported
+
+- name: Aya Neo Air
+  type: handheld
+  speakers: supported*
+  touch_screen: supported
+  screen_orientation: supported
+  headphone_jack: supported
+  bluetooth: supported
+  wifi: supported
+  gamepad: supported
+  volume_buttons: supported
+  extra_buttons: supported
+  finger_print_reader: not applicable
+  gyro: unknown
+  micro_sd: unknown
+  video_out: unknown
+  ethernet: unknown
+  tdp_control: unsupported
+  notes: Requires manual steps to fix out of phase speakers on some devices
+
+- name: Aya Neo Air Plus
+  type: handheld
+  speakers: supported
+  touch_screen: supported
+  screen_orientation: supported
+  headphone_jack: unknown
+  bluetooth: supported
+  wifi: supported
+  gamepad: supported*
+  volume_buttons: supported
+  extra_buttons: supported
+  finger_print_reader: not applicable
+  gyro: unknown
+  micro_sd: unknown
+  video_out: unknown
+  ethernet: unknown
+  tdp_control: unsupported
+  notes: Requires manual steps to fix gamepad lag issues
+
+- name: Steam Deck
+  type: handheld
+  store: https://store.steampowered.com/steamdeck
+  speakers: supported
+  touch_screen: supported
+  screen_orientation: supported
+  headphone_jack: supported
+  bluetooth: supported
+  wifi: supported
+  gamepad: supported
+  volume_buttons: supported
+  extra_buttons: supported
+  finger_print_reader: not applicable
+  gyro: supported
+  micro_sd: unknown
+  video_out: unknown
+  ethernet: unknown
+  tdp_control: unsupported

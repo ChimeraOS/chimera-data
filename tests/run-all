@@ -4,3 +4,4 @@ set -e
 
 ./tests/01-gamedb-syntax.py
 ./tests/02-gamedb-duplicates.sh
+./tests/03-hwdb-syntax.py
