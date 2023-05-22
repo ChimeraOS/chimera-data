@@ -1,3 +1,27 @@
+- name: AOKZOE A1
+  vendor: AOKZOE
+  product: AOKZOE A1 AR07
+  type: handheld
+  min_tdp: 5
+  max_tdp: 28
+  max_boost: 5
+  speakers: supported
+  touch_screen: supported
+  screen_orientation: supported
+  headphone_jack: supported
+  bluetooth: supported
+  wifi: supported
+  gamepad: supported
+  volume_buttons: supported
+  extra_buttons: supported
+  suspend: supported
+  finger_print_reader: not-applicable
+  gyro: unsupported
+  micro_sd: supported
+  video_out: supported
+  ethernet: supported
+  tdp_control: supported
+
 - name: Aya Neo 2
   vendor: AYANEO
   product: AYANEO 2
@@ -36,25 +60,6 @@
   suspend: supported
   finger_print_reader: not-applicable
   gyro: supported
-  micro_sd: not-applicable
-  video_out: unknown
-  ethernet: unknown
-  tdp_control: unsupported
-
-- name: OneXPlayer Mini AMD
-  type: handheld
-  speakers: supported
-  touch_screen: supported
-  screen_orientation: supported
-  headphone_jack: supported
-  bluetooth: supported
-  wifi: supported
-  gamepad: supported
-  volume_buttons: supported
-  extra_buttons: supported
-  suspend: supported
-  finger_print_reader: not-applicable
-  gyro: unknown
   micro_sd: not-applicable
   video_out: unknown
   ethernet: unknown
@@ -99,6 +104,25 @@
   ethernet: unknown
   tdp_control: unsupported
   notes: Requires manual steps to fix gamepad lag issues
+
+- name: OneXPlayer Mini AMD
+  type: handheld
+  speakers: supported
+  touch_screen: supported
+  screen_orientation: supported
+  headphone_jack: supported
+  bluetooth: supported
+  wifi: supported
+  gamepad: supported
+  volume_buttons: supported
+  extra_buttons: supported
+  suspend: supported
+  finger_print_reader: not-applicable
+  gyro: unknown
+  micro_sd: not-applicable
+  video_out: unknown
+  ethernet: unknown
+  tdp_control: unsupported
 
 - name: Steam Deck
   type: handheld
