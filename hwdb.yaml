@@ -14,6 +14,7 @@
   gamepad: supported
   volume_buttons: supported
   extra_buttons: supported
+  suspend: supported
   finger_print_reader: unsupported
   gyro: unsupported
   micro_sd: supported
@@ -32,6 +33,7 @@
   gamepad: supported
   volume_buttons: supported
   extra_buttons: supported
+  suspend: supported
   finger_print_reader: not applicable
   gyro: supported
   micro_sd: not applicable
@@ -50,6 +52,7 @@
   gamepad: supported
   volume_buttons: supported
   extra_buttons: supported
+  suspend: supported
   finger_print_reader: not applicable
   gyro: unknown
   micro_sd: not applicable
@@ -68,6 +71,7 @@
   gamepad: supported
   volume_buttons: supported
   extra_buttons: supported
+  suspend: supported
   finger_print_reader: not applicable
   gyro: unknown
   micro_sd: supported
@@ -87,6 +91,7 @@
   gamepad: supported*
   volume_buttons: supported
   extra_buttons: supported
+  suspend: unknown
   finger_print_reader: not applicable
   gyro: unknown
   micro_sd: unknown
@@ -107,6 +112,7 @@
   gamepad: supported
   volume_buttons: supported
   extra_buttons: supported
+  suspend: supported
   finger_print_reader: not applicable
   gyro: supported
   micro_sd: unknown
