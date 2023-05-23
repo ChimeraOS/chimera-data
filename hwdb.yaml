@@ -27,6 +27,7 @@
   vendor: AYANEO
   product: AYANEO 2
   type: handheld
+  store: https://droix.net/product/ayaneo-2?ref=chimeraos
   min_tdp: 5
   max_tdp: 33
   max_boost: 5
@@ -50,6 +51,7 @@
 
 - name: Aya Neo 2021
   type: handheld
+  store: https://droix.net/product/aya-neo?ref=chimeraos
   speakers: supported
   touch_screen: supported
   screen_orientation: supported
