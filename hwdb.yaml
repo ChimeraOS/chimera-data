@@ -61,9 +61,9 @@
   extra_buttons: supported
   suspend: supported
   finger_print_reader: not-applicable
-  gyro: supported
+  gyro: unknown
   micro_sd: not-applicable
-  video_out: unknown
+  video_out: supported
   ethernet: unknown
   tdp_control: unsupported
   egpu: unknown
