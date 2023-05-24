@@ -112,7 +112,27 @@
   egpu: unknown
   notes: Requires manual steps to fix gamepad lag issues
 
-- name: OneXPlayer Mini AMD
+- name: ONEXPLAYER 2
+  type: handheld
+  speakers: unsupported
+  touch_screen: supported
+  screen_orientation: supported
+  headphone_jack: supported
+  bluetooth: supported
+  wifi: supported
+  gamepad: supported
+  volume_buttons: supported
+  extra_buttons: supported
+  suspend: supported
+  finger_print_reader: not-applicable
+  gyro: unsupported
+  micro_sd: supported
+  video_out: unknown
+  ethernet: unknown
+  tdp_control: unsupported
+  egpu: unknown
+
+- name: ONEXPLAYER Mini AMD
   type: handheld
   speakers: supported
   touch_screen: supported
