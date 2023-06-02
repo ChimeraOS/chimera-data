@@ -4504,13 +4504,13 @@
 # proton stable doesn't work 
 - id: 360430
   platform: steam
-  name: Mafia III: Definitive Edition
+  name: 'Mafia III: Definitive Edition'
   compat_tool: GE-Proton7-55
 
 # native version has issues with pointer 
 - id: 48700
   platform: steam
-  name: Mount & Blade: Warband
+  name: 'Mount & Blade: Warband'
   compat_tool: proton-stable
  
  
