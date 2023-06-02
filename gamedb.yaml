@@ -4513,4 +4513,10 @@
   name: 'Mount & Blade: Warband'
   compat_tool: proton-stable
  
+# proton stable crashes at end of each tutorial/contract 
+- id: 1120320
+  platform: steam
+  name: Builder Simulator
+  compat_tool: GE-Proton7-55
+
  
