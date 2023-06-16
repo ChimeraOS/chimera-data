@@ -152,6 +152,26 @@
   tdp_control: unsupported
   egpu: unknown
 
+- name: ROG Ally
+  type: handheld
+  speakers: unsupported
+  touch_screen: supported
+  screen_orientation: supported
+  headphone_jack: supported
+  bluetooth: unsupported
+  wifi: unsupported
+  gamepad: supported
+  volume_buttons: unsupported
+  extra_buttons: unsupported
+  suspend: supported
+  finger_print_reader: unsupported
+  gyro: unknown
+  micro_sd: unknown
+  video_out: supported
+  ethernet: supported
+  tdp_control: unsupported
+  egpu: unknown
+
 - name: Steam Deck
   type: handheld
   store: https://store.steampowered.com/steamdeck
