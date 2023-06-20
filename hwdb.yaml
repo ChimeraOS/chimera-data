@@ -165,7 +165,7 @@
   extra_buttons: unsupported
   suspend: supported
   finger_print_reader: unsupported
-  gyro: unknown
+  gyro: unsupported
   micro_sd: unknown
   video_out: supported
   ethernet: supported
