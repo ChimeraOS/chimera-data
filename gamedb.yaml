@@ -1279,6 +1279,7 @@
 - name: The Last of Us Part 1
   platform: steam
   id: 1888930
+  store: humble:the-last-of-us-part-i
   status: verified
 
 - name: The Last Remnant
