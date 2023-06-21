@@ -2205,6 +2205,7 @@
 - name: "Teenage Mutant Ninja Turtles: Shredder's Revenge"
   platform: steam
   id: 1361510
+  store: humble:teenage-mutant-ninja-turtles-shredders-revenge
   status: verified
   
 - name: Tell Me Why
