@@ -4377,11 +4377,6 @@
   name: Tomb Raider III
   compat_tool: Proton-6.1-GE-2
 
-- id: 225020
-  platform: steam
-  name: 'Tomb_Raider VI: The Angel of Darkness'
-  compat_tool: Proton-6.1-GE-2
-
 - id: 499520
   platform: steam
   name: The Turing Test
