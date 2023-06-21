@@ -1276,6 +1276,11 @@
   compat_tool: proton-stable
   status: verified
 
+- name: The Last of Us Part 1
+  platform: steam
+  id: 1888930
+  status: verified
+
 - name: The Last Remnant
   platform: steam
   id: 23310
