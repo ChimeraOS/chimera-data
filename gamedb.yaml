@@ -944,6 +944,11 @@
   banner: steam:787860
   status: verified
 
+- name: FarSky
+  platform: steam
+  id: 286340
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/92fdd9e95384667301cbcb581f4761be.png
+
 - name: Faster Than Light
   platform: epic-store
   id: Blowfish
@@ -1008,6 +1013,11 @@
   banner: steam:555150
   status: verified
 
+- name: Fist Puncher
+  platform: steam
+  id: 238630
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/be89ed054d7e403ce222eca45bca7045.jpg
+
 - name: 'FlatOut: Ultimate Carnage'
   platform: steam
   id: 12360
@@ -1023,11 +1033,26 @@
   notes:
     - Requires a mouse or touchscreen
 
+- name: Fluffy Horde
+  platform: steam
+  id: 777880
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/9a2fbb470f3b9303a40a4ec112ce833e.jpg
+
+- name: Fortix 2
+  platform: steam
+  id: 45450
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/0db1fb75f1918668d1248e31ff9988f5.png
+
 - name: Fortnite
   platform: epic-store
   id: Fortnite
   banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/f5aeecbffe87c62489add19712de0d7e.png
   status: unsupported
+
+- name: Frozen Synapse
+  platform: steam
+  id: 98200
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/5dc869708f170898b1c50bb49a852ad6.png
 
 - name: Genshin Impact
   platform: epic-store
