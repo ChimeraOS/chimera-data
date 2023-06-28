@@ -4577,4 +4577,15 @@
   name: Builder Simulator
   compat_tool: GE-Proton7-55
 
- 
+# native version doesn't work 
+- id: 900010
+  platform: steam
+  name: Meeple Station
+  compat_tool: proton-stable
+
+# native version doesn't work 
+- id: 20920
+  platform: steam
+  name: 'The Witcher 2: Assassins of Kings Enhanced Edition'
+  compat_tool: proton-stable
+
