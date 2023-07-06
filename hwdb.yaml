@@ -154,7 +154,7 @@
 
 - name: ROG Ally
   type: handheld
-  speakers: limited-supported
+  speakers: limited-support
   touch_screen: supported
   screen_orientation: supported
   headphone_jack: supported
