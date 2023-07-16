@@ -1054,11 +1054,26 @@
   id: 98200
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/5dc869708f170898b1c50bb49a852ad6.png
 
+- name: Galcon Fusion
+  platform: steam
+  id: 44200
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/462734dd578ea71b7515693f85dd4530.png
+
+- name: 'Geometry Wars 3: Dimensions Evolved'
+  platform: steam
+  id: 310790
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/0135597642178aed62486ddc02136617.png
+
 - name: Genshin Impact
   platform: epic-store
   id: 41869934302e4b8cafac2d3c0e7c293d
   banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/c2904ed6cfa731edd18d8ffe285b6695.png
   status: unsupported
+
+- name: 'Ghostbusters: The Video Game'
+  platform: steam
+  id: 9870
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/1b901d41dcc45c3dca1a3dda74be9193.png
 
 - name: 'Ghostbusters: The Video Game Remastered'
   platform: epic-store
@@ -1088,6 +1103,16 @@
   id: Emperor
   banner: steam:437570
   status: verified
+
+- name: Google Earth VR
+  platform: steam
+  id: 348250
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/c58445494b2ebb539045e034fd00d80b.png
+
+- name: Gratuitous Space Battles
+  platform: steam
+  id: 41800
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/ce53c47e9ce09161564a02707c0b409b.png
 
 - name: Grow Home
   platform: steam
@@ -1131,6 +1156,11 @@
   id: 546560
   compat_tool: steamlinuxruntime
 
+- name: Hard Reset
+  platform: steam
+  id: 98400
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/72ed91f272d521b8337e030fbb0d9810.jpg
+
 - name: Hedgewars
   platform: flathub
   id: org.hedgewars.Hedgewars
@@ -1148,6 +1178,16 @@
   id: 5ade01bafec54a148024665ce978b2a4
   banner: steam:595790
   status: verified
+
+- name: Hero Academy
+  platform: steam
+  id: 209270
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/58fc31760d02cfe624d886a0f0f0f197.png
+
+- name: Himno
+  platform: steam
+  id: 931690
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/2b384afa1ad2d96062f89b8015f62452.png
 
 - name: Hoard
   platform: steam
@@ -1180,6 +1220,11 @@
   banner: steam:257850
   status: unsupported
 
+- name: Hyphen
+  platform: steam
+  id: 346510
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/8dcea1fb6917586536de111775961688.png
+
 - name: Ikaruga
   platform: steam
   id: 253750
@@ -1191,6 +1236,11 @@
   id: 29ee5d32f328471590b3bd3ac03ed7d0
   banner: steam:1119980
   status: unsupported
+
+- name: Inescapable
+  platform: steam
+  id: 295610
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/59c9389b12b964fd5b4420e10167638e.png
 
 - name: 'Injustice: Gods Among Us Ultimate Edition'
   platform: steam
@@ -1217,6 +1267,16 @@
   id: Blobfish
   banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/17d2ba79091ad8d77f9ce68731c00986.png
   status: unsupported
+
+- name: Intrusion 2
+  platform: steam
+  id: 214970
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/c71f89e8c8afa316ebade3f07fa04899.png
+
+- name: Jack Lumber
+  platform: steam
+  id: 220900
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/019107ecbe557508ad449304fbd4ee43.png
 
 - name: Jamestown
   platform: steam
@@ -1245,6 +1305,11 @@
   id: com.katawa_shoujo.KatawaShoujo
   banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/a7282c84a4c2109c3697b6aca8b86aba.png
   status: playable
+
+- name: Keen Dreams
+  platform: steam
+  id: 356200
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/e010d1faf316a4dbfe8639481a2a3f90.png
 
 - name: Ken Follett's The Pillars of the Earth
   platform: epic-store
