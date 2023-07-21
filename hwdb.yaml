@@ -166,7 +166,7 @@
   suspend: unsupported
   finger_print_reader: unsupported
   gyro: unsupported
-  micro_sd: unknown
+  micro_sd: supported
   video_out: supported
   ethernet: supported
   tdp_control: unsupported
