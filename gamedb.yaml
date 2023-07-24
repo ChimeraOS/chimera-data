@@ -1659,6 +1659,17 @@
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/560003ffda27cda2328b3e17a0ed7f0f.png
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/29e7daaa3971f473a9406009cca3bed2.png
 
+- name: Nanosaur
+  platform: flathub
+  id: io.jor.nanosaur
+  banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/8605f97be2d85acfb66f8fc94d604efd.png
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/c3c7fdcce42b0fc408695e1fba02b1a5.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/6b6229e2ab44b1a4daea281b70339052.png
+  status: playable
+  notes:
+    - Displays keyboard icons
+    - Entering some text requires manually invoking the on-screen keyboard
+
 - name: 'NARUTO: Ultimate Ninja STORM'
   platform: steam
   id: 495140
