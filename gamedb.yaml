@@ -1520,6 +1520,8 @@
   platform: steam
   id: 311340
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/3d5cbcad747c5477f33557043b62bbeb.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/971eb27c6345932b82b70414028d7183.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/f79921bbae40a577928b76d2fc3edc2a.png
 
 - name: Metro 2033 Redux
   platform: epic-store
@@ -2425,7 +2427,10 @@
 - name: Veloren
   platform: flathub
   id: net.veloren.veloren
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/ecbe3bcaa94f27cbeaaa07448e2d2dbc.png
   banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/f7dc8baf811e8e7a2602ee7fe5a3a854.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/7dd0319580b83d619feea10a27ce48de.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/0be6d77a4368b110b77c1437d13198bd.png
   status: playable
 
 - name: Vintage Story
@@ -4525,6 +4530,19 @@
   platform: steam
   name: Yooka-Laylee
   steam_input: enabled
+
+- name: 'Zen of Sudoku'
+  platform: steam
+  id: 4900
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/075ca4527ee5aa9ad9e4937b479c132e.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/13d8efdc6a5cb721fe7031be062b9b74.jpg
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/8e3f7abc5de7f3c97a1207a55a38e6bd.png
+
+- name: 'Zuma Deluxe'
+  platform: steam
+  id: 3330
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/3a9aa4b8be741e21ba9f80b3c3684ce5.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/5e632913bf096e49880cf8b92d53c9ad.png
 
 - id: 404540
   platform: steam
