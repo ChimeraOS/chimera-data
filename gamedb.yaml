@@ -1117,6 +1117,11 @@
   id: 348250
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/c58445494b2ebb539045e034fd00d80b.png
 
+- name: 'Grand Theft Auto IV: The Complete Edition'
+  platform: steam
+  id: 12210
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/a32bc8141e168ff20fdfe3f0fbc72155.png
+
 - name: Gratuitous Space Battles
   platform: steam
   id: 41800
@@ -1386,6 +1391,11 @@
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/e71fc4c35a684450f5eff49d2046f880.png
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/6f900a87ef0131f00d829e58b5891ead.jpg
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/bd74971af53184c9911331d4f7bdb4a0.png
+
+- name: Legend of Grimrock
+  platform: steam
+  id: 207170
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/67a00e4d31786c71df7d83c4eba5b3cf.png
 
 - name: Legend of Grimrock 2
   platform: steam
