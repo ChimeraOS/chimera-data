@@ -504,6 +504,14 @@
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/035ff65d29f2b40d2ff462ffa36dd48a.png
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/5859953a451c4084472660061581b8cc.png
 
+- name: 'Google Chrome'
+  platform: flathub
+  id: com.google.Chrome
+  banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/e3ad01979fd4661ecb626a60f65884ca.png
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/4c68da7df3e0aa6467d00c73314ebeb0.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/1dbc14c2bef0ada4bddacc86f3d9205e.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/56189b78e3869de4694b890698fcdab3.png
+
 - name: Chromium
   platform: flathub
   id: org.chromium.Chromium
