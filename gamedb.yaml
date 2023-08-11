@@ -4712,3 +4712,52 @@
   id: e0fa47ae79514345823bff209ae29451
   banner: steam:752590
   compat_tool: proton-stable
+
+- name: 'Amnesia: Rebirth'
+  platform: epic-store
+  id: f59de18db4dc445f88ffeff24d081234
+  banner: steam:999220
+  compat_tool: proton-stable
+  status: verified
+
+- name: 'Automachef'
+  platform: epic-store
+  id: 069a60f6b0514a5fbe81b38957c1ddfd
+  banner: steam:984800
+  compat_tool: proton-stable
+  status: verified
+
+- name: 'Elite Dangerous'
+  platform: epic-store
+  id: 9c203b6ed35846e8a4a9ff1e314f6593
+  banner: steam:359320
+  compat_tool: proton-stable
+  status: playable
+  notes:
+    - Uses a launcher
+
+- name: 'Remnant: From the Ashes'
+  platform: epic-store
+  id: b4a0d2d15acb4db894a599b810297543
+  banner: steam:617290
+  compat_tool: proton-stable
+  status: verified
+
+- name: 'Hue'
+  platform: epic-store
+  id: Herring
+  banner: steam:383270
+  status: unsupported
+
+- name: 'Beyond Blue'
+  platform: epic-store
+  id: 3a0cae9455844390ad00505a704d641e
+  banner: steam:883360
+  status: unsupported
+
+- name: 'Barony'
+  platform: epic-store
+  id: c98c4cd6d83a4524b4b22f13af95a104
+  banner: steam:371970
+  status: unsupported
+
