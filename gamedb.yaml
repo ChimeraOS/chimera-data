@@ -4761,3 +4761,24 @@
   banner: steam:371970
   status: unsupported
 
+- name: 'Ark: Survival Evolved'
+  platform: epic-store
+  id: aafc587fbf654758802c8e41e4fb3255
+  banner: steam:346110
+  status: unsupported
+
+- name: 'Aven Colony'
+  platform: epic-store
+  id: dc07b9ead8214591b8df6d2546d2a0e3
+  banner: steam:484900
+  compat_tool: proton-stable
+  status: playable
+  notes:
+    - No controller support
+
+- name: 'Blair Witch'
+  platform: epic-store
+  id: 247a0f0f5803429eb3be2c06f3ea77ff
+  banner: steam:1092660
+  compat_tool: proton-stable
+  status: verified
