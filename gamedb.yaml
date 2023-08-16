@@ -4782,3 +4782,50 @@
   banner: steam:1092660
   compat_tool: proton-stable
   status: verified
+  
+- name: 'Car Mechanic Simulator 2018'
+  platform: epic-store
+  id: 8032b75cf0914afa87c78d6914adc165
+  banner: steam:645630
+  compat_tool: proton-stable
+  status: playable
+  notes:
+    - Limited controller support
+
+- name: 'Chess Ultra'
+  platform: epic-store
+  id: fc0b13b7b17b4a46933756fb2786cdc4
+  banner: steam:518060
+  status: unsupported
+
+- name: 'Call of the Sea'
+  platform: epic-store
+  id: 6278dd278d714aeb88239a423fa0f8be
+  banner: steam:1042490
+  compat_tool: proton-stable
+  status: playable
+  notes:
+    - "Can't conect to EPIC services, hence no achievements possible"
+
+- name: 'Breathedge'
+  platform: epic-store
+  id: 0a20ccd3f1b3464da750a4dbf8c80d7c
+  banner: steam:738520
+  status: unsupported
+
+- name: 'Bloons TD 6'
+  platform: epic-store
+  id: 7786b355a13b47a6b3915335117cd0b2
+  banner: steam:960090
+  compat_tool: proton-stable
+  status: playable
+  notes:
+    - No controller support
+
+- name: 'Bridge Constructor: The Walking Dead'
+  platform: epic-store
+  id: 998af0ab527c493baefb8049250c9a0e
+  banner: steam:1336120
+  compat_tool: proton-stable
+  status: verified
+
