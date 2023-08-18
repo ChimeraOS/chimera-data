@@ -4874,3 +4874,9 @@
   compat_tool: proton-stable
   status: verified
 
+- name: 'Cook, Serve, Delicious!'
+  platform: epic-store
+  id: 680599141dc14accb456887a2be3ac0c
+  banner: steam:247020
+  status: unsupported
+
