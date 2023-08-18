@@ -15,6 +15,8 @@
   platform: epic-store
   id: f4e0c1dff48749fa9145c1585699e276
   banner: steam:330820
+  compat_tool: proton-stable
+  status: verified
 
 - name: 20XX
   platform: epic-store
