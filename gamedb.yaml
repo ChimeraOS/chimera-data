@@ -4829,3 +4829,48 @@
   compat_tool: proton-stable
   status: verified
 
+- name: 'City of Brass'
+  platform: epic-store
+  id: Arrowroot
+  banner: steam:301840
+  compat_tool: GE-Proton8-6
+  status: verified
+
+- name: 'City of Gangsters'
+  platform: epic-store
+  id: 002b00085aeb49b1a3f3c42e3f918f2f
+  banner: steam:1386780
+  compat_tool: proton-stable
+  status: verified
+
+- name: 'Cities Skylines'
+  platform: epic-store
+  id: bcbc03d8812a44c18f41cf7d5f849265
+  banner: steam:255710
+  compat_tool: proton-stable
+  status: playable
+  notes:
+    - Uses a launcher
+    - No controller support
+
+- name: 'Control'
+  platform: epic-store
+  id: Calluna
+  banner: steam:870780
+  compat_tool: proton-stable
+  status: verified
+
+- name: 'Dark Deity'
+  platform: epic-store
+  id: e21be436768f4add87d4935a180b4932
+  banner: steam:1374840
+  compat_tool: proton-stable
+  status: verified
+
+- name: 'Darkwood'
+  platform: epic-store
+  id: 923130ebb546417b9d3115507f752d34
+  banner: steam:274520
+  compat_tool: proton-stable
+  status: verified
+
