@@ -783,6 +783,7 @@
   platform: epic-store
   id: ee96375fac2f47de978170a24398e581
   banner: steam:433550
+  status: unsupported
 
 - name: 'Duke Nukem 3D: Megaton Edition'
   platform: steam
@@ -4876,4 +4877,26 @@
   id: 680599141dc14accb456887a2be3ac0c
   banner: steam:247020
   status: unsupported
+
+- name: 'Dead by Daylight'
+  platform: epic-store
+  id: Brill
+  banner: steam:381210
+  status: unsupported
+  notes:
+    - Game needs EAC
+
+- name: 'Dauntless'
+  platform: epic-store
+  id: Jackal
+  status: unsupported
+  notes:
+    - Game needs EAC
+
+- name: 'Death Stranding'
+  platform: epic-store
+  id: Boga
+  banner: steam:1850570
+  compat_tool: proton-stable
+  status: verified
 
