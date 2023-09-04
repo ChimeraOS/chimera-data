@@ -4897,7 +4897,7 @@
 - name: 'Death Stranding'
   platform: epic-store
   id: Boga
-  banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/f06a8678e7b06ba1d81832f3538fe23e.png
+  banner: steam:1190460
   compat_tool: proton-stable
   status: verified
 
