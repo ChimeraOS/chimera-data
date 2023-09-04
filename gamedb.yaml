@@ -556,7 +556,7 @@
 - name: Control
   platform: epic-store
   id: Calluna
-  banner: steam:870780
+  banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/05de265b83af799ad4f6753aff62d1ee.png
   compat_tool: proton-stable
   status: verified
 
@@ -4890,13 +4890,14 @@
   platform: epic-store
   id: Jackal
   status: unsupported
+  banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/05de265b83af799ad4f6753aff62d1ee.png
   notes:
     - Game needs EAC
 
 - name: 'Death Stranding'
   platform: epic-store
   id: Boga
-  banner: steam:1850570
+  banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/f06a8678e7b06ba1d81832f3538fe23e.png
   compat_tool: proton-stable
   status: verified
 
