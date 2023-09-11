@@ -15,6 +15,8 @@
   platform: epic-store
   id: f4e0c1dff48749fa9145c1585699e276
   banner: steam:330820
+  compat_tool: proton-stable
+  status: verified
 
 - name: 20XX
   platform: epic-store
@@ -555,6 +557,8 @@
   platform: epic-store
   id: Calluna
   banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/05de265b83af799ad4f6753aff62d1ee.png
+  compat_tool: proton-stable
+  status: verified
 
 - name: Costume Quest 2
   platform: epic-store
@@ -779,6 +783,7 @@
   platform: epic-store
   id: ee96375fac2f47de978170a24398e581
   banner: steam:433550
+  status: unsupported
 
 - name: 'Duke Nukem 3D: Megaton Edition'
   platform: steam
@@ -4760,4 +4765,139 @@
   id: c98c4cd6d83a4524b4b22f13af95a104
   banner: steam:371970
   status: unsupported
+
+- name: 'Ark: Survival Evolved'
+  platform: epic-store
+  id: aafc587fbf654758802c8e41e4fb3255
+  banner: steam:346110
+  status: unsupported
+
+- name: 'Aven Colony'
+  platform: epic-store
+  id: dc07b9ead8214591b8df6d2546d2a0e3
+  banner: steam:484900
+  compat_tool: proton-stable
+  status: playable
+  notes:
+    - No controller support
+
+- name: 'Blair Witch'
+  platform: epic-store
+  id: 247a0f0f5803429eb3be2c06f3ea77ff
+  banner: steam:1092660
+  compat_tool: proton-stable
+  status: verified
+  
+- name: 'Car Mechanic Simulator 2018'
+  platform: epic-store
+  id: 8032b75cf0914afa87c78d6914adc165
+  banner: steam:645630
+  compat_tool: proton-stable
+  status: playable
+  notes:
+    - Limited controller support
+
+- name: 'Chess Ultra'
+  platform: epic-store
+  id: fc0b13b7b17b4a46933756fb2786cdc4
+  banner: steam:518060
+  status: unsupported
+
+- name: 'Call of the Sea'
+  platform: epic-store
+  id: 6278dd278d714aeb88239a423fa0f8be
+  banner: steam:1042490
+  compat_tool: proton-stable
+  status: playable
+  notes:
+    - "Can't conect to EPIC services, hence no achievements possible"
+
+- name: 'Breathedge'
+  platform: epic-store
+  id: 0a20ccd3f1b3464da750a4dbf8c80d7c
+  banner: steam:738520
+  status: unsupported
+
+- name: 'Bloons TD 6'
+  platform: epic-store
+  id: 7786b355a13b47a6b3915335117cd0b2
+  banner: steam:960090
+  compat_tool: proton-stable
+  status: playable
+  notes:
+    - No controller support
+
+- name: 'Bridge Constructor: The Walking Dead'
+  platform: epic-store
+  id: 998af0ab527c493baefb8049250c9a0e
+  banner: steam:1336120
+  compat_tool: proton-stable
+  status: verified
+
+- name: 'City of Brass'
+  platform: epic-store
+  id: Arrowroot
+  banner: steam:301840
+  compat_tool: GE-Proton8-6
+  status: verified
+
+- name: 'City of Gangsters'
+  platform: epic-store
+  id: 002b00085aeb49b1a3f3c42e3f918f2f
+  banner: steam:1386780
+  compat_tool: proton-stable
+  status: verified
+
+- name: 'Cities Skylines'
+  platform: epic-store
+  id: bcbc03d8812a44c18f41cf7d5f849265
+  banner: steam:255710
+  compat_tool: proton-stable
+  status: playable
+  notes:
+    - Uses a launcher
+    - No controller support
+
+- name: 'Dark Deity'
+  platform: epic-store
+  id: e21be436768f4add87d4935a180b4932
+  banner: steam:1374840
+  compat_tool: proton-stable
+  status: verified
+
+- name: 'Darkwood'
+  platform: epic-store
+  id: 923130ebb546417b9d3115507f752d34
+  banner: steam:274520
+  compat_tool: proton-stable
+  status: verified
+
+- name: 'Cook, Serve, Delicious!'
+  platform: epic-store
+  id: 680599141dc14accb456887a2be3ac0c
+  banner: steam:247020
+  status: unsupported
+
+- name: 'Dead by Daylight'
+  platform: epic-store
+  id: Brill
+  banner: steam:381210
+  status: unsupported
+  notes:
+    - Game needs EAC
+
+- name: 'Dauntless'
+  platform: epic-store
+  id: Jackal
+  status: unsupported
+  banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/aaad69b34baeb5cd92e42773de154b0b.png
+  notes:
+    - Game needs EAC
+
+- name: 'Death Stranding'
+  platform: epic-store
+  id: Boga
+  banner: steam:1190460
+  compat_tool: proton-stable
+  status: verified
 
