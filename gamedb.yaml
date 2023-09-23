@@ -2383,10 +2383,13 @@
   background:
   logo:
 
-- name: Towerfall Ascension
+- name: TowerFall Ascension
   platform: epic-store
   id: Bichir
   banner: steam:251470
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/5c9f93b2fdb3614e052123bba6301e64.jpg
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/4b86ca48d90bd5f0978afa3a012503a4.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/f095cedd23b99f1696fc8caecbcf257e.png
   status: verified
 
 - name: Trombone Champ
