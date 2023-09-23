@@ -1,8 +1,3 @@
-- name: 11-11 Memories Retold
-  platform: steam
-  id: 735580
-  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/d0e0c05662a67856724221e9d363e2fe.png
-
 - name: 198X
   platform: steam
   id: 1086010
@@ -137,11 +132,6 @@
   id: Tanzanite
   banner: steam:877810
   status: verified
-
-- name: Another World
-  platform: steam
-  id: 233550
-  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/fd17be0e14bb74f125868e331a111448.png
 
 - name: Antichamber
   platform: steam
@@ -1147,7 +1137,6 @@
 - name: Guns of Icarus Online
   platform: steam
   id: 209080
-  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/c883697e8ca2ec060c5af75c84033a59.png
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/3244ef4c2aeb17c03511c93cb43caef0.jpg
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/4e87337f366f72daa424dae11df0538c.png
 
@@ -1983,7 +1972,6 @@
 - name: Rogue Legacy
   platform: steam
   id: 241600
-  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/0ed59365c9661717a5809aba12f64c5c.png
   status: verified
   store: humble:rogue-legacy
 
@@ -1991,7 +1979,6 @@
   platform: epic-store
   id: 01f1e8046e9e433db190a611a0411579
   banner: steam:241600
-  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/0ed59365c9661717a5809aba12f64c5c.png
   status: unsupported
 
 - name: Rocket League
@@ -2032,20 +2019,6 @@
   id: com.shatteredpixel.shatteredpixeldungeon
   banner: steam:1769170
   status: playable
-
-# needs background
-- name: "Sid Meier's Civilization IV"
-  platform: steam
-  id: 3900
-  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/be925cdb6f03c1b58212df4c2831aedd.png
-  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/8e7448cf2a83ce427ec7087739e915b7.png
-
-# needs background
-- name: "Sid Meier's Civilization IV: Beyond the Sword"
-  platform: steam
-  id: 8800
-  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/4f0707d3501c6ff1532c927f43685768.png
-  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/30f78b78eb6b8d7de98bbf938311962b.png
 
 - name: Sid Meier's Covert Action (Classic)
   platform: steam
