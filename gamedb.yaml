@@ -5060,6 +5060,5 @@
   platform: epic-store
   id: WorldExplorersLive
   banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/ef652e54969dd661422f75e809bc118c.png
-  compat_tool: proton-stable
   status: unsupported
 
