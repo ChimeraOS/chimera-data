@@ -4878,3 +4878,187 @@
   compat_tool: proton-stable
   status: verified
 
+- name: 'Dishonored®: Death of the Outsider™'
+  platform: epic-store
+  id: 2fb8273dcf6f41e4899c0c881e047053
+  banner: steam:614570
+  status: unsupported
+
+- name: 'Diabotical'
+  platform: epic-store
+  id: Honeycreeper
+  banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/049b8c570e6cc662b4a3d7e3c86e236f.png
+  status: unsupported
+
+- name: 'Defense Grid: The Awakening'
+  platform: epic-store
+  id: a434dcb20f0d439b93aaa31dac9e3210
+  banner: steam:18500
+  status: unsupported
+
+- name: 'Delores: A Thimbleweed Park Mini-Adventure'
+  platform: epic-store
+  id: fe6c485736bc4ed48c835290ce48099b
+  banner: steam:1305720
+  status: unsupported
+
+- name: 'Destiny 2'
+  platform: epic-store
+  id: 592c359fb0e0413fb46dee2d24448eb4
+  banner: steam:1085660
+  status: unsupported
+
+- name: 'DOOM 64'
+  platform: epic-store
+  id: 5b60142e120c4f2d88027595c21d4a04
+  banner: steam:1148590
+  status: unsupported
+
+- name: 'Divine Knockout'
+  platform: epic-store
+  id: 2a7875f5060d4381af355104773ca649
+  banner: steam:1294660
+  status: unsupported
+
+- name: 'Duskers'
+  platform: epic-store
+  id: 1e9c3a9a10c6463e9c065f371b8b42bf
+  banner: steam:254320
+  status: unsupported
+
+- name: 'Borderlands 3'
+  platform: epic-store
+  id: Catnip
+  banner: steam:397540
+  compat_tool: proton-stable
+  status: verified
+
+- name: 'Dungeons 3'
+  platform: epic-store
+  id: 351fe5b32e22412d8fa41f4c7395fed1
+  banner: steam:493900
+  compat_tool: proton-stable
+  status: verified
+
+- name: 'Dishonored - Definitive Edition'
+  platform: epic-store
+  id: d2da64bd4c4e422da4b1a88041492a3a
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/48b9ef5bcb5ede1575779d29b9eeffe7.png
+  banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/cddd343d7bfb79150a3be9d7fc8f58ea.jpg
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/c008c31802ec4b9c2126914d5d41ed9f.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/615b9a2a83ec2f84e3b95d14486eab28.png
+  compat_tool: proton-stable
+  status: verified
+
+- name: 'Ancient Enemy'
+  platform: epic-store
+  id: a96de508ac71471fa05e7c1c695e3b5d
+  banner: steam:993790
+  status: unsupported
+
+- name: 'Among the Sleep - Enhanced Edition'
+  platform: epic-store
+  id: aa78f7be2ee64193b6b6444c5fc50157
+  banner: steam:250620
+  status: unsupported
+
+- name: 'Alba - A Wildlife Adventure'
+  platform: epic-store
+  id: 8a0173bbe3ac48ac903f5bc7277e7b4e
+  banner: steam:1337010
+  compat_tool: proton-stable
+  status: verified
+
+- name: 'Against All Odds'
+  platform: epic-store
+  id: ad8aff099d2a445599f9797a24e9ff93
+  banner: steam:1465560
+  status: unsupported
+
+- name: 'Adios'
+  platform: epic-store
+  id: 73c56a1f38a548b2852ce8608c5e436e
+  banner: steam:1271400
+  status: unsupported
+
+- name: 'A Total War Saga: TROY'
+  platform: epic-store
+  id: 11e598b192324994abce05bad4f81b50
+  banner: steam:1099410
+  compat_tool: proton-stable
+  status: playable
+  notes:
+    - No controller support
+
+- name: 'A Game of Thrones: The Board Game Official Edition'
+  platform: epic-store
+  id: 06b8b80d89c24a28a7e91127fcbd9542
+  banner: steam:1075190
+  compat_tool: proton-stable
+  status: playable
+  notes:
+    - No controller support
+
+- name: 'Eximius: Seize the Frontline'
+  platform: epic-store
+  id: 70f92598b33d42e290e411f07397aeee
+  banner: steam:505740
+  compat_tool: proton-stable
+  status: playable
+  notes:
+    - No controller support
+
+- name: 'Evoland Legendary Edition'
+  platform: epic-store
+  id: 530f09c9ac834a7bbc98056c69b44471
+  banner: steam:1020470
+  status: unsupported
+
+- name: 'Evil Dead: The Game'
+  platform: epic-store
+  id: 5c147002780d4e6eb292f54edfe73fda
+  banner: steam:1493750
+  status: unsupported
+
+- name: 'Europa Universalis IV'
+  platform: epic-store
+  id: da0103e959e54d139d0c109ded3b3672
+  banner: steam:236850
+  status: unsupported
+
+- name: 'Epistory - Typing Chronicles'
+  platform: epic-store
+  id: 4ec72fd8cbd94aa4acc61624c68fbc4f
+  banner: steam:398850
+  compat_tool: proton-stable
+  status: playable
+  notes:
+    - No controller support
+
+- name: 'Black Book'
+  platform: epic-store
+  id: 1d74dcbca79540efb52cab2ff026215f
+  banner: steam:1138660
+  status: unsupported
+
+- name: 'Encased'
+  platform: epic-store
+  id: af0facaba8e643c1b9850d0683ff56df
+  banner: steam:921800
+  compat_tool: proton-stable
+  status: verified
+
+- name: 'Dodo Peak'
+  platform: epic-store
+  id: 30647199e65341c2be84d81fa6964ff0
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/611849551bc98921200690fcc3260fa5.png
+  banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/3e29901d0754cad4cb6d47ae1cbe0015.png
+  compat_tool: proton-stable
+  status: verified
+
+- name: 'Battle Breakers'
+  platform: epic-store
+  id: WorldExplorersLive
+  banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/ef652e54969dd661422f75e809bc118c.png
+  status: unsupported
+
