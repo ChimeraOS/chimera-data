@@ -5127,7 +5127,7 @@
   compat_tool: proton-stable
   status: playable
   notes:
-    - On first launch instalation of VC++ requires mouse
+    - On first launch installation of VC++ requires mouse
     - Game has full controlller support
 
 - name: 'Football Manager 2020'
@@ -5166,7 +5166,7 @@
   compat_tool: proton-stable
   status: playable
   notes:
-    - On first launch instalation of VC++ requires mouse
+    - On first launch installation of VC++ requires mouse
     - Game has full controlller support
   
 - name: 'Fallout 3: Game of the Year Edition'
