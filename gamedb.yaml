@@ -1082,6 +1082,8 @@
   platform: epic-store
   id: Mint
   banner: steam:1449280
+  compat_tool: proton-stable
+  status: verified
 
 - name: GNOG
   platform: epic-store
@@ -5080,13 +5082,6 @@
   platform: epic-store
   id: a01150ee6deb406c92dd2b2445186163
   banner: steam:917720
-  compat_tool: proton-stable
-  status: verified
-
-- name: 'Ghostbusters: The Video Game Remastered'
-  platform: epic-store
-  id: Mint
-  banner: steam:1449280
   compat_tool: proton-stable
   status: verified
 
