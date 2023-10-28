@@ -1082,6 +1082,8 @@
   platform: epic-store
   id: Mint
   banner: steam:1449280
+  compat_tool: proton-stable
+  status: verified
 
 - name: GNOG
   platform: epic-store
@@ -5062,3 +5064,142 @@
   banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/ef652e54969dd661422f75e809bc118c.png
   status: unsupported
 
+- name: 'Filament'
+  platform: epic-store
+  id: 14a38161ad3c45adab18425415b5df3d
+  banner: steam:1137350
+  compat_tool: proton-stable
+  status: verified
+
+- name: 'For The King'
+  platform: epic-store
+  id: Discus
+  banner: steam:527230
+  compat_tool: proton-stable
+  status: verified
+
+- name: 'Gamedec - Definitive Edition'
+  platform: epic-store
+  id: a01150ee6deb406c92dd2b2445186163
+  banner: steam:917720
+  compat_tool: proton-stable
+  status: verified
+
+- name: 'Gloomhaven'
+  platform: epic-store
+  id: 1bcd791d54684eb29ed32ad1c0593d12
+  banner: steam:780290
+  compat_tool: proton-stable
+  status: verified
+
+- name: "God's Trigger"
+  platform: epic-store
+  id: 9bc4423d873845739cc99ab69b6bfbe9
+  banner: steam:488730
+  compat_tool: proton-stable
+  status: verified
+
+- name: 'GRIME'
+  platform: epic-store
+  id: 028263f54a874e35800d142275254d2c
+  banner: steam:1123050
+  compat_tool: proton-stable
+  status: verified
+
+- name: 'Guacamelee! 2'
+  platform: epic-store
+  id: fab83c3bf3d449718e042d44369e7fb6
+  banner: steam:534550
+  compat_tool: proton-stable
+  status: verified
+
+- name: 'Guacamelee! Super Turbo Championship Edition'
+  platform: epic-store
+  id: 25b902f42cf04b17bc8a3db2f7292d58
+  banner: steam:275390
+  compat_tool: proton-stable
+  status: verified
+
+- name: 'F.I.S.T.: Forged In Shadow Torch'
+  platform: epic-store
+  id: bf4808b3395b43fb80afbe6773e1661f
+  banner: steam:1330470
+  compat_tool: proton-stable
+  status: playable
+  notes:
+    - On first launch installation of VC++ requires mouse
+    - Game has full controlller support
+
+- name: 'Football Manager 2020'
+  platform: epic-store
+  id: bf35243e8c3542e082bc7042e0592183
+  banner: steam:1100600
+  compat_tool: proton-stable
+  status: playable
+  notes:
+    - No controller support
+
+- name: 'Football Manager 2022'
+  platform: epic-store
+  id: 29c30b4114b247678453c84ae156715d
+  banner: steam:1569040
+  compat_tool: proton-stable
+  status: playable
+  notes:
+    - No controller support
+
+- name: 'Frostpunk'
+  platform: epic-store
+  id: b2e00fc16632475782a7730d1bd7cb60
+  banner: steam:323190
+  compat_tool: proton-stable
+  status: playable
+  notes:
+    - No controller support
+
+- name: 'Godfall'
+  platform: epic-store
+  id: Carp
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/9d90d210b54506307e160e8705e350d7.png
+  banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/a784cc6a1286ef2bd7db4ca23c97e9c2.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/50a300306e904ca06f49be9314f99644.png
+  compat_tool: proton-stable
+  status: playable
+  notes:
+    - On first launch installation of VC++ requires mouse
+    - Game has full controlller support
+  
+- name: 'Fallout 3: Game of the Year Edition'
+  platform: epic-store
+  id: adeae8bbfc94427db57c7dfecce3f1d4
+  banner: steam:22370
+  compat_tool: proton-stable
+  status: unsupported
+  notes:
+    - Can only be installed via command line as installer asks for language packs
+
+- name: 'Fallout: New Vegas'
+  platform: epic-store
+  id: 5daeb974a22a435988892319b3a4f476
+  banner: steam:22380
+  compat_tool: proton-stable
+  status: unsupported
+    - Can only be installed via command line as installer asks for language packs
+
+- name: 'Fort Triumph'
+  platform: epic-store
+  id: 320ba4df8b36412d983ffcffd3e0e8f0
+  banner: steam:612570
+  status: unsupported
+
+- name: 'Galactic Civilizations III'
+  platform: epic-store
+  id: 5f1c66366b2c4a6496d535d88c56e6cf
+  banner: steam:226860
+  status: unsupported
+
+- name: 'Auto Chess'
+  platform: epic-store
+  id: Chicken
+  banner: steam:1530300
+  status: unsupported
