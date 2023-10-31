@@ -3368,6 +3368,12 @@
   id: 690790
   status: verified
 
+- name: "EA WRC"
+  platform: steam
+  id: 1849250
+  status: playable
+  launch_options: SteamDeck=0 %command%
+
 - name: DiRT 4
   platform: steam
   id: 421020
