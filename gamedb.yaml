@@ -2537,6 +2537,13 @@
   notes:
     - No controller support
 
+ # Disable -steamdeck to fix the game refusing to launch
+- name: WRC
+  platform: steam
+  id: 1849250
+  status: verified
+  launch_options: SteamDeck=0 %command%
+
 - name: Xonotic
   platform: flathub
   id: org.xonotic.Xonotic
