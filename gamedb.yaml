@@ -1375,6 +1375,11 @@
   compat_tool: proton-stable
   status: verified
 
+- name: "The Last Door - Collector's Edition"
+  platform: steam
+  poster: https://cdn2.steamgriddb.com/grid/db942ab6ce5deb8d2dd0a50d401e40cb.jpg
+  id: 284390
+
 - name: The Last of Us Part 1
   platform: steam
   id: 1888930
