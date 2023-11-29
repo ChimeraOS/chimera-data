@@ -1489,10 +1489,20 @@
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/1ae5168b14a6091d623291902ac36e7c.png
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/fa183ba81b8f82c988245d8d4e701366.png
 
+- name: Lume
+  platform: steam
+  id: 105100
+  poster: https://cdn2.steamgriddb.com/grid/fbdc4c9cf46e2ec05a0918c7ac9a0c69.png
+
 - name: Lust for Darkness
   platform: steam
   id: 523650
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/ce1147ec605e5fbac6b692e762db8881.png
+
+- name: Luxuria Superbia
+  platform: steam
+  id: 269150
+  poster: https://cdn2.steamgriddb.com/grid/3bf5659242cf77f195cb3792a1ce983d.png
 
 - name: 'Mad Nords: Probably an Epic Quest'
   platform: steam
@@ -1520,6 +1530,11 @@
   status: playable
   notes:
     - No controller support
+
+- name: 'Magic: The Gathering - Duels of the Planeswalkers 2012'
+  platform: steam
+  id: 49470
+  poster: https://cdn2.steamgriddb.com/grid/9b07dafe243e6b18945a3051f6f3a95b.png
 
 - name: Mega Coin Squad
   platform: steam
