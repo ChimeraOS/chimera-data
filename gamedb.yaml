@@ -1795,13 +1795,6 @@
   banner: steam:481510
   status: unsupported
 
-- name: 'Offensive Combat: Redux!'
-  platform: steam
-  id: 622170
-  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/0c52fe90a6eedf614da3c5515a78175e.png
-  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/ab4c389364232588a6680ad92ec170c7.png
-  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/1b38735595369838f208dd2b25315195.png
-
 - name: Nimble Quest
   platform: steam
   id: 259780
@@ -1812,6 +1805,13 @@
   id: Turaco
   banner: steam:242680
   status: verified
+
+- name: 'Offensive Combat: Redux!'
+  platform: steam
+  id: 622170
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/0c52fe90a6eedf614da3c5515a78175e.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/ab4c389364232588a6680ad92ec170c7.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/1b38735595369838f208dd2b25315195.png
 
 - name: Oil Rush
   platform: steam
