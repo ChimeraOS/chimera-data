@@ -472,6 +472,13 @@
   banner: steam:1630960
   status: unsupported
 
+- name: 'Chantelise - A Tale of Two Sisters'
+  platform: steam
+  id: 70420
+  poster: https://cdn2.steamgriddb.com/grid/11f58f0c21cb2dae75e392564078002b.png
+  background: https://cdn2.steamgriddb.com/hero/917c276fa853b6397c173f6e45655496.png
+  logo: https://cdn2.steamgriddb.com/logo/f76db9efd8037dc91175b255083fc623.png
+
 - name: Chasm
   platform: gog
   id: 1114021228
@@ -763,6 +770,11 @@
   banner: steam:442070
   status: unsupported
 
+- name: Droplitz
+  platform: steam
+  id: 23120
+  poster: https://cdn2.steamgriddb.com/grid/4f82f5e41cf9b7f0c4c5a2562d152440.png
+
 - name: 'The Dark Eye: Memoria'
   platform: steam
   id: 243200
@@ -779,6 +791,11 @@
   platform: steam
   id: 225140
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/a2f85694da56232b78977a73c590cd5b.png
+
+- name: Dungeon Defenders Eternity
+  platform: steam
+  id: 302270
+  poster: https://cdn2.steamgriddb.com/grid/7176562eb0d9aab6bacb1f87bfd5708c.png
 
 - name: Dungeon Hearts
   platform: steam
@@ -1545,10 +1562,20 @@
   store: humble:mega-coin-squad
   status: verified
 
+- name: Major Mayhem
+  platform: steam
+  id: 264340
+  poster: https://cdn2.steamgriddb.com/grid/107f353e35eca7487f1db97baad2f975.png
+
 - name: MegaSphere
   platform: steam
   id: 386340
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/674799a0755561627d8eeb4164dc1bf4.png
+
+- name: Meltdown
+  platform: steam
+  id: 268220
+  poster: https://cdn2.steamgriddb.com/grid/7e5109a23c504a48c558167d54f624db.png
 
 - name: 'METAL GEAR SOLID V: GROUND ZEROES'
   platform: steam
@@ -1632,6 +1659,16 @@
   id: com.moonlight_stream.Moonlight
   banner: /images/flathub/com.moonlight_stream.Moonlight
   status: playable
+
+- name: Monsters Ate My Birthday Cake
+  platform: steam
+  id: 297590
+  poster: https://cdn2.steamgriddb.com/grid/ef41b2ad0976c63d21d712e7fa9ec785.png
+
+- name: Mortal Kombat Arcade Kollection
+  platform: steam
+  id: 205350
+  poster: https://cdn2.steamgriddb.com/grid/b8dbf6dc7e516e4ce7b46792999e9bd5.png
 
 - name: Mothergunship
   platform: epic-store
@@ -1765,11 +1802,21 @@
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/ab4c389364232588a6680ad92ec170c7.png
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/1b38735595369838f208dd2b25315195.png
 
+- name: Nimble Quest
+  platform: steam
+  id: 259780
+  poster: https://cdn2.steamgriddb.com/grid/72750ee512b0ef9c77aa7e84765a8173.png
+
 - name: Nuclear Throne
   platform: epic-store
   id: Turaco
   banner: steam:242680
   status: verified
+
+- name: Oil Rush
+  platform: steam
+  id: 200390
+  poster: https://cdn2.steamgriddb.com/grid/e281f682fab884aafadb53f9711eaffb.png
 
 - name: One Piece Pirate Warriors 3
   platform: steam
@@ -1828,10 +1875,20 @@
   status: verified
   compat_tool: proton-experimental
 
+- name: 'Papo & Yo'
+  platform: steam
+  id: 227080
+  poster: https://cdn2.steamgriddb.com/grid/725c0f47dc8449a54619147ff1809c67.jpg
+
 - name: Pathway
   platform: epic-store
   id: 8fceb562623c430db9bb6abf0549c43e
   banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/107323b791247ca0394de28f514ef194.png
+
+- name: Pier Solar and the Great Architects
+  platform: steam
+  id: 286220
+  poster: https://cdn2.steamgriddb.com/grid/c92ef3df36db69055ac5113b68233154.png
 
 - name: Pikuniku
   platform: epic-store
