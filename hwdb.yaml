@@ -34,7 +34,7 @@
   speakers: supported
   touch_screen: supported
   screen_orientation: supported
-  headphone_jack: unsupported
+  headphone_jack: supported
   bluetooth: supported
   wifi: supported
   gamepad: supported
@@ -91,7 +91,7 @@
   egpu: unknown
   notes: Requires manual steps to fix out of phase speakers on some devices
 
-- name: Aya Neo Air Plus
+- name: Aya Neo Air Plus AMD
   type: handheld
   speakers: supported
   touch_screen: supported
