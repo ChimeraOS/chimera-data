@@ -116,7 +116,7 @@
   type: handheld
   speakers: unsupported
   touch_screen: supported
-  screen_orientation: limited-support
+  screen_orientation: supported
   headphone_jack: unsupported
   bluetooth: supported
   wifi: supported
@@ -130,7 +130,6 @@
   ethernet: supported
   tdp_control: unsupported
   egpu: unknown
-  notes: Requires manual steps to rotate display on desktop mode.
 
 - name: ONEXPLAYER 2
   type: handheld
