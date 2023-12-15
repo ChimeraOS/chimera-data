@@ -124,6 +124,7 @@
   volume_buttons: supported
   extra_buttons: limited-support
   suspend: unsupported
+  finger_print_reader: unsupported
   gyro: unknown
   micro_sd: supported
   video_out: supported
