@@ -112,6 +112,26 @@
   egpu: unknown
   notes: Requires manual steps to fix gamepad lag issues
 
+- name: Aya Neo KUN
+  type: handheld
+  speakers: unsupported
+  touch_screen: supported
+  screen_orientation: limited-support
+  headphone_jack: unsupported
+  bluetooth: supported
+  wifi: supported
+  gamepad: supported
+  volume_buttons: supported
+  extra_buttons: limited-support
+  suspend: unsupported
+  gyro: unknown
+  micro_sd: supported
+  video_out: supported
+  ethernet: supported
+  tdp_control: unsupported
+  egpu: unknown
+  notes: Requires manual steps to rotate display on desktop mode.
+
 - name: ONEXPLAYER 2
   type: handheld
   speakers: unsupported
