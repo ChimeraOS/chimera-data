@@ -5287,3 +5287,39 @@
   id: Chicken
   banner: steam:1530300
   status: unsupported
+
+# Native version doesn't support steam achievements
+- name: '12 is Better Than 6'
+  platform: steam
+  id: 410110
+  compat_tool: proton-stable
+  status: playable
+  notes:
+   - Controller needs to be enabled in the game
+
+- name: 'The Metronomicon: Slay The Dance Floor'
+  id: 416790
+  platform: steam
+  compat_tool: GE-Proton8-15
+  status: verified
+
+- name: 'Master Levels for Doom II'
+  id: 9160
+  platform: steam
+  compat_tool: boxtron
+
+# Controller doesn't work in native version
+- name: 'Savent - Ascent'
+  id: 259530
+  platform: steam
+  compat_tool: proton-stable
+  status: verified
+
+- name: 'Rebel Galaxy Outlaw'
+  id: 910830
+  platform: steam
+  compat_tool: GE-Proton8-21
+  status: playable
+  notes:
+    - Gameplay supports controller
+    - Painting spaceship requires mouse 
