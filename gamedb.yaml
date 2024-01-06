@@ -4703,12 +4703,6 @@
   name: Aragami
   compat_tool: proton-stable
   
-# Enable -steamdeck to fix Forespoken
-- name: Forespoken
-  platform: steam
-  id: 1680880
-  launch_options: SteamDeck=1 %command%
-  
  # Disable -steamdeck to fix controller issues for Sackboy
 - name: Sackboy A Big Adventure
   platform: steam
