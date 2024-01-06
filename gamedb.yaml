@@ -1902,6 +1902,16 @@
   banner: steam:1042780
   status: verified
 
+- name: Pivvot
+  platform: steam
+  id: 293900
+  poster: https://cdn2.steamgriddb.com/grid/93f04334d788c3a859389e0f7708f1eb.png
+
+- name: PixelJunk Eden
+  platform: steam
+  id: 105800
+  poster: https://cdn2.steamgriddb.com/grid/5d2173cf1345c04c4c238e84b0f85424.png
+
 # native version crashes on startup
 - name: PixelJunk Shooter
   platform: steam
@@ -1918,6 +1928,21 @@
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/743a7d655fee852e8f2d1ac726b6d0dd.png
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/ba7fb7aa93b1203a1f5e19b0857870e3.jpg
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/da43646f8d1a36b67a87aa2e48f5194f.png
+
+- name: The Plan
+  platform: steam
+  id: 250600
+  poster: https://cdn2.steamgriddb.com/grid/5d876655a5bfe33ff0cc8e0cafb26785.png
+
+- name: The Polynomial
+  platform: steam
+  id: 67000
+  poster: https://cdn2.steamgriddb.com/grid/98f204b32907c82b1ea7c4ed2128d4c2.png
+
+- name: 'The Powerpuff Girls: Defenders of Townsville'
+  platform: steam
+  id: 274450
+  poster: https://cdn2.steamgriddb.com/grid/ee9baf094a9abdae5edec7b60911a58b.png
 
 - name: Prey
   platform: epic-store
@@ -1966,6 +1991,26 @@
   banner: steam:233450
   status: unsupported
 
+- name: 'Project CARS - Pagani Edition'
+  platform: steam
+  id: 429180
+  poster: https://cdn2.steamgriddb.com/grid/5eaf7e8ee0a94b2ce3fd2f6a32df4b47.png
+
+- name: Proteus
+  platform: steam
+  id: 219680
+  poster: https://cdn2.steamgriddb.com/grid/08fdf424f2ba3c4e61dc1bc8e00e8915.png
+
+- name: Puddle
+  platform: steam
+  id: 222140
+  poster: https://cdn2.steamgriddb.com/grid/7a737701149111e508f97116bf21f116.png
+
+- name: Pulse
+  platform: steam
+  id: 372780
+  poster: https://cdn2.steamgriddb.com/grid/64ffab529795d0c868dd817a00784636.png
+
 - name: Pumpkin Jack
   platform: steam
   id: 1186640
@@ -2005,6 +2050,21 @@
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/cd61a580392a70389e27b0bc2b439f49.png
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/06ee4c5c93a9957c9b1bb3bd89e800c8.png
 
+- name: Race The Sun
+  platform: steam
+  id: 253030
+  poster: https://cdn2.steamgriddb.com/grid/5624f1782ccb76c1179577725b3414dc.png
+
+- name: 'Ravensword: Shadowlands'
+  platform: steam
+  id: 253410
+  poster: https://cdn2.steamgriddb.com/grid/181a25d9e28a6c644e442b02bfe03dd1.png
+
+- name: 'Rayman 2 - The Great Escape'
+  platform: steam
+  id: 15060
+  poster: https://cdn2.steamgriddb.com/grid/6fd40ac0b093bfe22215a579a55ec237.png
+
 - name: Rayman Legends
   platform: epic-store
   id: Anchovy
@@ -2016,6 +2076,11 @@
   id: 207490
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/cb1a716a70ad58a2f02792dcc8db2039.png
   status: verified
+
+- name: realMyst
+  platform: steam
+  id: 63600
+  poster: https://cdn2.steamgriddb.com/grid/a5d6aeadedbecb97856e1339f1cb2477.png
 
 - name: Realms of the Haunting
   platform: steam
@@ -2029,6 +2094,11 @@
   id: Weaver
   banner: steam:290300
 
+- name: "Recettear: An Item Shop's Tale"
+  platform: steam
+  id: 70400
+  poster: https://cdn2.steamgriddb.com/grid/1e71361260ea9d5bc457f719718d0944.png
+
 - name: Relicta
   platform: epic-store
   id: b4670484aae24db492f0b468a98fe361
@@ -2040,6 +2110,16 @@
   platform: steam
   id: 317100
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/68c7fca1e3bba5e49ec90847dcdd456b.png
+
+- name: Reveal The Deep
+  platform: steam
+  id: 411560
+  poster: https://cdn2.steamgriddb.com/grid/ff5bfc8100ee213d0a03d280781d3bc1.png
+
+- name: 'Robot Roller-Derby Disco Dodgeball'
+  platform: steam
+  id: 270450
+  poster: https://cdn2.steamgriddb.com/grid/254ccd5c7065f3aeb2dc3e40b685adf0.png
 
 - name: Rochard
   platform: steam
