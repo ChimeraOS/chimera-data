@@ -5309,7 +5309,7 @@
   compat_tool: boxtron
 
 # Controller doesn't work in native version
-- name: 'Savent - Ascent'
+- name: 'Savant - Ascent'
   id: 259530
   platform: steam
   compat_tool: proton-stable
