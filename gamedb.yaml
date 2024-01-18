@@ -1228,6 +1228,12 @@
   banner: steam:404680
   status: unsupported
 
+# SteamDeck=0 to fix game not running in fullscreen
+- name: Hohokum
+  platform: steam
+  id: 1210550
+  launch_options: SteamDeck=0 %command%
+
 - name: Horace
   platform: epic-store
   id: Palila
