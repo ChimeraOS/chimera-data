@@ -3704,8 +3704,8 @@
   status: verified
   store: humble:bad-north-jotunn-edition
 
-# SteamDeck=0 to fix inability to trigger split-screen mode. --skip-launcher to maintain console compatabilty
-- name: 'Baldur''s Gate 3'
+# SteamDeck=0 to fix inability to trigger split-screen mode. --skip-launcher to maintain console compatibility
+- name: "Baldur's Gate 3"
   platform: steam
   id: 1086940
   launch_options: SteamDeck=0 %command% --skip-launcher
