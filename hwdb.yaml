@@ -194,7 +194,7 @@
 
 - name: ROG Ally
   type: handheld
-  speakers: limited-support
+  speakers: supported
   touch_screen: supported
   screen_orientation: supported
   headphone_jack: supported
@@ -203,7 +203,7 @@
   gamepad: supported
   volume_buttons: supported
   extra_buttons: supported
-  suspend: unsupported
+  suspend: supported
   finger_print_reader: unsupported
   gyro: unsupported
   micro_sd: supported
@@ -211,7 +211,6 @@
   ethernet: supported
   tdp_control: unsupported
   egpu: unknown
-  notes: Firmware override required for speakers to work
 
 - name: Steam Deck
   type: handheld
