@@ -132,6 +132,28 @@
   tdp_control: unsupported
   egpu: unknown
 
+- name: Aya Neo Retro Mini PC AM01
+  type: mini-pc
+  store: https://www.indiegogo.com/projects/ayaneo-retro-mini-pc-creator-of-mini-pc-2-0-era
+  speakers: not-applicable
+  touch_screen: not-applicable
+  screen_orientation: not-applicable
+  headphone_jack: supported
+  bluetooth: supported
+  wifi: supported
+  gamepad: not-applicable
+  volume_buttons: not-applicable
+  extra_buttons: not-applicable
+  suspend: limited-support
+  finger_print_reader: not-applicable
+  gyro: not-applicable
+  micro_sd: not-applicable
+  video_out: supported
+  ethernet: supported
+  tdp_control: unsupported
+  egpu: unknown
+  notes: Coming out of suspend may cause reduced performence until the system is restarted
+
 - name: Legion Go
   type: handheld
   speakers: supported
