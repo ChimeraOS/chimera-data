@@ -2134,6 +2134,11 @@
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/7f9f3bdfd5974f2c11e9d6cd27c5f9f7.jpg
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/a733fa9b25f33689e2adbe72199f0e62.png
 
+- name: 'Rocketbirds: Hardboiled Chicken'
+  platform: steam
+  id: 215510
+  poster: https://cdn2.steamgriddb.com/grid/0d233a9541c181e713701de5d0448be4.jpg
+
 - name: Rogue Legacy
   platform: steam
   id: 241600
@@ -2160,11 +2165,21 @@
   status: verified
   store: humble:runner3
 
+- name: Rush
+  platform: steam
+  id: 38720
+  poster: https://cdn2.steamgriddb.com/grid/9f1b497836bfa48a8f4e25eb55c566e5.jpg
+
 - name: SAMURAI SHODOWN NEOGEO COLLECTION
   platform: epic-store
   id: 75553c71fa1744a4be89f71d5b862eae
   banner: steam:999660
   status: unsupported  
+
+- name: Scribblenauts Unlimited
+  platform: steam
+  id: 218680
+  poster: https://cdn2.steamgriddb.com/grid/e9936d659692a672e05c8a087cf1798a.jpg
 
 - name: 'The Secret of Monkey Island: Special Edition'
   platform: steam
@@ -2173,17 +2188,32 @@
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/a1a2c3fed88e9b3ba5bc3625c074a04e.jpg
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/fc95fa5740ba01a870cfa52f671fe1e4.png
 
+- name: Secrets of Rætikon
+  platform: steam
+  id: 246680
+  poster: https://cdn2.steamgriddb.com/grid/c09fd37dd8db33155e80ab3ab88c0e40.jpg
+
 - name: 'Sekiro: Shadows Die Twice'
   platform: steam
   id: 814380
   compat_tool: proton-stable
   status: verified
 
+- name: Sentris
+  platform: steam
+  id: 303530
+  poster: https://cdn2.steamgriddb.com/grid/59816ab92c4c799f1ad906f6645d29df.png
+
 - name: Shattered Pixel Dungeon
   platform: flathub
   id: com.shatteredpixel.shatteredpixeldungeon
   banner: steam:1769170
   status: playable
+
+- name: Shiny The Firefly
+  platform: steam
+  id: 277510
+  poster: https://cdn2.steamgriddb.com/grid/62e5bd018861ec37550bc5239a60133a.png
 
 - name: Sid Meier's Covert Action (Classic)
   platform: steam
@@ -2218,6 +2248,31 @@
   id: Morganite
   banner: steam:1144770
   status: verified
+
+- name: Smashbox Arena
+  platform: steam
+  id: 530350
+  poster: https://cdn2.steamgriddb.com/grid/136e655a5cca4226ce90dd56707dfb19.png
+
+- name: Snapshot
+  platform: steam
+  id: 204220
+  poster: https://cdn2.steamgriddb.com/grid/18a970ca757d4b658e65b3efb6cc0dec.png
+
+- name: Snuggle Truck
+  platform: steam
+  id: 111100
+  poster: https://cdn2.steamgriddb.com/grid/059bb927fd3b32d7b4e9ca7edad819f3.png
+
+- name: So Many Me
+  platform: steam
+  id: 260530
+  poster: https://cdn2.steamgriddb.com/grid/ce8b0a8db47b0e3f3dcd282ccf095ffe.png
+
+- name: Solar Flux
+  platform: steam
+  id: 251910
+  poster: https://cdn2.steamgriddb.com/grid/38c94eca8918290cf3f3cc3c9c4e9de2.png
 
 - name: Solitairica
   platform: epic-store
@@ -2270,11 +2325,21 @@
   id: 530930
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/627905f21b5ae408516847694d6bf571.png
 
+- name: Spectraball
+  platform: steam
+  id: 18300
+  poster: https://cdn2.steamgriddb.com/grid/5de467a7575b9538de41b90d8df790b7.png
+
 - name: Speed Brawl
   platform: epic-store
   id: 6ffe878bb1ce490ba6d3a359a1f88df2
   banner: steam:468670
   status: verified
+
+- name: Spirits
+  platform: steam
+  id: 210170
+  poster: https://cdn2.steamgriddb.com/grid/f338e4527b6212afd8c6cf4c80d8acd7.jpg
 
 - name: Splice
   platform: steam
@@ -2288,6 +2353,11 @@
   status: verified
   store: humble:spongebob-squarepants-battle-for-bikini-bottom-rehydrated
   compat_tool: proton-stable
+
+- name: Sportsfriends
+  platform: steam
+  id: 277850
+  poster: https://cdn2.steamgriddb.com/grid/3b0faad865cb6545ed7597eab876b3ad.png
 
 - name: Spotify
   platform: flathub
