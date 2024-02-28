@@ -5473,3 +5473,12 @@
   notes:
     - Gameplay supports controller
     - Painting spaceship requires mouse 
+
+# Controller doesn't work in native version
+- name: 'Duke of Alpha Centauri'
+  id: 567580
+  platform: steam
+  compat_tool: proton-stable
+  status: playable
+  notes:
+    - Displays keyboard icons
