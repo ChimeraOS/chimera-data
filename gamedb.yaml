@@ -5478,6 +5478,7 @@
 - name: 'Duke of Alpha Centauri'
   id: 567580
   platform: steam
+  poster: https://cdn2.steamgriddb.com/grid/6373a3c0273eb185ad1dacf4295c3247.png
   compat_tool: proton-stable
   status: playable
   notes:
