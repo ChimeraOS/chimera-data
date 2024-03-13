@@ -1403,6 +1403,12 @@
   poster: https://cdn2.steamgriddb.com/grid/db942ab6ce5deb8d2dd0a50d401e40cb.jpg
   id: 284390
 
+# SteamDeck=0 to allow resolutions above 1080P
+- name: Last Epoch
+  platform: steam
+  id:  	899770
+  launch_options: SteamDeck=0 %command%
+
 - name: The Last of Us Part 1
   platform: steam
   id: 1888930
