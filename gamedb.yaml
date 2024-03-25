@@ -5905,7 +5905,6 @@
   notes:
     - No controller support
 
-
 - name: "Thea 2: The Shattering"
   platform: gog
   id: 1582025844
@@ -5978,7 +5977,7 @@
   banner: https://cdn2.steamgriddb.com/grid/3a19f212ae83929a1209377c627c3912.png
   status: unsupported
 
- - name: "Deep Sky Derelicts"
+- name: "Deep Sky Derelicts"
   platform: gog
   id: 1629258827
   banner: steam:698640
