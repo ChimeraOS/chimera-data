@@ -5729,7 +5729,7 @@
   background: https://cdn2.steamgriddb.com/hero/69a4241986721658eb6237d56c1b8abc.jpg
   logo: https://cdn2.steamgriddb.com/logo/1145a30ff80745b56fb0cecf65305017.png
   icon: https://cdn2.steamgriddb.com/icon/60c43e386965167ba97045a1fe957626.png
-  compat_tool: pro  ton-stable
+  compat_tool: proton-stable
   status: playable
   notes:
     - Displays kexboard icons
@@ -5749,18 +5749,6 @@
   status: playable
   notes:
     - No controller support
-
-- name: "Betrayer"
-  platform: gog
-  id: 1090734724
-  banner: steam:243120
-  poster: https://cdn2.steamgriddb.com/grid/9fc497b1718cabc904e5af82c57bae53.png
-  background: https://cdn2.steamgriddb.com/hero/69a4241986721658eb6237d56c1b8abc.jpg
-  logo: https://cdn2.steamgriddb.com/logo/1145a30ff80745b56fb0cecf65305017.png
-  icon: https://cdn2.steamgriddb.com/icon/60c43e386965167ba97045a1fe957626.png
-  status: playable
-  notes:
-    - Displays keyboard icons
 
 - name: "Beautiful Desolation"
   platform: gog
@@ -6167,18 +6155,6 @@
   platform: gog
   id: 1433027987
   banner: steam:1400520
-  status: unsupported
-
-- name: "Outcast 1.1"
-  platform: gog
-  id: 1207658853
-  banner: steam:336610
-  status: unsupported
-
-- name: "Sanitarium"
-  platform: gog
-  id: 1207658811
-  banner: steam:284050
   status: unsupported
 
 - name: "Syndicate Plus™"
