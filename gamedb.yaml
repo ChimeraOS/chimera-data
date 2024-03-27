@@ -4743,7 +4743,7 @@
   name: Tomb Raider III
   compat_tool: Proton-6.1-GE-2
 
-- name: 'The Outer Worlds: Spacer's Choice Edition'
+- name: "The Outer Worlds: Spacer's Choice Edition"
   platform: epic-store
   id: cb3bf7ba89574a66ae3b795e039d4dbc
   banner: steam:1920490
