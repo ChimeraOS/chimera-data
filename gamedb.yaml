@@ -5648,7 +5648,7 @@
   platform: gog
   id: 1591938132
   banner: steam:940680
-  compat_tool: GE-Proton9-1
+  compat_tool: GE-Proton9-2
   status: verified
 
 - name: "VirtuaVerse"
@@ -5750,7 +5750,7 @@
   notes:
     - No controller support
 
-- name: "Beautiful Desolation"
+- name: "BEAUTIFUL DESOLATION"
   platform: gog
   id: 1295420179
   banner: steam:912570
@@ -5905,7 +5905,7 @@
   platform: gog
   id: 1289701346
   banner: steam:757300
-  compat_tool: GE-Proton9-1
+  compat_tool: GE-Proton9-2
   status: playable
   notes:
     - No controller support
@@ -5914,7 +5914,7 @@
   platform: gog
   id: 1386468605
   banner: steam:1945780
-  status: verified
+  status: playable
   notes:
     - Controller support isn't fully working
     - Installing VisualC++ runtime needs mouse
@@ -6130,7 +6130,7 @@
 - name: "The Whisperer"
   platform: gog
   id: 1426240474
-  banner: steam:2329580
+  banner: steam:1697940
   status: unsupported
 
 - name: "The Witcher: Enhanced Edition"
