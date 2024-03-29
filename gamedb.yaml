@@ -5617,7 +5617,7 @@
   platform: gog
   id: 1276856962
   banner: steam:471010
-  compat_tool: GE-Proton9-1
+  compat_tool: GE-Proton9-2
   status: verified
 
 - name: "Relic Hunters Zero: Remix"
@@ -5867,7 +5867,7 @@
   platform: gog
   id: 1601442230
   banner: steam:418240
-  compat_tool: GE-Proton9-1
+  compat_tool: GE-Proton9-2
   status: playable
   notes:
     - Enabling  controller with mouse
