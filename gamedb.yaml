@@ -4080,6 +4080,11 @@
   store: humble:oddworld-new-n-tasty
   steam_input: enabled
 
+- name: "Oddworld: New 'n' Tasty"
+  platform: epic
+  id: 7c566548d24343e48151125ced4b494c
+  status: verified
+
 - name: A Story About My Uncle
   platform: steam
   id: 278360
@@ -4738,6 +4743,12 @@
   name: Tomb Raider III
   compat_tool: Proton-6.1-GE-2
 
+- name: "The Outer Worlds: Spacer's Choice Edition"
+  platform: epic-store
+  id: cb3bf7ba89574a66ae3b795e039d4dbc
+  banner: steam:1920490
+  status: verified
+  
 - id: 499520
   platform: steam
   name: The Turing Test
@@ -5051,7 +5062,7 @@
   platform: epic-store
   id: Arrowroot
   banner: steam:301840
-  compat_tool: GE-Proton8-6
+  compat_tool: GE-Proton8-32
   status: verified
 
 - name: 'City of Gangsters'
@@ -5450,7 +5461,6 @@
 - name: 'The Metronomicon: Slay The Dance Floor'
   id: 416790
   platform: steam
-  compat_tool: GE-Proton8-25
   status: verified
 
 - name: 'Master Levels for Doom II'
@@ -5468,7 +5478,7 @@
 - name: 'Rebel Galaxy Outlaw'
   id: 910830
   platform: steam
-  compat_tool: GE-Proton8-25
+  compat_tool: GE-Proton8-32
   status: playable
   notes:
     - Gameplay supports controller
