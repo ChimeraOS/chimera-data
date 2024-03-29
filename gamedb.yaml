@@ -1406,7 +1406,7 @@
 # SteamDeck=0 to allow resolutions above 1080P
 - name: Last Epoch
   platform: steam
-  id:  	899770
+  id: 899770
   launch_options: SteamDeck=0 %command%
 
 - name: The Last of Us Part 1
