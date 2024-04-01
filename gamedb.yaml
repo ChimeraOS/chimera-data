@@ -4095,7 +4095,7 @@
   steam_input: enabled
 
 - name: "Oddworld: New 'n' Tasty"
-  platform: epic
+  platform: epic-store
   id: 7c566548d24343e48151125ced4b494c
   status: verified
 
