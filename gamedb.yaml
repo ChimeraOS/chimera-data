@@ -6159,7 +6159,8 @@
 - name: "Worms Revolution Gold Edition"
   platform: gog
   id: 1421309312
-  banner: steam:200170
+  banner: https://cdn2.steamgriddb.com/grid/729fe11bfd2eab32e7613461d2f5ea74.png
+  poster: https://cdn2.steamgriddb.com/grid/12059c268a74f3db7ed26b87efe23461.png
   status: unsupported
 
 - name: "Nomads of Driftland"
