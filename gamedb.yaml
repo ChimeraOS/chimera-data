@@ -4770,6 +4770,9 @@
   patch_dir: The Turing Test
   patches:
     - exec: echo "459610a64e715fda06fc3caaa1bcb266 installer.vdf" | md5sum --status -c && sed -i 1,26d installer.vdf
+  status: playable
+  notes:
+    - Icons for keyboard and controller toggle during gameplay
 
 - id: 294860
   platform: steam
