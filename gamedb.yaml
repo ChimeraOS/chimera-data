@@ -5742,7 +5742,7 @@
   compat_tool: proton-stable
   status: playable
   notes:
-    - Displays kexboard icons
+    - Displays keyboard icons
 
 - name: "Butcher"
   platform: gog
@@ -5812,7 +5812,7 @@
   background: https://cdn2.steamgriddb.com/hero/8cff9bf6694dccfc3b6a613d05d51d16.png
   logo: https://cdn2.steamgriddb.com/logo/54cf07b091f36d3e0a2d1e5bcf65d66a.png
   icon: https://cdn2.steamgriddb.com/icon/d6d83fd1acd1918a677906afc9bdc1d7.ico
-  status: verified
+  status: playable
   notes:
     - Limited controller support
 
@@ -5880,8 +5880,9 @@
   compat_tool: GE-Proton9-2
   status: playable
   notes:
-    - Enabling  controller with mouse
-    - Game has full controller support
+    - Controller is not enabled by default
+    - Controller must be enabled in options
+    - Once enabled, games has full controller support
 
 - name: "Sigma Theory: Global Cold War"
   platform: gog
