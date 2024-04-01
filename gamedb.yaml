@@ -633,6 +633,14 @@
   notes:
     - Requires keyboard to customize character name
 
+- name: Dakar Desert Rally
+  platform: epic-store
+  id: 4aff63ad39cb4fe7a61720d59a4cebc6
+  banner: steam:1839940
+  status: unsupported
+  notes:
+    - Works when installed via Heroic Games Launcher
+  
 - name: 'Dandara: Trials of Fear Edition'
   platform: epic-store
   id: c35b9699c4e24c56976b5bd8eceba464
