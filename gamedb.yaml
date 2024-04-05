@@ -4097,6 +4097,7 @@
 - name: "Oddworld: New 'n' Tasty"
   platform: epic
   id: 7c566548d24343e48151125ced4b494c
+  banner: steam:314660
   status: verified
 
 - name: A Story About My Uncle
