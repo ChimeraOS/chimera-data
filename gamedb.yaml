@@ -4095,7 +4095,7 @@
   steam_input: enabled
 
 - name: "Oddworld: New 'n' Tasty"
-  platform: epic
+  platform: epic-store
   id: 7c566548d24343e48151125ced4b494c
   banner: steam:314660
   status: verified
@@ -5531,3 +5531,747 @@
   status: playable
   notes:
     - Displays keyboard icons
+
+- name: "Dex"
+  platform: gog
+  id: 1929434313
+  banner: steam:269650
+  status: verified
+
+- name: "Disjunction"
+  platform: gog
+  id: 1651064074
+  banner: steam:979310
+  status: verified
+
+- name: "Blacksad: Under the Skin"
+  platform: gog
+  id: 1772238447
+  banner: steam:1003890
+  status: verified
+
+- name: "Beholder 2"
+  platform: gog
+  id: 1451215361
+  banner: steam:761620
+  status: verified
+
+- name: "Alwa's Awakening"
+  platform: gog
+  id: 1396087560
+  banner: steam:549260
+  status: verified
+
+- name: "Daymare: 1998"
+  platform: gog
+  id: 1544460195
+  banner: steam:842100
+  status: verified
+
+- name: "Deadlight Director's Cut"
+  platform: gog
+  id: 1230412827
+  banner: steam:423950
+  status: verified
+
+- name: "Caveblazers"
+  platform: gog
+  id: 1600722961
+  banner: steam:452060
+  status: verified
+
+- name: "Ghost of a Tale"
+  platform: gog
+  id: 1875167847
+  banner: steam:417290
+  status: verified
+
+- name: "Haven Park"
+  platform: gog
+  id: 1906330252
+  banner: steam:1549550
+  status: verified
+
+- name: "Immortal Redneck"
+  platform: gog
+  id: 2089001920
+  banner: steam:595140
+  status: verified
+
+- name: "Liberated"
+  platform: gog
+  id: 1780442795
+  banner: steam:875310
+  status: verified
+
+- name: "Lovecraft's Untold Stories"
+  platform: gog
+  id: 1674669448
+  banner: steam:871420
+  status: verified
+
+- name: "Narita Boy"
+  platform: gog
+  id: 2029460067
+  banner: steam:1069530
+  status: verified
+
+- name: "Monster Prom 2: Monster Camp"
+  platform: gog
+  id: 1607286183
+  banner: steam:1140270
+  status: verified
+
+- name: "Neurodeck: Psychological Deckbuilder"
+  platform: gog
+  id: 1739122581
+  banner: steam:1253860
+  status: verified
+
+- name: "Lacuna – A Sci-Fi Noir Adventure"
+  platform: gog
+  id: 1139279216
+  banner: steam:1364100
+  status: verified
+
+- name: "Mordheim: City of the Damned"
+  platform: gog
+  id: 1848744423
+  banner: steam:276810
+  status: verified
+
+- name: "Lost Ruins"
+  platform: gog
+  id: 1166021990
+  banner: steam:1306630
+  status: verified
+
+- name: "Phoning Home"
+  platform: gog
+  id: 1167911806
+  banner: steam:431650
+  poster: https://cdn2.steamgriddb.com/grid/070c61a09952fe8d1d8580e54d2e5077.png
+  background: https://cdn2.steamgriddb.com/hero/a8681f254add165d857ccb664b802bed.png
+  logo: https://cdn2.steamgriddb.com/logo/65114c75977259d4240b47d6746276d7.png
+  status: verified
+
+- name: "Destroy All Humans! Clone Carnage"
+  platform: gog
+  id: 1159146122
+  banner: steam:1872550
+  status: verified
+
+- name: "Seven: Enhanced Edition"
+  platform: gog
+  id: 1276856962
+  banner: steam:471010
+  compat_tool: GE-Proton9-2
+  status: verified
+
+- name: "Relic Hunters Zero: Remix"
+  platform: gog
+  id: 1205909172
+  banner: steam:382490
+  status: verified
+
+- name: "South of the Circle"
+  platform: gog
+  id: 1787058795
+  banner: steam:1811040
+  status: verified
+
+- name: "Steel Rats"
+  platform: gog
+  id: 1452983471
+  banner: steam:619700
+  status: verified
+
+- name: "Styx: Shards of Darkness"
+  platform: gog
+  id: 2090261953
+  banner: steam:355790
+  status: verified
+
+- name: "The Textorcist: The Story of Ray Bibbia"
+  platform: gog
+  id: 1591938132
+  banner: steam:940680
+  compat_tool: GE-Proton9-2
+  status: verified
+
+- name: "VirtuaVerse"
+  platform: gog
+  id: 2116968103
+  banner: steam:1019310
+  status: verified
+
+- name: "The Coma 2: Vicious Sisters"
+  platform: gog
+  id: 1854689188
+  banner: steam:1045720
+  status: playable
+  notes:
+    - No controller support
+
+- name: "Loria"
+  platform: gog
+  id: 1604161214
+  banner: steam:946660
+  poster: https://cdn2.steamgriddb.com/grid/ff284cd8b2e96b6ee6d57fefca2f524c.png
+  background: https://cdn2.steamgriddb.com/hero/795bff6be82ff5f6e1cbf5e73af75cf4.jpg
+  logo: https://cdn2.steamgriddb.com/logo/875b7206abfe647f32136353a93f64f4.png
+  status: playable
+  notes:
+    - No controller support
+
+- name: "Master of Magic Classic"
+  platform: gog
+  id: 1207658855
+  banner: steam:1146370
+  status: playable
+  notes:
+    - No controller support
+
+- name: "Iris and the Giant"
+  platform: gog
+  id: 1297646450
+  banner: steam:1127610
+  status: playable
+  notes:
+    - Launcher needs mouse to set graphics
+    - Game is fully controller enabled
+
+- name: "Iratus: Lord of the Dead"
+  platform: gog
+  id: 1447412730
+  banner: steam:807120
+  status: playable
+  notes:
+    - No controller support
+
+- name: "ENCODYA"
+  platform: gog
+  id: 1903635931
+  banner: steam:1137450
+  status: playable
+  notes:
+    - No conttroller support
+
+- name: "Dink Smallwood HD"
+  platform: gog
+  id: 1640863824
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/325e58f8c73d5792e2a873d288e485cc.png
+  banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/5f8b73c0d4b1bf60dd7173b660b87c29.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/7ca862b72603622054d537b558eb9b9c.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/3210806875ddb9745d3d8313e65b81ab.png
+  icon: https://cdn2.steamgriddb.com/file/sgdb-cdn/icon/1e8a19426224ca89e83cef47f1e7f53b.ico
+  status: playable
+  notes:
+    - Displays keyboard icons
+
+- name: "Betrayer"
+  platform: gog
+  id: 1090734724
+  banner: steam:243120
+  poster: https://cdn2.steamgriddb.com/grid/9fc497b1718cabc904e5af82c57bae53.png
+  background: https://cdn2.steamgriddb.com/hero/69a4241986721658eb6237d56c1b8abc.jpg
+  logo: https://cdn2.steamgriddb.com/logo/1145a30ff80745b56fb0cecf65305017.png
+  icon: https://cdn2.steamgriddb.com/icon/60c43e386965167ba97045a1fe957626.png
+  compat_tool: proton-stable
+  status: playable
+  notes:
+    - Displays keyboard icons
+
+- name: "Butcher"
+  platform: gog
+  id: 1689871374
+  banner: steam:474210
+  status: playable
+  notes:
+    - Controller not working
+
+- name: "Broken Sword: Director's Cut"
+  platform: gog
+  id: 1207658900
+  banner: steam:57640
+  status: playable
+  notes:
+    - No controller support
+
+- name: "BEAUTIFUL DESOLATION"
+  platform: gog
+  id: 1295420179
+  banner: steam:912570
+  status: playable
+  notes:
+    - No controller support
+
+- name: "Helium Rain"
+  platform: gog
+  id: 1807214820
+  banner: steam:681330
+  status: playable
+  notes:
+    - Tutorial shows keyboard icons
+
+- name: "Hero of the Kingdom II"
+  platform: gog
+  id: 1666688320
+  banner: steam:346560
+  status: playable
+  notes:
+    - No controller support
+
+- name: "Ozymandias: Bronze Age Empire Sim"
+  platform: gog
+  id: 1166262945
+  banner: steam:1768280
+  status: playable
+  notes:
+    - No controller support
+
+- name: "Jazz Jackrabbit 2: The Christmas Chronicles"
+  platform: gog
+  id: 1597842603
+  banner: https://cdn2.steamgriddb.com/grid/5280fc5bd764f3387f774f273c4b3f01.png
+  poster: https://cdn2.steamgriddb.com/grid/c81632061ae1a7602021f5669357cc34.png
+  background: https://cdn2.steamgriddb.com/hero/89eec4cf449e1db057297d6f9304a99e.png
+  logo: https://cdn2.steamgriddb.com/logo/2d5c1f9d0ff0d0bc3f0465f0ff1ff653.png
+  icon: https://cdn2.steamgriddb.com/icon/d869c99656ec60fc9de27338a87b2506.ico
+  status: playable
+  notes:
+    - Limited controller support
+
+- name: "Jazz Jackrabbit 2: The Secret Files"
+  platform: gog
+  id: 1351891846
+  banner: https://cdn2.steamgriddb.com/grid/5391707bb1c266d61d0c6d1e7948faaa.png
+  poster: https://cdn2.steamgriddb.com/grid/d6f993113df8012c1868e8612a279693.png
+  background: https://cdn2.steamgriddb.com/hero/8cff9bf6694dccfc3b6a613d05d51d16.png
+  logo: https://cdn2.steamgriddb.com/logo/54cf07b091f36d3e0a2d1e5bcf65d66a.png
+  icon: https://cdn2.steamgriddb.com/icon/d6d83fd1acd1918a677906afc9bdc1d7.ico
+  status: playable
+  notes:
+    - Limited controller support
+
+- name: "The Beast Inside"
+  platform: gog
+  id: 1341028548
+  banner: steam:792300
+  status: playable
+  notes:
+    - No controller support
+
+- name: "Fallout"
+  platform: gog
+  id: 1440148836
+  banner: steam:38400
+  status: playable
+  notes:
+    - No controller support
+
+- name: "Fallout 2"
+  platform: gog
+  id: 1440151285
+  banner: steam:38410
+  status: playable
+  notes:
+    - No controller support
+
+- name: "Fallout Tactics"
+  platform: gog
+  id: 1440152063
+  banner: steam:38420
+  status: playable
+  notes:
+    - No controller support
+    - Cut Scenes are stuttering
+
+- name: "Legend of Keepers: Career of a Dungeon Manager"
+  platform: gog
+  id: 1208434383
+  banner: steam:978520
+  status: playable
+  notes:
+    - No controller support
+
+- name: "Powers in the Basement"
+  platform: gog
+  id: 1985215349
+  banner: steam:2520280
+  status: playable
+  notes:
+    - No controller support
+
+- name: "Prison Architect"
+  platform: gog
+  id: 1441974651
+  banner: steam:233450
+  status: playable
+  notes:
+    - No controller support
+
+- name: "Shadow Tactics: Blades of the Shogun"
+  platform: gog
+  id: 1601442230
+  banner: steam:418240
+  compat_tool: GE-Proton9-2
+  status: playable
+  notes:
+    - Controller is not enabled by default
+    - Controller must be enabled in options
+    - Once enabled, games has full controller support
+
+- name: "Sigma Theory: Global Cold War"
+  platform: gog
+  id: 1986246769
+  banner: steam:716640
+  status: playable
+  notes:
+    - No controller support
+
+- name: "Terroir"
+  platform: gog
+  id: 1990946201
+  banner: steam:559910
+  poster: https://cdn2.steamgriddb.com/grid/3b1aff9200e33d50f49363637e918f70.png
+  background: https://cdn2.steamgriddb.com/hero/8c9b0580ebd12c014a772c9cec371011.jpg
+  logo: https://cdn2.steamgriddb.com/logo/6e4a73786d958ce48cf0eed06b0c8aab.png
+  icon: https://cdn2.steamgriddb.com/icon/4027eb61381d305455b47f9404266be3.png
+  status: playable
+  notes:
+    - No controller support
+
+- name: "Thea 2: The Shattering"
+  platform: gog
+  id: 1582025844
+  banner: steam:606230
+  status: playable
+  notes:
+    - No controller support
+
+- name: "Trüberbrook"
+  platform: gog
+  id: 1289701346
+  banner: steam:757300
+  compat_tool: GE-Proton9-2
+  status: playable
+  notes:
+    - No controller support
+
+- name: "Under The Moon"
+  platform: gog
+  id: 1386468605
+  banner: steam:1945780
+  status: playable
+  notes:
+    - Controller support isn't fully working
+    - Installing VisualC++ runtime needs mouse
+
+- name: "Wanderlust: Transsiberian"
+  platform: gog
+  id: 1766556386
+  banner: steam:1233420
+  status: playable
+  notes:
+    - No controller support
+
+- name: "Wanderlust: Travel Stories"
+  platform: gog
+  id: 1739170762
+  banner: steam:1051410
+  status: playable
+  notes:
+    - No controller support
+
+- name: "Crime Cities"
+  platform: gog
+  id: 1485600994
+  banner: steam:1112570
+  status: unsupported
+
+- name: "Corridor 7: Alien Invasion"
+  platform: gog
+  id: 2147483140
+  banner: steam:1341890
+  status: unsupported
+
+- name: "ARMA: Cold War Assault"
+  platform: gog
+  id: 1207658661
+  banner: steam:65790
+  status: unsupported
+
+- name: "Star Trek™: Elite Force II"
+  platform: gog
+  id: 2125201406
+  banner: https://cdn2.steamgriddb.com/grid/205fe7a394c95477d7348a246a5bf734.png
+  status: unsupported
+
+- name: "Star Trek™: Voyager Elite Force"
+  platform: gog
+  id: 1581756945
+  banner: https://cdn2.steamgriddb.com/grid/3a19f212ae83929a1209377c627c3912.png
+  status: unsupported
+
+- name: "Deep Sky Derelicts"
+  platform: gog
+  id: 1629258827
+  banner: steam:698640
+  status: unsupported
+
+- name: "Crusader Kings II"
+  platform: gog
+  id: 1137712636
+  banner: steam:203770
+  status: unsupported
+
+- name: "Daggerfall Unity - GOG Cut"
+  platform: gog
+  id: 1782995089
+  banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/dda2ef1d0ced47fb1776160d06177455.png
+  status: unsupported
+
+- name: "Ancient Enemy"
+  platform: gog
+  id: 1751965389
+  banner: steam:993790
+  status: unsupported
+
+- name: "Eschalon: Book II"
+  platform: gog
+  id: 1207659220
+  banner: steam:25620
+  status: unsupported
+
+- name: "Fallout: New Vegas Ultimate Edition"
+  platform: gog
+  id: 1454587428
+  banner: https://cdn2.steamgriddb.com/grid/a4ddd71b7554df7008305374b8c5d546.jpg
+  status: unsupported
+
+- name: "DOOM 3: BFG Edition"
+  platform: gog
+  id: 1135892318
+  banner: steam:208200
+  status: unsupported
+
+- name: "Ghost Master"
+  platform: gog
+  id: 1207658687
+  banner: steam:6200
+  status: unsupported
+
+- name: "Greak: Memories of Azur"
+  platform: gog
+  id: 2142923325
+  banner: steam:1311070
+  status: unsupported
+
+- name: "Hellpoint"
+  platform: gog
+  id: 1503950763
+  banner: steam:628670
+  status: unsupported
+
+- name: "I Have No Mouth And I Must Scream"
+  platform: gog
+  id: 1207659593
+  banner: steam:245390
+  status: unsupported
+
+- name: "Janosik - Highlander Precision Platformer"
+  platform: gog
+  id: 1813565692
+  banner: steam:1412170
+  status: unsupported
+
+- name: "Neverwinter Nights Diamond"
+  platform: gog
+  id: 1207658890
+  banner: https://cdn2.steamgriddb.com/grid/7012fda2190dc3120e31b667cf9e2c06.jpg
+  status: unsupported
+
+- name: "Neverwinter Nights: Enhanced Edition"
+  platform: gog
+  id: 1097893768
+  banner: steam:704450
+  status: unsupported
+
+- name: "Outcast 1.1"
+  platform: gog
+  id: 1207658853
+  banner: steam:336610
+  status: unsupported
+
+- name: "Sanitarium"
+  platform: gog
+  id: 1207658811
+  banner: steam:284050
+  status: unsupported
+
+- name: "STASIS"
+  platform: gog
+  id: 1439548178
+  banner: steam:380150
+  status: unsupported
+
+- name: "Shadowrun Hong Kong - Extended Edition"
+  platform: gog
+  id: 1436866438
+  banner: steam:346940
+  status: unsupported
+
+- name: "Shadowrun Returns"
+  platform: gog
+  id: 1207660413
+  banner: steam:234650
+  status: unsupported
+
+- name: "Shadowrun: Dragonfall - Director's Cut"
+  platform: gog
+  id: 1207660913
+  banner: steam:300550
+  status: unsupported
+
+- name: "Shantae and the Pirate's Curse"
+  platform: gog
+  id: 1456141287
+  banner: steam:345820
+  status: unsupported
+
+- name: "Syberia"
+  platform: gog
+  id: 1207658848
+  banner: steam:46500
+  status: unsupported
+
+- name: "Syberia II"
+  platform: gog
+  id: 1207658849
+  banner: steam:46510
+  status: unsupported
+
+- name: "The Elder Scrolls II: Daggerfall"
+  platform: gog
+  id: 1435829353
+  banner: steam:1812390
+  status: unsupported
+
+- name: "The Elder Scrolls: Arena"
+  platform: gog
+  id: 1435828982
+  banner: steam:1812290
+  status: unsupported
+
+- name: "The Night of the Rabbit"
+  platform: gog
+  id: 1207659218
+  banner: steam:230820
+  status: unsupported
+
+- name: "The Supper"
+  platform: gog
+  id: 1481527544
+  banner: steam:1171370
+  status: unsupported
+
+- name: "The Whisperer"
+  platform: gog
+  id: 1426240474
+  banner: steam:1697940
+  status: unsupported
+
+- name: "The Witcher: Enhanced Edition"
+  platform: gog
+  id: 1207658924
+  banner: steam:20900
+  status: unsupported
+
+- name: "Venetica - Gold Edition"
+  platform: gog
+  id: 1345182195
+  banner: steam:338140
+  status: unsupported
+
+- name: "Worms Revolution Gold Edition"
+  platform: gog
+  id: 1421309312
+  banner: https://cdn2.steamgriddb.com/grid/729fe11bfd2eab32e7613461d2f5ea74.png
+  poster: https://cdn2.steamgriddb.com/grid/12059c268a74f3db7ed26b87efe23461.png
+  status: unsupported
+
+- name: "Nomads of Driftland"
+  platform: gog
+  id: 1433027987
+  banner: steam:1400520
+  status: unsupported
+
+- name: "Syndicate Plus™"
+  platform: gog
+  id: 1207658992
+  status: unsupported
+
+- name: "Syndicate Wars™"
+  platform: gog
+  id: 1207659193
+  status: unsupported
+
+- name: "Ultima™ 4: Quest of the Avatar"
+  platform: gog
+  id: 1207658962
+  status: unsupported
+
+- name: "Ultima™ Underworld I"
+  platform: gog
+  id: 1207662463
+  status: unsupported
+
+- name: "Ultima™ Underworld II"
+  platform: gog
+  id: 1207662473
+  status: unsupported
+
+- name: "Warhammer 40,000: Chaos Gate"
+  platform: gog
+  id: 1433928487
+  status: unsupported
+
+- name: "Warhammer: Shadow of the Horned Rat"
+  platform: gog
+  id: 1433929853
+  status: unsupported
+
+- name: "X-Morph: Defense Complete Edition"
+  platform: gog
+  id: 1135975449
+  status: unsupported
+
+- name: "XIII"
+  platform: gog
+  id: 1207658920
+  status: unsupported
+
+- name: "Flashback™"
+  platform: gog
+  id: 1486529526
+  banner: steam:961620
+  status: unsupported
+
+- name: "DOOM 3"
+  platform: gog
+  id: 1492054092
+  banner: steam:9050
+  status: unsupported
+
+- name: "King's Bounty: The Legend"
+  platform: gog
+  id: 1207658867
+  banner: steam:25900
+  status: unsupported
+
+- name: "Quake 4"
+  platform: gog
+  id: 1836059896
+  banner: steam:2210
+  status: unsupported
