@@ -1035,6 +1035,11 @@
     - No controller support
     - Requires alternative window mode to access menus
 
+- name: "Firewatch"
+  platform: steam
+  id: 383870
+  status: verified
+
 - name: The First Tree
   platform: epic-store
   id: cd98b47155654e1f9a9e84e60d0b49e4
