@@ -4781,6 +4781,14 @@
   compat_tool: proton-stable
   compat_config: noesync
 
+- name: "Valley"
+  platform: steam
+  id: 378610
+  status: playable
+  notes:
+    - Shows a configuration dialog on launch
+    - Icons for keyboard and controller toggle during gameplay
+
 - id: 607050
   platform: steam
   name: Wargroove
