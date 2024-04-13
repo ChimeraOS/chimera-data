@@ -951,7 +951,8 @@
   platform: epic-store
   id: daac7fe46e3647cb80530411d7ec1dc5
   banner: steam:290770
-  status: unsupported
+  status: verified
+  launch_options: ln -s 'The Fall.exe' TheFall.exe; ln -s 'The Fall_Data' TheFall_Data; eval $( echo "%command%" | sed "s/The Fall.exe'.*/TheFall.exe'/" )
 
 - name: 'Fall Guys: Ultimate Knockout'
   platform: steam
