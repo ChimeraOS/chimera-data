@@ -951,7 +951,8 @@
   platform: epic-store
   id: daac7fe46e3647cb80530411d7ec1dc5
   banner: steam:290770
-  status: unsupported
+  status: verified
+  launch_options: ln -s 'The Fall.exe' TheFall.exe; ln -s 'The Fall_Data' TheFall_Data; eval $( echo "%command%" | sed "s/The Fall.exe'.*/TheFall.exe'/" )
 
 - name: 'Fall Guys: Ultimate Knockout'
   platform: steam
@@ -1034,6 +1035,11 @@
   notes:
     - No controller support
     - Requires alternative window mode to access menus
+
+- name: "Firewatch"
+  platform: steam
+  id: 383870
+  status: verified
 
 - name: The First Tree
   platform: epic-store
@@ -4097,6 +4103,7 @@
 - name: "Oddworld: New 'n' Tasty"
   platform: epic-store
   id: 7c566548d24343e48151125ced4b494c
+  banner: steam:314660
   status: verified
 
 - name: A Story About My Uncle
@@ -4780,6 +4787,14 @@
   compat_tool: proton-stable
   compat_config: noesync
 
+- name: "Valley"
+  platform: steam
+  id: 378610
+  status: playable
+  notes:
+    - Shows a configuration dialog on launch
+    - Icons for keyboard and controller toggle during gameplay
+
 - id: 607050
   platform: steam
   name: Wargroove
@@ -4953,6 +4968,19 @@
   name: PAYDAY 2
   compat_tool: proton-stable
 
+- name: Remember Me
+  id: 228300
+  platform: steam
+  status: playable
+  notes:
+    - Has issues when playing with keyboard and mouse
+  patch_dir: Remember Me
+  patches:
+    - exec: mv ExampleGame/Movies/BIK_Boot_NVIDIA.bik ExampleGame/Movies/BIK_Boot_NVIDIA.bik.disabled
+    - exec: mv ExampleGame/Movies/BIK_Boot_Capcom.bik ExampleGame/Movies/BIK_Boot_Capcom.bik.disabled
+    - exec: mv ExampleGame/Movies/BIK_Boot_Legal.bik ExampleGame/Movies/BIK_Boot_Legal.bik.disabled
+    - exec: mv ExampleGame/Movies/BIK_Boot_Legal_DD_SCEA.bik ExampleGame/Movies/BIK_Boot_Legal_DD_SCEA.bik.disabled
+
 - name: 'A Plague Tale: Innocence'
   platform: epic-store
   id: e0fa47ae79514345823bff209ae29451
@@ -4999,7 +5027,8 @@
   platform: epic-store
   id: 3a0cae9455844390ad00505a704d641e
   banner: steam:883360
-  status: unsupported
+  launch_options: ln -s 'Beyond Blue.exe' BeyondBlue.exe; ln -s 'Beyond Blue_Data' BeyondBlue_Data; eval $( echo "%command%" | sed "s/Beyond Blue.exe'.*/BeyondBlue.exe'/„ )
+  status: verified
 
 - name: 'Barony'
   platform: epic-store
