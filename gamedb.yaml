@@ -4557,6 +4557,11 @@
   name: 'Fallout: A Post Nuclear Role Playing Game'
   compat_tool: boxtron
 
+- id: 377160
+  platform: steam
+  name: 'Fallout 4'
+  launch_options: SteamDeck=0 %command%
+
 - id: 966330
   platform: steam
   name: Flower
