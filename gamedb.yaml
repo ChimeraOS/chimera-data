@@ -1384,6 +1384,7 @@
   platform: epic-store
   id: cacao
   banner: steam:496300
+  compat_tool: proton-stable
   status: verified
 
 - name: Kingdoms
