@@ -1366,7 +1366,13 @@
 - name: Killing Floor 2
   platform: epic-store
   id: Finch
-  banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/55b37c5c270e5d84c793e486d798c01d.png
+  banner: steam:232090
+  compat_tool: proton-stable
+  status: playable
+  notes:
+    - EPIC login and linking account requires keyboard and mouse
+    - Games has full controller support
+
 
 - name: THE KING OF FIGHTERS 2002
   platform: gog
@@ -1378,6 +1384,7 @@
   platform: epic-store
   id: cacao
   banner: steam:496300
+  status: verified
 
 - name: Kingdoms
   platform: steam
@@ -1614,6 +1621,8 @@
   platform: epic-store
   id: Petunia
   banner: steam:286690
+  compat_tool: proton-stable
+  status: verified
 
 - name: Metro 2033 Redux
   platform: gog
@@ -1625,6 +1634,8 @@
   platform: epic-store
   id: Speedwell
   banner: steam:287390
+  compat_tool: proton-stable
+  status: verified
 
 - name: 'Metro: Last Light Redux'
   platform: gog
@@ -1699,8 +1710,9 @@
 - name: Mothergunship
   platform: epic-store
   id: ee5c6a659d0f478fba0049fa44429a1f
-  compat_tool: GE-Proton7-55
   banner: steam:574090
+  compat_tool: proton-stable
+  status: verified
 
 - name: Moving Out
   platform: epic-store
@@ -1720,6 +1732,8 @@
   platform: epic-store
   id: Cobra
   banner: steam:666140
+  compat_tool: proton-stable
+  status: verified
 
 - name: MudRunner
   platform: epic-store
@@ -6323,13 +6337,6 @@
   notes:
     - Online play not possible anymore due to server shutdown
 
-- name: "My Time at Portia"
-  platform: epic-store
-  id: Cobra
-  banner: steam:666140
-  compat_tool: proton-stable
-  status: verified
-
 - name: "Mutant Year Zero Road to Eden"
   platform: epic-store
   id: Falcon
@@ -6341,13 +6348,6 @@
   platform: epic-store
   id: 0055e45ce7654c55aade646467349e83
   banner: steam:1110910
-  compat_tool: proton-stable
-  status: verified
-
-- name: "Mothergunship"
-  platform: epic-store
-  id: ee5c6a659d0f478fba0049fa44429a1f
-  banner: steam:574090
   compat_tool: proton-stable
   status: verified
 
@@ -6365,31 +6365,11 @@
   compat_tool: proton-stable
   status: verified
 
-- name: "Metro Last Light Redux"
-  platform: epic-store
-  id: Speedwell
-  banner: steam:287390
-  compat_tool: proton-stable
-  status: verified
-
-- name: "Metro 2033 Redux"
-  platform: epic-store
-  id: Petunia
-  banner: steam:286690
-  compat_tool: proton-stable
-  status: verified
-
 - name: "EARTHLOCK"
   platform: epic-store
   id: 4a4ffcf1a8354008bcc3b28280dd2419
   banner: steam:761030
   compat_tool: proton-stable
-  status: verified
-
-- name: 'Kingdom New Lands'
-  platform: epic-store
-  id: cacao
-  banner: steam:496300
   status: verified
 
 - name: "Golden Light"
@@ -6495,16 +6475,6 @@
   status: playable
   notes:
     - Sound isn't working in intro and ending video
-
-- name: 'Killing Floor 2'
-  platform: epic-store
-  id: Finch
-  banner: steam:232090
-  compat_tool: proton-stable
-  status: playable
-  notes:
-    - EPIC login and linking account requires keyboard and mouse
-    - Games has full controller support
 
 - name: "KID A MNESIA EXHIBITION"
   platform: epic-store
