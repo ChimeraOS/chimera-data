@@ -919,12 +919,36 @@
   notes:
     - Limited controller support
 
+- name: Castle Crashers
+  platform: steam
+  id: 204360
+  status: verified
+
 - name: Castle of no Escape 2
   platform: steam
   id: 542350
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/e41415343bc2a455161dfe7d19386d0f.png
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/0f304eddb4ad6007a3093fd6d963a1d2.png
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/34609bdc08a07ace4e1526bbb1777673.png
+
+- name: 'Cataegis : The White Wind'
+  platform: steam
+  id: 344130
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/61f904fcab3a88ffe4d319eea75f0a7b.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/7e448ed9dd44e6e22442dac8e21856ae.jpg
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/288cc0ff022877bd3df94bc9360b9c5d.png
+
+- name: "Caveblazers"
+  platform: gog
+  id: 1600722961
+  banner: steam:452060
+  status: verified
+
+- name: "Caverns of Mars: Recharged"
+  platform: epic-store
+  id: 8dc2dbb961e0490ab85efc7ae0b8b1eb
+  banner: steam:2213980
+  status: unsupported
 
 - name: Cave Story+
   platform: epic-store
@@ -946,12 +970,18 @@
   banner: steam:1812280
   status: verified
 
-- name: 'Cataegis : The White Wind'
+- name: Celeste
   platform: steam
-  id: 344130
-  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/61f904fcab3a88ffe4d319eea75f0a7b.png
-  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/7e448ed9dd44e6e22442dac8e21856ae.jpg
-  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/288cc0ff022877bd3df94bc9360b9c5d.png
+  id: 504230
+  status: verified
+  store: humble:celeste
+
+- name: Celeste
+  platform: epic-store
+  id: Salt
+  status: verified
+  banner: steam:504230
+  launch_options: FNA3D_FORCE_DRIVER=OpenGL %command%
 
 - name: Centipede Recharged
   platform: epic-store
@@ -966,11 +996,34 @@
   background: https://cdn2.steamgriddb.com/hero/917c276fa853b6397c173f6e45655496.png
   logo: https://cdn2.steamgriddb.com/logo/f76db9efd8037dc91175b255083fc623.png
 
+- name: Chariot
+  platform: steam
+  id: 319450
+  status: verified
+  store: humble:chariot
+
 - name: Chasm
   platform: gog
   id: 1114021228
   banner: steam:312200
   status: verified
+
+- name: Chasm
+  platform: steam
+  id: 312200
+  status: verified
+  store: humble:chasm
+
+- name: Chess Ultra
+  platform: steam
+  id: 518060
+  status: verified
+
+- name: 'Chess Ultra'
+  platform: epic-store
+  id: fc0b13b7b17b4a46933756fb2786cdc4
+  banner: steam:518060
+  status: unsupported
 
 - name: Chiaki
   platform: flathub
@@ -978,25 +1031,16 @@
   banner: /images/flathub/re.chiaki.Chiaki
   status: playable
 
+- name: Children of Morta
+  platform: steam
+  id: 330020
+  status: verified
+  store: humble:children-of-morta
+
 - name: Choice of Robots
   platform: steam
   id: 339350
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/f2a4309400b8bfb6816f838a5729815b.png
-
-- name: Chronicle of Innsmouth
-  platform: steam
-  id: 420180
-  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/2b094148a9d10109b903715267c4dd14.png
-  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/035ff65d29f2b40d2ff462ffa36dd48a.png
-  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/5859953a451c4084472660061581b8cc.png
-
-- name: 'Google Chrome'
-  platform: flathub
-  id: com.google.Chrome
-  banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/e3ad01979fd4661ecb626a60f65884ca.png
-  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/4c68da7df3e0aa6467d00c73314ebeb0.png
-  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/1dbc14c2bef0ada4bddacc86f3d9205e.png
-  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/56189b78e3869de4694b890698fcdab3.png
 
 - name: Chromium
   platform: flathub
@@ -1006,6 +1050,13 @@
   notes:
     - No controller support
     - Requires alternative window mode to access menus
+
+- name: Chronicle of Innsmouth
+  platform: steam
+  id: 420180
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/2b094148a9d10109b903715267c4dd14.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/035ff65d29f2b40d2ff462ffa36dd48a.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/5859953a451c4084472660061581b8cc.png
 
 # native version crashes on startup
 # requires a specific proton version
@@ -1020,6 +1071,30 @@
   status: verified
   store: humble:circuit-superstars
 
+- name: 'Cities Skylines'
+  platform: epic-store
+  id: bcbc03d8812a44c18f41cf7d5f849265
+  banner: steam:255710
+  compat_tool: proton-stable
+  status: playable
+  notes:
+    - Uses a launcher
+    - No controller support
+
+- name: 'City of Brass'
+  platform: epic-store
+  id: Arrowroot
+  banner: steam:301840
+  compat_tool: GE-Proton8-32
+  status: verified
+
+- name: 'City of Gangsters'
+  platform: epic-store
+  id: 002b00085aeb49b1a3f3c42e3f918f2f
+  banner: steam:1386780
+  compat_tool: proton-stable
+  status: verified
+
 - name: ClusterPuck 99
   platform: steam
   id: 337960
@@ -1031,6 +1106,22 @@
   platform: steam
   id: 26500
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/b809bdf0840b940f7648840d2825b392.png
+
+# native version has poor controller support
+- name: 'The Coma 2: Vicious Sisters'
+  platform: steam
+  id: 1045720
+  status: verified
+  store: humble:the-coma-2-vicious-sisters
+  compat_tool: proton-stable
+
+- name: "The Coma 2: Vicious Sisters"
+  platform: gog
+  id: 1854689188
+  banner: steam:1045720
+  status: playable
+  notes:
+    - No controller support
 
 - name: Continue?9876543210
   platform: steam
@@ -1044,16 +1135,76 @@
   compat_tool: proton-stable
   status: verified
 
+- name: Control Ultimate Edition
+  platform: steam
+  id: 870780
+  status: verified
+  store: humble:control-ultimate-edition
+
+- name: 'Cook, Serve, Delicious!'
+  platform: epic-store
+  id: 680599141dc14accb456887a2be3ac0c
+  banner: steam:247020
+  status: unsupported
+
+- name: "Corridor 7: Alien Invasion"
+  platform: gog
+  id: 2147483140
+  banner: steam:1341890
+  status: unsupported
+
+- name: Costume Quest
+  platform: steam
+  id: 115100
+  status: verified
+  store: humble:costume-quest
+
 - name: Costume Quest 2
   platform: epic-store
   id: 82a78a4dd6ef4eaa892707791b705073
   banner: steam:275180
   status: verified
 
+- name: Costume Quest 2
+  platform: steam
+  id: 275180
+  status: verified
+  store: humble:costume-quest-2
+
+- name: The Count Lucanor
+  platform: steam
+  id: 440880
+  status: verified
+  store: humble:the-count-lucanor
+
+- name: Crash Bandicoot N. Sane Trilogy
+  platform: steam
+  id: 731490
+  status: verified
+
 - name: Crashlands
   platform: epic-store
   id: afdf59e3dc8f40ec8fd887b5d3fcef23
   banner: steam:391730
+  status: unsupported
+
+- name: Crazy Taxi
+  platform: steam
+  id: 71230
+  status: verified
+  store: humble:crazy-taxi
+
+- name: Creature in the Well
+  platform: epic-store
+  id: a579a08e71b341e6af106dbd170e2ab2
+  banner: steam:852300
+  status: verified
+  compat_tool: GE-Proton7-55
+
+- name: "Crime Cities"
+  platform: gog
+  id: 1485600994
+  banner: steam:1112570
   status: unsupported
 
 - name: Cris Tales
@@ -1064,12 +1215,16 @@
   notes:
     - Videos do not play # GE Proton does not fix this
 
-- name: Creature in the Well
-  platform: epic-store
-  id: a579a08e71b341e6af106dbd170e2ab2
-  banner: steam:852300
-  status: verified
-  compat_tool: GE-Proton7-55
+- name: Crown Trick
+  platform: steam
+  id: 1000010
+  compat_tool: Proton-6.1-GE-2
+
+- name: "Crusader Kings II"
+  platform: gog
+  id: 1137712636
+  banner: steam:203770
+  status: unsupported
 
 - name: Crying Suns
   platform: epic-store
@@ -1105,6 +1260,18 @@
   platform: steam
   id: 228440
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/83e6341c952eb1f0fe899a7ddfa30ffd.png
+
+- name: Cuphead
+  platform: steam
+  id: 268910
+  store: humble:cuphead
+  status: verified
+
+- name: "Cursed to Golf"
+  platform: epic-store
+  id: 077d2507a5fe4073bf0dd69485f425f5
+  banner: steam:1726120
+  status: unsupported
 
 - name: Cyberpunk 2077
   platform: gog
@@ -1626,6 +1793,14 @@
   id: Emperor
   banner: steam:437570
   status: verified
+
+- name: 'Google Chrome'
+  platform: flathub
+  id: com.google.Chrome
+  banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/e3ad01979fd4661ecb626a60f65884ca.png
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/4c68da7df3e0aa6467d00c73314ebeb0.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/1dbc14c2bef0ada4bddacc86f3d9205e.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/56189b78e3869de4694b890698fcdab3.png
 
 - name: Google Earth VR
   platform: steam
@@ -3452,12 +3627,6 @@
   store: humble:deaths-door
   status: verified
 
-- name: Cuphead
-  platform: steam
-  id: 268910
-  store: humble:cuphead
-  status: verified
-
 - name: The Surge 2
   platform: steam
   id: 644830
@@ -3659,12 +3828,6 @@
   status: verified
   store: humble:hotshot-racing
 
-- name: Control Ultimate Edition
-  platform: steam
-  id: 870780
-  status: verified
-  store: humble:control-ultimate-edition
-
 - name: Outward
   platform: steam
   id: 794260
@@ -3748,12 +3911,6 @@
   id: 421170
   status: verified
   store: humble:indivisible
-
-- name: Children of Morta
-  platform: steam
-  id: 330020
-  status: verified
-  store: humble:children-of-morta
 
 - name: Golf With Your Friends
   platform: steam
@@ -3856,14 +4013,6 @@
   platform: steam
   id: 865040
   status: verified
-
-# native version has poor controller support
-- name: 'The Coma 2: Vicious Sisters'
-  platform: steam
-  id: 1045720
-  status: verified
-  store: humble:the-coma-2-vicious-sisters
-  compat_tool: proton-stable
 
 - name: Void Bastards
   platform: steam
@@ -3984,11 +4133,6 @@
   id: 629090
   status: verified
   store: humble:horace
-
-- name: Chess Ultra
-  platform: steam
-  id: 518060
-  status: verified
 
 - name: Manual Samuel - Anniversary Edition
   platform: steam
@@ -4217,18 +4361,6 @@
   id: 241930
   status: verified
 
-- name: Costume Quest 2
-  platform: steam
-  id: 275180
-  status: verified
-  store: humble:costume-quest-2
-
-- name: Costume Quest
-  platform: steam
-  id: 115100
-  status: verified
-  store: humble:costume-quest
-
 - name: F1 2017
   platform: steam
   id: 515220
@@ -4257,12 +4389,6 @@
   platform: steam
   id: 292030
   status: verified
-
-- name: Chariot
-  platform: steam
-  id: 319450
-  status: verified
-  store: humble:chariot
 
 - name: Life is Strange 2
   platform: steam
@@ -4329,12 +4455,6 @@
   id: 405830
   status: verified
   store: humble:turok-2-seeds-of-evil
-
-- name: Crazy Taxi
-  platform: steam
-  id: 71230
-  status: verified
-  store: humble:crazy-taxi
 
 - name: Sonic Adventure DX
   platform: steam
@@ -4440,16 +4560,6 @@
 - name: 'South Park: The Stick of Truth'
   platform: steam
   id: 213670
-  status: verified
-
-- name: Castle Crashers
-  platform: steam
-  id: 204360
-  status: verified
-
-- name: Crash Bandicoot N. Sane Trilogy
-  platform: steam
-  id: 731490
   status: verified
 
 - name: Roundabout
@@ -4681,18 +4791,6 @@
   status: verified
   store: humble:dust-an-elysian-tail
 
-- name: The Count Lucanor
-  platform: steam
-  id: 440880
-  status: verified
-  store: humble:the-count-lucanor
-
-- name: Chasm
-  platform: steam
-  id: 312200
-  status: verified
-  store: humble:chasm
-
 - name: TowerFall Ascension
   platform: steam
   id: 251470
@@ -4725,19 +4823,6 @@
   id: 252110
   status: verified
   store: humble:lovers-in-a-dangerous-spacetime
-
-- name: Celeste
-  platform: steam
-  id: 504230
-  status: verified
-  store: humble:celeste
-
-- name: Celeste
-  platform: epic-store
-  id: Salt
-  status: verified
-  banner: steam:504230
-  launch_options: FNA3D_FORCE_DRIVER=OpenGL %command%
 
 - name: Overcooked
   platform: steam
@@ -5123,11 +5208,6 @@
   name: N++ (NPLUSPLUS)
   compat_tool: proton-stable
 
-- name: Crown Trick
-  platform: steam
-  id: 1000010
-  compat_tool: Proton-6.1-GE-2
-
 # native versions crashes
 - id: 217120
   platform: steam
@@ -5279,36 +5359,6 @@
   banner: steam:383270
   status: unsupported
 
-- name: 'Chess Ultra'
-  platform: epic-store
-  id: fc0b13b7b17b4a46933756fb2786cdc4
-  banner: steam:518060
-  status: unsupported
-
-- name: 'City of Brass'
-  platform: epic-store
-  id: Arrowroot
-  banner: steam:301840
-  compat_tool: GE-Proton8-32
-  status: verified
-
-- name: 'City of Gangsters'
-  platform: epic-store
-  id: 002b00085aeb49b1a3f3c42e3f918f2f
-  banner: steam:1386780
-  compat_tool: proton-stable
-  status: verified
-
-- name: 'Cities Skylines'
-  platform: epic-store
-  id: bcbc03d8812a44c18f41cf7d5f849265
-  banner: steam:255710
-  compat_tool: proton-stable
-  status: playable
-  notes:
-    - Uses a launcher
-    - No controller support
-
 - name: 'Dark Deity'
   platform: epic-store
   id: e21be436768f4add87d4935a180b4932
@@ -5322,12 +5372,6 @@
   banner: steam:274520
   compat_tool: proton-stable
   status: verified
-
-- name: 'Cook, Serve, Delicious!'
-  platform: epic-store
-  id: 680599141dc14accb456887a2be3ac0c
-  banner: steam:247020
-  status: unsupported
 
 - name: 'Dead by Daylight'
   platform: epic-store
@@ -5687,12 +5731,6 @@
   banner: steam:423950
   status: verified
 
-- name: "Caveblazers"
-  platform: gog
-  id: 1600722961
-  banner: steam:452060
-  status: verified
-
 - name: "Ghost of a Tale"
   platform: gog
   id: 1875167847
@@ -5817,14 +5855,6 @@
   id: 2116968103
   banner: steam:1019310
   status: verified
-
-- name: "The Coma 2: Vicious Sisters"
-  platform: gog
-  id: 1854689188
-  banner: steam:1045720
-  status: playable
-  notes:
-    - No controller support
 
 - name: "Loria"
   platform: gog
@@ -6052,18 +6082,6 @@
   notes:
     - No controller support
 
-- name: "Crime Cities"
-  platform: gog
-  id: 1485600994
-  banner: steam:1112570
-  status: unsupported
-
-- name: "Corridor 7: Alien Invasion"
-  platform: gog
-  id: 2147483140
-  banner: steam:1341890
-  status: unsupported
-
 - name: "Star Trek™: Elite Force II"
   platform: gog
   id: 2125201406
@@ -6080,12 +6098,6 @@
   platform: gog
   id: 1629258827
   banner: steam:698640
-  status: unsupported
-
-- name: "Crusader Kings II"
-  platform: gog
-  id: 1137712636
-  banner: steam:203770
   status: unsupported
 
 - name: "Daggerfall Unity - GOG Cut"
@@ -6623,18 +6635,6 @@
   platform: epic-store
   id: f1e6956fcad8488ba1c6a2564bb2ca4e
   banner: steam:1872550
-  status: unsupported
-
-- name: "Cursed to Golf"
-  platform: epic-store
-  id: 077d2507a5fe4073bf0dd69485f425f5
-  banner: steam:1726120
-  status: unsupported
-
-- name: "Caverns of Mars: Recharged"
-  platform: epic-store
-  id: 8dc2dbb961e0490ab85efc7ae0b8b1eb
-  banner: steam:2213980
   status: unsupported
 
 - name: "Godlike Burger"
