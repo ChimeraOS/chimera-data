@@ -1366,7 +1366,13 @@
 - name: Killing Floor 2
   platform: epic-store
   id: Finch
-  banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/55b37c5c270e5d84c793e486d798c01d.png
+  banner: steam:232090
+  compat_tool: proton-stable
+  status: playable
+  notes:
+    - EPIC login and linking account requires keyboard and mouse
+    - Games has full controller support
+
 
 - name: THE KING OF FIGHTERS 2002
   platform: gog
@@ -1378,6 +1384,8 @@
   platform: epic-store
   id: cacao
   banner: steam:496300
+  compat_tool: proton-stable
+  status: verified
 
 - name: Kingdoms
   platform: steam
@@ -1614,6 +1622,8 @@
   platform: epic-store
   id: Petunia
   banner: steam:286690
+  compat_tool: proton-stable
+  status: verified
 
 - name: Metro 2033 Redux
   platform: gog
@@ -1625,6 +1635,8 @@
   platform: epic-store
   id: Speedwell
   banner: steam:287390
+  compat_tool: proton-stable
+  status: verified
 
 - name: 'Metro: Last Light Redux'
   platform: gog
@@ -1699,8 +1711,9 @@
 - name: Mothergunship
   platform: epic-store
   id: ee5c6a659d0f478fba0049fa44429a1f
-  compat_tool: GE-Proton7-55
   banner: steam:574090
+  compat_tool: proton-stable
+  status: verified
 
 - name: Moving Out
   platform: epic-store
@@ -1720,6 +1733,8 @@
   platform: epic-store
   id: Cobra
   banner: steam:666140
+  compat_tool: proton-stable
+  status: verified
 
 - name: MudRunner
   platform: epic-store
@@ -4104,6 +4119,10 @@
   platform: epic-store
   id: 7c566548d24343e48151125ced4b494c
   banner: steam:314660
+  background: https://cdn2.steamgriddb.com/hero/b257b3937f0e272207bf484c8e0beb59.jpg
+  icon: https://cdn2.steamgriddb.com/icon/ef2a8695e428116131cc94c651d0e566.png
+  logo: https://cdn2.steamgriddb.com/logo/a01874b1881feb4f498d3f877bd41e62.png
+  compat_tool: proton-stable
   status: verified
 
 - name: A Story About My Uncle
@@ -6294,4 +6313,375 @@
   platform: gog
   id: 1836059896
   banner: steam:2210
+  status: unsupported
+
+- name: "Obduction"
+  platform: epic-store
+  id: 635e08e4b4824baabd24ef3cf941743c
+  banner: steam:306760
+  compat_tool: proton-stable
+  status: verified
+
+- name: "Neon Abyss"
+  platform: epic-store
+  id: a26f991a5e6c4e9c9572fc200cbea47f
+  banner: steam:788100
+  compat_tool: proton-stable
+  status: verified
+
+- name: "NBA 2K21"
+  platform: epic-store
+  id: 639977eecfd2497c941b71af949b5067
+  banner: steam:1225330
+  compat_tool: proton-stable
+  status: verified
+  notes:
+    - Online play not possible anymore due to server shutdown
+
+- name: "Mutant Year Zero Road to Eden"
+  platform: epic-store
+  id: Falcon
+  banner: steam:760060
+  compat_tool: proton-stable
+  status: verified
+
+- name: "Mortal Shell"
+  platform: epic-store
+  id: 0055e45ce7654c55aade646467349e83
+  banner: steam:1110910
+  compat_tool: proton-stable
+  status: verified
+
+- name: "Murder by Numbers"
+  platform: epic-store
+  id: 2c3dd568cada4c229753f550a44dcf2b
+  banner: steam:1140290
+  compat_tool: proton-stable
+  status: verified
+
+- name: "Minit"
+  platform: epic-store
+  id: Petrel
+  banner: steam:609490
+  compat_tool: proton-stable
+  status: verified
+
+- name: "EARTHLOCK"
+  platform: epic-store
+  id: 4a4ffcf1a8354008bcc3b28280dd2419
+  banner: steam:761030
+  compat_tool: proton-stable
+  status: verified
+
+- name: "Golden Light"
+  platform: epic-store
+  id: 0eeaae41305043f7a465310eb2cbaff9
+  banner: steam:1245430
+  compat_tool: proton-stable
+  status: verified
+
+- name: "DEATHLOOP"
+  platform: epic-store
+  id: 3206dba3f9b14fd3b01c18f9dcbc864a
+  banner: steam:1252330
+  compat_tool: proton-stable
+  status: verified
+
+- name: "Eternal Thread"
+  platform: epic-store
+  id: ff1d9bf6b1304cb9a12b8754afa78ae5
+  banner: steam:1046790
+  compat_tool: proton-stable
+  status: verified
+
+- name: 'Hitman'
+  platform: epic-store
+  id: Barbet
+  banner: steam:236870
+  compat_tool: proton-stable
+  status: verified
+
+- name: 'Jurassic World Evolution'
+  platform: epic-store
+  id: 373a4372c20540aca7fdd880d27fa49a
+  banner: steam:648350
+  compat_tool: proton-stable
+  status: verified
+
+- name: 'Just Die Already'
+  platform: epic-store
+  id: 06621054d7d24f44bf13e3c31c9ec05d
+  banner: steam:979070
+  compat_tool: proton-stable
+  status: verified
+
+- name: "Offworld Trading Company"
+  platform: epic-store
+  id: Snapper
+  banner: steam:271240
+  compat_tool: proton-stable
+  status: playable
+  notes:
+    - No controller support
+
+- name: "Orwell: Keeping an Eye on You"
+  platform: epic-store
+  id: 8dac074a82a6492ba969bd38df266e58
+  banner: steam:491950
+  compat_tool: proton-stable
+  status: playable
+  notes:
+    - No controller support
+
+- name: "Nioh: The Complete Edition"
+  platform: epic-store
+  id: b5e42b0dc2f544a5bbb4080a433b8b71
+  banner: steam:485510
+  compat_tool: proton-stable
+  status: playable
+  notes:
+    - Launcher can be by-passed with controller
+    - Changing settings in launcher requires mouse
+    - Game has full controller support
+
+- name: "Next Up Hero"
+  platform: epic-store
+  id: Sumac
+  banner: steam:667810
+  compat_tool: proton-stable
+  status: playable
+  notes:
+    - Launcher requires mouse
+    - Game has full controller support
+
+- name: "MORDHAU"
+  platform: epic-store
+  id: 2e26af55c1a146e7a939dcc1014fc9fd
+  banner: steam:629760
+  compat_tool: proton-stable
+  status: playable
+  notes:
+    - First time start requires installation of MS VisualC++ Runtime with mouse
+    - Game has full controller support
+
+- name: "Mages of Mystralia"
+  platform: epic-store
+  id: 4b920bb4aebf4586a4f6d823817fe32d
+  banner: steam:529660
+  poster: https://cdn2.steamgriddb.com/grid/541d0aeb0cb18680fdac99023d1f2f55.png
+  background: https://cdn2.steamgriddb.com/hero/bf39eb8ed254b605bb3abdec33573855.jpg
+  logo: https://cdn2.steamgriddb.com/logo/32f6c513b25df1c670753eb7335c4258.png
+  icon: https://cdn2.steamgriddb.com/icon/e6bd889d5bb3c383e918c7cc6daff45b.png
+  compat_tool: proton-stable
+  status: playable
+  notes:
+    - Sound isn't working in intro and ending video
+
+- name: "KID A MNESIA EXHIBITION"
+  platform: epic-store
+  id: 33411619626243f1859d0b7fb5cc5405
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/f2c438081613f3237aef8b10c52701f4.png
+  banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/4fff1d74e3ad786a9de531f13193345c.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/16266c6156a9fda5bbd9ea9a566042bd.jpg
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/db31b813b676603e5e69fcb94de42686.png
+  icon: https://cdn2.steamgriddb.com/file/sgdb-cdn/icon/1747d1fa8599d2bd102ce1e8b8ee2399.ico
+  compat_tool: proton-stable
+  status: playable
+  notes:
+    - First time start requires installation of MS VisualC++ Runtime with mouse
+    - Game has full controller support
+
+- name: "GigaBash"
+  platform: epic-store
+  id: 2dc25e07aa624edf9ff132c09ce23a7c
+  banner: steam:1546400
+  compat_tool: proton-stable
+  status: playable
+  notes:
+    - EPIC login requires keyboard and mouse
+    - Game has full controller support
+
+- name: "DNF Duel"
+  platform: epic-store
+  id: 82cdbdf05c61474d89c4f9e8a8bf0ea4
+  banner: steam:1216060
+  compat_tool: proton-stable
+  status: playable
+  notes:
+    - EPIC login requires keyboard and mouse
+    - Game has full controller support
+
+- name: "Deliver Us Mars"
+  platform: epic-store
+  id: 9d943a160fa841859ac5c1f233789fcb
+  banner: steam:1345890
+  compat_tool: proton-stable
+  status: playable
+  notes:
+    - First time start requires installation of MS VisualC++ Runtime with mouse
+    - Game has full controller support
+
+- name: "art of rally"
+  platform: epic-store
+  id: 01805192c8074820b1257fcfd97f2648
+  banner: steam:550320
+  compat_tool: proton-stable
+  status: playable
+  notes:
+    - Message window on start-up ('Missing overlay DLL!') must be dismissed with mouse
+    - Foto mode requires mouse
+    - Rest of gameplay has full controller support
+
+- name: "Blazing Sails"
+  platform: epic-store
+  id: ed5f5b7f2e1f43c89ea8bafd15591bda
+  banner: steam:1158940
+  compat_tool: proton-stable
+  status: playable
+  notes:
+    - Limited controller support
+
+- name: 'Halcyon 6'
+  platform: epic-store
+  id: b9e848fc5e844f4285b0624789476664
+  banner: steam:371200
+  compat_tool: proton-stable
+  status: playable
+  notes:
+    - No controller support
+
+- name: 'Football Manager 2023'
+  platform: epic-store
+  id: f73c70ec448f4e309baacf6ffffa5760
+  banner: steam:1904540
+  compat_tool: proton-stable
+  status: playable
+  notes:
+    - No controller support
+
+- name: 'Homeworld: Deserts of Kharak'
+  platform: epic-store
+  id: c9b51edbca4d496cb39c6871f510620b
+  banner: steam:281610
+  compat_tool: proton-stable
+  status: playable
+  notes:
+    - No controller support
+
+- name: 'Idle Champions of the Forgotten Realms'
+  platform: epic-store
+  id: 40cb42e38c0b4a14a1bb133eb3291572
+  banner: steam:627690
+  compat_tool: proton-stable
+  status: playable
+  notes:
+    - No controller support
+
+- name: 'Ironcast'
+  platform: epic-store
+  id: ac8f20a7931e4d63a1db4dc1267ec3d1
+  banner: steam:327670
+  compat_tool: proton-stable
+  status: playable
+  notes:
+    - No controller support
+
+- name: "LEGO® Builder's Journey"
+  platform: epic-store
+  id: 806f3b7734764e2498962ce7b55c0dda
+  banner: steam:1544360
+  status: unsupported
+
+- name: 'Knockout City'
+  platform: epic-store
+  id: 90f9ff166b404502a939ae217ff5109e
+  banner: steam:1301210
+  status: unsupported
+
+- name: 'Lawn Mowing Simulator'
+  platform: epic-store
+  id: 7a555b9dd80a4992a6ea33fe3f6b13c8
+  banner: steam:1480560
+  status: unsupported
+
+- name: 'Kao the Kangaroo'
+  platform: epic-store
+  id: 7763cb8916654651a50593a813ae7c38
+  banner: steam:1370140
+  status: unsupported
+
+- name: "Jitsu Squad"
+  platform: epic-store
+  id: ca584681f53d4dedab49340ad598e1b8
+  banner: steam:1522080
+  status: unsupported
+
+- name: "Human Resource Machine"
+  platform: epic-store
+  id: Basil
+  banner: steam:375820
+  status: unsupported
+
+- name: "Destroy All Humans! Clone Carnage"
+  platform: epic-store
+  id: f1e6956fcad8488ba1c6a2564bb2ca4e
+  banner: steam:1872550
+  status: unsupported
+
+- name: "Cursed to Golf"
+  platform: epic-store
+  id: 077d2507a5fe4073bf0dd69485f425f5
+  banner: steam:1726120
+  status: unsupported
+
+- name: "Caverns of Mars: Recharged"
+  platform: epic-store
+  id: 8dc2dbb961e0490ab85efc7ae0b8b1eb
+  banner: steam:2213980
+  status: unsupported
+
+- name: "Godlike Burger"
+  platform: epic-store
+  id: f7c6294c948b47378659c9a963f449be
+  banner: steam:1432910
+  status: unsupported
+
+- name: "Q.U.B.E. 2"
+  platform: epic-store
+  id: Auk
+  banner: steam:359100
+  status: unsupported
+  notes:
+    - Requires VC++ to be installed
+
+- name: "Q.U.B.E. 10th Anniversary"
+  platform: epic-store
+  id: 440abc2d035f494a9bf172ed29f9fa2f
+  banner: steam:1564220
+  status: unsupported
+  notes:
+    - Requires VC++ to be installed
+
+- name: "The Evil Within"
+  platform: epic-store
+  id: 591e049d72b349daa64784a171379357
+  banner: steam:268050
+  status: unsupported
+
+- name: "Hell is Others"
+  platform: epic-store
+  id: 0e70be0cea0446599acb4c26d2e925f9
+  banner: steam:964440
+  status: unsupported
+
+- name: 'Homeworld Remastered Collection'
+  platform: epic-store
+  id: dcfccf8d965a4f2281dddf9fead042de
+  banner: steam:244160
+  status: unsupported
+
+- name: "Midnight Ghost Hunt"
+  platform: epic-store
+  id: 456f53b28c384f02865874299f956501
+  banner: steam:915810
   status: unsupported
