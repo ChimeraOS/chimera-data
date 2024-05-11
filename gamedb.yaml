@@ -1,9 +1,29 @@
+# Native version doesn't support steam achievements
+- name: '12 is Better Than 6'
+  platform: steam
+  id: 410110
+  compat_tool: proton-stable
+  status: playable
+  notes:
+   - Controller needs to be enabled in the game
+
+- name: '140'
+  platform: steam
+  id: 242820
+  status: verified
+  store: humble:140
+
 - name: 198X
   platform: steam
   id: 1086010
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/7b42e2bdd7970b25e929cfd12c64f23c.png
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/e1c1c18c55ad8fad38e352a95bf4192e.png
   compat_tool: proton-stable
+  status: verified
+
+- name: '1 Screen Platformer'
+  platform: steam
+  id: 791180
   status: verified
 
 - name: '2064: Read Only Memories'
@@ -23,12 +43,6 @@
   platform: steam
   id: 234940
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/72b06526c9563289847a9be2d9b33336.png
-
-- name: A Short Hike
-  platform: epic-store
-  id: d6407c9e6fd54cb492b8c6635480d792
-  banner: steam:1055540
-  status: verified
 
 - name: Absolute Drift
   platform: epic-store
@@ -55,6 +69,26 @@
   store: humble:ace-combat-7-skies-unknown
   compat_tool: proton-stable
 
+- name: Action Henk
+  platform: steam
+  id: 285820
+  status: verified
+  store: humble:action-henk
+  launch_options: LD_LIBRARY_PATH= %command%
+  steam_input: enabled
+
+- name: 'Adios'
+  platform: epic-store
+  id: 73c56a1f38a548b2852ce8608c5e436e
+  banner: steam:1271400
+  status: unsupported
+
+- name: Aegis Defenders
+  platform: steam
+  id: 371140
+  status: verified
+  store: humble:aegis-defenders
+
 - name: AER Memories of Old
   platform: epic-store
   id: 26b63c46de9e4dcc856b3c6b106b6777
@@ -67,6 +101,12 @@
   id: 331870
   launch_options: '%command% -screen-fullscreen 0'
 
+- name: 'Against All Odds'
+  platform: epic-store
+  id: ad8aff099d2a445599f9797a24e9ff93
+  banner: steam:1465560
+  status: unsupported
+
 - name: 'Air Conflicts: Pacific Carriers'
   platform: steam
   id: 214910
@@ -78,13 +118,32 @@
   banner: steam:108710
   status: unsupported
 
+- name: Alan Wake
+  platform: steam
+  id: 108710
+  compat_tool: proton-stable
+  launch_options: WINEDLLOVERRIDES="xaudio2_7=native,builtin" %command%
+
+- name: 'Alba - A Wildlife Adventure'
+  platform: epic-store
+  id: 8a0173bbe3ac48ac903f5bc7277e7b4e
+  banner: steam:1337010
+  compat_tool: proton-stable
+  status: verified
+
 - name: 'Alien: Isolation'
   platform: epic-store
   id: 8935bb3e1420443a9789fe01758039a5
   banner: steam:214490
   status: verified
 
-- name: 'Alpha Kimori™ Episode One'
+- name: 'Alien: Isolation'
+  platform: steam
+  id: 214490
+  status: verified
+  store: humble:alien-isolation
+
+- name: 'Alpha Kimori Episode One'
   platform: steam
   id: 265870
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/9c70cb2f32394f12a8527ccb82da9942.png
@@ -98,14 +157,11 @@
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/99bec383f442456b15e91d19bfd8b379.png
   status: unsupported
 
-- name: 'Amnesia: The Dark Descent'
-  platform: epic-store
-  id: ece4c58603d04bcb97454be9a7492fa6
-  banner: steam:57300
-  status: playable
-  notes:
-    - Uses a launcher
-    - No controller support
+- name: "Alwa's Awakening"
+  platform: gog
+  id: 1396087560
+  banner: steam:549260
+  status: verified
 
 - name: 'Amnesia: A Machine for Pigs'
   platform: epic-store
@@ -116,16 +172,79 @@
     - Uses a launcher
     - No controller support
 
+- name: 'Amnesia: Rebirth'
+  platform: steam
+  id: 999220
+  status: verified
+
+- name: 'Amnesia: Rebirth'
+  platform: epic-store
+  id: f59de18db4dc445f88ffeff24d081234
+  banner: steam:999220
+  compat_tool: proton-stable
+  status: verified
+
+- name: 'Amnesia: The Dark Descent'
+  platform: epic-store
+  id: ece4c58603d04bcb97454be9a7492fa6
+  banner: steam:57300
+  status: playable
+  notes:
+    - Uses a launcher
+    - No controller support
+
+- name: 'Amnesia: The Dark Descent'
+  platform: steam
+  id: 57300
+  status: verified
+  store: humble:amnesia-the-dark-descent
+
+- name: Among the Sleep
+  platform: steam
+  id: 250620
+  status: verified
+  store: humble:among-the-sleep
+
+- name: 'Among the Sleep - Enhanced Edition'
+  platform: epic-store
+  id: aa78f7be2ee64193b6b6444c5fc50157
+  banner: steam:250620
+  status: unsupported
+
 - name: Among Us
   platform: epic-store
   id: 963137e4c29d4c79a81323b8fab03a40
   banner: steam:945360
   status: unsupported  
 
+- name: Ancestors Legacy
+  platform: steam
+  id: 620590
+  status: verified
+  store: humble:ancestors-legacy
+
+- name: 'Ancient Enemy'
+  platform: epic-store
+  id: a96de508ac71471fa05e7c1c695e3b5d
+  banner: steam:993790
+  status: unsupported
+
+- name: "Ancient Enemy"
+  platform: gog
+  id: 1751965389
+  banner: steam:993790
+  status: unsupported
+
 - name: And Yet It Moves
   platform: steam
   id: 18700
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/79eb48bb4409051aab1602e390c98736.png
+
+- name: Anode
+  platform: steam
+  id: 401120
+  status: verified
+  steam_input: enabled
 
 - name: 'Anodyne 2: Return to Dust'
   platform: epic-store
@@ -143,6 +262,13 @@
   id: Coley
   banner: steam:447150
   status: verified
+
+- name: Aquaria
+  platform: steam
+  id: 24420
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/c881b9a54d4eb04a01da953f05b19df1.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/c92a10324374fac681719d63979d00fe.jpg
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/883e881bb4d22a7add958f2d6b052c9f.png
 
 - name: 'ARCADE GAME SERIES: DIG DUG'
   platform: steam
@@ -171,6 +297,12 @@
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/e6dbc8adead86fe2fcc18a8682c1ec7e.png
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/7b7324f8841c5f9a929c7c3a3cb60391.png
 
+- name: 'Ark: Survival Evolved'
+  platform: epic-store
+  id: aafc587fbf654758802c8e41e4fb3255
+  banner: steam:346110
+  status: unsupported
+
 - name: 'ARK: Survival Of The Fittest'
   platform: steam
   id: 407530
@@ -178,11 +310,28 @@
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/5c469784eafc2ded9338dedda197db25.png
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/e2f374c3418c50bc30d67d5f7454a5b4.png
 
+- name: "ARMA: Cold War Assault"
+  platform: gog
+  id: 1207658661
+  banner: steam:65790
+  status: unsupported
+
 - name: Armagetron Advanced
   platform: flathub
   id: org.armagetronad.ArmagetronAdvanced
   banner: /images/flathub/org.armagetronad.ArmagetronAdvanced
   status: playable
+
+- name: "art of rally"
+  platform: epic-store
+  id: 01805192c8074820b1257fcfd97f2648
+  banner: steam:550320
+  compat_tool: proton-stable
+  status: playable
+  notes:
+    - Message window on start-up ('Missing overlay DLL!') must be dismissed with mouse
+    - Foto mode requires mouse
+    - Rest of gameplay has full controller support
 
 - name: Assassin's Creed
   platform: steam
@@ -198,12 +347,51 @@
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/fd22a77ffd3cc179b3c1407d6ea0637b.jpg
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/bf2fb7d1825a1df3ca308ad0bf48591e.png
 
-- name: Aquaria
+- name: Assault Android Cactus
   platform: steam
-  id: 24420
-  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/c881b9a54d4eb04a01da953f05b19df1.png
-  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/c92a10324374fac681719d63979d00fe.jpg
-  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/883e881bb4d22a7add958f2d6b052c9f.png
+  id: 250110
+  status: verified
+  store: humble:assault-android-cactus
+
+- name: Atomicrops
+  platform: steam
+  id: 757320
+  status: verified
+  store: humble:atomicrops
+
+- name: 'Auto Chess'
+  platform: epic-store
+  id: Chicken
+  banner: steam:1530300
+  status: unsupported
+
+- name: Automachef
+  platform: steam
+  id: 984800
+  status: verified
+  store: humble:automachef
+
+- name: 'Automachef'
+  platform: epic-store
+  id: 069a60f6b0514a5fbe81b38957c1ddfd
+  banner: steam:984800
+  compat_tool: proton-stable
+  status: verified
+
+- name: 'Aven Colony'
+  platform: epic-store
+  id: dc07b9ead8214591b8df6d2546d2a0e3
+  banner: steam:484900
+  compat_tool: proton-stable
+  status: playable
+  notes:
+    - No controller support
+
+- name: Axiom Verge
+  platform: steam
+  id: 332200
+  status: verified
+  store: humble:axiom-verge
 
 - name: Bad Hotel
   platform: steam
@@ -216,6 +404,18 @@
   banner: steam:688420
   status: verified
 
+- name: 'Bad North: Jotunn Edition'
+  platform: steam
+  id: 688420
+  status: verified
+  store: humble:bad-north-jotunn-edition
+
+# SteamDeck=0 to fix inability to trigger split-screen mode. --skip-launcher to maintain console compatibility
+- name: "Baldur's Gate 3"
+  platform: steam
+  id: 1086940
+  launch_options: SteamDeck=0 %command% --skip-launcher
+
 # native version has controller issues
 - name: Ballistic Tanks
   platform: steam
@@ -224,19 +424,54 @@
   status: verified
   store: humble:ballistic-tanks
 
+- name: 'Barony'
+  platform: epic-store
+  id: c98c4cd6d83a4524b4b22f13af95a104
+  banner: steam:371970
+  status: unsupported
+
+- name: Basingstoke
+  platform: steam
+  id: 336940
+  status: verified
+  store: humble:basingstoke
+
+- name: Bastion
+  platform: steam
+  id: 107100
+  status: verified
+  store: humble:bastion
+
+- name: 'Batman: Arkham Asylum Game of the Year Edition'
+  platform: steam
+  id: 35140
+  compat_tool: GE-Proton7-55
+
+- name: 'Batman: Arkham Origins'
+  platform: steam
+  id: 209000
+  status: verified
+  store: humble:batman-arkham-origins
+
+# native version crashes on startup with AMD GPUs
+- name: BattleBlock Theater
+  platform: steam
+  id: 238460
+  status: verified
+  compat_tool: proton-stable
+
+- name: 'Battle Breakers'
+  platform: epic-store
+  id: WorldExplorersLive
+  banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/ef652e54969dd661422f75e809bc118c.png
+  status: unsupported
+
 - name: 'Battle Chasers: Nightwar'
   platform: steam
   id: 451020
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/ff84eeace059e44588c3bd6c6ef0f399.png
   status: verified
   store: humble:battle-chasers-nightwar
-
-- name: Battle Riders
-  platform: steam
-  id: 418060
-  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/077eb87be8f6ea0f644a0051afb10678.png
-  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/3b5f657f49a25ad6dae77d4e048d1003.png
-  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/b83210dd590047ee38c4660f1f6060e5.png
 
 - name: 'Battleplan: American Civil War'
   platform: steam
@@ -245,10 +480,65 @@
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/5624e6ca4bb96789d1a7658ac27895d1.png
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/ac9768a5017d092a06f8b8b1fc28c20c.png
 
+- name: Battle Riders
+  platform: steam
+  id: 418060
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/077eb87be8f6ea0f644a0051afb10678.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/3b5f657f49a25ad6dae77d4e048d1003.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/b83210dd590047ee38c4660f1f6060e5.png
+
+- name: Bayonetta
+  platform: steam
+  id: 460790
+  status: verified
+  store: humble:bayonetta
+
+- name: "The Beast Inside"
+  platform: gog
+  id: 1341028548
+  banner: steam:792300
+  status: playable
+  notes:
+    - No controller support
+
 - name: 'Beatbuddy: Tale of the Guardians'
   platform: steam
   id: 231040
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/c90f4ac1bac07a2c7c435f474b3aa98e.png
+
+- name: "BEAUTIFUL DESOLATION"
+  platform: gog
+  id: 1295420179
+  banner: steam:912570
+  status: playable
+  notes:
+    - No controller support
+
+- name: "Beholder 2"
+  platform: gog
+  id: 1451215361
+  banner: steam:761620
+  status: verified
+
+- name: "Betrayer"
+  platform: gog
+  id: 1090734724
+  banner: steam:243120
+  poster: https://cdn2.steamgriddb.com/grid/9fc497b1718cabc904e5af82c57bae53.png
+  background: https://cdn2.steamgriddb.com/hero/69a4241986721658eb6237d56c1b8abc.jpg
+  logo: https://cdn2.steamgriddb.com/logo/1145a30ff80745b56fb0cecf65305017.png
+  icon: https://cdn2.steamgriddb.com/icon/60c43e386965167ba97045a1fe957626.png
+  compat_tool: proton-stable
+  status: playable
+  notes:
+    - Displays keyboard icons
+
+- name: 'Beyond Blue'
+  platform: epic-store
+  id: 3a0cae9455844390ad00505a704d641e
+  banner: steam:883360
+  launch_options: ln -s 'Beyond Blue.exe' BeyondBlue.exe; ln -s 'Beyond Blue_Data' BeyondBlue_Data; eval $( echo "%command%" | sed "s/Beyond Blue.exe'.*/BeyondBlue.exe'/„ )
+  status: verified
 
 - name: Beyond Good & Evil
   platform: steam
@@ -280,6 +570,41 @@
   id: 238910
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/3e3218bd33c9b0f06b2887aafce565df.png
 
+- name: BioShock 2 Remastered
+  platform: steam
+  id: 409720
+  compat_tool: proton-stable
+  compat_config: noesync,nofsync
+  launch_options: eval $( echo "%command%" | sed "s/2KLauncher\/LauncherPatcher.exe'.*/Build\/Final\/Bioshock2HD.exe'/" ) -nointro
+
+- name: BioShock Infinite
+  platform: steam
+  id: 8870
+  store: humble:bioshock-infinite
+  compat_tool: proton-stable
+  steam_input: enabled
+  launch_options: eval $( echo "%command%" | sed "s/2KLauncher\/LauncherPatcher.exe'.*/Binaries\/Win32\/BioShockInfinite.exe'/" ) -nointro
+
+- name: BioShock Remastered
+  platform: steam
+  id: 409710
+  store: humble:bioshock-remastered
+  compat_tool: proton-stable
+  compat_config: noesync,nofsync
+  launch_options: eval $( echo "%command%" | sed "s/2KLauncher\/LauncherPatcher.exe'.*/Build\/Final\/BioshockHD.exe'/" ) -nointro
+
+- name: Birdsketball
+  platform: steam
+  id: 470470
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/5efffd79ee6208229036f4ecaa306075.png
+  status: verified
+
+- name: Bit Blaster XL
+  platform: steam
+  id: 433950
+  status: verified
+  store: humble:bit-blaster-xl
+
 - name: BIT.TRIP BEAT
   platform: steam
   id: 63700
@@ -302,11 +627,58 @@
   patches:
     - exec: rm -f installscript.vdf
 
+- name: 'Black Book'
+  platform: epic-store
+  id: 1d74dcbca79540efb52cab2ff026215f
+  banner: steam:1138660
+  status: unsupported
+
+- name: BLACKHOLE
+  platform: steam
+  id: 322680
+  status: verified
+  store: humble:blackhole
+
+- name: "Blacksad: Under the Skin"
+  platform: gog
+  id: 1772238447
+  banner: steam:1003890
+  status: verified
+
 - name: 'Black Widow: Recharged'
   platform: epic-store
   id: a21fd90517bf428eb7c995a8c3261722
   banner: steam:1714180
   status: unsupported
+
+- name: 'Blair Witch'
+  platform: epic-store
+  id: 247a0f0f5803429eb3be2c06f3ea77ff
+  banner: steam:1092660
+  compat_tool: proton-stable
+  status: verified
+  
+- name: Blasphemous
+  platform: steam
+  id: 774361
+  status: verified
+  store: humble:blasphemous
+  steam_input: enabled
+
+- name: BlazeRush
+  platform: steam
+  id: 302710
+  status: verified
+  store: humble:blazerush
+
+- name: "Blazing Sails"
+  platform: epic-store
+  id: ed5f5b7f2e1f43c89ea8bafd15591bda
+  banner: steam:1158940
+  compat_tool: proton-stable
+  status: playable
+  notes:
+    - Limited controller support
 
 - name: Blockstorm
   platform: steam
@@ -315,9 +687,24 @@
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/a4939072217b46203c4f5764cb4dac40.jpg
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/1f150b5bb708ed3c5bc048e673208672.png
 
+- name: 'Bloodstained: Ritual of the Night'
+  platform: steam
+  id: 692850
+  status: verified
+  store: humble:bloodstained-ritual-of-the-night
+
 - name: Bloons TD 6
   platform: steam
   id: 960090
+  compat_tool: proton-stable
+  status: playable
+  notes:
+    - No controller support
+
+- name: 'Bloons TD 6'
+  platform: epic-store
+  id: 7786b355a13b47a6b3915335117cd0b2
+  banner: steam:960090
   compat_tool: proton-stable
   status: playable
   notes:
@@ -329,6 +716,18 @@
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/96113cc06ed225c5dd3dbbba2bed9330.png
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/a3209347dfea2ac488fc4595df350a9a.png
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/282bb8a7afdb969e5ac8e1848f741d9a.png
+
+- name: Book of Demons
+  platform: steam
+  id: 449960
+  status: verified
+  store: humble:book-of-demons
+
+- name: Boomerang Fu
+  platform: steam
+  id: 965680
+  status: verified
+  store: humble:boomerang-fu
 
 - name: Borderlands 2
   platform: steam
@@ -343,12 +742,31 @@
   launch_options: -nolauncher  
   status: verified
 
+- name: 'Borderlands 3'
+  platform: epic-store
+  id: Catnip
+  banner: steam:397540
+  compat_tool: proton-stable
+  status: verified
+
 - name: 'Borderlands: The Pre-Sequel'
   platform: epic-store
   id: Turkey
   banner: steam:261640
   launch_options: -nolauncher  
   status: verified
+
+- name: Boreal Blade
+  platform: steam
+  id: 598780
+  status: verified
+
+# native version does not recognize controllers
+- name: Bot Vice
+  platform: steam
+  id: 491040
+  status: verified
+  compat_tool: proton-stable
 
 - name: 'Box: The Game'
   platform: steam
@@ -364,10 +782,21 @@
   status: verified
   store: humble:braid
 
+- name: Brawlhalla
+  platform: steam
+  id: 291550
+  status: verified
+
 - name: Breach & Clear
   platform: steam
   id: 266130
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/4dd472bdb30a606e5306342fa82246f8.png
+
+- name: 'Breathedge'
+  platform: epic-store
+  id: 0a20ccd3f1b3464da750a4dbf8c80d7c
+  banner: steam:738520
+  status: unsupported
 
 - name: Breath of Death VII
   platform: steam
@@ -380,6 +809,13 @@
   banner: steam:204240
   status: verified
 
+- name: 'Bridge Constructor: The Walking Dead'
+  platform: epic-store
+  id: 998af0ab527c493baefb8049250c9a0e
+  banner: steam:1336120
+  compat_tool: proton-stable
+  status: verified
+
 - name: 'Brigador: Up-Armored Edition'
   platform: gog
   id: 1356485086
@@ -388,15 +824,34 @@
   notes:
     - Displays keyboard icons
 
-- name: "Broken Sword: Director's Cut"
+- name: 'Bro Falls: Ultimate Showdown'
   platform: steam
-  id: 57640
-  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/6871e7ecc0d05b7e8c849dcbbc92c9b8.png
+  id: 1590320
+  status: verified
+
+- name: Broken Age
+  platform: steam
+  id: 232790
+  status: verified
+  store: humble:broken-age
 
 - name: "Broken Sword 2 - the Smoking Mirror: Remastered"
   platform: steam
   id: 33600
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/43829cbde6a6862b0f13133736da5c0c.png
+
+- name: "Broken Sword: Director's Cut"
+  platform: steam
+  id: 57640
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/6871e7ecc0d05b7e8c849dcbbc92c9b8.png
+
+- name: "Broken Sword: Director's Cut"
+  platform: gog
+  id: 1207658900
+  banner: steam:57640
+  status: playable
+  notes:
+    - No controller support
 
 - name: Brothers - A Tale of Two Sons
   platform: epic-store
@@ -404,10 +859,24 @@
   banner: steam:225080
   status: verified
 
+- name: Brutal Legend
+  platform: steam
+  id: 225260
+  status: verified
+  store: humble:brutal-legend
+
 - name: Bulletstorm
   platform: steam
   id: 99810
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/8525d6d5e6d0b3c70790c9d45ec0f7d9.png
+
+- name: "Butcher"
+  platform: gog
+  id: 1689871374
+  banner: steam:474210
+  status: playable
+  notes:
+    - Controller not working
 
 - name: B.U.T.T.O.N.
   platform: steam
@@ -421,6 +890,15 @@
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/3546ab441e56fa333f8b44b610d95691.jpg
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/50c3d7614917b24303ee6a220679dab3.png
 
+- name: 'Call of the Sea'
+  platform: epic-store
+  id: 6278dd278d714aeb88239a423fa0f8be
+  banner: steam:1042490
+  compat_tool: proton-stable
+  status: playable
+  notes:
+    - "Can't conect to EPIC services, hence no achievements possible"
+
 - name: Canabalt
   platform: steam
   id: 358960
@@ -431,6 +909,15 @@
   id: 230860
   status: verified
   store: humble:cannon-brawl
+
+- name: 'Car Mechanic Simulator 2018'
+  platform: epic-store
+  id: 8032b75cf0914afa87c78d6914adc165
+  banner: steam:645630
+  compat_tool: proton-stable
+  status: playable
+  notes:
+    - Limited controller support
 
 - name: Castle of no Escape 2
   platform: steam
@@ -2250,6 +2737,12 @@
   id: 277510
   poster: https://cdn2.steamgriddb.com/grid/62e5bd018861ec37550bc5239a60133a.png
 
+- name: A Short Hike
+  platform: epic-store
+  id: d6407c9e6fd54cb492b8c6635480d792
+  banner: steam:1055540
+  status: verified
+
 - name: Sid Meier's Covert Action (Classic)
   platform: steam
   id: 327390
@@ -3056,12 +3549,6 @@
   status: verified
   store: humble:team-sonic-racing
 
-- name: Atomicrops
-  platform: steam
-  id: 757320
-  status: verified
-  store: humble:atomicrops
-
 - name: Narita Boy
   platform: steam
   id: 1069530
@@ -3099,11 +3586,6 @@
   status: verified
   store: humble:lego-worlds
 
-- name: 'Bro Falls: Ultimate Showdown'
-  platform: steam
-  id: 1590320
-  status: verified
-
 - name: SOULCALIBUR VI
   platform: steam
   id: 544750
@@ -3134,11 +3616,6 @@
   id: 848350
   status: verified
   store: humble:katamari-damacy-reroll
-
-- name: Brawlhalla
-  platform: steam
-  id: 291550
-  status: verified
 
 - name: Little Nightmares
   platform: steam
@@ -3188,17 +3665,6 @@
   status: verified
   store: humble:control-ultimate-edition
 
-- name: Boreal Blade
-  platform: steam
-  id: 598780
-  status: verified
-
-- name: Boomerang Fu
-  platform: steam
-  id: 965680
-  status: verified
-  store: humble:boomerang-fu
-
 - name: Outward
   platform: steam
   id: 794260
@@ -3235,12 +3701,6 @@
   status: verified
   store: humble:lovecrafts-untold-stories
 
-- name: Ancestors Legacy
-  platform: steam
-  id: 620590
-  status: verified
-  store: humble:ancestors-legacy
-
 - name: Path of Giants
   platform: steam
   id: 1181400
@@ -3270,13 +3730,6 @@
   platform: steam
   id: 996580
   status: verified
-
-# native version crashes on startup with AMD GPUs
-- name: BattleBlock Theater
-  platform: steam
-  id: 238460
-  status: verified
-  compat_tool: proton-stable
 
 - name: Shining Resonance Refrain
   platform: steam
@@ -3326,18 +3779,6 @@
   status: verified
   store: humble:double-dragon-4
 
-- name: Amnesia Rebirth
-  platform: steam
-  id: 999220
-  status: verified
-
-- name: Blasphemous
-  platform: steam
-  id: 774361
-  status: verified
-  store: humble:blasphemous
-  steam_input: enabled
-
 - name: DuckTales Remastered
   platform: steam
   id: 237630
@@ -3353,14 +3794,6 @@
   id: 1173200
   status: verified
   store: humble:metal-unit
-
-- name: BioShock Remastered
-  platform: steam
-  id: 409710
-  store: humble:bioshock-remastered
-  compat_tool: proton-stable
-  compat_config: noesync,nofsync
-  launch_options: eval $( echo "%command%" | sed "s/2KLauncher\/LauncherPatcher.exe'.*/Build\/Final\/BioshockHD.exe'/" ) -nointro
 
 - name: Generation Zero
   platform: steam
@@ -3408,13 +3841,6 @@
   status: verified
   store: humble:vampire-the-masquerade-coteries-of-new-york
 
-- name: BioShock 2 Remastered
-  platform: steam
-  id: 409720
-  compat_tool: proton-stable
-  compat_config: noesync,nofsync
-  launch_options: eval $( echo "%command%" | sed "s/2KLauncher\/LauncherPatcher.exe'.*/Build\/Final\/Bioshock2HD.exe'/" ) -nointro
-
 - name: NBA 2K20
   platform: steam
   id: 1089350
@@ -3430,18 +3856,6 @@
   platform: steam
   id: 865040
   status: verified
-
-- name: Bit Blaster XL
-  platform: steam
-  id: 433950
-  status: verified
-  store: humble:bit-blaster-xl
-
-- name: BLACKHOLE
-  platform: steam
-  id: 322680
-  status: verified
-  store: humble:blackhole
 
 # native version has poor controller support
 - name: 'The Coma 2: Vicious Sisters'
@@ -3467,18 +3881,6 @@
   id: 521890
   status: verified
   store: humble:hello-neighbor
-
-- name: Automachef
-  platform: steam
-  id: 984800
-  status: verified
-  store: humble:automachef
-
-- name: Basingstoke
-  platform: steam
-  id: 336940
-  status: verified
-  store: humble:basingstoke
 
 - name: DiRT Rally
   platform: steam
@@ -3532,12 +3934,6 @@
   status: verified
   store: humble:remnants-of-naezith
   compat_tool: proton-stable
-
-- name: Bayonetta
-  platform: steam
-  id: 460790
-  status: verified
-  store: humble:bayonetta
 
 - name: The King's Bird
   platform: steam
@@ -3667,23 +4063,11 @@
   status: verified
   store: humble:dead-or-alive-6
 
-- name: Anode
-  platform: steam
-  id: 401120
-  status: verified
-  steam_input: enabled
-
 - name: F1 2019
   platform: steam
   id: 928600
   status: verified
   compat_tool: proton-stable
-
-- name: Among the Sleep
-  platform: steam
-  id: 250620
-  status: verified
-  store: humble:among-the-sleep
 
 - name: Etherborn
   platform: steam
@@ -3695,26 +4079,6 @@
   platform: steam
   id: 356650
   status: verified
-
-- name: Aegis Defenders
-  platform: steam
-  id: 371140
-  status: verified
-  store: humble:aegis-defenders
-
-- name: Action Henk
-  platform: steam
-  id: 285820
-  status: verified
-  store: humble:action-henk
-  launch_options: LD_LIBRARY_PATH= %command%
-  steam_input: enabled
-
-- name: '140'
-  platform: steam
-  id: 242820
-  status: verified
-  store: humble:140
 
 - name: "Fell Seal: Arbiter's Mark"
   platform: steam
@@ -3733,12 +4097,6 @@
   id: 681280
   status: verified
   store: humble:descenders
-
-- name: Book of Demons
-  platform: steam
-  id: 449960
-  status: verified
-  store: humble:book-of-demons
 
 - name: Okami HD
   platform: steam
@@ -3803,18 +4161,6 @@
   status: verified
   store: humble:trailmakers
 
-- name: 'Bad North: Jotunn Edition'
-  platform: steam
-  id: 688420
-  status: verified
-  store: humble:bad-north-jotunn-edition
-
-# SteamDeck=0 to fix inability to trigger split-screen mode. --skip-launcher to maintain console compatibility
-- name: "Baldur's Gate 3"
-  platform: steam
-  id: 1086940
-  launch_options: SteamDeck=0 %command% --skip-launcher
-
 - name: 'GRIP: Combat Racing'
   platform: steam
   id: 396900
@@ -3843,22 +4189,10 @@
   store: humble:trine-3-the-artifacts-of-power
   compat_tool: proton-stable
 
-- name: 'Alien: Isolation'
-  platform: steam
-  id: 214490
-  status: verified
-  store: humble:alien-isolation
-
 - name: Dying Light
   platform: steam
   id: 239140
   status: verified
-
-- name: 'Batman: Arkham Origins'
-  platform: steam
-  id: 209000
-  status: verified
-  store: humble:batman-arkham-origins
 
 - name: The Talos Principle
   platform: steam
@@ -3882,18 +4216,6 @@
   platform: steam
   id: 241930
   status: verified
-
-- name: 'Amnesia: The Dark Descent'
-  platform: steam
-  id: 57300
-  status: verified
-  store: humble:amnesia-the-dark-descent
-
-- name: Brutal Legend
-  platform: steam
-  id: 225260
-  status: verified
-  store: humble:brutal-legend
 
 - name: Costume Quest 2
   platform: steam
@@ -4032,20 +4354,6 @@
   status: verified
   store: humble:disgaea-2-pc
 
-- name: Broken Age
-  platform: steam
-  id: 232790
-  status: verified
-  store: humble:broken-age
-
-- name: BioShock Infinite
-  platform: steam
-  id: 8870
-  store: humble:bioshock-infinite
-  compat_tool: proton-stable
-  steam_input: enabled
-  launch_options: eval $( echo "%command%" | sed "s/2KLauncher\/LauncherPatcher.exe'.*/Binaries\/Win32\/BioShockInfinite.exe'/" ) -nointro
-
 - name: Yakuza Kiwami
   platform: steam
   id: 834530
@@ -4065,11 +4373,6 @@
   id: 381020
   status: verified
   store: humble:sky-rogue
-
-- name: '1 Screen Platformer'
-  platform: steam
-  id: 791180
-  status: verified
 
 - name: Return Of The Zombie King
   platform: steam
@@ -4178,12 +4481,6 @@
   status: verified
   store: humble:wizorb
 
-- name: BlazeRush
-  platform: steam
-  id: 302710
-  status: verified
-  store: humble:blazerush
-
 - name: Toybox Turbos
   platform: steam
   id: 287260
@@ -4231,24 +4528,11 @@
   store: humble:the-jackbox-party-pack
   compat_tool: proton-stable
 
-# native version does not recognize controllers
-- name: Bot Vice
-  platform: steam
-  id: 491040
-  status: verified
-  compat_tool: proton-stable
-
 - name: Sonic Mania
   platform: steam
   id: 584400
   status: verified
   store: humble:sonic-mania
-
-- name: 'Bloodstained: Ritual of the Night'
-  platform: steam
-  id: 692850
-  status: verified
-  store: humble:bloodstained-ritual-of-the-night
 
 - name: Gang Beasts
   platform: steam
@@ -4409,18 +4693,6 @@
   status: verified
   store: humble:chasm
 
-- name: Birdsketball
-  platform: steam
-  id: 470470
-  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/5efffd79ee6208229036f4ecaa306075.png
-  status: verified
-
-- name: Bastion
-  platform: steam
-  id: 107100
-  status: verified
-  store: humble:bastion
-
 - name: TowerFall Ascension
   platform: steam
   id: 251470
@@ -4435,12 +4707,6 @@
   id: 588650
   status: verified
   store: humble:dead-cells
-
-- name: Axiom Verge
-  platform: steam
-  id: 332200
-  status: verified
-  store: humble:axiom-verge
 
 - name: Hollow Knight
   platform: steam
@@ -4472,12 +4738,6 @@
   status: verified
   banner: steam:504230
   launch_options: FNA3D_FORCE_DRIVER=OpenGL %command%
-
-- name: Assault Android Cactus
-  platform: steam
-  id: 250110
-  status: verified
-  store: humble:assault-android-cactus
 
 - name: Overcooked
   platform: steam
@@ -4534,17 +4794,6 @@
   status: verified
   compat_tool: proton-stable
   compat_config: noesync,nofsync
-
-- id: 108710
-  platform: steam
-  name: Alan Wake
-  compat_tool: proton-stable
-  launch_options: WINEDLLOVERRIDES="xaudio2_7=native,builtin" %command%
-
-- id: 35140
-  platform: steam
-  name: 'Batman: Arkham Asylum Game of the Year Edition'
-  compat_tool: GE-Proton7-55
 
 # native version doesn't detect controllers
 - id: 556130
@@ -5008,20 +5257,6 @@
   banner: steam:752590
   compat_tool: proton-stable
 
-- name: 'Amnesia: Rebirth'
-  platform: epic-store
-  id: f59de18db4dc445f88ffeff24d081234
-  banner: steam:999220
-  compat_tool: proton-stable
-  status: verified
-
-- name: 'Automachef'
-  platform: epic-store
-  id: 069a60f6b0514a5fbe81b38957c1ddfd
-  banner: steam:984800
-  compat_tool: proton-stable
-  status: verified
-
 - name: 'Elite Dangerous'
   platform: epic-store
   id: 9c203b6ed35846e8a4a9ff1e314f6593
@@ -5044,86 +5279,11 @@
   banner: steam:383270
   status: unsupported
 
-- name: 'Beyond Blue'
-  platform: epic-store
-  id: 3a0cae9455844390ad00505a704d641e
-  banner: steam:883360
-  launch_options: ln -s 'Beyond Blue.exe' BeyondBlue.exe; ln -s 'Beyond Blue_Data' BeyondBlue_Data; eval $( echo "%command%" | sed "s/Beyond Blue.exe'.*/BeyondBlue.exe'/„ )
-  status: verified
-
-- name: 'Barony'
-  platform: epic-store
-  id: c98c4cd6d83a4524b4b22f13af95a104
-  banner: steam:371970
-  status: unsupported
-
-- name: 'Ark: Survival Evolved'
-  platform: epic-store
-  id: aafc587fbf654758802c8e41e4fb3255
-  banner: steam:346110
-  status: unsupported
-
-- name: 'Aven Colony'
-  platform: epic-store
-  id: dc07b9ead8214591b8df6d2546d2a0e3
-  banner: steam:484900
-  compat_tool: proton-stable
-  status: playable
-  notes:
-    - No controller support
-
-- name: 'Blair Witch'
-  platform: epic-store
-  id: 247a0f0f5803429eb3be2c06f3ea77ff
-  banner: steam:1092660
-  compat_tool: proton-stable
-  status: verified
-  
-- name: 'Car Mechanic Simulator 2018'
-  platform: epic-store
-  id: 8032b75cf0914afa87c78d6914adc165
-  banner: steam:645630
-  compat_tool: proton-stable
-  status: playable
-  notes:
-    - Limited controller support
-
 - name: 'Chess Ultra'
   platform: epic-store
   id: fc0b13b7b17b4a46933756fb2786cdc4
   banner: steam:518060
   status: unsupported
-
-- name: 'Call of the Sea'
-  platform: epic-store
-  id: 6278dd278d714aeb88239a423fa0f8be
-  banner: steam:1042490
-  compat_tool: proton-stable
-  status: playable
-  notes:
-    - "Can't conect to EPIC services, hence no achievements possible"
-
-- name: 'Breathedge'
-  platform: epic-store
-  id: 0a20ccd3f1b3464da750a4dbf8c80d7c
-  banner: steam:738520
-  status: unsupported
-
-- name: 'Bloons TD 6'
-  platform: epic-store
-  id: 7786b355a13b47a6b3915335117cd0b2
-  banner: steam:960090
-  compat_tool: proton-stable
-  status: playable
-  notes:
-    - No controller support
-
-- name: 'Bridge Constructor: The Walking Dead'
-  platform: epic-store
-  id: 998af0ab527c493baefb8049250c9a0e
-  banner: steam:1336120
-  compat_tool: proton-stable
-  status: verified
 
 - name: 'City of Brass'
   platform: epic-store
@@ -5240,13 +5400,6 @@
   banner: steam:254320
   status: unsupported
 
-- name: 'Borderlands 3'
-  platform: epic-store
-  id: Catnip
-  banner: steam:397540
-  compat_tool: proton-stable
-  status: verified
-
 - name: 'Dungeons 3'
   platform: epic-store
   id: 351fe5b32e22412d8fa41f4c7395fed1
@@ -5263,37 +5416,6 @@
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/615b9a2a83ec2f84e3b95d14486eab28.png
   compat_tool: proton-stable
   status: verified
-
-- name: 'Ancient Enemy'
-  platform: epic-store
-  id: a96de508ac71471fa05e7c1c695e3b5d
-  banner: steam:993790
-  status: unsupported
-
-- name: 'Among the Sleep - Enhanced Edition'
-  platform: epic-store
-  id: aa78f7be2ee64193b6b6444c5fc50157
-  banner: steam:250620
-  status: unsupported
-
-- name: 'Alba - A Wildlife Adventure'
-  platform: epic-store
-  id: 8a0173bbe3ac48ac903f5bc7277e7b4e
-  banner: steam:1337010
-  compat_tool: proton-stable
-  status: verified
-
-- name: 'Against All Odds'
-  platform: epic-store
-  id: ad8aff099d2a445599f9797a24e9ff93
-  banner: steam:1465560
-  status: unsupported
-
-- name: 'Adios'
-  platform: epic-store
-  id: 73c56a1f38a548b2852ce8608c5e436e
-  banner: steam:1271400
-  status: unsupported
 
 - name: 'A Total War Saga: TROY'
   platform: epic-store
@@ -5349,12 +5471,6 @@
   notes:
     - No controller support
 
-- name: 'Black Book'
-  platform: epic-store
-  id: 1d74dcbca79540efb52cab2ff026215f
-  banner: steam:1138660
-  status: unsupported
-
 - name: 'Encased'
   platform: epic-store
   id: af0facaba8e643c1b9850d0683ff56df
@@ -5369,12 +5485,6 @@
   banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/3e29901d0754cad4cb6d47ae1cbe0015.png
   compat_tool: proton-stable
   status: verified
-
-- name: 'Battle Breakers'
-  platform: epic-store
-  id: WorldExplorersLive
-  banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/ef652e54969dd661422f75e809bc118c.png
-  status: unsupported
 
 - name: 'Filament'
   platform: epic-store
@@ -5517,21 +5627,6 @@
   banner: steam:226860
   status: unsupported
 
-- name: 'Auto Chess'
-  platform: epic-store
-  id: Chicken
-  banner: steam:1530300
-  status: unsupported
-
-# Native version doesn't support steam achievements
-- name: '12 is Better Than 6'
-  platform: steam
-  id: 410110
-  compat_tool: proton-stable
-  status: playable
-  notes:
-   - Controller needs to be enabled in the game
-
 - name: 'The Metronomicon: Slay The Dance Floor'
   id: 416790
   platform: steam
@@ -5578,24 +5673,6 @@
   platform: gog
   id: 1651064074
   banner: steam:979310
-  status: verified
-
-- name: "Blacksad: Under the Skin"
-  platform: gog
-  id: 1772238447
-  banner: steam:1003890
-  status: verified
-
-- name: "Beholder 2"
-  platform: gog
-  id: 1451215361
-  banner: steam:761620
-  status: verified
-
-- name: "Alwa's Awakening"
-  platform: gog
-  id: 1396087560
-  banner: steam:549260
   status: verified
 
 - name: "Daymare: 1998"
@@ -5805,43 +5882,6 @@
   notes:
     - Displays keyboard icons
 
-- name: "Betrayer"
-  platform: gog
-  id: 1090734724
-  banner: steam:243120
-  poster: https://cdn2.steamgriddb.com/grid/9fc497b1718cabc904e5af82c57bae53.png
-  background: https://cdn2.steamgriddb.com/hero/69a4241986721658eb6237d56c1b8abc.jpg
-  logo: https://cdn2.steamgriddb.com/logo/1145a30ff80745b56fb0cecf65305017.png
-  icon: https://cdn2.steamgriddb.com/icon/60c43e386965167ba97045a1fe957626.png
-  compat_tool: proton-stable
-  status: playable
-  notes:
-    - Displays keyboard icons
-
-- name: "Butcher"
-  platform: gog
-  id: 1689871374
-  banner: steam:474210
-  status: playable
-  notes:
-    - Controller not working
-
-- name: "Broken Sword: Director's Cut"
-  platform: gog
-  id: 1207658900
-  banner: steam:57640
-  status: playable
-  notes:
-    - No controller support
-
-- name: "BEAUTIFUL DESOLATION"
-  platform: gog
-  id: 1295420179
-  banner: steam:912570
-  status: playable
-  notes:
-    - No controller support
-
 - name: "Helium Rain"
   platform: gog
   id: 1807214820
@@ -5889,14 +5929,6 @@
   status: playable
   notes:
     - Limited controller support
-
-- name: "The Beast Inside"
-  platform: gog
-  id: 1341028548
-  banner: steam:792300
-  status: playable
-  notes:
-    - No controller support
 
 - name: "Fallout"
   platform: gog
@@ -6032,12 +6064,6 @@
   banner: steam:1341890
   status: unsupported
 
-- name: "ARMA: Cold War Assault"
-  platform: gog
-  id: 1207658661
-  banner: steam:65790
-  status: unsupported
-
 - name: "Star Trek™: Elite Force II"
   platform: gog
   id: 2125201406
@@ -6066,12 +6092,6 @@
   platform: gog
   id: 1782995089
   banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/dda2ef1d0ced47fb1776160d06177455.png
-  status: unsupported
-
-- name: "Ancient Enemy"
-  platform: gog
-  id: 1751965389
-  banner: steam:993790
   status: unsupported
 
 - name: "Eschalon: Book II"
@@ -6517,26 +6537,6 @@
   notes:
     - First time start requires installation of MS VisualC++ Runtime with mouse
     - Game has full controller support
-
-- name: "art of rally"
-  platform: epic-store
-  id: 01805192c8074820b1257fcfd97f2648
-  banner: steam:550320
-  compat_tool: proton-stable
-  status: playable
-  notes:
-    - Message window on start-up ('Missing overlay DLL!') must be dismissed with mouse
-    - Foto mode requires mouse
-    - Rest of gameplay has full controller support
-
-- name: "Blazing Sails"
-  platform: epic-store
-  id: ed5f5b7f2e1f43c89ea8bafd15591bda
-  banner: steam:1158940
-  compat_tool: proton-stable
-  status: playable
-  notes:
-    - Limited controller support
 
 - name: 'Halcyon 6'
   platform: epic-store
