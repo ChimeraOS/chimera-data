@@ -4119,9 +4119,6 @@
   platform: epic-store
   id: 7c566548d24343e48151125ced4b494c
   banner: steam:314660
-  background: https://cdn2.steamgriddb.com/hero/b257b3937f0e272207bf484c8e0beb59.jpg
-  icon: https://cdn2.steamgriddb.com/icon/ef2a8695e428116131cc94c651d0e566.png
-  logo: https://cdn2.steamgriddb.com/logo/a01874b1881feb4f498d3f877bd41e62.png
   compat_tool: proton-stable
   status: verified
 
