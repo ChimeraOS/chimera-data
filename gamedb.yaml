@@ -270,6 +270,12 @@
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/c92a10324374fac681719d63979d00fe.jpg
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/883e881bb4d22a7add958f2d6b052c9f.png
 
+# native version doesn't play cut scenes 
+- id: 280160
+  platform: steam
+  name: Aragami
+  compat_tool: proton-stable
+  
 - name: 'ARCADE GAME SERIES: DIG DUG'
   platform: steam
   id: 403400
@@ -352,6 +358,12 @@
   id: 250110
   status: verified
   store: humble:assault-android-cactus
+
+- name: Atari Vault
+  platform: steam
+  id: 400020
+  status: verified
+  store: humble:atari-vault
 
 - name: Atomicrops
   platform: steam
@@ -1369,18 +1381,18 @@
   notes:
     - Game needs EAC
 
+- name: Dead Cells
+  platform: steam
+  id: 588650
+  status: verified
+  store: humble:dead-cells
+
 - name: Dead Island
   platform: steam
   id: 91310
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/f7884361e9e5dea725fd37eb0d320d7e.png
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/3f882a4bb95c43e27924205306955021.png
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/d9eb09a4dbf0b2098faf20331f294afe.png
-
-- name: Dead Cells
-  platform: steam
-  id: 588650
-  status: verified
-  store: humble:dead-cells
 
 - name: "Deadlight Director's Cut"
   platform: gog
@@ -1856,10 +1868,88 @@
   id: 239140
   status: verified
 
+- name: EARTHLOCK
+  platform: steam
+  id: 761030
+  status: verified
+  store: humble:earthlock
+
+- name: "EARTHLOCK"
+  platform: epic-store
+  id: 4a4ffcf1a8354008bcc3b28280dd2419
+  banner: steam:761030
+  compat_tool: proton-stable
+  status: verified
+
+- name: Earthworm Jim
+  platform: steam
+  id: 38480
+  compat_tool: boxtron
+
+- name: Earthworm Jim 2
+  platform: steam
+  id: 38490
+  compat_tool: boxtron
+
 - name: EDGE
   platform: steam
   id: 38740
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/105aac7339ea6074ed9d912c0d10d67e.png
+
+- name: ELDEN RING
+  platform: steam
+  id: 1245620
+  store: humble:elden-ring
+  status: verified
+  compat_tool: proton-stable
+
+- name: "The Elder Scrolls: Arena"
+  platform: gog
+  id: 1435828982
+  banner: steam:1812290
+  status: unsupported
+
+- name: "The Elder Scrolls II: Daggerfall"
+  platform: gog
+  id: 1435829353
+  banner: steam:1812390
+  status: unsupported
+
+# Fix for the launcher not detecting the available space correctly
+- name: Elder Scrolls Online
+  platform: steam
+  id: 306130
+  compat_config: gamedrive
+  
+- name: 'Elite Dangerous'
+  platform: epic-store
+  id: 9c203b6ed35846e8a4a9ff1e314f6593
+  banner: steam:359320
+  compat_tool: proton-stable
+  status: playable
+  notes:
+    - Uses a launcher
+
+- name: Eliza
+  platform: steam
+  id: 716500
+  status: verified
+  store: humble:eliza
+
+- name: 'Encased'
+  platform: epic-store
+  id: af0facaba8e643c1b9850d0683ff56df
+  banner: steam:921800
+  compat_tool: proton-stable
+  status: verified
+
+- name: "ENCODYA"
+  platform: gog
+  id: 1903635931
+  banner: steam:1137450
+  status: playable
+  notes:
+    - No conttroller support
 
 - name: Endless Space 2
   platform: steam
@@ -1888,17 +1978,25 @@
   banner: steam:311690
   status: verified
 
+- name: Enter the Gungeon
+  platform: steam
+  id: 311690
+  status: verified
+  store: humble:enter-the-gungeon
+
+- name: 'Epistory - Typing Chronicles'
+  platform: epic-store
+  id: 4ec72fd8cbd94aa4acc61624c68fbc4f
+  banner: steam:398850
+  compat_tool: proton-stable
+  status: playable
+  notes:
+    - No controller support
+
 - name: "Eryi's Action"
   platform: steam
   id: 261700
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/53f5040ad7f51d37a525e86c91241235.jpg
-
-- name: Escape Goat 2
-  platform: steam
-  id: 255340
-  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/7f45ea9c5f39c225789eaefdc0c65368.png
-  status: verified
-  store: humble:escape-goat-2
 
 - name: Escape Goat
   platform: steam
@@ -1906,6 +2004,13 @@
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/0470d319da49296886f236d3557fbbab.png
   status: verified
   store: humble:escape-goat
+
+- name: Escape Goat 2
+  platform: steam
+  id: 255340
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/7f45ea9c5f39c225789eaefdc0c65368.png
+  status: verified
+  store: humble:escape-goat-2
 
 - name: The Escapists
   platform: epic-store
@@ -1918,10 +2023,35 @@
   banner: steam:641990
   status: verified
 
+- name: "Eschalon: Book II"
+  platform: gog
+  id: 1207659220
+  banner: steam:25620
+  status: unsupported
+
+- name: "Eternal Thread"
+  platform: epic-store
+  id: ff1d9bf6b1304cb9a12b8754afa78ae5
+  banner: steam:1046790
+  compat_tool: proton-stable
+  status: verified
+
+- name: Etherborn
+  platform: steam
+  id: 812160
+  status: verified
+  store: humble:etherborn
+
 - name: Eufloria HD
   platform: steam
   id: 221180
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/5db98ad3d38184a2f9db88f5bb1c62c1.png
+
+- name: 'Europa Universalis IV'
+  platform: epic-store
+  id: da0103e959e54d139d0c109ded3b3672
+  banner: steam:236850
+  status: unsupported
 
 - name: Evergarden
   platform: steam
@@ -1933,10 +2063,49 @@
   id: 33680
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/0ca9d7e107eb21fe03a304ce3ca49d0f.png
 
+- name: EVERSPACE
+  platform: steam
+  id: 396750
+  status: verified
+  store: humble:everspace
+
+- name: 'Evil Dead: The Game'
+  platform: epic-store
+  id: 5c147002780d4e6eb292f54edfe73fda
+  banner: steam:1493750
+  status: unsupported
+
+- name: "The Evil Within"
+  platform: epic-store
+  id: 591e049d72b349daa64784a171379357
+  banner: steam:268050
+  status: unsupported
+
+- name: Evoland Legendary Edition
+  platform: steam
+  id: 1020470
+  status: verified
+  store: humble:evoland-legendary-edition
+
+- name: 'Evoland Legendary Edition'
+  platform: epic-store
+  id: 530f09c9ac834a7bbc98056c69b44471
+  banner: steam:1020470
+  status: unsupported
+
 - name: "Exile's End"
   platform: steam
   id: 382130
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/eb6eb51fd38354e41e80a66f4bdab336.png
+
+- name: 'Eximius: Seize the Frontline'
+  platform: epic-store
+  id: 70f92598b33d42e290e411f07397aeee
+  banner: steam:505740
+  compat_tool: proton-stable
+  status: playable
+  notes:
+    - No controller support
 
 - name: The Expendabros
   platform: steam
@@ -3910,13 +4079,6 @@
   notes:
     - Sometimes displays keyboard icons
 
-- name: ELDEN RING
-  platform: steam
-  id: 1245620
-  store: humble:elden-ring
-  status: verified
-  compat_tool: proton-stable
-
 - name: GRID (2019)
   platform: steam
   id: 703860
@@ -4300,12 +4462,6 @@
   status: verified
   store: humble:generation-zero
 
-- name: Evoland Legendary Edition
-  platform: steam
-  id: 1020470
-  status: verified
-  store: humble:evoland-legendary-edition
-
 - name: Unrailed!
   platform: steam
   id: 1016920
@@ -4372,12 +4528,6 @@
   id: 521890
   status: verified
   store: humble:hello-neighbor
-
-- name: EARTHLOCK
-  platform: steam
-  id: 761030
-  status: verified
-  store: humble:earthlock
 
 - name: Sonic CD
   platform: steam
@@ -4522,23 +4672,11 @@
   status: verified
   compat_tool: proton-stable
 
-- name: Atari Vault
-  platform: steam
-  id: 400020
-  status: verified
-  store: humble:atari-vault
-
 - name: F1 2019
   platform: steam
   id: 928600
   status: verified
   compat_tool: proton-stable
-
-- name: Etherborn
-  platform: steam
-  id: 812160
-  status: verified
-  store: humble:etherborn
 
 - name: "Fell Seal: Arbiter's Mark"
   platform: steam
@@ -4557,12 +4695,6 @@
   id: 587620
   status: verified
   store: humble:okami-hd
-
-- name: Eliza
-  platform: steam
-  id: 716500
-  status: verified
-  store: humble:eliza
 
 - name: F1 2015
   platform: steam
@@ -4671,12 +4803,6 @@
   id: 236870
   compat_tool: proton-stable
   status: verified
-
-- name: EVERSPACE
-  platform: steam
-  id: 396750
-  status: verified
-  store: humble:everspace
 
 - name: 'The Witcher 3: Wild Hunt'
   platform: steam
@@ -4840,12 +4966,6 @@
   id: 303430
   status: verified
   store: humble:roundabout
-
-- name: Enter the Gungeon
-  platform: steam
-  id: 311690
-  status: verified
-  store: humble:enter-the-gungeon
 
 - name: Guacamelee! Super Turbo Championship Edition
   platform: steam
@@ -5110,16 +5230,6 @@
   patches:
     - exec: echo "2960d17d77d44b259674e0b099b9e5a6 installscript.vdf" | md5sum --status -c && sed -i '62i \\t\t\t"Command 1"\t\t"/S"^M' installscript.vdf
     - exec: echo "5c42dc1c0cfb483cee86df0779332168 system/hardware_settings_restrictions.xml" | md5sum --status -c && sed -i 150d system/hardware_settings_restrictions.xml
-
-- id: 38480
-  platform: steam
-  name: Earthworm Jim
-  compat_tool: boxtron
-
-- id: 38490
-  platform: steam
-  name: Earthworm Jim 2
-  compat_tool: boxtron
 
 - id: 38400
   platform: steam
@@ -5471,24 +5581,12 @@
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/6aed000af86a084f9cb0264161e29dd3.jpg
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/bd6a06f41bae67be959e5b44addc880f.png
 
-# native version doesn't play cut scenes 
-- id: 280160
-  platform: steam
-  name: Aragami
-  compat_tool: proton-stable
-  
  # Disable -steamdeck to fix controller issues for Sackboy
 - name: Sackboy A Big Adventure
   platform: steam
   id: 1599660
   launch_options: SteamDeck=0 %command%
 
- # Fix for the launcher not detecting the available space correctly
-- name: Elder Scrolls Online
-  platform: steam
-  id: 306130
-  compat_config: gamedrive
-  
  # Disable -steamdeck to fix the game failing to launch in game mode
 - name: HITMAN 3
   platform: steam
@@ -5556,15 +5654,6 @@
   banner: steam:752590
   compat_tool: proton-stable
 
-- name: 'Elite Dangerous'
-  platform: epic-store
-  id: 9c203b6ed35846e8a4a9ff1e314f6593
-  banner: steam:359320
-  compat_tool: proton-stable
-  status: playable
-  notes:
-    - Uses a launcher
-
 - name: 'Remnant: From the Ashes'
   platform: epic-store
   id: b4a0d2d15acb4db894a599b810297543
@@ -5595,49 +5684,6 @@
   status: playable
   notes:
     - No controller support
-
-- name: 'Eximius: Seize the Frontline'
-  platform: epic-store
-  id: 70f92598b33d42e290e411f07397aeee
-  banner: steam:505740
-  compat_tool: proton-stable
-  status: playable
-  notes:
-    - No controller support
-
-- name: 'Evoland Legendary Edition'
-  platform: epic-store
-  id: 530f09c9ac834a7bbc98056c69b44471
-  banner: steam:1020470
-  status: unsupported
-
-- name: 'Evil Dead: The Game'
-  platform: epic-store
-  id: 5c147002780d4e6eb292f54edfe73fda
-  banner: steam:1493750
-  status: unsupported
-
-- name: 'Europa Universalis IV'
-  platform: epic-store
-  id: da0103e959e54d139d0c109ded3b3672
-  banner: steam:236850
-  status: unsupported
-
-- name: 'Epistory - Typing Chronicles'
-  platform: epic-store
-  id: 4ec72fd8cbd94aa4acc61624c68fbc4f
-  banner: steam:398850
-  compat_tool: proton-stable
-  status: playable
-  notes:
-    - No controller support
-
-- name: 'Encased'
-  platform: epic-store
-  id: af0facaba8e643c1b9850d0683ff56df
-  banner: steam:921800
-  compat_tool: proton-stable
-  status: verified
 
 - name: 'Filament'
   platform: epic-store
@@ -5961,14 +6007,6 @@
   notes:
     - No controller support
 
-- name: "ENCODYA"
-  platform: gog
-  id: 1903635931
-  banner: steam:1137450
-  status: playable
-  notes:
-    - No conttroller support
-
 - name: "Helium Rain"
   platform: gog
   id: 1807214820
@@ -6151,12 +6189,6 @@
   banner: https://cdn2.steamgriddb.com/grid/3a19f212ae83929a1209377c627c3912.png
   status: unsupported
 
-- name: "Eschalon: Book II"
-  platform: gog
-  id: 1207659220
-  banner: steam:25620
-  status: unsupported
-
 - name: "Fallout: New Vegas Ultimate Edition"
   platform: gog
   id: 1454587428
@@ -6257,18 +6289,6 @@
   platform: gog
   id: 1207658849
   banner: steam:46510
-  status: unsupported
-
-- name: "The Elder Scrolls II: Daggerfall"
-  platform: gog
-  id: 1435829353
-  banner: steam:1812390
-  status: unsupported
-
-- name: "The Elder Scrolls: Arena"
-  platform: gog
-  id: 1435828982
-  banner: steam:1812290
   status: unsupported
 
 - name: "The Night of the Rabbit"
@@ -6428,24 +6448,10 @@
   compat_tool: proton-stable
   status: verified
 
-- name: "EARTHLOCK"
-  platform: epic-store
-  id: 4a4ffcf1a8354008bcc3b28280dd2419
-  banner: steam:761030
-  compat_tool: proton-stable
-  status: verified
-
 - name: "Golden Light"
   platform: epic-store
   id: 0eeaae41305043f7a465310eb2cbaff9
   banner: steam:1245430
-  compat_tool: proton-stable
-  status: verified
-
-- name: "Eternal Thread"
-  platform: epic-store
-  id: ff1d9bf6b1304cb9a12b8754afa78ae5
-  banner: steam:1046790
   compat_tool: proton-stable
   status: verified
 
@@ -6658,12 +6664,6 @@
   status: unsupported
   notes:
     - Requires VC++ to be installed
-
-- name: "The Evil Within"
-  platform: epic-store
-  id: 591e049d72b349daa64784a171379357
-  banner: steam:268050
-  status: unsupported
 
 - name: "Hell is Others"
   platform: epic-store
