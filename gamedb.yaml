@@ -1287,6 +1287,12 @@
   notes:
     - Requires keyboard to customize character name
 
+- name: "Daggerfall Unity - GOG Cut"
+  platform: gog
+  id: 1782995089
+  banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/dda2ef1d0ced47fb1776160d06177455.png
+  status: unsupported
+
 - name: Dakar Desert Rally
   platform: epic-store
   id: 4aff63ad39cb4fe7a61720d59a4cebc6
@@ -1301,17 +1307,12 @@
   banner: steam:612390
   status: verified
 
-- name: 'STAR WARS: Dark Forces'
-  platform: steam
-  id: 32400
-  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/5d1633ade7aed302c261f97ee5a8bedd.png
-  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/42e7aaa88b48137a16a1acd04ed91125.jpg
-  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/847cc55b7032108eee6dd897f3bca8a5.png
-  status: playable
-  store: humble:star-wars-dark-forces
-  compat_tool: boxtron
-  notes:
-    - No controller support
+- name: 'Dark Deity'
+  platform: epic-store
+  id: e21be436768f4add87d4935a180b4932
+  banner: steam:1374840
+  compat_tool: proton-stable
+  status: verified
 
 - name: Darkest Dungeon
   platform: epic-store
@@ -1321,6 +1322,53 @@
   notes:
     - No controller support
 
+- name: 'The Dark Eye: Memoria'
+  platform: steam
+  id: 243200
+  compat_tool: proton-stable
+  launch_options: IFS=:; for PROTON_PATH in ${STEAM_COMPAT_TOOL_PATHS}; do if [ -f "$PROTON_PATH/dist/bin/wine" ]; then WINEPREFIX=$STEAM_COMPAT_DATA_PATH/pfx $PROTON_PATH/dist/bin/wine "C:\windows\system32\reg.exe" ADD "HKLM\System\CurrentControlSet\Control\Session Manager\Environment" /v "SDL_AUDIODRIVER" /d "directsound" /f; break; fi; done; %command%
+
+- name: Darksiders III
+  platform: steam
+  id: 606280
+  status: verified
+  store: humble:darksiders-iii
+
+- name: 'Darkwood'
+  platform: epic-store
+  id: 923130ebb546417b9d3115507f752d34
+  banner: steam:274520
+  compat_tool: proton-stable
+  status: verified
+
+- name: DARQ
+  platform: epic-store
+  id: ee96375fac2f47de978170a24398e581
+  banner: steam:433550
+  status: unsupported
+
+- name: 'Dauntless'
+  platform: epic-store
+  id: Jackal
+  status: unsupported
+  banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/aaad69b34baeb5cd92e42773de154b0b.png
+  notes:
+    - Game needs EAC
+
+- name: "Daymare: 1998"
+  platform: gog
+  id: 1544460195
+  banner: steam:842100
+  status: verified
+
+- name: 'Dead by Daylight'
+  platform: epic-store
+  id: Brill
+  banner: steam:381210
+  status: unsupported
+  notes:
+    - Game needs EAC
+
 - name: Dead Island
   platform: steam
   id: 91310
@@ -1328,15 +1376,111 @@
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/3f882a4bb95c43e27924205306955021.png
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/d9eb09a4dbf0b2098faf20331f294afe.png
 
+- name: Dead Cells
+  platform: steam
+  id: 588650
+  status: verified
+  store: humble:dead-cells
+
+- name: "Deadlight Director's Cut"
+  platform: gog
+  id: 1230412827
+  banner: steam:423950
+  status: verified
+
+- name: DEAD OR ALIVE 6
+  platform: steam
+  id: 838380
+  status: verified
+  store: humble:dead-or-alive-6
+
+- name: "DEATHLOOP"
+  platform: epic-store
+  id: 3206dba3f9b14fd3b01c18f9dcbc864a
+  banner: steam:1252330
+  compat_tool: proton-stable
+  status: verified
+
+- name: "Death's Door"
+  platform: steam
+  id: 894020
+  store: humble:deaths-door
+  status: verified
+
+- name: "Death's Gambit: Afterlife"
+  platform: steam
+  id: 356650
+  status: verified
+
+- name: Death Stranding
+  platform: steam
+  id: 1190460
+  status: verified
+  store: humble:death-stranding
+
+- name: 'Death Stranding'
+  platform: epic-store
+  id: Boga
+  banner: steam:1190460
+  compat_tool: proton-stable
+  status: verified
+
+- name: "Death Stranding Director's Cut"
+  platform: steam
+  id: 1850570
+  status: verified
+
+- name: Deep Rock Galactic
+  platform: steam
+  id: 548430
+  store: humble:deep-rock-galactic
+  status: playable
+  notes:
+    - Awkward mouse joystick controls in menus
+
+- name: "Deep Sky Derelicts"
+  platform: gog
+  id: 1629258827
+  banner: steam:698640
+  status: unsupported
+
 - name: The Deer God
   platform: steam
   id: 328940
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/8f0c43ab19d80d7b035b5c2244284695.png
 
+- name: 'Defense Grid: The Awakening'
+  platform: epic-store
+  id: a434dcb20f0d439b93aaa31dac9e3210
+  banner: steam:18500
+  status: unsupported
+
+- name: "Deliver Us Mars"
+  platform: epic-store
+  id: 9d943a160fa841859ac5c1f233789fcb
+  banner: steam:1345890
+  compat_tool: proton-stable
+  status: playable
+  notes:
+    - First time start requires installation of MS VisualC++ Runtime with mouse
+    - Game has full controller support
+
+- name: 'Delores: A Thimbleweed Park Mini-Adventure'
+  platform: epic-store
+  id: fe6c485736bc4ed48c835290ce48099b
+  banner: steam:1305720
+  status: unsupported
+
 - name: "DEMON'S TILT"
   platform: epic-store
   id: b8b37813c5634dbdac61d88ff411135c
   banner: steam:422510
+  status: unsupported
+
+- name: Deponia The Complete Journey
+  platform: epic-store
+  id: 03b7b25a77024cc0adf44777f791ffc4
+  banner: steam:292910
   status: unsupported
 
 - name: 'Depth Hunter 2: Deep Dive'
@@ -1346,21 +1490,39 @@
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/1ce83e5d4135b07c0b82afffbe2b3436.png
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/e5654b80531b9a7338900193f90fbba5.png
 
-- name: Deponia The Complete Journey
-  platform: epic-store
-  id: 03b7b25a77024cc0adf44777f791ffc4
-  banner: steam:292910
-  status: unsupported
-
 - name: Derrick the Deathfin
   platform: steam
   id: 287780
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/9476cf24b5fd9683baf684feba072a97.png
 
+- name: Descenders
+  platform: steam
+  id: 681280
+  status: verified
+  store: humble:descenders
+
 - name: 'Descent: Underground'
   platform: steam
   id: 360950
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/13602f4cdec52bd97a46254441b3388d.png
+
+- name: 'Destiny 2'
+  platform: epic-store
+  id: 592c359fb0e0413fb46dee2d24448eb4
+  banner: steam:1085660
+  status: unsupported
+
+- name: "Destroy All Humans! Clone Carnage"
+  platform: gog
+  id: 1159146122
+  banner: steam:1872550
+  status: verified
+
+- name: "Destroy All Humans! Clone Carnage"
+  platform: epic-store
+  id: f1e6956fcad8488ba1c6a2564bb2ca4e
+  banner: steam:1872550
+  status: unsupported
 
 - name: 'Detroit: Become Human'
   platform: steam
@@ -1374,6 +1536,24 @@
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/29f0b80e008bc42acf8cb46561055dc6.png
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/421b6c7bd8b9288a148d2c3431b6692b.jpg
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/a7a3d70c6d17a73140918996d03c014f.png
+
+- name: 'Deus Ex: Mankind Divided'
+  platform: steam
+  id: 337000
+  status: verified
+  store: humble:deus-ex-mankind-divided
+
+- name: "Dex"
+  platform: gog
+  id: 1929434313
+  banner: steam:269650
+  status: verified
+
+- name: 'Diabotical'
+  platform: epic-store
+  id: Honeycreeper
+  banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/049b8c570e6cc662b4a3d7e3c86e236f.png
+  status: unsupported
 
 - name: Diamond Deeps
   platform: steam
@@ -1394,6 +1574,18 @@
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/9a83eabfb7fa303a2d85dbc6f37483e5.png
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/dea184826614d3f4c608731389ed0c74.png
 
+- name: "Dink Smallwood HD"
+  platform: gog
+  id: 1640863824
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/325e58f8c73d5792e2a873d288e485cc.png
+  banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/5f8b73c0d4b1bf60dd7173b660b87c29.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/7ca862b72603622054d537b558eb9b9c.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/3210806875ddb9745d3d8313e65b81ab.png
+  icon: https://cdn2.steamgriddb.com/file/sgdb-cdn/icon/1e8a19426224ca89e83cef47f1e7f53b.ico
+  status: playable
+  notes:
+    - Displays keyboard icons
+
 - name: DiRT
   platform: steam
   id: 11440
@@ -1407,6 +1599,56 @@
     - Customizing player name requires a keyboard
     - Videos do not play
 
+- name: DiRT 2
+  platform: steam
+  id: 12840
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/ec4edc21532ae504ad273db42d8546f5.jpg
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/5b8add2a5d98b1a652ea7fd72d942dac.jpg
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/c17e8738e3ff4451eff7d670d9ab9c63.png
+  status: playable
+  notes:
+    - Customizing player name requires a keyboard
+  compat_tool: proton-stable
+  patch_dir: Dirt 2
+  patches:
+    - exec: echo "02c6dd46d6d89347d721ba87dcf443c3 12840_install.vdf" | md5sum --status -c && sed -i 56,69d 12840_install.vdf
+    - copy:
+        src: common/xlive.ini
+        dst: xlive.ini
+    - copy:
+        src: common/xlive.dll
+        dst: xlive.dll
+
+- name: DiRT 3 Complete Edition
+  platform: steam
+  id: 321040
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/19b837f06cf349de37a3df0f699ba9e8.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/9a7c22ed48340ab6cd2a273912d51767.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/d47844673f2db74d78da8687d794523d.png
+  status: verified
+  compat_tool: proton-stable
+  compat_config: noesync,nofsync
+
+- name: DiRT 4
+  platform: steam
+  id: 421020
+  status: verified
+
+- name: DIRT 5
+  platform: steam
+  id: 1038250
+  status: verified
+
+- name: DiRT Rally
+  platform: steam
+  id: 310560
+  status: verified
+
+- name: DiRT Rally 2.0
+  platform: steam
+  id: 690790
+  status: verified
+
 # Native version does not launch
 - name: DiRT Showdown
   platform: steam
@@ -1419,6 +1661,90 @@
   notes:
     - Customizing player name requires a keyboard
 
+- name: Disgaea 2 PC
+  platform: steam
+  id: 495280
+  status: verified
+  store: humble:disgaea-2-pc
+
+- name: 'Dishonored: Death of the Outsider'
+  platform: epic-store
+  id: 2fb8273dcf6f41e4899c0c881e047053
+  banner: steam:614570
+  status: unsupported
+
+- name: 'Dishonored - Definitive Edition'
+  platform: epic-store
+  id: d2da64bd4c4e422da4b1a88041492a3a
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/48b9ef5bcb5ede1575779d29b9eeffe7.png
+  banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/cddd343d7bfb79150a3be9d7fc8f58ea.jpg
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/c008c31802ec4b9c2126914d5d41ed9f.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/615b9a2a83ec2f84e3b95d14486eab28.png
+  compat_tool: proton-stable
+  status: verified
+
+- name: "Disjunction"
+  platform: gog
+  id: 1651064074
+  banner: steam:979310
+  status: verified
+
+- name: The Disney Afternoon Collection
+  platform: steam
+  id: 525040
+  status: verified
+  store: humble:the-disney-afternoon-collection
+  compat_tool: proton-stable
+  compat_config: forcelgadd
+
+- name: 'Divine Knockout'
+  platform: epic-store
+  id: 2a7875f5060d4381af355104773ca649
+  banner: steam:1294660
+  status: unsupported
+
+- name: "DNF Duel"
+  platform: epic-store
+  id: 82cdbdf05c61474d89c4f9e8a8bf0ea4
+  banner: steam:1216060
+  compat_tool: proton-stable
+  status: playable
+  notes:
+    - EPIC login requires keyboard and mouse
+    - Game has full controller support
+
+- name: 'Dodo Peak'
+  platform: epic-store
+  id: 30647199e65341c2be84d81fa6964ff0
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/611849551bc98921200690fcc3260fa5.png
+  banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/3e29901d0754cad4cb6d47ae1cbe0015.png
+  compat_tool: proton-stable
+  status: verified
+
+- name: Don't Starve
+  platform: steam
+  id: 219740
+  status: verified
+  store: humble:dont-starve
+
+- name: DOOM
+  platform: steam
+  id: 379720
+  status: verified
+  store: humble:doom
+
+- name: "DOOM 3"
+  platform: gog
+  id: 1492054092
+  banner: steam:9050
+  status: unsupported
+
+- name: "DOOM 3: BFG Edition"
+  platform: gog
+  id: 1135892318
+  banner: steam:208200
+  status: unsupported
+
 - name: 'DOOM 3: Resurrection of Evil'
   platform: steam
   id: 9070
@@ -1426,33 +1752,60 @@
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/1a69e2bdf33aa15664ad3c3cfb4d9453.png
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/354ac345fd8c6d7ef634d9a8e3d47b83.png
 
+- name: 'DOOM 64'
+  platform: epic-store
+  id: 5b60142e120c4f2d88027595c21d4a04
+  banner: steam:1148590
+  status: unsupported
+
+- name: Double Dragon IV
+  platform: steam
+  id: 528610
+  status: verified
+  store: humble:double-dragon-4
+
 - name: Drawful 2
   platform: epic-store
   id: Daisy
   banner: steam:442070
   status: unsupported
 
+# native version doesn't detect controllers
+- name: Drones, The Human Condition
+  platform: steam
+  id: 556130
+  compat_tool: proton-stable
+
 - name: Droplitz
   platform: steam
   id: 23120
   poster: https://cdn2.steamgriddb.com/grid/4f82f5e41cf9b7f0c4c5a2562d152440.png
 
-- name: 'The Dark Eye: Memoria'
+- name: Duck Game
   platform: steam
-  id: 243200
+  id: 312530
   compat_tool: proton-stable
-  launch_options: IFS=:; for PROTON_PATH in ${STEAM_COMPAT_TOOL_PATHS}; do if [ -f "$PROTON_PATH/dist/bin/wine" ]; then WINEPREFIX=$STEAM_COMPAT_DATA_PATH/pfx $PROTON_PATH/dist/bin/wine "C:\windows\system32\reg.exe" ADD "HKLM\System\CurrentControlSet\Control\Session Manager\Environment" /v "SDL_AUDIODRIVER" /d "directsound" /f; break; fi; done; %command%
+  launch_options: -linux
 
-- name: DARQ
-  platform: epic-store
-  id: ee96375fac2f47de978170a24398e581
-  banner: steam:433550
-  status: unsupported
+- name: DuckTales Remastered
+  platform: steam
+  id: 237630
+  status: verified
 
 - name: 'Duke Nukem 3D: Megaton Edition'
   platform: steam
   id: 225140
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/a2f85694da56232b78977a73c590cd5b.png
+
+# Controller doesn't work in native version
+- name: 'Duke of Alpha Centauri'
+  id: 567580
+  platform: steam
+  poster: https://cdn2.steamgriddb.com/grid/6373a3c0273eb185ad1dacf4295c3247.png
+  compat_tool: proton-stable
+  status: playable
+  notes:
+    - Displays keyboard icons
 
 - name: Dungeon Defenders Eternity
   platform: steam
@@ -1469,15 +1822,39 @@
   id: 362310
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/d4a758aadfcc265a9e34f76415246c42.png
 
+- name: 'Dungeons 3'
+  platform: epic-store
+  id: 351fe5b32e22412d8fa41f4c7395fed1
+  banner: steam:493900
+  compat_tool: proton-stable
+  status: verified
+
 - name: Dungeons of Dredmor
   platform: steam
   id: 98800
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/83b887e6ca1b28752a8d05b96c04ba35.jpg
 
+- name: 'Duskers'
+  platform: epic-store
+  id: 1e9c3a9a10c6463e9c065f371b8b42bf
+  banner: steam:254320
+  status: unsupported
+
+- name: 'Dust: An Elysian Tail'
+  platform: steam
+  id: 236090
+  status: verified
+  store: humble:dust-an-elysian-tail
+
 - name: Dustforce DX
   platform: steam
   id: 65300
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/be5217178566cd40305d7c11a95f156e.png
+
+- name: Dying Light
+  platform: steam
+  id: 239140
+  status: verified
 
 - name: EDGE
   platform: steam
@@ -3078,6 +3455,18 @@
   status: verified
   store: humble:star-horizon
 
+- name: 'STAR WARS: Dark Forces'
+  platform: steam
+  id: 32400
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/5d1633ade7aed302c261f97ee5a8bedd.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/42e7aaa88b48137a16a1acd04ed91125.jpg
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/847cc55b7032108eee6dd897f3bca8a5.png
+  status: playable
+  store: humble:star-wars-dark-forces
+  compat_tool: boxtron
+  notes:
+    - No controller support
+
 - name: 'STAR WARS Empire at War: Gold Pack'
   platform: steam
   id: 32470
@@ -3613,20 +4002,6 @@
   id: 1145360
   status: verified
 
-- name: Deep Rock Galactic
-  platform: steam
-  id: 548430
-  store: humble:deep-rock-galactic
-  status: playable
-  notes:
-    - Awkward mouse joystick controls in menus
-
-- name: "Death's Door"
-  platform: steam
-  id: 894020
-  store: humble:deaths-door
-  status: verified
-
 - name: The Surge 2
   platform: steam
   id: 644830
@@ -3651,11 +4026,6 @@
 - name: F1 2021
   platform: steam
   id: 1134570
-  status: verified
-
-- name: DIRT 5
-  platform: steam
-  id: 1038250
   status: verified
 
 # native version no longer supported and does not work online
@@ -3799,17 +4169,6 @@
   id: 771420
   status: verified
 
-- name: Death Stranding
-  platform: steam
-  id: 1190460
-  status: verified
-  store: humble:death-stranding
-
-- name: "Death Stranding Director's Cut"
-  platform: steam
-  id: 1850570
-  status: verified
-
 - name: WWE 2K BATTLEGROUNDS
   platform: steam
   id: 1142100
@@ -3924,23 +4283,6 @@
   status: verified
   store: humble:yakuza-kiwami-2
 
-- name: Darksiders III
-  platform: steam
-  id: 606280
-  status: verified
-  store: humble:darksiders-iii
-
-- name: Double Dragon IV
-  platform: steam
-  id: 528610
-  status: verified
-  store: humble:double-dragon-4
-
-- name: DuckTales Remastered
-  platform: steam
-  id: 237630
-  status: verified
-
 - name: LEGO Pirates of the Caribbean The Video Game
   platform: steam
   id: 311770
@@ -4030,11 +4372,6 @@
   id: 521890
   status: verified
   store: humble:hello-neighbor
-
-- name: DiRT Rally
-  platform: steam
-  id: 310560
-  status: verified
 
 - name: EARTHLOCK
   platform: steam
@@ -4171,16 +4508,6 @@
   status: verified
   store: humble:katana-zero
 
-- name: DiRT Rally 2.0
-  platform: steam
-  id: 690790
-  status: verified
-
-- name: DiRT 4
-  platform: steam
-  id: 421020
-  status: verified
-
 # native version has poor controller support
 - name: Micro Machines World Series
   platform: steam
@@ -4201,12 +4528,6 @@
   status: verified
   store: humble:atari-vault
 
-- name: DEAD OR ALIVE 6
-  platform: steam
-  id: 838380
-  status: verified
-  store: humble:dead-or-alive-6
-
 - name: F1 2019
   platform: steam
   id: 928600
@@ -4219,11 +4540,6 @@
   status: verified
   store: humble:etherborn
 
-- name: "Death's Gambit: Afterlife"
-  platform: steam
-  id: 356650
-  status: verified
-
 - name: "Fell Seal: Arbiter's Mark"
   platform: steam
   id: 699170
@@ -4235,12 +4551,6 @@
   id: 557340
   status: verified
   store: humble:my-friend-pedro
-
-- name: Descenders
-  platform: steam
-  id: 681280
-  status: verified
-  store: humble:descenders
 
 - name: Okami HD
   platform: steam
@@ -4258,12 +4568,6 @@
   platform: steam
   id: 286570
   status: verified
-
-- name: 'Deus Ex: Mankind Divided'
-  platform: steam
-  id: 337000
-  status: verified
-  store: humble:deus-ex-mankind-divided
 
 - name: 'Middle-earth: Shadow of War'
   platform: steam
@@ -4333,11 +4637,6 @@
   store: humble:trine-3-the-artifacts-of-power
   compat_tool: proton-stable
 
-- name: Dying Light
-  platform: steam
-  id: 239140
-  status: verified
-
 - name: The Talos Principle
   platform: steam
   id: 257510
@@ -4378,12 +4677,6 @@
   id: 396750
   status: verified
   store: humble:everspace
-
-- name: Don't Starve
-  platform: steam
-  id: 219740
-  status: verified
-  store: humble:dont-starve
 
 - name: 'The Witcher 3: Wild Hunt'
   platform: steam
@@ -4431,14 +4724,6 @@
   status: verified
   compat_tool: steamlinuxruntime
 
-- name: The Disney Afternoon Collection
-  platform: steam
-  id: 525040
-  status: verified
-  store: humble:the-disney-afternoon-collection
-  compat_tool: proton-stable
-  compat_config: forcelgadd
-
 - name: 'Wolfenstein: The New Order'
   platform: steam
   id: 201810
@@ -4461,18 +4746,6 @@
   id: 71250
   status: verified
   store: humble:sonic-adventure-dx
-
-- name: DOOM
-  platform: steam
-  id: 379720
-  status: verified
-  store: humble:doom
-
-- name: Disgaea 2 PC
-  platform: steam
-  id: 495280
-  status: verified
-  store: humble:disgaea-2-pc
 
 - name: Yakuza Kiwami
   platform: steam
@@ -4785,12 +5058,6 @@
   status: verified
   store: humble:fez
 
-- name: 'Dust: An Elysian Tail'
-  platform: steam
-  id: 236090
-  status: verified
-  store: humble:dust-an-elysian-tail
-
 - name: TowerFall Ascension
   platform: steam
   id: 251470
@@ -4799,12 +5066,6 @@
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/f095cedd23b99f1696fc8caecbcf257e.png
   status: verified
   store: humble:towerfall-ascension
-
-- name: Dead Cells
-  platform: steam
-  id: 588650
-  status: verified
-  store: humble:dead-cells
 
 - name: Hollow Knight
   platform: steam
@@ -4849,48 +5110,6 @@
   patches:
     - exec: echo "2960d17d77d44b259674e0b099b9e5a6 installscript.vdf" | md5sum --status -c && sed -i '62i \\t\t\t"Command 1"\t\t"/S"^M' installscript.vdf
     - exec: echo "5c42dc1c0cfb483cee86df0779332168 system/hardware_settings_restrictions.xml" | md5sum --status -c && sed -i 150d system/hardware_settings_restrictions.xml
-
-- name: DiRT 2
-  platform: steam
-  id: 12840
-  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/ec4edc21532ae504ad273db42d8546f5.jpg
-  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/5b8add2a5d98b1a652ea7fd72d942dac.jpg
-  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/c17e8738e3ff4451eff7d670d9ab9c63.png
-  status: playable
-  notes:
-    - Customizing player name requires a keyboard
-  compat_tool: proton-stable
-  patch_dir: Dirt 2
-  patches:
-    - exec: echo "02c6dd46d6d89347d721ba87dcf443c3 12840_install.vdf" | md5sum --status -c && sed -i 56,69d 12840_install.vdf
-    - copy:
-        src: common/xlive.ini
-        dst: xlive.ini
-    - copy:
-        src: common/xlive.dll
-        dst: xlive.dll
-
-- name: DiRT 3 Complete Edition
-  platform: steam
-  id: 321040
-  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/19b837f06cf349de37a3df0f699ba9e8.png
-  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/9a7c22ed48340ab6cd2a273912d51767.png
-  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/d47844673f2db74d78da8687d794523d.png
-  status: verified
-  compat_tool: proton-stable
-  compat_config: noesync,nofsync
-
-# native version doesn't detect controllers
-- id: 556130
-  platform: steam
-  name: Drones, The Human Condition
-  compat_tool: proton-stable
-
-- id: 312530
-  platform: steam
-  name: Duck Game
-  compat_tool: proton-stable
-  launch_options: -linux
 
 - id: 38480
   platform: steam
@@ -5359,108 +5578,6 @@
   banner: steam:383270
   status: unsupported
 
-- name: 'Dark Deity'
-  platform: epic-store
-  id: e21be436768f4add87d4935a180b4932
-  banner: steam:1374840
-  compat_tool: proton-stable
-  status: verified
-
-- name: 'Darkwood'
-  platform: epic-store
-  id: 923130ebb546417b9d3115507f752d34
-  banner: steam:274520
-  compat_tool: proton-stable
-  status: verified
-
-- name: 'Dead by Daylight'
-  platform: epic-store
-  id: Brill
-  banner: steam:381210
-  status: unsupported
-  notes:
-    - Game needs EAC
-
-- name: 'Dauntless'
-  platform: epic-store
-  id: Jackal
-  status: unsupported
-  banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/aaad69b34baeb5cd92e42773de154b0b.png
-  notes:
-    - Game needs EAC
-
-- name: 'Death Stranding'
-  platform: epic-store
-  id: Boga
-  banner: steam:1190460
-  compat_tool: proton-stable
-  status: verified
-
-- name: 'Dishonored®: Death of the Outsider™'
-  platform: epic-store
-  id: 2fb8273dcf6f41e4899c0c881e047053
-  banner: steam:614570
-  status: unsupported
-
-- name: 'Diabotical'
-  platform: epic-store
-  id: Honeycreeper
-  banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/049b8c570e6cc662b4a3d7e3c86e236f.png
-  status: unsupported
-
-- name: 'Defense Grid: The Awakening'
-  platform: epic-store
-  id: a434dcb20f0d439b93aaa31dac9e3210
-  banner: steam:18500
-  status: unsupported
-
-- name: 'Delores: A Thimbleweed Park Mini-Adventure'
-  platform: epic-store
-  id: fe6c485736bc4ed48c835290ce48099b
-  banner: steam:1305720
-  status: unsupported
-
-- name: 'Destiny 2'
-  platform: epic-store
-  id: 592c359fb0e0413fb46dee2d24448eb4
-  banner: steam:1085660
-  status: unsupported
-
-- name: 'DOOM 64'
-  platform: epic-store
-  id: 5b60142e120c4f2d88027595c21d4a04
-  banner: steam:1148590
-  status: unsupported
-
-- name: 'Divine Knockout'
-  platform: epic-store
-  id: 2a7875f5060d4381af355104773ca649
-  banner: steam:1294660
-  status: unsupported
-
-- name: 'Duskers'
-  platform: epic-store
-  id: 1e9c3a9a10c6463e9c065f371b8b42bf
-  banner: steam:254320
-  status: unsupported
-
-- name: 'Dungeons 3'
-  platform: epic-store
-  id: 351fe5b32e22412d8fa41f4c7395fed1
-  banner: steam:493900
-  compat_tool: proton-stable
-  status: verified
-
-- name: 'Dishonored - Definitive Edition'
-  platform: epic-store
-  id: d2da64bd4c4e422da4b1a88041492a3a
-  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/48b9ef5bcb5ede1575779d29b9eeffe7.png
-  banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/cddd343d7bfb79150a3be9d7fc8f58ea.jpg
-  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/c008c31802ec4b9c2126914d5d41ed9f.png
-  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/615b9a2a83ec2f84e3b95d14486eab28.png
-  compat_tool: proton-stable
-  status: verified
-
 - name: 'A Total War Saga: TROY'
   platform: epic-store
   id: 11e598b192324994abce05bad4f81b50
@@ -5519,14 +5636,6 @@
   platform: epic-store
   id: af0facaba8e643c1b9850d0683ff56df
   banner: steam:921800
-  compat_tool: proton-stable
-  status: verified
-
-- name: 'Dodo Peak'
-  platform: epic-store
-  id: 30647199e65341c2be84d81fa6964ff0
-  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/611849551bc98921200690fcc3260fa5.png
-  banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/3e29901d0754cad4cb6d47ae1cbe0015.png
   compat_tool: proton-stable
   status: verified
 
@@ -5697,40 +5806,6 @@
     - Gameplay supports controller
     - Painting spaceship requires mouse 
 
-# Controller doesn't work in native version
-- name: 'Duke of Alpha Centauri'
-  id: 567580
-  platform: steam
-  poster: https://cdn2.steamgriddb.com/grid/6373a3c0273eb185ad1dacf4295c3247.png
-  compat_tool: proton-stable
-  status: playable
-  notes:
-    - Displays keyboard icons
-
-- name: "Dex"
-  platform: gog
-  id: 1929434313
-  banner: steam:269650
-  status: verified
-
-- name: "Disjunction"
-  platform: gog
-  id: 1651064074
-  banner: steam:979310
-  status: verified
-
-- name: "Daymare: 1998"
-  platform: gog
-  id: 1544460195
-  banner: steam:842100
-  status: verified
-
-- name: "Deadlight Director's Cut"
-  platform: gog
-  id: 1230412827
-  banner: steam:423950
-  status: verified
-
 - name: "Ghost of a Tale"
   platform: gog
   id: 1875167847
@@ -5804,12 +5879,6 @@
   poster: https://cdn2.steamgriddb.com/grid/070c61a09952fe8d1d8580e54d2e5077.png
   background: https://cdn2.steamgriddb.com/hero/a8681f254add165d857ccb664b802bed.png
   logo: https://cdn2.steamgriddb.com/logo/65114c75977259d4240b47d6746276d7.png
-  status: verified
-
-- name: "Destroy All Humans! Clone Carnage"
-  platform: gog
-  id: 1159146122
-  banner: steam:1872550
   status: verified
 
 - name: "Seven: Enhanced Edition"
@@ -5899,18 +5968,6 @@
   status: playable
   notes:
     - No conttroller support
-
-- name: "Dink Smallwood HD"
-  platform: gog
-  id: 1640863824
-  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/325e58f8c73d5792e2a873d288e485cc.png
-  banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/5f8b73c0d4b1bf60dd7173b660b87c29.png
-  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/7ca862b72603622054d537b558eb9b9c.png
-  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/3210806875ddb9745d3d8313e65b81ab.png
-  icon: https://cdn2.steamgriddb.com/file/sgdb-cdn/icon/1e8a19426224ca89e83cef47f1e7f53b.ico
-  status: playable
-  notes:
-    - Displays keyboard icons
 
 - name: "Helium Rain"
   platform: gog
@@ -6094,18 +6151,6 @@
   banner: https://cdn2.steamgriddb.com/grid/3a19f212ae83929a1209377c627c3912.png
   status: unsupported
 
-- name: "Deep Sky Derelicts"
-  platform: gog
-  id: 1629258827
-  banner: steam:698640
-  status: unsupported
-
-- name: "Daggerfall Unity - GOG Cut"
-  platform: gog
-  id: 1782995089
-  banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/dda2ef1d0ced47fb1776160d06177455.png
-  status: unsupported
-
 - name: "Eschalon: Book II"
   platform: gog
   id: 1207659220
@@ -6116,12 +6161,6 @@
   platform: gog
   id: 1454587428
   banner: https://cdn2.steamgriddb.com/grid/a4ddd71b7554df7008305374b8c5d546.jpg
-  status: unsupported
-
-- name: "DOOM 3: BFG Edition"
-  platform: gog
-  id: 1135892318
-  banner: steam:208200
   status: unsupported
 
 - name: "Ghost Master"
@@ -6326,12 +6365,6 @@
   banner: steam:961620
   status: unsupported
 
-- name: "DOOM 3"
-  platform: gog
-  id: 1492054092
-  banner: steam:9050
-  status: unsupported
-
 - name: "King's Bounty: The Legend"
   platform: gog
   id: 1207658867
@@ -6406,13 +6439,6 @@
   platform: epic-store
   id: 0eeaae41305043f7a465310eb2cbaff9
   banner: steam:1245430
-  compat_tool: proton-stable
-  status: verified
-
-- name: "DEATHLOOP"
-  platform: epic-store
-  id: 3206dba3f9b14fd3b01c18f9dcbc864a
-  banner: steam:1252330
   compat_tool: proton-stable
   status: verified
 
@@ -6530,26 +6556,6 @@
     - EPIC login requires keyboard and mouse
     - Game has full controller support
 
-- name: "DNF Duel"
-  platform: epic-store
-  id: 82cdbdf05c61474d89c4f9e8a8bf0ea4
-  banner: steam:1216060
-  compat_tool: proton-stable
-  status: playable
-  notes:
-    - EPIC login requires keyboard and mouse
-    - Game has full controller support
-
-- name: "Deliver Us Mars"
-  platform: epic-store
-  id: 9d943a160fa841859ac5c1f233789fcb
-  banner: steam:1345890
-  compat_tool: proton-stable
-  status: playable
-  notes:
-    - First time start requires installation of MS VisualC++ Runtime with mouse
-    - Game has full controller support
-
 - name: 'Halcyon 6'
   platform: epic-store
   id: b9e848fc5e844f4285b0624789476664
@@ -6629,12 +6635,6 @@
   platform: epic-store
   id: Basil
   banner: steam:375820
-  status: unsupported
-
-- name: "Destroy All Humans! Clone Carnage"
-  platform: epic-store
-  id: f1e6956fcad8488ba1c6a2564bb2ca4e
-  banner: steam:1872550
   status: unsupported
 
 - name: "Godlike Burger"
