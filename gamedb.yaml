@@ -2516,21 +2516,55 @@
   id: 98200
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/5dc869708f170898b1c50bb49a852ad6.png
 
+- name: 'Galactic Civilizations III'
+  platform: epic-store
+  id: 5f1c66366b2c4a6496d535d88c56e6cf
+  banner: steam:226860
+  status: unsupported
+
 - name: Galcon Fusion
   platform: steam
   id: 44200
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/462734dd578ea71b7515693f85dd4530.png
 
-- name: 'Geometry Wars 3: Dimensions Evolved'
+- name: 'Gamedec - Definitive Edition'
+  platform: epic-store
+  id: a01150ee6deb406c92dd2b2445186163
+  banner: steam:917720
+  compat_tool: proton-stable
+  status: verified
+
+- name: 'A Game of Thrones: The Board Game Official Edition'
+  platform: epic-store
+  id: 06b8b80d89c24a28a7e91127fcbd9542
+  banner: steam:1075190
+  compat_tool: proton-stable
+  status: playable
+  notes:
+    - No controller support
+
+- name: Gang Beasts
   platform: steam
-  id: 310790
-  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/0135597642178aed62486ddc02136617.png
+  id: 285900
+  status: verified
+  store: humble:gang-beasts
+
+- name: Generation Zero
+  platform: steam
+  id: 704270
+  status: verified
+  store: humble:generation-zero
 
 - name: Genshin Impact
   platform: epic-store
   id: 41869934302e4b8cafac2d3c0e7c293d
   banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/c2904ed6cfa731edd18d8ffe285b6695.png
   status: unsupported
+
+- name: 'Geometry Wars 3: Dimensions Evolved'
+  platform: steam
+  id: 310790
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/0135597642178aed62486ddc02136617.png
 
 - name: 'Ghostbusters: The Video Game'
   platform: steam
@@ -2544,10 +2578,70 @@
   compat_tool: proton-stable
   status: verified
 
+- name: "Ghost Master"
+  platform: gog
+  id: 1207658687
+  banner: steam:6200
+  status: unsupported
+
+- name: "Ghost of a Tale"
+  platform: gog
+  id: 1875167847
+  banner: steam:417290
+  status: verified
+
+- name: "GigaBash"
+  platform: epic-store
+  id: 2dc25e07aa624edf9ff132c09ce23a7c
+  banner: steam:1546400
+  compat_tool: proton-stable
+  status: playable
+  notes:
+    - EPIC login requires keyboard and mouse
+    - Game has full controller support
+
+- name: 'Gloomhaven'
+  platform: epic-store
+  id: 1bcd791d54684eb29ed32ad1c0593d12
+  banner: steam:780290
+  compat_tool: proton-stable
+  status: verified
+
 - name: GNOG
   platform: epic-store
   id: Penguin
   banner: steam:290510
+  status: verified
+
+- name: 'Godfall'
+  platform: epic-store
+  id: Carp
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/9d90d210b54506307e160e8705e350d7.png
+  banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/a784cc6a1286ef2bd7db4ca23c97e9c2.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/50a300306e904ca06f49be9314f99644.png
+  compat_tool: proton-stable
+  status: playable
+  notes:
+    - On first launch installation of VC++ requires mouse
+    - Game has full controlller support
+  
+- name: "Godlike Burger"
+  platform: epic-store
+  id: f7c6294c948b47378659c9a963f449be
+  banner: steam:1432910
+  status: unsupported
+
+- name: God of War
+  platform: steam
+  id: 1593500
+  status: verified
+  store: humble:god-of-war
+
+- name: "God's Trigger"
+  platform: epic-store
+  id: 9bc4423d873845739cc99ab69b6bfbe9
+  banner: steam:488730
+  compat_tool: proton-stable
   status: verified
 
 - name: Gods Will Fall
@@ -2555,6 +2649,19 @@
   id: 69911638c74449d2a2651241be1b3ad4
   banner: steam:1243690
   status: unsupported
+
+- name: "Golden Light"
+  platform: epic-store
+  id: 0eeaae41305043f7a465310eb2cbaff9
+  banner: steam:1245430
+  compat_tool: proton-stable
+  status: verified
+
+- name: Golf With Your Friends
+  platform: steam
+  id: 431240
+  status: verified
+  store: humble:golf-with-your-friends
 
 - name: Gone Home
   platform: epic-store
@@ -2591,10 +2698,83 @@
   id: 41800
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/ce53c47e9ce09161564a02707c0b409b.png
 
+- name: Graveyard Keeper
+  platform: steam
+  id: 599140
+  status: verified
+  store: humble:graveyard-keeper
+
+- name: "Greak: Memories of Azur"
+  platform: gog
+  id: 2142923325
+  banner: steam:1311070
+  status: unsupported
+
+- name: GRID 2
+  platform: steam
+  id: 44350
+  status: verified
+
+- name: GRID (2008)
+  platform: steam
+  id: 12750
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/7b4f4e1f410a49cddb0d906ff0565796.jpg
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/6467c327eaf8940b4dd07a08c63c5e85.png
+  status: verified
+  compat_tool: proton_7
+  patch_dir: Grid
+  patches:
+    - exec: echo "2960d17d77d44b259674e0b099b9e5a6 installscript.vdf" | md5sum --status -c && sed -i '62i \\t\t\t"Command 1"\t\t"/S"^M' installscript.vdf
+    - exec: echo "5c42dc1c0cfb483cee86df0779332168 system/hardware_settings_restrictions.xml" | md5sum --status -c && sed -i 150d system/hardware_settings_restrictions.xml
+
+- name: GRID (2019)
+  platform: steam
+  id: 703860
+  status: verified
+
+- name: 'GRIME'
+  platform: epic-store
+  id: 028263f54a874e35800d142275254d2c
+  banner: steam:1123050
+  compat_tool: proton-stable
+  status: verified
+
+- name: 'GRIP: Combat Racing'
+  platform: steam
+  id: 396900
+  status: verified
+  store: humble:grip-combat-racing
+
+- name: GRIS
+  platform: steam
+  id: 683320
+  status: verified
+  store: humble:gris
+
 - name: Grow Home
   platform: steam
   id: 323320
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/bb053e19fd02a0e5a374e90a3ddf16fc.png
+
+- name: 'Guacamelee! 2'
+  platform: epic-store
+  id: fab83c3bf3d449718e042d44369e7fb6
+  banner: steam:534550
+  compat_tool: proton-stable
+  status: verified
+
+- name: Guacamelee! Super Turbo Championship Edition
+  platform: steam
+  id: 275390
+  status: verified
+  store: humble:guacamelee-super-turbo-championship-edition
+
+- name: 'Guacamelee! Super Turbo Championship Edition'
+  platform: epic-store
+  id: 25b902f42cf04b17bc8a3db2f7292d58
+  banner: steam:275390
+  compat_tool: proton-stable
+  status: verified
 
 - name: Guild of Dungeoneering
   platform: epic-store
@@ -4307,11 +4487,6 @@
   notes:
     - Sometimes displays keyboard icons
 
-- name: GRID (2019)
-  platform: steam
-  id: 703860
-  status: verified
-
 - name: Ultra Street Fighter IV
   platform: steam
   id: 45760
@@ -4403,23 +4578,12 @@
   id: 1554840
   status: verified
 
-- name: GRID 2
-  platform: steam
-  id: 44350
-  status: verified
-
 # native version no longer supported and does not work online
 - name: Rocket League
   platform: steam
   id: 252950
   status: verified
   compat_tool: proton-stable
-
-- name: God of War
-  platform: steam
-  id: 1593500
-  status: verified
-  store: humble:god-of-war
 
 - name: SteamWorld Dig 2
   platform: steam
@@ -4616,12 +4780,6 @@
   status: verified
   store: humble:struggling
 
-- name: GRIS
-  platform: steam
-  id: 683320
-  status: verified
-  store: humble:gris
-
 - name: Spyro Reignited Trilogy
   platform: steam
   id: 996580
@@ -4645,12 +4803,6 @@
   status: verified
   store: humble:indivisible
 
-- name: Golf With Your Friends
-  platform: steam
-  id: 431240
-  status: verified
-  store: humble:golf-with-your-friends
-
 - name: Yakuza Kiwami 2
   platform: steam
   id: 927380
@@ -4667,12 +4819,6 @@
   id: 1173200
   status: verified
   store: humble:metal-unit
-
-- name: Generation Zero
-  platform: steam
-  id: 704270
-  status: verified
-  store: humble:generation-zero
 
 - name: Unrailed!
   platform: steam
@@ -4912,18 +5058,6 @@
   status: verified
   store: humble:trailmakers
 
-- name: 'GRIP: Combat Racing'
-  platform: steam
-  id: 396900
-  status: verified
-  store: humble:grip-combat-racing
-
-- name: Graveyard Keeper
-  platform: steam
-  id: 599140
-  status: verified
-  store: humble:graveyard-keeper
-
 - name: Jet Set Radio
   platform: steam
   id: 205950
@@ -5133,12 +5267,6 @@
   status: verified
   store: humble:roundabout
 
-- name: Guacamelee! Super Turbo Championship Edition
-  platform: steam
-  id: 275390
-  status: verified
-  store: humble:guacamelee-super-turbo-championship-edition
-
 - name: Monster Trampoline
   platform: steam
   id: 939560
@@ -5202,12 +5330,6 @@
   id: 584400
   status: verified
   store: humble:sonic-mania
-
-- name: Gang Beasts
-  platform: steam
-  id: 285900
-  status: verified
-  store: humble:gang-beasts
 
 - name: Thomas Was Alone
   platform: steam
@@ -5378,18 +5500,6 @@
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/19e733acd3ee9f9362a484e5915c132b.png
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/013d407166ec4fa56eb1e1f8cbe183b9.png
   status: verified
-
-- name: GRID (2008)
-  platform: steam
-  id: 12750
-  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/7b4f4e1f410a49cddb0d906ff0565796.jpg
-  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/6467c327eaf8940b4dd07a08c63c5e85.png
-  status: verified
-  compat_tool: proton_7
-  patch_dir: Grid
-  patches:
-    - exec: echo "2960d17d77d44b259674e0b099b9e5a6 installscript.vdf" | md5sum --status -c && sed -i '62i \\t\t\t"Command 1"\t\t"/S"^M' installscript.vdf
-    - exec: echo "5c42dc1c0cfb483cee86df0779332168 system/hardware_settings_restrictions.xml" | md5sum --status -c && sed -i 150d system/hardware_settings_restrictions.xml
 
 - id: 960910
   platform: steam
@@ -5796,81 +5906,12 @@
   notes:
     - No controller support
 
-- name: 'A Game of Thrones: The Board Game Official Edition'
-  platform: epic-store
-  id: 06b8b80d89c24a28a7e91127fcbd9542
-  banner: steam:1075190
-  compat_tool: proton-stable
-  status: playable
-  notes:
-    - No controller support
-
-- name: 'Gamedec - Definitive Edition'
-  platform: epic-store
-  id: a01150ee6deb406c92dd2b2445186163
-  banner: steam:917720
-  compat_tool: proton-stable
-  status: verified
-
-- name: 'Gloomhaven'
-  platform: epic-store
-  id: 1bcd791d54684eb29ed32ad1c0593d12
-  banner: steam:780290
-  compat_tool: proton-stable
-  status: verified
-
-- name: "God's Trigger"
-  platform: epic-store
-  id: 9bc4423d873845739cc99ab69b6bfbe9
-  banner: steam:488730
-  compat_tool: proton-stable
-  status: verified
-
-- name: 'GRIME'
-  platform: epic-store
-  id: 028263f54a874e35800d142275254d2c
-  banner: steam:1123050
-  compat_tool: proton-stable
-  status: verified
-
-- name: 'Guacamelee! 2'
-  platform: epic-store
-  id: fab83c3bf3d449718e042d44369e7fb6
-  banner: steam:534550
-  compat_tool: proton-stable
-  status: verified
-
-- name: 'Guacamelee! Super Turbo Championship Edition'
-  platform: epic-store
-  id: 25b902f42cf04b17bc8a3db2f7292d58
-  banner: steam:275390
-  compat_tool: proton-stable
-  status: verified
-
 - name: 'Wolfenstein: The New Order'
   platform: epic-store
   banner: steam:201810
   id: a64dcf9b711a4a60a3c0b6f052dfc7da
   status: verified
   launch_options: '+com_skipIntroVideo 1'
-
-- name: 'Godfall'
-  platform: epic-store
-  id: Carp
-  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/9d90d210b54506307e160e8705e350d7.png
-  banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/a784cc6a1286ef2bd7db4ca23c97e9c2.png
-  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/50a300306e904ca06f49be9314f99644.png
-  compat_tool: proton-stable
-  status: playable
-  notes:
-    - On first launch installation of VC++ requires mouse
-    - Game has full controlller support
-  
-- name: 'Galactic Civilizations III'
-  platform: epic-store
-  id: 5f1c66366b2c4a6496d535d88c56e6cf
-  banner: steam:226860
-  status: unsupported
 
 - name: 'The Metronomicon: Slay The Dance Floor'
   id: 416790
@@ -5897,12 +5938,6 @@
   notes:
     - Gameplay supports controller
     - Painting spaceship requires mouse 
-
-- name: "Ghost of a Tale"
-  platform: gog
-  id: 1875167847
-  banner: steam:417290
-  status: verified
 
 - name: "Haven Park"
   platform: gog
@@ -6210,18 +6245,6 @@
   banner: https://cdn2.steamgriddb.com/grid/3a19f212ae83929a1209377c627c3912.png
   status: unsupported
 
-- name: "Ghost Master"
-  platform: gog
-  id: 1207658687
-  banner: steam:6200
-  status: unsupported
-
-- name: "Greak: Memories of Azur"
-  platform: gog
-  id: 2142923325
-  banner: steam:1311070
-  status: unsupported
-
 - name: "Hellpoint"
   platform: gog
   id: 1503950763
@@ -6457,13 +6480,6 @@
   compat_tool: proton-stable
   status: verified
 
-- name: "Golden Light"
-  platform: epic-store
-  id: 0eeaae41305043f7a465310eb2cbaff9
-  banner: steam:1245430
-  compat_tool: proton-stable
-  status: verified
-
 - name: 'Hitman'
   platform: epic-store
   id: Barbet
@@ -6561,16 +6577,6 @@
     - First time start requires installation of MS VisualC++ Runtime with mouse
     - Game has full controller support
 
-- name: "GigaBash"
-  platform: epic-store
-  id: 2dc25e07aa624edf9ff132c09ce23a7c
-  banner: steam:1546400
-  compat_tool: proton-stable
-  status: playable
-  notes:
-    - EPIC login requires keyboard and mouse
-    - Game has full controller support
-
 - name: 'Halcyon 6'
   platform: epic-store
   id: b9e848fc5e844f4285b0624789476664
@@ -6641,12 +6647,6 @@
   platform: epic-store
   id: Basil
   banner: steam:375820
-  status: unsupported
-
-- name: "Godlike Burger"
-  platform: epic-store
-  id: f7c6294c948b47378659c9a963f449be
-  banner: steam:1432910
   status: unsupported
 
 - name: "Q.U.B.E. 2"
