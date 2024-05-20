@@ -2796,6 +2796,25 @@
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/07b1c04a30f798b5506c1ec5acfb9031.png
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/0602940f23884f782058efac46f64b0f.png
 
+- name: Hades
+  platform: steam
+  id: 1145360
+  status: verified
+
+- name: 'Halcyon 6'
+  platform: epic-store
+  id: b9e848fc5e844f4285b0624789476664
+  banner: steam:371200
+  compat_tool: proton-stable
+  status: playable
+  notes:
+    - No controller support
+
+- name: "Half-Life: Alyx"
+  platform: steam
+  id: 546560
+  compat_tool: steamlinuxruntime
+
 - name: Hammerwatch
   platform: steam
   id: 239070
@@ -2807,15 +2826,39 @@
   banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/359c4daad63a9a11c06960df0a6ed480.jpg
   status: unsupported
 
-- name: "Half-Life: Alyx"
-  platform: steam
-  id: 546560
-  compat_tool: steamlinuxruntime
-
 - name: Hard Reset
   platform: steam
   id: 98400
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/72ed91f272d521b8337e030fbb0d9810.jpg
+
+- name: "Haven Park"
+  platform: gog
+  id: 1906330252
+  banner: steam:1549550
+  status: verified
+
+- name: Heave Ho
+  platform: steam
+  id: 905340
+  status: verified
+  store: humble:heave-ho
+
+- name: Heaven's Vault
+  platform: steam
+  id: 774201
+  status: verified
+
+- name: Heavy Rain
+  platform: steam
+  id: 960910
+  compat_tool: proton-stable
+  launch_options: WINEDLLOVERRIDES="xaudio2_7=native,builtin" %command%
+
+- name: Heavy Rain Demo
+  platform: steam
+  id: 1048290
+  compat_tool: proton-stable
+  launch_options: WINEDLLOVERRIDES="xaudio2_7=native,builtin" %command%
 
 - name: Hedgewars
   platform: flathub
@@ -2823,11 +2866,19 @@
   banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/e3408432c1a48a52fb6c74d926b38886.png
   status: playable
 
-- name: Hello Neighbor
-  platform: epic-store
-  id: Ursus
-  banner: steam:521890
+- name: "Helium Rain"
+  platform: gog
+  id: 1807214820
+  banner: steam:681330
+  status: playable
+  notes:
+    - Tutorial shows keyboard icons
+
+- name: "Hellblade: Senua's Sacrifice"
+  platform: steam
+  id: 414340
   status: verified
+  store: humble:hellblade-senuas-sacrifice
 
 - name: Hell is Other Demons
   platform: epic-store
@@ -2835,16 +2886,74 @@
   banner: steam:595790
   status: verified
 
+- name: "Hell is Others"
+  platform: epic-store
+  id: 0e70be0cea0446599acb4c26d2e925f9
+  banner: steam:964440
+  status: unsupported
+
+- name: Hello Neighbor
+  platform: steam
+  id: 521890
+  status: verified
+  store: humble:hello-neighbor
+
+- name: Hello Neighbor
+  platform: epic-store
+  id: Ursus
+  banner: steam:521890
+  status: verified
+
+- name: "Hellpoint"
+  platform: gog
+  id: 1503950763
+  banner: steam:628670
+  status: unsupported
+
 - name: Hero Academy
   platform: steam
   id: 209270
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/58fc31760d02cfe624d886a0f0f0f197.png
+
+- name: "Hero of the Kingdom II"
+  platform: gog
+  id: 1666688320
+  banner: steam:346560
+  status: playable
+  notes:
+    - No controller support
 
 - name: Himno
   platform: steam
   id: 931690
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/2b384afa1ad2d96062f89b8015f62452.png
 
+- name: 'Hitman'
+  platform: epic-store
+  id: Barbet
+  banner: steam:236870
+  compat_tool: proton-stable
+  status: verified
+
+# native version doesn't start 
+- name: HITMAN
+  platform: steam
+  id: 236870
+  compat_tool: proton-stable
+  status: verified
+
+- name: HITMAN 2
+  platform: steam
+  id: 863550
+  status: verified
+  store: humble:hitman-2
+
+ # Disable -steamdeck to fix the game failing to launch in game mode
+- name: HITMAN 3
+  platform: steam
+  id: 1659040
+  launch_options: SteamDeck=0 %command%
+  
 - name: Hoard
   platform: steam
   id: 63000
@@ -2864,6 +2973,33 @@
   id: 1210550
   launch_options: SteamDeck=0 %command%
 
+- name: Hollow Knight
+  platform: steam
+  id: 367520
+  status: verified
+  store: humble:hollow-knight
+
+- name: 'Homeworld: Deserts of Kharak'
+  platform: epic-store
+  id: c9b51edbca4d496cb39c6871f510620b
+  banner: steam:281610
+  compat_tool: proton-stable
+  status: playable
+  notes:
+    - No controller support
+
+- name: 'Homeworld Remastered Collection'
+  platform: epic-store
+  id: dcfccf8d965a4f2281dddf9fead042de
+  banner: steam:244160
+  status: unsupported
+
+- name: Horace
+  platform: steam
+  id: 629090
+  status: verified
+  store: humble:horace
+
 - name: Horace
   platform: epic-store
   id: Palila
@@ -2871,10 +3007,54 @@
   status: unsupported
 
 - name: Horizon Chase Turbo
+  platform: steam
+  id: 389140
+  status: verified
+  store: humble:horizon-chase-turbo
+
+- name: Horizon Chase Turbo
   platform: epic-store
   id: bb406082b69a47208489d3616b22b5c2
   banner: steam:389140
   status: verified
+
+- name: Horizon Zero Dawn Complete Edition
+  platform: steam
+  id: 1151640
+  store: humble:horizon-zero-dawn-complete-edition
+  status: verified
+
+- name: Hotshot Racing
+  platform: steam
+  id: 609920
+  status: verified
+  store: humble:hotshot-racing
+
+- name: Hot Wheels Unleashed
+  platform: steam
+  id: 1271700
+  store: humble:hot-wheels-unleashed
+  status: verified
+
+- name: 'Hue'
+  platform: epic-store
+  id: Herring
+  banner: steam:383270
+  status: unsupported
+
+- name: "Human Resource Machine"
+  platform: epic-store
+  id: Basil
+  banner: steam:375820
+  status: unsupported
+
+- name: Hyper Light Drifter
+  platform: steam
+  id: 257850
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/ca9c267dad0305d1a6308d2a0cf1c39c.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/f6d9e459b9fbf6dd26c4f7d621adec1d.png
+  status: verified
+  store: humble:hyper-light-drifter
 
 - name: Hyper Light Drifter
   platform: epic-store
@@ -4550,23 +4730,6 @@
   notes:
     - Requires mouse & keyboard for one time Microsoft account login
 
-- name: Hot Wheels Unleashed
-  platform: steam
-  id: 1271700
-  store: humble:hot-wheels-unleashed
-  status: verified
-
-- name: Horizon Zero Dawn Complete Edition
-  platform: steam
-  id: 1151640
-  store: humble:horizon-zero-dawn-complete-edition
-  status: verified
-
-- name: Hades
-  platform: steam
-  id: 1145360
-  status: verified
-
 - name: The Surge 2
   platform: steam
   id: 644830
@@ -4650,11 +4813,6 @@
   status: verified
   store: humble:neon-abyss
 
-- name: Heaven's Vault
-  platform: steam
-  id: 774201
-  status: verified
-
 - name: Psychonauts 2
   platform: steam
   id: 607080
@@ -4718,12 +4876,6 @@
   id: 690640
   status: verified
   store: humble:trine-4-the-nightmare-prince
-
-- name: Hotshot Racing
-  platform: steam
-  id: 609920
-  status: verified
-  store: humble:hotshot-racing
 
 - name: Outward
   platform: steam
@@ -4868,12 +5020,6 @@
   status: verified
   store: humble:void-bastards
 
-- name: Hello Neighbor
-  platform: steam
-  id: 521890
-  status: verified
-  store: humble:hello-neighbor
-
 - name: Sonic CD
   platform: steam
   id: 200940
@@ -4923,18 +5069,6 @@
   status: verified
   store: humble:jurassic-world-evolution
 
-- name: "Hellblade: Senua's Sacrifice"
-  platform: steam
-  id: 414340
-  status: verified
-  store: humble:hellblade-senuas-sacrifice
-
-- name: Heave Ho
-  platform: steam
-  id: 905340
-  status: verified
-  store: humble:heave-ho
-
 - name: The Messenger
   platform: steam
   id: 764790
@@ -4948,12 +5082,6 @@
   status: verified
   store: humble:the-swords-of-ditto-mormos-curse
   compat_tool: proton-stable
-
-- name: Horace
-  platform: steam
-  id: 629090
-  status: verified
-  store: humble:horace
 
 - name: Manual Samuel - Anniversary Edition
   platform: steam
@@ -4979,12 +5107,6 @@
   id: 357190
   status: verified
   store: humble:ultimate-marvel-vs-capcom-3
-
-- name: HITMAN 2
-  platform: steam
-  id: 863550
-  status: verified
-  store: humble:hitman-2
 
 - name: Katana ZERO
   platform: steam
@@ -5097,13 +5219,6 @@
   id: 241930
   status: verified
 
-# native version doesn't start 
-- name: HITMAN
-  platform: steam
-  id: 236870
-  compat_tool: proton-stable
-  status: verified
-
 - name: 'The Witcher 3: Wild Hunt'
   platform: steam
   id: 292030
@@ -5119,12 +5234,6 @@
   id: 750920
   status: verified
   store: humble:shadow-of-the-tomb-raider-definitive-edition
-
-- name: Horizon Chase Turbo
-  platform: steam
-  id: 389140
-  status: verified
-  store: humble:horizon-chase-turbo
 
 - name: Regular Human Basketball
   platform: steam
@@ -5348,14 +5457,6 @@
   status: verified
   store: humble:speedrunners
 
-- name: Hyper Light Drifter
-  platform: steam
-  id: 257850
-  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/ca9c267dad0305d1a6308d2a0cf1c39c.png
-  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/f6d9e459b9fbf6dd26c4f7d621adec1d.png
-  status: verified
-  store: humble:hyper-light-drifter
-
 - name: OlliOlli
   platform: steam
   id: 274250
@@ -5469,12 +5570,6 @@
   status: verified
   store: humble:towerfall-ascension
 
-- name: Hollow Knight
-  platform: steam
-  id: 367520
-  status: verified
-  store: humble:hollow-knight
-
 - name: 'Shovel Knight: Treasure Trove'
   platform: steam
   id: 250760
@@ -5500,18 +5595,6 @@
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/19e733acd3ee9f9362a484e5915c132b.png
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/013d407166ec4fa56eb1e1f8cbe183b9.png
   status: verified
-
-- id: 960910
-  platform: steam
-  name: Heavy Rain
-  compat_tool: proton-stable
-  launch_options: WINEDLLOVERRIDES="xaudio2_7=native,builtin" %command%
-
-- id: 1048290
-  platform: steam
-  name: Heavy Rain Demo
-  compat_tool: proton-stable
-  launch_options: WINEDLLOVERRIDES="xaudio2_7=native,builtin" %command%
 
 # native version doesn't work with DLC
 - id: 242110
@@ -5817,12 +5900,6 @@
   id: 1599660
   launch_options: SteamDeck=0 %command%
 
- # Disable -steamdeck to fix the game failing to launch in game mode
-- name: HITMAN 3
-  platform: steam
-  id: 1659040
-  launch_options: SteamDeck=0 %command%
-  
 # proton stable doesn't play cut scenes 
 - id: 1069690
   platform: steam
@@ -5891,12 +5968,6 @@
   compat_tool: proton-stable
   status: verified
 
-- name: 'Hue'
-  platform: epic-store
-  id: Herring
-  banner: steam:383270
-  status: unsupported
-
 - name: 'A Total War Saga: TROY'
   platform: epic-store
   id: 11e598b192324994abce05bad4f81b50
@@ -5938,12 +6009,6 @@
   notes:
     - Gameplay supports controller
     - Painting spaceship requires mouse 
-
-- name: "Haven Park"
-  platform: gog
-  id: 1906330252
-  banner: steam:1549550
-  status: verified
 
 - name: "Immortal Redneck"
   platform: gog
@@ -6088,22 +6153,6 @@
   notes:
     - No controller support
 
-- name: "Helium Rain"
-  platform: gog
-  id: 1807214820
-  banner: steam:681330
-  status: playable
-  notes:
-    - Tutorial shows keyboard icons
-
-- name: "Hero of the Kingdom II"
-  platform: gog
-  id: 1666688320
-  banner: steam:346560
-  status: playable
-  notes:
-    - No controller support
-
 - name: "Ozymandias: Bronze Age Empire Sim"
   platform: gog
   id: 1166262945
@@ -6243,12 +6292,6 @@
   platform: gog
   id: 1581756945
   banner: https://cdn2.steamgriddb.com/grid/3a19f212ae83929a1209377c627c3912.png
-  status: unsupported
-
-- name: "Hellpoint"
-  platform: gog
-  id: 1503950763
-  banner: steam:628670
   status: unsupported
 
 - name: "I Have No Mouth And I Must Scream"
@@ -6480,13 +6523,6 @@
   compat_tool: proton-stable
   status: verified
 
-- name: 'Hitman'
-  platform: epic-store
-  id: Barbet
-  banner: steam:236870
-  compat_tool: proton-stable
-  status: verified
-
 - name: 'Jurassic World Evolution'
   platform: epic-store
   id: 373a4372c20540aca7fdd880d27fa49a
@@ -6577,24 +6613,6 @@
     - First time start requires installation of MS VisualC++ Runtime with mouse
     - Game has full controller support
 
-- name: 'Halcyon 6'
-  platform: epic-store
-  id: b9e848fc5e844f4285b0624789476664
-  banner: steam:371200
-  compat_tool: proton-stable
-  status: playable
-  notes:
-    - No controller support
-
-- name: 'Homeworld: Deserts of Kharak'
-  platform: epic-store
-  id: c9b51edbca4d496cb39c6871f510620b
-  banner: steam:281610
-  compat_tool: proton-stable
-  status: playable
-  notes:
-    - No controller support
-
 - name: 'Idle Champions of the Forgotten Realms'
   platform: epic-store
   id: 40cb42e38c0b4a14a1bb133eb3291572
@@ -6643,12 +6661,6 @@
   banner: steam:1522080
   status: unsupported
 
-- name: "Human Resource Machine"
-  platform: epic-store
-  id: Basil
-  banner: steam:375820
-  status: unsupported
-
 - name: "Q.U.B.E. 2"
   platform: epic-store
   id: Auk
@@ -6664,18 +6676,6 @@
   status: unsupported
   notes:
     - Requires VC++ to be installed
-
-- name: "Hell is Others"
-  platform: epic-store
-  id: 0e70be0cea0446599acb4c26d2e925f9
-  banner: steam:964440
-  status: unsupported
-
-- name: 'Homeworld Remastered Collection'
-  platform: epic-store
-  id: dcfccf8d965a4f2281dddf9fead042de
-  banner: steam:244160
-  status: unsupported
 
 - name: "Midnight Ghost Hunt"
   platform: epic-store
