@@ -3067,17 +3067,50 @@
   id: 346510
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/8dcea1fb6917586536de111775961688.png
 
+- name: Iconoclasts
+  platform: steam
+  id: 393520
+  status: verified
+  store: humble:iconoclasts
+
+- name: 'Idle Champions of the Forgotten Realms'
+  platform: epic-store
+  id: 40cb42e38c0b4a14a1bb133eb3291572
+  banner: steam:627690
+  compat_tool: proton-stable
+  status: playable
+  notes:
+    - No controller support
+
+- name: "I Have No Mouth And I Must Scream"
+  platform: gog
+  id: 1207659593
+  banner: steam:245390
+  status: unsupported
+
 - name: Ikaruga
   platform: steam
   id: 253750
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/a08d4caad8819a0e906dd03ce11143c9.jpg
   status: verified
 
-- name: In Sound Mind
-  platform: epic-store
-  id: 29ee5d32f328471590b3bd3ac03ed7d0
-  banner: steam:1119980
-  status: unsupported
+- name: Ikenfell
+  platform: steam
+  id: 854940
+  status: verified
+  store: humble:ikenfell
+
+- name: "Immortal Redneck"
+  platform: gog
+  id: 2089001920
+  banner: steam:595140
+  status: verified
+
+- name: Indivisible
+  platform: steam
+  id: 421170
+  status: verified
+  store: humble:indivisible
 
 - name: Inescapable
   platform: steam
@@ -3097,12 +3130,24 @@
   banner: steam:304430
   status: verified
 
+- name: In Sound Mind
+  platform: epic-store
+  id: 29ee5d32f328471590b3bd3ac03ed7d0
+  banner: steam:1119980
+  status: unsupported
+
 - name: 'Intelligent Design: An Evolutionary Sandbox'
   platform: steam
   id: 627620
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/1bedd8e0dad21b385b0e6faa09042843.png
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/81b44841fd564c347f7f21ae19b97659.png
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/7dc8b441cf4e6fe9bc806679c4579e68.png
+
+- name: Into the Breach
+  platform: steam
+  id: 590380
+  status: verified
+  store: humble:into-the-breach
 
 - name: Into the Breach
   platform: epic-store
@@ -3114,6 +3159,38 @@
   platform: steam
   id: 214970
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/c71f89e8c8afa316ebade3f07fa04899.png
+
+- name: Invisigun Reloaded
+  platform: steam
+  id: 375750
+  status: verified
+  store: humble:invisigun-reloaded
+
+- name: "Iratus: Lord of the Dead"
+  platform: gog
+  id: 1447412730
+  banner: steam:807120
+  status: playable
+  notes:
+    - No controller support
+
+- name: "Iris and the Giant"
+  platform: gog
+  id: 1297646450
+  banner: steam:1127610
+  status: playable
+  notes:
+    - Launcher needs mouse to set graphics
+    - Game is fully controller enabled
+
+- name: 'Ironcast'
+  platform: epic-store
+  id: ac8f20a7931e4d63a1db4dc1267ec3d1
+  banner: steam:327670
+  compat_tool: proton-stable
+  status: playable
+  notes:
+    - No controller support
 
 - name: Jack Lumber
   platform: steam
@@ -4776,12 +4853,6 @@
   id: 760810
   status: verified
 
-- name: Ikenfell
-  platform: steam
-  id: 854940
-  status: verified
-  store: humble:ikenfell
-
 - name: Sunblaze
   platform: steam
   id: 1525660
@@ -4949,12 +5020,6 @@
   status: verified
   store: humble:overcooked-2
 
-- name: Indivisible
-  platform: steam
-  id: 421170
-  status: verified
-  store: humble:indivisible
-
 - name: Yakuza Kiwami 2
   platform: steam
   id: 927380
@@ -5036,12 +5101,6 @@
   platform: steam
   id: 638230
   status: verified
-
-- name: Into the Breach
-  platform: steam
-  id: 590380
-  status: verified
-  store: humble:into-the-breach
 
 - name: Lethal League Blaze
   platform: steam
@@ -5207,12 +5266,6 @@
   id: 200510
   status: verified
   store: humble:xcom-enemy-unknown
-
-- name: Invisigun Reloaded
-  platform: steam
-  id: 375750
-  status: verified
-  store: humble:invisigun-reloaded
 
 - name: 'Middle-earth: Shadow of Mordor'
   platform: steam
@@ -5554,12 +5607,6 @@
   id: 341800
   status: verified
   store: humble:keep-talking-and-nobody-explodes
-
-- name: Iconoclasts
-  platform: steam
-  id: 393520
-  status: verified
-  store: humble:iconoclasts
 
 - name: TowerFall Ascension
   platform: steam
@@ -6010,12 +6057,6 @@
     - Gameplay supports controller
     - Painting spaceship requires mouse 
 
-- name: "Immortal Redneck"
-  platform: gog
-  id: 2089001920
-  banner: steam:595140
-  status: verified
-
 - name: "Liberated"
   platform: gog
   id: 1780442795
@@ -6132,23 +6173,6 @@
   platform: gog
   id: 1207658855
   banner: steam:1146370
-  status: playable
-  notes:
-    - No controller support
-
-- name: "Iris and the Giant"
-  platform: gog
-  id: 1297646450
-  banner: steam:1127610
-  status: playable
-  notes:
-    - Launcher needs mouse to set graphics
-    - Game is fully controller enabled
-
-- name: "Iratus: Lord of the Dead"
-  platform: gog
-  id: 1447412730
-  banner: steam:807120
   status: playable
   notes:
     - No controller support
@@ -6292,12 +6316,6 @@
   platform: gog
   id: 1581756945
   banner: https://cdn2.steamgriddb.com/grid/3a19f212ae83929a1209377c627c3912.png
-  status: unsupported
-
-- name: "I Have No Mouth And I Must Scream"
-  platform: gog
-  id: 1207659593
-  banner: steam:245390
   status: unsupported
 
 - name: "Janosik - Highlander Precision Platformer"
@@ -6612,24 +6630,6 @@
   notes:
     - First time start requires installation of MS VisualC++ Runtime with mouse
     - Game has full controller support
-
-- name: 'Idle Champions of the Forgotten Realms'
-  platform: epic-store
-  id: 40cb42e38c0b4a14a1bb133eb3291572
-  banner: steam:627690
-  compat_tool: proton-stable
-  status: playable
-  notes:
-    - No controller support
-
-- name: 'Ironcast'
-  platform: epic-store
-  id: ac8f20a7931e4d63a1db4dc1267ec3d1
-  banner: steam:327670
-  compat_tool: proton-stable
-  status: playable
-  notes:
-    - No controller support
 
 - name: "LEGO® Builder's Journey"
   platform: epic-store
