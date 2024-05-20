@@ -2126,11 +2126,48 @@
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/a760880003e7ddedfef56acb3b09697f.png
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/fd4f21f2556dad0ea8b7a5c04eabebda.png
 
+- name: F1 2015
+  platform: steam
+  id: 286570
+  status: verified
+
+- name: F1 2017
+  platform: steam
+  id: 515220
+  status: verified
+
+- name: F1 2018
+  platform: steam
+  id: 737800
+  status: verified
+
+- name: F1 2019
+  platform: steam
+  id: 928600
+  status: verified
+  compat_tool: proton-stable
+
+- name: F1 2020
+  platform: steam
+  id: 1080110
+  status: verified
+  compat_tool: proton-stable
+
+- name: F1 2021
+  platform: steam
+  id: 1134570
+  status: verified
+
 - name: F1 22
   platform: steam
   id: 1692250
   status: verified
   compat_tool: proton-experimental
+
+- name: F1 Race Stars
+  platform: steam
+  id: 203680
+  status: verified
 
 - name: Fable III
   platform: steam
@@ -2147,6 +2184,11 @@
   notes:
     - No controller support
 
+- name: 'Fahrenheit: Indigo Prophecy Remastered'
+  platform: steam
+  id: 312840
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/9bf347db69956789724519857d126a22.png
+
 - name: The Fall
   platform: epic-store
   id: daac7fe46e3647cb80530411d7ec1dc5
@@ -2162,10 +2204,68 @@
   notes:
     - Requires keyboard for inviting or joining friends
 
-- name: 'Fahrenheit: Indigo Prophecy Remastered'
+- name: "Fallout"
+  platform: gog
+  id: 1440148836
+  banner: steam:38400
+  status: playable
+  notes:
+    - No controller support
+
+- name: "Fallout 2"
+  platform: gog
+  id: 1440151285
+  banner: steam:38410
+  status: playable
+  notes:
+    - No controller support
+
+- name: 'Fallout 3: Game of the Year Edition'
+  platform: epic-store
+  id: adeae8bbfc94427db57c7dfecce3f1d4
+  banner: steam:22370
+  compat_tool: proton-stable
+  status: unsupported
+  notes:
+    - Can only be installed via command line as installer asks for language packs
+
+- name: 'Fallout 4'
   platform: steam
-  id: 312840
-  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/9bf347db69956789724519857d126a22.png
+  id: 377160
+  launch_options: SteamDeck=0 %command%
+
+- name: 'Fallout: A Post Nuclear Role Playing Game'
+  platform: steam
+  id: 38400
+  compat_tool: boxtron
+
+- name: 'Fallout: New Vegas'
+  platform: epic-store
+  id: 5daeb974a22a435988892319b3a4f476
+  banner: steam:22380
+  compat_tool: proton-stable
+  status: unsupported
+    - Can only be installed via command line as installer asks for language packs
+
+- name: "Fallout: New Vegas Ultimate Edition"
+  platform: gog
+  id: 1454587428
+  banner: https://cdn2.steamgriddb.com/grid/a4ddd71b7554df7008305374b8c5d546.jpg
+  status: unsupported
+
+- name: "Fallout Tactics"
+  platform: gog
+  id: 1440152063
+  banner: steam:38420
+  status: playable
+  notes:
+    - No controller support
+    - Cut Scenes are stuttering
+
+- name: Fantasy Strike
+  platform: steam
+  id: 390560
+  status: verified
 
 - name: Farming Simulator 19
   platform: epic-store
@@ -2186,6 +2286,18 @@
   notes:
     - No controller support
 
+- name: Felix the Reaper
+  platform: steam
+  id: 919410
+  status: verified
+  store: humble:felix-the-reaper
+
+- name: "Fell Seal: Arbiter's Mark"
+  platform: steam
+  id: 699170
+  status: verified
+  store: humble:fell-seal-arbiters-mark
+
 - name: 'F.E.X (Forced Evolution Experiment)'
   platform: steam
   id: 655700
@@ -2198,6 +2310,12 @@
   id: Bluebird
   banner: steam:224760
   status: verified
+
+- name: FEZ
+  platform: steam
+  id: 224760
+  status: verified
+  store: humble:fez
 
 - name: Fight The Dragon
   platform: steam
@@ -2212,6 +2330,13 @@
   status: playable
   notes:
     - Uses a launcher
+
+- name: 'Filament'
+  platform: epic-store
+  id: 14a38161ad3c45adab18425415b5df3d
+  banner: steam:1137350
+  compat_tool: proton-stable
+  status: verified
 
 - name: 'Filthy, Stinking, Orcs!'
   platform: steam
@@ -2247,10 +2372,26 @@
   banner: steam:555150
   status: verified
 
+- name: 'F.I.S.T.: Forged In Shadow Torch'
+  platform: epic-store
+  id: bf4808b3395b43fb80afbe6773e1661f
+  banner: steam:1330470
+  compat_tool: proton-stable
+  status: playable
+  notes:
+    - On first launch installation of VC++ requires mouse
+    - Game has full controlller support
+
 - name: Fist Puncher
   platform: steam
   id: 238630
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/be89ed054d7e403ce222eca45bca7045.jpg
+
+- name: "Flashback"
+  platform: gog
+  id: 1486529526
+  banner: steam:961620
+  status: unsupported
 
 - name: 'FlatOut: Ultimate Carnage'
   platform: steam
@@ -2267,10 +2408,58 @@
   notes:
     - Requires a mouse or touchscreen
 
+- name: Flower
+  platform: steam
+  id: 966330
+  compat_tool: proton-stable
+  compat_config: noesync,nofsync
+
 - name: Fluffy Horde
   platform: steam
   id: 777880
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/9a2fbb470f3b9303a40a4ec112ce833e.jpg
+
+- name: 'Football Manager 2020'
+  platform: epic-store
+  id: bf35243e8c3542e082bc7042e0592183
+  banner: steam:1100600
+  compat_tool: proton-stable
+  status: playable
+  notes:
+    - No controller support
+
+- name: 'Football Manager 2022'
+  platform: epic-store
+  id: 29c30b4114b247678453c84ae156715d
+  banner: steam:1569040
+  compat_tool: proton-stable
+  status: playable
+  notes:
+    - No controller support
+
+- name: 'Football Manager 2023'
+  platform: epic-store
+  id: f73c70ec448f4e309baacf6ffffa5760
+  banner: steam:1904540
+  compat_tool: proton-stable
+  status: playable
+  notes:
+    - No controller support
+
+# native version crashes
+- name: Forager
+  platform: steam
+  id: 751780
+  status: verified
+  store: humble:forager
+  compat_tool: proton-stable
+
+- name: 'For The King'
+  platform: epic-store
+  id: Discus
+  banner: steam:527230
+  compat_tool: proton-stable
+  status: verified
 
 - name: Fortix 2
   platform: steam
@@ -2282,6 +2471,45 @@
   id: Fortnite
   banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/f5aeecbffe87c62489add19712de0d7e.png
   status: unsupported
+
+- name: Fort Triumph
+  platform: steam
+  id: 612570
+  steam_input: enabled
+  status: verified
+
+- name: 'Fort Triumph'
+  platform: epic-store
+  id: 320ba4df8b36412d983ffcffd3e0e8f0
+  banner: steam:612570
+  status: unsupported
+
+- name: Freedom Planet
+  platform: steam
+  id: 248310
+  status: playable
+  store: humble:freedom-planet
+  notes:
+    - Displays incorrect controller icons
+  patch_dir: Freedom Planet
+  patches:
+    - copy:
+        src: Freedom Planet/control_gamepad.cfg
+        dst: control_gamepad.cfg
+
+- name: Freedom Planet 2
+  platform: steam
+  id: 595500
+  status: verified
+
+- name: 'Frostpunk'
+  platform: epic-store
+  id: b2e00fc16632475782a7730d1bd7cb60
+  banner: steam:323190
+  compat_tool: proton-stable
+  status: playable
+  notes:
+    - No controller support
 
 - name: Frozen Synapse
   platform: steam
@@ -4175,19 +4403,9 @@
   id: 1554840
   status: verified
 
-- name: F1 Race Stars
-  platform: steam
-  id: 203680
-  status: verified
-
 - name: GRID 2
   platform: steam
   id: 44350
-  status: verified
-
-- name: F1 2021
-  platform: steam
-  id: 1134570
   status: verified
 
 # native version no longer supported and does not work online
@@ -4294,12 +4512,6 @@
   status: playable
   notes:
     - Requires keyboard for custom character name
-
-- name: F1 2020
-  platform: steam
-  id: 1080110
-  status: verified
-  compat_tool: proton-stable
 
 - name: Skatemasta Tcheco
   platform: steam
@@ -4476,14 +4688,6 @@
   compat_tool: proton-stable
   launch_options: eval $(echo "%command%" | sed "s/StrangeBrigade.exe/StrangeBrigade_Vulkan.exe/")
 
-# native version crashes
-- name: Forager
-  platform: steam
-  id: 751780
-  status: verified
-  store: humble:forager
-  compat_tool: proton-stable
-
 - name: Yooka-Laylee and the Impossible Lair
   platform: steam
   id: 846870
@@ -4518,11 +4722,6 @@
   status: verified
   store: humble:void-bastards
 
-- name: F1 2018
-  platform: steam
-  id: 737800
-  status: verified
-
 - name: Hello Neighbor
   platform: steam
   id: 521890
@@ -4540,11 +4739,6 @@
     - copy:
         src: Sonic CD/installscript.vdf
         dst: installscript.vdf
-
-- name: Fantasy Strike
-  platform: steam
-  id: 390560
-  status: verified
 
 - name: Journey
   platform: steam
@@ -4594,12 +4788,6 @@
   id: 905340
   status: verified
   store: humble:heave-ho
-
-- name: Felix the Reaper
-  platform: steam
-  id: 919410
-  status: verified
-  store: humble:felix-the-reaper
 
 - name: The Messenger
   platform: steam
@@ -4672,18 +4860,6 @@
   status: verified
   compat_tool: proton-stable
 
-- name: F1 2019
-  platform: steam
-  id: 928600
-  status: verified
-  compat_tool: proton-stable
-
-- name: "Fell Seal: Arbiter's Mark"
-  platform: steam
-  id: 699170
-  status: verified
-  store: humble:fell-seal-arbiters-mark
-
 - name: My Friend Pedro
   platform: steam
   id: 557340
@@ -4695,11 +4871,6 @@
   id: 587620
   status: verified
   store: humble:okami-hd
-
-- name: F1 2015
-  platform: steam
-  id: 286570
-  status: verified
 
 - name: 'Middle-earth: Shadow of War'
   platform: steam
@@ -4790,11 +4961,6 @@
 - name: 'Middle-earth: Shadow of Mordor'
   platform: steam
   id: 241930
-  status: verified
-
-- name: F1 2017
-  platform: steam
-  id: 515220
   status: verified
 
 # native version doesn't start 
@@ -5172,12 +5338,6 @@
   status: verified
   store: humble:iconoclasts
 
-- name: FEZ
-  platform: steam
-  id: 224760
-  status: verified
-  store: humble:fez
-
 - name: TowerFall Ascension
   platform: steam
   id: 251470
@@ -5230,46 +5390,6 @@
   patches:
     - exec: echo "2960d17d77d44b259674e0b099b9e5a6 installscript.vdf" | md5sum --status -c && sed -i '62i \\t\t\t"Command 1"\t\t"/S"^M' installscript.vdf
     - exec: echo "5c42dc1c0cfb483cee86df0779332168 system/hardware_settings_restrictions.xml" | md5sum --status -c && sed -i 150d system/hardware_settings_restrictions.xml
-
-- id: 38400
-  platform: steam
-  name: 'Fallout: A Post Nuclear Role Playing Game'
-  compat_tool: boxtron
-
-- id: 377160
-  platform: steam
-  name: 'Fallout 4'
-  launch_options: SteamDeck=0 %command%
-
-- id: 966330
-  platform: steam
-  name: Flower
-  compat_tool: proton-stable
-  compat_config: noesync,nofsync
-
-- id: 612570
-  platform: steam
-  name: Fort Triumph
-  steam_input: enabled
-  status: verified
-
-- id: 248310
-  platform: steam
-  name: Freedom Planet
-  status: playable
-  store: humble:freedom-planet
-  notes:
-    - Displays incorrect controller icons
-  patch_dir: Freedom Planet
-  patches:
-    - copy:
-        src: Freedom Planet/control_gamepad.cfg
-        dst: control_gamepad.cfg
-
-- id: 595500
-  platform: steam
-  name: Freedom Planet 2
-  status: verified
 
 - id: 960910
   platform: steam
@@ -5685,20 +5805,6 @@
   notes:
     - No controller support
 
-- name: 'Filament'
-  platform: epic-store
-  id: 14a38161ad3c45adab18425415b5df3d
-  banner: steam:1137350
-  compat_tool: proton-stable
-  status: verified
-
-- name: 'For The King'
-  platform: epic-store
-  id: Discus
-  banner: steam:527230
-  compat_tool: proton-stable
-  status: verified
-
 - name: 'Gamedec - Definitive Edition'
   platform: epic-store
   id: a01150ee6deb406c92dd2b2445186163
@@ -5748,43 +5854,6 @@
   status: verified
   launch_options: '+com_skipIntroVideo 1'
 
-- name: 'F.I.S.T.: Forged In Shadow Torch'
-  platform: epic-store
-  id: bf4808b3395b43fb80afbe6773e1661f
-  banner: steam:1330470
-  compat_tool: proton-stable
-  status: playable
-  notes:
-    - On first launch installation of VC++ requires mouse
-    - Game has full controlller support
-
-- name: 'Football Manager 2020'
-  platform: epic-store
-  id: bf35243e8c3542e082bc7042e0592183
-  banner: steam:1100600
-  compat_tool: proton-stable
-  status: playable
-  notes:
-    - No controller support
-
-- name: 'Football Manager 2022'
-  platform: epic-store
-  id: 29c30b4114b247678453c84ae156715d
-  banner: steam:1569040
-  compat_tool: proton-stable
-  status: playable
-  notes:
-    - No controller support
-
-- name: 'Frostpunk'
-  platform: epic-store
-  id: b2e00fc16632475782a7730d1bd7cb60
-  banner: steam:323190
-  compat_tool: proton-stable
-  status: playable
-  notes:
-    - No controller support
-
 - name: 'Godfall'
   platform: epic-store
   id: Carp
@@ -5797,29 +5866,6 @@
     - On first launch installation of VC++ requires mouse
     - Game has full controlller support
   
-- name: 'Fallout 3: Game of the Year Edition'
-  platform: epic-store
-  id: adeae8bbfc94427db57c7dfecce3f1d4
-  banner: steam:22370
-  compat_tool: proton-stable
-  status: unsupported
-  notes:
-    - Can only be installed via command line as installer asks for language packs
-
-- name: 'Fallout: New Vegas'
-  platform: epic-store
-  id: 5daeb974a22a435988892319b3a4f476
-  banner: steam:22380
-  compat_tool: proton-stable
-  status: unsupported
-    - Can only be installed via command line as installer asks for language packs
-
-- name: 'Fort Triumph'
-  platform: epic-store
-  id: 320ba4df8b36412d983ffcffd3e0e8f0
-  banner: steam:612570
-  status: unsupported
-
 - name: 'Galactic Civilizations III'
   platform: epic-store
   id: 5f1c66366b2c4a6496d535d88c56e6cf
@@ -6055,31 +6101,6 @@
   notes:
     - Limited controller support
 
-- name: "Fallout"
-  platform: gog
-  id: 1440148836
-  banner: steam:38400
-  status: playable
-  notes:
-    - No controller support
-
-- name: "Fallout 2"
-  platform: gog
-  id: 1440151285
-  banner: steam:38410
-  status: playable
-  notes:
-    - No controller support
-
-- name: "Fallout Tactics"
-  platform: gog
-  id: 1440152063
-  banner: steam:38420
-  status: playable
-  notes:
-    - No controller support
-    - Cut Scenes are stuttering
-
 - name: "Legend of Keepers: Career of a Dungeon Manager"
   platform: gog
   id: 1208434383
@@ -6187,12 +6208,6 @@
   platform: gog
   id: 1581756945
   banner: https://cdn2.steamgriddb.com/grid/3a19f212ae83929a1209377c627c3912.png
-  status: unsupported
-
-- name: "Fallout: New Vegas Ultimate Edition"
-  platform: gog
-  id: 1454587428
-  banner: https://cdn2.steamgriddb.com/grid/a4ddd71b7554df7008305374b8c5d546.jpg
   status: unsupported
 
 - name: "Ghost Master"
@@ -6379,12 +6394,6 @@
   id: 1207658920
   status: unsupported
 
-- name: "Flashback™"
-  platform: gog
-  id: 1486529526
-  banner: steam:961620
-  status: unsupported
-
 - name: "King's Bounty: The Legend"
   platform: gog
   id: 1207658867
@@ -6566,15 +6575,6 @@
   platform: epic-store
   id: b9e848fc5e844f4285b0624789476664
   banner: steam:371200
-  compat_tool: proton-stable
-  status: playable
-  notes:
-    - No controller support
-
-- name: 'Football Manager 2023'
-  platform: epic-store
-  id: f73c70ec448f4e309baacf6ffffa5760
-  banner: steam:1904540
   compat_tool: proton-stable
   status: playable
   notes:
