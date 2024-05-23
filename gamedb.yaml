@@ -3334,6 +3334,30 @@
   compat_tool: proton-stable
   status: verified
 
+- name: Kalimba
+  platform: steam
+  id: 324140
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/ef95b846b1e8469e32e7831643ca00ef.jpg
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/fa99ccdbea597263a88f27075bd6eb49.png
+
+- name: 'Kao the Kangaroo'
+  platform: epic-store
+  id: 7763cb8916654651a50593a813ae7c38
+  banner: steam:1370140
+  status: unsupported
+
+- name: Katamari Damacy REROLL
+  platform: steam
+  id: 848350
+  status: verified
+  store: humble:katamari-damacy-reroll
+
+- name: Katana ZERO
+  platform: steam
+  id: 460950
+  status: verified
+  store: humble:katana-zero
+
 - name: Katawa Shoujo
   platform: flathub
   id: com.katawa_shoujo.KatawaShoujo
@@ -3345,11 +3369,51 @@
   id: 356200
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/e010d1faf316a4dbfe8639481a2a3f90.png
 
+- name: Keep Talking and Nobody Explodes
+  platform: steam
+  id: 341800
+  status: verified
+  store: humble:keep-talking-and-nobody-explodes
+
 - name: Ken Follett's The Pillars of the Earth
   platform: epic-store
   id: 819985835fd54090845e3083e28b77bb
   banner: steam:234270
   status: verified
+
+- name: Keyboard Killers
+  platform: steam
+  id: 699240
+  compat_tool: GE-Proton7-55
+
+- name: "KID A MNESIA EXHIBITION"
+  platform: epic-store
+  id: 33411619626243f1859d0b7fb5cc5405
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/f2c438081613f3237aef8b10c52701f4.png
+  banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/4fff1d74e3ad786a9de531f13193345c.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/16266c6156a9fda5bbd9ea9a566042bd.jpg
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/db31b813b676603e5e69fcb94de42686.png
+  icon: https://cdn2.steamgriddb.com/file/sgdb-cdn/icon/1747d1fa8599d2bd102ce1e8b8ee2399.ico
+  compat_tool: proton-stable
+  status: playable
+  notes:
+    - First time start requires installation of MS VisualC++ Runtime with mouse
+    - Game has full controller support
+
+- name: Killer Instinct
+  platform: steam
+  id: 577940
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/6aed000af86a084f9cb0264161e29dd3.jpg
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/bd6a06f41bae67be959e5b44addc880f.png
+
+# Patch according to https://www.pcgamingwiki.com/wiki/Killer_Is_Dead#Issues_fixed
+- name: Killer is Dead - Nightmare Edition
+  platform: steam
+  id: 261110
+  compat_tool: proton-stable
+  patch_dir: KillerIsDead
+  patches:
+    - exec: mv KidGame/Config/KidEngine.ini KidGame/Config/KidEngine.ini.bak && sed '/\[XAudio2.XAudio2Device\]/{n;N;N;N;N;N;d}' KidGame/Config/KidEngine.ini.bak | sed '/\[XAudio2.XAudio2Device\]/'a'MaxChannels=64\nCommonAudioPoolSize=320\nMinCompressedDurationGame=0.3\nMinCompressedDurationEditor=500\nLowPassFilterResonance=0.9\nWorkAroundXDKRegression=FALSE' > KidGame/Config/KidEngine.ini
 
 - name: Killing Floor 2
   platform: epic-store
@@ -3360,13 +3424,6 @@
   notes:
     - EPIC login and linking account requires keyboard and mouse
     - Games has full controller support
-
-
-- name: THE KING OF FIGHTERS 2002
-  platform: gog
-  id: 2114035213
-  banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/be4d7403582645fe41d3921ac8ce530d.png
-  status: verified
 
 - name: 'Kingdom: New Lands'
   platform: epic-store
@@ -3381,10 +3438,34 @@
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/271b03e712a11c8c4c4b4b9153c2e29a.png
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/0d012a47399f189a1fd2a147eb59130a.png
 
+- name: THE KING OF FIGHTERS 2002
+  platform: gog
+  id: 2114035213
+  banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/be4d7403582645fe41d3921ac8ce530d.png
+  status: verified
+
+- name: The King's Bird
+  platform: steam
+  id: 812550
+  status: verified
+  store: humble:the-kings-bird
+
+- name: "King's Bounty: The Legend"
+  platform: gog
+  id: 1207658867
+  banner: steam:25900
+  status: unsupported
+
 - name: Kings of Kung Fu
   platform: steam
   id: 316930
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/1b4383c1d170ec4880c75de4b5299085.png
+
+- name: 'Knockout City'
+  platform: epic-store
+  id: 90f9ff166b404502a939ae217ff5109e
+  banner: steam:1301210
+  status: unsupported
 
 - name: Kodi
   platform: flathub
@@ -5032,12 +5113,6 @@
   status: verified
   store: humble:project-cars-3
 
-- name: Katamari Damacy REROLL
-  platform: steam
-  id: 848350
-  status: verified
-  store: humble:katamari-damacy-reroll
-
 - name: Little Nightmares
   platform: steam
   id: 424840
@@ -5226,12 +5301,6 @@
   store: humble:remnants-of-naezith
   compat_tool: proton-stable
 
-- name: The King's Bird
-  platform: steam
-  id: 812550
-  status: verified
-  store: humble:the-kings-bird
-
 - name: The Messenger
   platform: steam
   id: 764790
@@ -5270,12 +5339,6 @@
   id: 357190
   status: verified
   store: humble:ultimate-marvel-vs-capcom-3
-
-- name: Katana ZERO
-  platform: steam
-  id: 460950
-  status: verified
-  store: humble:katana-zero
 
 # native version has poor controller support
 - name: Micro Machines World Series
@@ -5658,12 +5721,6 @@
   status: verified
   store: humble:lethal-league
 
-- name: Keep Talking and Nobody Explodes
-  platform: steam
-  id: 341800
-  status: verified
-  store: humble:keep-talking-and-nobody-explodes
-
 - name: TowerFall Ascension
   platform: steam
   id: 251470
@@ -5698,20 +5755,6 @@
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/19e733acd3ee9f9362a484e5915c132b.png
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/013d407166ec4fa56eb1e1f8cbe183b9.png
   status: verified
-
-- id: 699240
-  platform: steam
-  name: Keyboard Killers
-  compat_tool: GE-Proton7-55
-
-# Patch according to https://www.pcgamingwiki.com/wiki/Killer_Is_Dead#Issues_fixed
-- id: 261110
-  platform: steam
-  name: Killer is Dead - Nightmare Edition
-  compat_tool: proton-stable
-  patch_dir: KillerIsDead
-  patches:
-    - exec: mv KidGame/Config/KidEngine.ini KidGame/Config/KidEngine.ini.bak && sed '/\[XAudio2.XAudio2Device\]/{n;N;N;N;N;N;d}' KidGame/Config/KidEngine.ini.bak | sed '/\[XAudio2.XAudio2Device\]/'a'MaxChannels=64\nCommonAudioPoolSize=320\nMinCompressedDurationGame=0.3\nMinCompressedDurationEditor=500\nLowPassFilterResonance=0.9\nWorkAroundXDKRegression=FALSE' > KidGame/Config/KidEngine.ini
 
 - id: 213330
   platform: steam
@@ -5978,18 +6021,6 @@
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/3acc60912ab5edf5da1810c51c8ccb21.png
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/995e1fda4a2b5f55ef0df50868bf2a8f.png
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/8562ae5e286544710b2e7ebe9858833b.png
-
-- name: Kalimba
-  platform: steam
-  id: 324140
-  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/ef95b846b1e8469e32e7831643ca00ef.jpg
-  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/fa99ccdbea597263a88f27075bd6eb49.png
-
-- name: Killer Instinct
-  platform: steam
-  id: 577940
-  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/6aed000af86a084f9cb0264161e29dd3.jpg
-  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/bd6a06f41bae67be959e5b44addc880f.png
 
  # Disable -steamdeck to fix controller issues for Sackboy
 - name: Sackboy A Big Adventure
@@ -6498,12 +6529,6 @@
   id: 1207658920
   status: unsupported
 
-- name: "King's Bounty: The Legend"
-  platform: gog
-  id: 1207658867
-  banner: steam:25900
-  status: unsupported
-
 - name: "Quake 4"
   platform: gog
   id: 1836059896
@@ -6623,42 +6648,16 @@
   notes:
     - Sound isn't working in intro and ending video
 
-- name: "KID A MNESIA EXHIBITION"
-  platform: epic-store
-  id: 33411619626243f1859d0b7fb5cc5405
-  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/f2c438081613f3237aef8b10c52701f4.png
-  banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/4fff1d74e3ad786a9de531f13193345c.png
-  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/16266c6156a9fda5bbd9ea9a566042bd.jpg
-  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/db31b813b676603e5e69fcb94de42686.png
-  icon: https://cdn2.steamgriddb.com/file/sgdb-cdn/icon/1747d1fa8599d2bd102ce1e8b8ee2399.ico
-  compat_tool: proton-stable
-  status: playable
-  notes:
-    - First time start requires installation of MS VisualC++ Runtime with mouse
-    - Game has full controller support
-
 - name: "LEGO® Builder's Journey"
   platform: epic-store
   id: 806f3b7734764e2498962ce7b55c0dda
   banner: steam:1544360
   status: unsupported
 
-- name: 'Knockout City'
-  platform: epic-store
-  id: 90f9ff166b404502a939ae217ff5109e
-  banner: steam:1301210
-  status: unsupported
-
 - name: 'Lawn Mowing Simulator'
   platform: epic-store
   id: 7a555b9dd80a4992a6ea33fe3f6b13c8
   banner: steam:1480560
-  status: unsupported
-
-- name: 'Kao the Kangaroo'
-  platform: epic-store
-  id: 7763cb8916654651a50593a813ae7c38
-  banner: steam:1370140
   status: unsupported
 
 - name: "Q.U.B.E. 2"
