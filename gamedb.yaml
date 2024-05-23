@@ -3476,6 +3476,12 @@
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/cc535d6609c5a9ed0fec0f30ba78b7fd.png
   status: playable
 
+- name: "Lacuna – A Sci-Fi Noir Adventure"
+  platform: gog
+  id: 1139279216
+  banner: steam:1364100
+  status: verified
+
 - name: Larva Mortus
   platform: steam
   id: 11340
@@ -3513,6 +3519,12 @@
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/6f900a87ef0131f00d829e58b5891ead.jpg
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/bd74971af53184c9911331d4f7bdb4a0.png
 
+- name: 'Lawn Mowing Simulator'
+  platform: epic-store
+  id: 7a555b9dd80a4992a6ea33fe3f6b13c8
+  banner: steam:1480560
+  status: unsupported
+
 - name: Legend of Grimrock
   platform: steam
   id: 207170
@@ -3524,6 +3536,14 @@
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/2488294e5b8aa832810695a56cbeacdf.png
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/57b33ae6c0bf00c454900bea31d88893.png
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/09ba3f0df1447f40e98674ba9d62c747.png
+
+- name: "Legend of Keepers: Career of a Dungeon Manager"
+  platform: gog
+  id: 1208434383
+  banner: steam:978520
+  status: playable
+  notes:
+    - No controller support
 
 - name: Legends of Dawn
   platform: steam
@@ -3539,14 +3559,11 @@
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/0c95054981de037de06e544a52eb3613.jpg
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/ef1890585bae446a0668afed3012daa2.png
 
-- name: 'LEGO Batman: The Videogame'
-  platform: epic-store
-  id: Goldeneye
-  banner: steam:21000
-  status: playable
-  notes:
-    - Displays a Windows dialog during first time setup
-  
+- name: 'LEGO Batman 2: DC Super Heroes'
+  platform: steam
+  id: 213330
+  compat_tool: GE-Proton7-55
+
 - name: 'LEGO Batman 2: DC Super Heroes'
   platform: epic-store
   id: Grackle
@@ -3561,6 +3578,28 @@
   banner: steam:313690
   status: verified
 
+- name: 'LEGO Batman: The Videogame'
+  platform: steam
+  id: 21000
+  store: humble:lego-batman-the-videogame
+  compat_tool: proton-stable
+  steam_input: enabled
+  status: verified
+
+- name: 'LEGO Batman: The Videogame'
+  platform: epic-store
+  id: Goldeneye
+  banner: steam:21000
+  status: playable
+  notes:
+    - Displays a Windows dialog during first time setup
+  
+- name: "LEGO Builder's Journey"
+  platform: epic-store
+  id: 806f3b7734764e2498962ce7b55c0dda
+  banner: steam:1544360
+  status: unsupported
+
 - name: 'LEGO Marvel Super Heroes 2'
   platform: steam
   id: 647830
@@ -3571,6 +3610,27 @@
   id: 267530
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/0401ed6796f1f9b637d18a4ba337e1d6.png
 
+- name: The LEGO NINJAGO Movie Video Game
+  platform: steam
+  id: 640590
+  compat_tool: proton-stable
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/f615f73c15958c1b072e4dafcac7c38b.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/5addc429b39957a9752b0f32f6a4019c.jpg
+  launch_options: WINEDLLOVERRIDES="xaudio2_7=native,builtin" %command%
+
+- name: LEGO Pirates of the Caribbean The Video Game
+  platform: steam
+  id: 311770
+  status: verified
+
+- name: LEGO Star Wars - The Complete Saga
+  platform: steam
+  id: 32440
+  store: humble:lego-star-wars-the-complete-saga
+  compat_tool: proton-stable
+  steam_input: enabled
+  status: verified
+
 - name: 'LEGO Star Wars: The Skywalker Saga'
   platform: steam
   id: 920210
@@ -3578,11 +3638,68 @@
   store: humble:lego-star-wars-the-skywalker-saga
   compat_tool: proton-stable
 
+- name: LEGO The Lord of the Rings
+  platform: steam
+  id: 214510
+  compat_tool: GE-Proton7-55
+
+- name: LEGO Worlds
+  platform: steam
+  id: 332310
+  status: verified
+  store: humble:lego-worlds
+
+- name: Lethal League
+  platform: steam
+  id: 261180
+  status: verified
+  store: humble:lethal-league
+
+- name: Lethal League Blaze
+  platform: steam
+  id: 553310
+  status: verified
+  store: humble:lethal-league-blaze
+
+- name: "Liberated"
+  platform: gog
+  id: 1780442795
+  banner: steam:875310
+  status: verified
+
+- name: Life is Strange
+  platform: steam
+  id: 319630
+  status: verified
+
+- name: Life is Strange 2
+  platform: steam
+  id: 532210
+  status: verified
+
+- name: 'Life is Strange: Before the Storm'
+  platform: steam
+  id: 554620
+  status: verified
+  store: humble:life-is-strange-before-the-storm
+
 - name: 'Lifeless Planet: Premier Edition'
   platform: epic-store
   id: 860a4feefe2a4f48905ae86c61d5db64
   banner: steam:261530
   status: unsupported
+
+# native version doesn't start 
+- name: Lighthouse Keeper
+  platform: steam
+  id: 2023050
+  compat_tool: proton-stable
+  
+- name: LIMBO
+  platform: steam
+  id: 48000
+  status: verified
+  store: humble:limbo
 
 - name: The Lion's Song
   platform: epic-store
@@ -3590,11 +3707,31 @@
   banner: steam:437160
   status: unsupported
 
+- name: Little Nightmares
+  platform: steam
+  id: 424840
+  status: verified
+  store: humble:little-nightmares
+  compat_tool: proton-stable
+  launch_options: -onethread
+
+- name: Little Racers STREET
+  platform: steam
+  id: 262690
+  status: verified
+  compat_tool: steamlinuxruntime
+
 - name: 'Little Witch Academia: Chamber of Time'
   platform: steam
   id: 710470
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/be927bca44610c3531b44df841d5c577.png
   status: verified
+
+- name: The Long Dark
+  platform: steam
+  id: 305620
+  status: verified
+  store: humble:the-long-dark
 
 - name: Loop Hero
   platform: epic-store
@@ -3602,12 +3739,47 @@
   banner: steam:1282730
   status: unsupported
 
+- name: "Loria"
+  platform: gog
+  id: 1604161214
+  banner: steam:946660
+  poster: https://cdn2.steamgriddb.com/grid/ff284cd8b2e96b6ee6d57fefca2f524c.png
+  background: https://cdn2.steamgriddb.com/hero/795bff6be82ff5f6e1cbf5e73af75cf4.jpg
+  logo: https://cdn2.steamgriddb.com/logo/875b7206abfe647f32136353a93f64f4.png
+  status: playable
+  notes:
+    - No controller support
+
+- name: "Lost Ruins"
+  platform: gog
+  id: 1166021990
+  banner: steam:1306630
+  status: verified
+
 - name: LostWinds
   platform: steam
   id: 447780
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/fb5ead1fd337d4ac2581b075b6244ad1.png
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/1ae5168b14a6091d623291902ac36e7c.png
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/fa183ba81b8f82c988245d8d4e701366.png
+
+- name: Lovecraft's Untold Stories
+  platform: steam
+  id: 871420
+  status: verified
+  store: humble:lovecrafts-untold-stories
+
+- name: "Lovecraft's Untold Stories"
+  platform: gog
+  id: 1674669448
+  banner: steam:871420
+  status: verified
+
+- name: Lovers in a Dangerous Spacetime
+  platform: steam
+  id: 252110
+  status: verified
+  store: humble:lovers-in-a-dangerous-spacetime
 
 - name: Lume
   platform: steam
@@ -4915,22 +5087,6 @@
 
 # Steam games
 
-- name: LEGO Star Wars - The Complete Saga
-  platform: steam
-  id: 32440
-  store: humble:lego-star-wars-the-complete-saga
-  compat_tool: proton-stable
-  steam_input: enabled
-  status: verified
-
-- name: 'LEGO Batman: The Videogame'
-  platform: steam
-  id: 21000
-  store: humble:lego-batman-the-videogame
-  compat_tool: proton-stable
-  steam_input: enabled
-  status: verified
-
 - name: Move or Die
   platform: steam
   id: 323850
@@ -5088,12 +5244,6 @@
   compat_tool: proton-stable
   launch_options: -force -dx11
 
-- name: LEGO Worlds
-  platform: steam
-  id: 332310
-  status: verified
-  store: humble:lego-worlds
-
 - name: SOULCALIBUR VI
   platform: steam
   id: 544750
@@ -5112,14 +5262,6 @@
   id: 958400
   status: verified
   store: humble:project-cars-3
-
-- name: Little Nightmares
-  platform: steam
-  id: 424840
-  status: verified
-  store: humble:little-nightmares
-  compat_tool: proton-stable
-  launch_options: -onethread
 
 - name: Primal Light
   platform: steam
@@ -5168,12 +5310,6 @@
   status: verified
   store: humble:moving-out
 
-- name: Lovecraft's Untold Stories
-  platform: steam
-  id: 871420
-  status: verified
-  store: humble:lovecrafts-untold-stories
-
 - name: Path of Giants
   platform: steam
   id: 1181400
@@ -5215,11 +5351,6 @@
   id: 927380
   status: verified
   store: humble:yakuza-kiwami-2
-
-- name: LEGO Pirates of the Caribbean The Video Game
-  platform: steam
-  id: 311770
-  status: verified
 
 - name: Metal Unit
   platform: steam
@@ -5286,12 +5417,6 @@
     - copy:
         src: Sonic CD/installscript.vdf
         dst: installscript.vdf
-
-- name: Lethal League Blaze
-  platform: steam
-  id: 553310
-  status: verified
-  store: humble:lethal-league-blaze
 
 # native version crashes on startup
 - name: Remnants of Naezith
@@ -5436,11 +5561,6 @@
   id: 292030
   status: verified
 
-- name: Life is Strange 2
-  platform: steam
-  id: 532210
-  status: verified
-
 - name: Shadow of the Tomb Raider
   platform: steam
   id: 750920
@@ -5453,23 +5573,11 @@
   status: verified
   store: humble:regular-human-basketball
 
-- name: The Long Dark
-  platform: steam
-  id: 305620
-  status: verified
-  store: humble:the-long-dark
-
 - name: PixelJunk Monsters Ultimate
   platform: steam
   id: 243780
   status: verified
   store: humble:pixeljunk-monsters-ultimate
-
-- name: Little Racers STREET
-  platform: steam
-  id: 262690
-  status: verified
-  compat_tool: steamlinuxruntime
 
 - name: 'Wolfenstein: The New Order'
   platform: steam
@@ -5524,12 +5632,6 @@
   id: 860950
   status: verified
 
-- name: 'Life is Strange: Before the Storm'
-  platform: steam
-  id: 554620
-  status: verified
-  store: humble:life-is-strange-before-the-storm
-
 - name: Rise of the Tomb Raider
   platform: steam
   id: 391220
@@ -5545,11 +5647,6 @@
   id: 355010
   status: verified
   steam_input: enabled
-
-- name: Life is Strange
-  platform: steam
-  id: 319630
-  status: verified
 
 - name: "Oddworld: New 'n' Tasty"
   platform: steam
@@ -5709,18 +5806,6 @@
   status: verified
   store: humble:neon-drive
 
-- name: LIMBO
-  platform: steam
-  id: 48000
-  status: verified
-  store: humble:limbo
-
-- name: Lethal League
-  platform: steam
-  id: 261180
-  status: verified
-  store: humble:lethal-league
-
 - name: TowerFall Ascension
   platform: steam
   id: 251470
@@ -5736,12 +5821,6 @@
   status: verified
   store: humble:shovel-knight-treasure-trove
 
-- name: Lovers in a Dangerous Spacetime
-  platform: steam
-  id: 252110
-  status: verified
-  store: humble:lovers-in-a-dangerous-spacetime
-
 - name: Overcooked
   platform: steam
   id: 448510
@@ -5755,24 +5834,6 @@
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/19e733acd3ee9f9362a484e5915c132b.png
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/013d407166ec4fa56eb1e1f8cbe183b9.png
   status: verified
-
-- id: 213330
-  platform: steam
-  name: 'LEGO Batman 2: DC Super Heroes'
-  compat_tool: GE-Proton7-55
-
-- id: 640590
-  platform: steam
-  name: The LEGO NINJAGO Movie Video Game
-  compat_tool: proton-stable
-  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/f615f73c15958c1b072e4dafcac7c38b.png
-  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/5addc429b39957a9752b0f32f6a4019c.jpg
-  launch_options: WINEDLLOVERRIDES="xaudio2_7=native,builtin" %command%
-
-- id: 214510
-  platform: steam
-  name: LEGO The Lord of the Rings
-  compat_tool: GE-Proton7-55
 
 - id: 1030840
   platform: steam
@@ -6034,12 +6095,6 @@
   name: Rogue Lords
   compat_tool: GE-Proton7-55
   
-# native version doesn't start 
-- id: 2023050
-  platform: steam
-  name: Lighthouse Keeper
-  compat_tool: proton-stable
-  
 # proton stable doesn't work 
 - id: 360430
   platform: steam
@@ -6138,18 +6193,6 @@
     - Gameplay supports controller
     - Painting spaceship requires mouse 
 
-- name: "Liberated"
-  platform: gog
-  id: 1780442795
-  banner: steam:875310
-  status: verified
-
-- name: "Lovecraft's Untold Stories"
-  platform: gog
-  id: 1674669448
-  banner: steam:871420
-  status: verified
-
 - name: "Narita Boy"
   platform: gog
   id: 2029460067
@@ -6168,22 +6211,10 @@
   banner: steam:1253860
   status: verified
 
-- name: "Lacuna – A Sci-Fi Noir Adventure"
-  platform: gog
-  id: 1139279216
-  banner: steam:1364100
-  status: verified
-
 - name: "Mordheim: City of the Damned"
   platform: gog
   id: 1848744423
   banner: steam:276810
-  status: verified
-
-- name: "Lost Ruins"
-  platform: gog
-  id: 1166021990
-  banner: steam:1306630
   status: verified
 
 - name: "Phoning Home"
@@ -6239,17 +6270,6 @@
   banner: steam:1019310
   status: verified
 
-- name: "Loria"
-  platform: gog
-  id: 1604161214
-  banner: steam:946660
-  poster: https://cdn2.steamgriddb.com/grid/ff284cd8b2e96b6ee6d57fefca2f524c.png
-  background: https://cdn2.steamgriddb.com/hero/795bff6be82ff5f6e1cbf5e73af75cf4.jpg
-  logo: https://cdn2.steamgriddb.com/logo/875b7206abfe647f32136353a93f64f4.png
-  status: playable
-  notes:
-    - No controller support
-
 - name: "Master of Magic Classic"
   platform: gog
   id: 1207658855
@@ -6262,14 +6282,6 @@
   platform: gog
   id: 1166262945
   banner: steam:1768280
-  status: playable
-  notes:
-    - No controller support
-
-- name: "Legend of Keepers: Career of a Dungeon Manager"
-  platform: gog
-  id: 1208434383
-  banner: steam:978520
   status: playable
   notes:
     - No controller support
@@ -6647,18 +6659,6 @@
   status: playable
   notes:
     - Sound isn't working in intro and ending video
-
-- name: "LEGO® Builder's Journey"
-  platform: epic-store
-  id: 806f3b7734764e2498962ce7b55c0dda
-  banner: steam:1544360
-  status: unsupported
-
-- name: 'Lawn Mowing Simulator'
-  platform: epic-store
-  id: 7a555b9dd80a4992a6ea33fe3f6b13c8
-  banner: steam:1480560
-  status: unsupported
 
 - name: "Q.U.B.E. 2"
   platform: epic-store
