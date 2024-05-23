@@ -3192,6 +3192,46 @@
   notes:
     - No controller support
 
+# native version unplayable due to cropped display
+- name: The Jackbox Party Pack
+  platform: steam
+  id: 331670
+  status: verified
+  store: humble:the-jackbox-party-pack
+  compat_tool: proton-stable
+
+# native version unplayable due to cropped display
+- name: The Jackbox Party Pack 2
+  platform: steam
+  id: 397460
+  status: verified
+  store: humble:the-jackbox-party-pack-2
+  compat_tool: proton-stable
+
+# native version unplayable due to cropped display
+- name: The Jackbox Party Pack 3
+  platform: steam
+  id: 434170
+  status: verified
+  store: humble:the-jackbox-party-pack-3
+  compat_tool: proton-stable
+
+# native version unplayable due to cropped display
+- name: The Jackbox Party Pack 4
+  platform: steam
+  id: 610180
+  status: verified
+  store: humble:the-jackbox-party-pack-4
+  compat_tool: proton-stable
+
+# native version unplayable due to cropped display
+- name: The Jackbox Party Pack 5
+  platform: steam
+  id: 774461
+  status: verified
+  store: humble:the-jackbox-party-pack-5
+  compat_tool: proton-stable
+
 - name: Jack Lumber
   platform: steam
   id: 220900
@@ -3204,10 +3244,65 @@
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/fec52d41a265530aedd9cb7794e32ed9.png
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/9a96876e2f8f3dc4f3cf45f02c61c0c1.png
 
+- name: "Janosik - Highlander Precision Platformer"
+  platform: gog
+  id: 1813565692
+  banner: steam:1412170
+  status: unsupported
+
+- name: "Jazz Jackrabbit 2: The Christmas Chronicles"
+  platform: gog
+  id: 1597842603
+  banner: https://cdn2.steamgriddb.com/grid/5280fc5bd764f3387f774f273c4b3f01.png
+  poster: https://cdn2.steamgriddb.com/grid/c81632061ae1a7602021f5669357cc34.png
+  background: https://cdn2.steamgriddb.com/hero/89eec4cf449e1db057297d6f9304a99e.png
+  logo: https://cdn2.steamgriddb.com/logo/2d5c1f9d0ff0d0bc3f0465f0ff1ff653.png
+  icon: https://cdn2.steamgriddb.com/icon/d869c99656ec60fc9de27338a87b2506.ico
+  status: playable
+  notes:
+    - Limited controller support
+
+- name: "Jazz Jackrabbit 2: The Secret Files"
+  platform: gog
+  id: 1351891846
+  banner: https://cdn2.steamgriddb.com/grid/5391707bb1c266d61d0c6d1e7948faaa.png
+  poster: https://cdn2.steamgriddb.com/grid/d6f993113df8012c1868e8612a279693.png
+  background: https://cdn2.steamgriddb.com/hero/8cff9bf6694dccfc3b6a613d05d51d16.png
+  logo: https://cdn2.steamgriddb.com/logo/54cf07b091f36d3e0a2d1e5bcf65d66a.png
+  icon: https://cdn2.steamgriddb.com/icon/d6d83fd1acd1918a677906afc9bdc1d7.ico
+  status: playable
+  notes:
+    - Limited controller support
+
+- name: Jet Set Radio
+  platform: steam
+  id: 205950
+  status: verified
+  store: humble:jet-set-radio
+  compat_tool: proton-stable
+  launch_options: eval $(echo "%command%" | sed "s/jsrsetup.exe/jetsetradio.exe/")
+
+- name: "Jitsu Squad"
+  platform: epic-store
+  id: ca584681f53d4dedab49340ad598e1b8
+  banner: steam:1522080
+  status: unsupported
+
+# native version doesn't work with DLC
+- name: 'Joe Danger 2: The Movie'
+  platform: steam
+  id: 242110
+  compat_tool: proton-stable
+
 - name: Jotun Valhalla Edition
   platform: epic-store
   id: Grouse
   banner: steam:323580
+  status: verified
+
+- name: Journey
+  platform: steam
+  id: 638230
   status: verified
 
 - name: JumpJet Rex
@@ -3218,6 +3313,26 @@
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/5d2c2cee8ab0b9a36bd1ed7196bd6c4a.png
   status: verified
   store: humble:jumpjet-rex
+
+- name: Jurassic World Evolution
+  platform: steam
+  id: 648350
+  status: verified
+  store: humble:jurassic-world-evolution
+
+- name: 'Jurassic World Evolution'
+  platform: epic-store
+  id: 373a4372c20540aca7fdd880d27fa49a
+  banner: steam:648350
+  compat_tool: proton-stable
+  status: verified
+
+- name: 'Just Die Already'
+  platform: epic-store
+  id: 06621054d7d24f44bf13e3c31c9ec05d
+  banner: steam:979070
+  compat_tool: proton-stable
+  status: verified
 
 - name: Katawa Shoujo
   platform: flathub
@@ -5097,11 +5212,6 @@
         src: Sonic CD/installscript.vdf
         dst: installscript.vdf
 
-- name: Journey
-  platform: steam
-  id: 638230
-  status: verified
-
 - name: Lethal League Blaze
   platform: steam
   id: 553310
@@ -5121,12 +5231,6 @@
   id: 812550
   status: verified
   store: humble:the-kings-bird
-
-- name: Jurassic World Evolution
-  platform: steam
-  id: 648350
-  status: verified
-  store: humble:jurassic-world-evolution
 
 - name: The Messenger
   platform: steam
@@ -5238,14 +5342,6 @@
   id: 585420
   status: verified
   store: humble:trailmakers
-
-- name: Jet Set Radio
-  platform: steam
-  id: 205950
-  status: verified
-  store: humble:jet-set-radio
-  compat_tool: proton-stable
-  launch_options: eval $(echo "%command%" | sed "s/jsrsetup.exe/jetsetradio.exe/")
 
 # native version displays generic controller icons
 - name: 'Trine 3: The Artifacts of Power'
@@ -5447,46 +5543,6 @@
   compat_tool: proton-stable
   compat_config: noesync,nofsync
 
-# native version unplayable due to cropped display
-- name: The Jackbox Party Pack 5
-  platform: steam
-  id: 774461
-  status: verified
-  store: humble:the-jackbox-party-pack-5
-  compat_tool: proton-stable
-
-# native version unplayable due to cropped display
-- name: The Jackbox Party Pack 4
-  platform: steam
-  id: 610180
-  status: verified
-  store: humble:the-jackbox-party-pack-4
-  compat_tool: proton-stable
-
-# native version unplayable due to cropped display
-- name: The Jackbox Party Pack 3
-  platform: steam
-  id: 434170
-  status: verified
-  store: humble:the-jackbox-party-pack-3
-  compat_tool: proton-stable
-
-# native version unplayable due to cropped display
-- name: The Jackbox Party Pack 2
-  platform: steam
-  id: 397460
-  status: verified
-  store: humble:the-jackbox-party-pack-2
-  compat_tool: proton-stable
-
-# native version unplayable due to cropped display
-- name: The Jackbox Party Pack
-  platform: steam
-  id: 331670
-  status: verified
-  store: humble:the-jackbox-party-pack
-  compat_tool: proton-stable
-
 - name: Sonic Mania
   platform: steam
   id: 584400
@@ -5642,12 +5698,6 @@
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/19e733acd3ee9f9362a484e5915c132b.png
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/013d407166ec4fa56eb1e1f8cbe183b9.png
   status: verified
-
-# native version doesn't work with DLC
-- id: 242110
-  platform: steam
-  name: 'Joe Danger 2: The Movie'
-  compat_tool: proton-stable
 
 - id: 699240
   platform: steam
@@ -6185,30 +6235,6 @@
   notes:
     - No controller support
 
-- name: "Jazz Jackrabbit 2: The Christmas Chronicles"
-  platform: gog
-  id: 1597842603
-  banner: https://cdn2.steamgriddb.com/grid/5280fc5bd764f3387f774f273c4b3f01.png
-  poster: https://cdn2.steamgriddb.com/grid/c81632061ae1a7602021f5669357cc34.png
-  background: https://cdn2.steamgriddb.com/hero/89eec4cf449e1db057297d6f9304a99e.png
-  logo: https://cdn2.steamgriddb.com/logo/2d5c1f9d0ff0d0bc3f0465f0ff1ff653.png
-  icon: https://cdn2.steamgriddb.com/icon/d869c99656ec60fc9de27338a87b2506.ico
-  status: playable
-  notes:
-    - Limited controller support
-
-- name: "Jazz Jackrabbit 2: The Secret Files"
-  platform: gog
-  id: 1351891846
-  banner: https://cdn2.steamgriddb.com/grid/5391707bb1c266d61d0c6d1e7948faaa.png
-  poster: https://cdn2.steamgriddb.com/grid/d6f993113df8012c1868e8612a279693.png
-  background: https://cdn2.steamgriddb.com/hero/8cff9bf6694dccfc3b6a613d05d51d16.png
-  logo: https://cdn2.steamgriddb.com/logo/54cf07b091f36d3e0a2d1e5bcf65d66a.png
-  icon: https://cdn2.steamgriddb.com/icon/d6d83fd1acd1918a677906afc9bdc1d7.ico
-  status: playable
-  notes:
-    - Limited controller support
-
 - name: "Legend of Keepers: Career of a Dungeon Manager"
   platform: gog
   id: 1208434383
@@ -6316,12 +6342,6 @@
   platform: gog
   id: 1581756945
   banner: https://cdn2.steamgriddb.com/grid/3a19f212ae83929a1209377c627c3912.png
-  status: unsupported
-
-- name: "Janosik - Highlander Precision Platformer"
-  platform: gog
-  id: 1813565692
-  banner: steam:1412170
   status: unsupported
 
 - name: "Neverwinter Nights Diamond"
@@ -6541,20 +6561,6 @@
   compat_tool: proton-stable
   status: verified
 
-- name: 'Jurassic World Evolution'
-  platform: epic-store
-  id: 373a4372c20540aca7fdd880d27fa49a
-  banner: steam:648350
-  compat_tool: proton-stable
-  status: verified
-
-- name: 'Just Die Already'
-  platform: epic-store
-  id: 06621054d7d24f44bf13e3c31c9ec05d
-  banner: steam:979070
-  compat_tool: proton-stable
-  status: verified
-
 - name: "Offworld Trading Company"
   platform: epic-store
   id: Snapper
@@ -6653,12 +6659,6 @@
   platform: epic-store
   id: 7763cb8916654651a50593a813ae7c38
   banner: steam:1370140
-  status: unsupported
-
-- name: "Jitsu Squad"
-  platform: epic-store
-  id: ca584681f53d4dedab49340ad598e1b8
-  banner: steam:1522080
   status: unsupported
 
 - name: "Q.U.B.E. 2"
