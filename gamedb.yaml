@@ -3796,12 +3796,30 @@
   id: 269150
   poster: https://cdn2.steamgriddb.com/grid/3bf5659242cf77f195cb3792a1ce983d.png
 
+- name: Mad Max
+  platform: steam
+  id: 234140
+  status: verified
+  store: humble:mad-max
+
 - name: 'Mad Nords: Probably an Epic Quest'
   platform: steam
   id: 407880
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/7c2a9475d838760f95b61a3e9aac0d4d.png
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/bc3fb8a4b6e4a83feb535917ce574d31.png
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/5d785002be68f41c87a4ba51760dcaf9.png
+
+- name: 'Mafia: Definitive Edition'
+  platform: steam
+  id: 1030840
+  compat_tool: proton-stable
+  launch_options: eval $( echo "%command%" | sed "s/2KLauncher\/LauncherPatcher.exe'.*/mafiadefinitiveedition.exe'/" )
+
+# proton stable doesn't work 
+- name: 'Mafia III: Definitive Edition'
+  platform: steam
+  id: 360430
+  compat_tool: GE-Proton7-55
 
 - name: Mages of Mystralia
   platform: steam
@@ -3811,6 +3829,19 @@
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/32f6c513b25df1c670753eb7335c4258.png
   status: verified
   store: humble:mages-of-mystralia
+
+- name: "Mages of Mystralia"
+  platform: epic-store
+  id: 4b920bb4aebf4586a4f6d823817fe32d
+  banner: steam:529660
+  poster: https://cdn2.steamgriddb.com/grid/541d0aeb0cb18680fdac99023d1f2f55.png
+  background: https://cdn2.steamgriddb.com/hero/bf39eb8ed254b605bb3abdec33573855.jpg
+  logo: https://cdn2.steamgriddb.com/logo/32f6c513b25df1c670753eb7335c4258.png
+  icon: https://cdn2.steamgriddb.com/icon/e6bd889d5bb3c383e918c7cc6daff45b.png
+  compat_tool: proton-stable
+  status: playable
+  notes:
+    - Sound isn't working in intro and ending video
 
 - name: Magic The Gathering Arena
   platform: epic-store
@@ -3828,6 +3859,42 @@
   id: 49470
   poster: https://cdn2.steamgriddb.com/grid/9b07dafe243e6b18945a3051f6f3a95b.png
 
+- name: Major Mayhem
+  platform: steam
+  id: 264340
+  poster: https://cdn2.steamgriddb.com/grid/107f353e35eca7487f1db97baad2f975.png
+
+- name: Manual Samuel - Anniversary Edition
+  platform: steam
+  id: 504130
+  status: verified
+  store: humble:manual-samuel
+  steam_input: enabled
+
+- name: 'Mark of the Ninja: Remastered'
+  platform: steam
+  id: 860950
+  status: verified
+
+- name: 'Master Levels for Doom II'
+  id: 9160
+  platform: steam
+  compat_tool: boxtron
+
+- name: "Master of Magic Classic"
+  platform: gog
+  id: 1207658855
+  banner: steam:1146370
+  status: playable
+  notes:
+    - No controller support
+
+# native version doesn't work 
+- name: Meeple Station
+  platform: steam
+  id: 900010
+  compat_tool: proton-stable
+
 - name: Mega Coin Squad
   platform: steam
   id: 312510
@@ -3836,11 +3903,6 @@
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/42853a61b26fef79e2ae788d97356799.png
   store: humble:mega-coin-squad
   status: verified
-
-- name: Major Mayhem
-  platform: steam
-  id: 264340
-  poster: https://cdn2.steamgriddb.com/grid/107f353e35eca7487f1db97baad2f975.png
 
 - name: MegaSphere
   platform: steam
@@ -3852,12 +3914,24 @@
   id: 268220
   poster: https://cdn2.steamgriddb.com/grid/7e5109a23c504a48c558167d54f624db.png
 
+- name: The Messenger
+  platform: steam
+  id: 764790
+  status: verified
+  store: humble:the-messenger
+
 - name: 'METAL GEAR SOLID V: GROUND ZEROES'
   platform: steam
   id: 311340
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/3d5cbcad747c5477f33557043b62bbeb.png
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/971eb27c6345932b82b70414028d7183.png
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/f79921bbae40a577928b76d2fc3edc2a.png
+
+- name: Metal Unit
+  platform: steam
+  id: 1173200
+  status: verified
+  store: humble:metal-unit
 
 - name: Metro 2033 Redux
   platform: epic-store
@@ -3885,6 +3959,37 @@
   banner: steam:287390
   status: unsupported 
 
+- name: 'The Metronomicon: Slay The Dance Floor'
+  id: 416790
+  platform: steam
+  status: verified
+
+# native version has poor controller support
+- name: Micro Machines World Series
+  platform: steam
+  id: 535850
+  status: verified
+  compat_tool: proton-stable
+
+- name: 'Middle-earth: Shadow of Mordor'
+  platform: steam
+  id: 241930
+  status: verified
+
+- name: 'Middle-earth: Shadow of War'
+  platform: steam
+  id: 356190
+  status: verified
+  store: humble:middleearth-shadow-of-war
+  compat_tool: proton-stable
+  compat_config: noesync,nofsync
+
+- name: "Midnight Ghost Hunt"
+  platform: epic-store
+  id: 456f53b28c384f02865874299f956501
+  banner: steam:915810
+  status: unsupported
+
 - name: 'Mimic Arena'
   platform: steam
   id: 432620
@@ -3903,6 +4008,13 @@
     - No controller support
     - Uses a launcher
 
+- name: Minecraft Dungeons
+  platform: steam
+  id: 1672970
+  status: playable
+  notes:
+    - Requires mouse & keyboard for one time Microsoft account login
+
 - name: Minetest
   platform: flathub
   id: net.minetest.Minetest
@@ -3919,12 +4031,27 @@
   status: verified
   compat_tool: proton-stable
 
+- name: "Minit"
+  platform: epic-store
+  id: Petrel
+  banner: steam:609490
+  compat_tool: proton-stable
+  status: verified
+
 - name: 'Mirage: Arcane Warfare'
   platform: steam
   id: 368420
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/77e7c7b72501504c02856fc119adf4cf.png
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/55a9f4ef0702c7d0df11424f4d538ce9.png
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/81a1e36d1d8c565e1554959779ce2aad.png
+
+- name: Mirror's Edge
+  platform: steam
+  id: 17410
+  compat_tool: proton-stable
+  patch_dir: mirrors edge
+  patches:
+    - exec: echo "fc73cf63e54e9858a45e1786f5881ad9 17410_install.vdf" | md5sum --status -c && sed -i 122,143d 17410_install.vdf
 
 - name: "Monkey Island 2 Special Edition: LeChuck's Revenge"
   platform: steam
@@ -3933,21 +4060,70 @@
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/136aac05ca42889ec353b13ec6dbda0e.png
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/f1daf122cde863010844459363cd31db.png
 
-- name: Moonlight
-  platform: flathub
-  id: com.moonlight_stream.Moonlight
-  banner: /images/flathub/com.moonlight_stream.Moonlight
-  status: playable
+- name: Monopoly Plus
+  platform: steam
+  id: 562810
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/3acc60912ab5edf5da1810c51c8ccb21.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/995e1fda4a2b5f55ef0df50868bf2a8f.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/8562ae5e286544710b2e7ebe9858833b.png
+
+- name: "Monster Prom 2: Monster Camp"
+  platform: gog
+  id: 1607286183
+  banner: steam:1140270
+  status: verified
 
 - name: Monsters Ate My Birthday Cake
   platform: steam
   id: 297590
   poster: https://cdn2.steamgriddb.com/grid/ef41b2ad0976c63d21d712e7fa9ec785.png
 
+- name: Monster Trampoline
+  platform: steam
+  id: 939560
+  status: verified
+
+- name: Moonlight
+  platform: flathub
+  id: com.moonlight_stream.Moonlight
+  banner: /images/flathub/com.moonlight_stream.Moonlight
+  status: playable
+
+- name: "MORDHAU"
+  platform: epic-store
+  id: 2e26af55c1a146e7a939dcc1014fc9fd
+  banner: steam:629760
+  compat_tool: proton-stable
+  status: playable
+  notes:
+    - First time start requires installation of MS VisualC++ Runtime with mouse
+    - Game has full controller support
+
+- name: "Mordheim: City of the Damned"
+  platform: gog
+  id: 1848744423
+  banner: steam:276810
+  status: verified
+
 - name: Mortal Kombat Arcade Kollection
   platform: steam
   id: 205350
   poster: https://cdn2.steamgriddb.com/grid/b8dbf6dc7e516e4ce7b46792999e9bd5.png
+
+- name: Mortal Kombat Komplete Edition
+  platform: steam
+  id: 237110
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/c9c9f8e41433ff4ad15aa577a465e599.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/19e733acd3ee9f9362a484e5915c132b.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/013d407166ec4fa56eb1e1f8cbe183b9.png
+  status: verified
+
+- name: "Mortal Shell"
+  platform: epic-store
+  id: 0055e45ce7654c55aade646467349e83
+  banner: steam:1110910
+  compat_tool: proton-stable
+  status: verified
 
 - name: Mothergunship
   platform: epic-store
@@ -3956,11 +4132,32 @@
   compat_tool: proton-stable
   status: verified
 
+# native version has issues with pointer 
+- name: 'Mount & Blade: Warband'
+  platform: steam
+  id: 48700
+  compat_tool: proton-stable
+ 
+- name: Move or Die
+  platform: steam
+  id: 323850
+  store: humble:move-or-die
+  status: playable
+  compat_tool: steamlinuxruntime
+  notes:
+    - Sometimes displays keyboard icons
+
 - name: Moving Out
   platform: epic-store
   id: 8e29583ae4b44a21883038668f7e301e
   banner: steam:996770
   status: verified
+
+- name: Moving Out
+  platform: steam
+  id: 996770
+  status: verified
+  store: humble:moving-out
 
 - name: Mr. Rescue
   platform: flathub
@@ -3970,18 +4167,18 @@
   notes:
     - Displays keyboard icons
 
-- name: My Time at Portia
-  platform: epic-store
-  id: Cobra
-  banner: steam:666140
-  compat_tool: proton-stable
-  status: verified
-
 - name: MudRunner
   platform: epic-store
   id: Bulbul
   banner: steam:675010
   status: unsupported
+
+- name: "Murder by Numbers"
+  platform: epic-store
+  id: 2c3dd568cada4c229753f550a44dcf2b
+  banner: steam:1140290
+  compat_tool: proton-stable
+  status: verified
 
 - name: 'MURDERED: SOUL SUSPECT™'
   platform: steam
@@ -4001,10 +4198,43 @@
   id: 634070
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/2823676e1710dd493a2ec868aefd8a86.jpg
 
+- name: Muse Dash
+  platform: steam
+  id: 774171
+  status: verified
+
+- name: "Mutant Year Zero Road to Eden"
+  platform: epic-store
+  id: Falcon
+  banner: steam:760060
+  compat_tool: proton-stable
+  status: verified
+
 - name: Mutazione
   platform: epic-store
   id: 1fe19232c0f7476a8e99fd8752e800c2
   banner: steam:1080750
+  status: verified
+
+- name: My Friend Pedro
+  platform: steam
+  id: 557340
+  status: verified
+  store: humble:my-friend-pedro
+
+- name: My Time At Portia
+  platform: steam
+  id: 666140
+  status: verified
+  store: humble:my-time-at-portia
+  compat_tool: proton-stable
+  compat_config: noesync,nofsync
+
+- name: My Time At Portia
+  platform: epic-store
+  id: Cobra
+  banner: steam:666140
+  compat_tool: proton-stable
   status: verified
 
 - name: Nanooborg
@@ -5087,15 +5317,6 @@
 
 # Steam games
 
-- name: Move or Die
-  platform: steam
-  id: 323850
-  store: humble:move-or-die
-  status: playable
-  compat_tool: steamlinuxruntime
-  notes:
-    - Sometimes displays keyboard icons
-
 - name: Ultra Street Fighter IV
   platform: steam
   id: 45760
@@ -5146,18 +5367,6 @@
   id: 1038300
   store: humble:new-super-luckys-tale
   status: verified
-
-- name: Muse Dash
-  platform: steam
-  id: 774171
-  status: verified
-
-- name: Minecraft Dungeons
-  platform: steam
-  id: 1672970
-  status: playable
-  notes:
-    - Requires mouse & keyboard for one time Microsoft account login
 
 - name: The Surge 2
   platform: steam
@@ -5304,12 +5513,6 @@
   status: verified
   store: humble:valkyria-chronicles-4-complete-edition
 
-- name: Moving Out
-  platform: steam
-  id: 996770
-  status: verified
-  store: humble:moving-out
-
 - name: Path of Giants
   platform: steam
   id: 1181400
@@ -5351,12 +5554,6 @@
   id: 927380
   status: verified
   store: humble:yakuza-kiwami-2
-
-- name: Metal Unit
-  platform: steam
-  id: 1173200
-  status: verified
-  store: humble:metal-unit
 
 - name: Unrailed!
   platform: steam
@@ -5426,12 +5623,6 @@
   store: humble:remnants-of-naezith
   compat_tool: proton-stable
 
-- name: The Messenger
-  platform: steam
-  id: 764790
-  status: verified
-  store: humble:the-messenger
-
 # native version controller mappings are wrong
 - name: "The Swords of Ditto: Mormo's Curse"
   platform: steam
@@ -5439,13 +5630,6 @@
   status: verified
   store: humble:the-swords-of-ditto-mormos-curse
   compat_tool: proton-stable
-
-- name: Manual Samuel - Anniversary Edition
-  platform: steam
-  id: 504130
-  status: verified
-  store: humble:manual-samuel
-  steam_input: enabled
 
 - name: 'Ni no Kuni II: Revenant Kingdom'
   platform: steam
@@ -5465,13 +5649,6 @@
   status: verified
   store: humble:ultimate-marvel-vs-capcom-3
 
-# native version has poor controller support
-- name: Micro Machines World Series
-  platform: steam
-  id: 535850
-  status: verified
-  compat_tool: proton-stable
-
 # native version does not recognize controllers
 - name: Super Star Path
   platform: steam
@@ -5479,25 +5656,11 @@
   status: verified
   compat_tool: proton-stable
 
-- name: My Friend Pedro
-  platform: steam
-  id: 557340
-  status: verified
-  store: humble:my-friend-pedro
-
 - name: Okami HD
   platform: steam
   id: 587620
   status: verified
   store: humble:okami-hd
-
-- name: 'Middle-earth: Shadow of War'
-  platform: steam
-  id: 356190
-  status: verified
-  store: humble:middleearth-shadow-of-war
-  compat_tool: proton-stable
-  compat_config: noesync,nofsync
 
 - name: Them's Fightin' Herds
   platform: steam
@@ -5551,11 +5714,6 @@
   status: verified
   store: humble:xcom-enemy-unknown
 
-- name: 'Middle-earth: Shadow of Mordor'
-  platform: steam
-  id: 241930
-  status: verified
-
 - name: 'The Witcher 3: Wild Hunt'
   platform: steam
   id: 292030
@@ -5608,14 +5766,6 @@
   status: verified
   store: humble:yakuza-kiwami
 
-- name: My Time At Portia
-  platform: steam
-  id: 666140
-  status: verified
-  store: humble:my-time-at-portia
-  compat_tool: proton-stable
-  compat_config: noesync,nofsync
-
 - name: Sky Rogue
   platform: steam
   id: 381020
@@ -5625,11 +5775,6 @@
 - name: Return Of The Zombie King
   platform: steam
   id: 1152020
-  status: verified
-
-- name: 'Mark of the Ninja: Remastered'
-  platform: steam
-  id: 860950
   status: verified
 
 - name: Rise of the Tomb Raider
@@ -5685,11 +5830,6 @@
   status: verified
   store: humble:roundabout
 
-- name: Monster Trampoline
-  platform: steam
-  id: 939560
-  status: verified
-
 - name: Wizorb
   platform: steam
   id: 207420
@@ -5731,12 +5871,6 @@
   id: 274250
   status: verified
   store: humble:olliolli
-
-- name: Mad Max
-  platform: steam
-  id: 234140
-  status: verified
-  store: humble:mad-max
 
 - name: Tomb Raider
   platform: steam
@@ -5826,28 +5960,6 @@
   id: 448510
   status: verified
   store: humble:overcooked
-
-- name: Mortal Kombat Komplete Edition
-  platform: steam
-  id: 237110
-  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/c9c9f8e41433ff4ad15aa577a465e599.png
-  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/19e733acd3ee9f9362a484e5915c132b.png
-  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/013d407166ec4fa56eb1e1f8cbe183b9.png
-  status: verified
-
-- id: 1030840
-  platform: steam
-  name: 'Mafia: Definitive Edition'
-  compat_tool: proton-stable
-  launch_options: eval $( echo "%command%" | sed "s/2KLauncher\/LauncherPatcher.exe'.*/mafiadefinitiveedition.exe'/" )
-
-- id: 17410
-  platform: steam
-  name: Mirror's Edge
-  compat_tool: proton-stable
-  patch_dir: mirrors edge
-  patches:
-    - exec: echo "fc73cf63e54e9858a45e1786f5881ad9 17410_install.vdf" | md5sum --status -c && sed -i 122,143d 17410_install.vdf
 
 - id: 105000
   platform: steam
@@ -6076,13 +6188,6 @@
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/5de310fd9365cd111d778791085b1eb3.jpg
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/c5b3966bd2d4c690da368b3ecbece868.png
 
-- name: Monopoly Plus
-  platform: steam
-  id: 562810
-  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/3acc60912ab5edf5da1810c51c8ccb21.png
-  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/995e1fda4a2b5f55ef0df50868bf2a8f.png
-  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/8562ae5e286544710b2e7ebe9858833b.png
-
  # Disable -steamdeck to fix controller issues for Sackboy
 - name: Sackboy A Big Adventure
   platform: steam
@@ -6095,24 +6200,6 @@
   name: Rogue Lords
   compat_tool: GE-Proton7-55
   
-# proton stable doesn't work 
-- id: 360430
-  platform: steam
-  name: 'Mafia III: Definitive Edition'
-  compat_tool: GE-Proton7-55
-
-# native version has issues with pointer 
-- id: 48700
-  platform: steam
-  name: 'Mount & Blade: Warband'
-  compat_tool: proton-stable
- 
-# native version doesn't work 
-- id: 900010
-  platform: steam
-  name: Meeple Station
-  compat_tool: proton-stable
-
 # native version doesn't work 
 - id: 20920
   platform: steam
@@ -6167,16 +6254,6 @@
   status: verified
   launch_options: '+com_skipIntroVideo 1'
 
-- name: 'The Metronomicon: Slay The Dance Floor'
-  id: 416790
-  platform: steam
-  status: verified
-
-- name: 'Master Levels for Doom II'
-  id: 9160
-  platform: steam
-  compat_tool: boxtron
-
 # Controller doesn't work in native version
 - name: 'Savant - Ascent'
   id: 259530
@@ -6199,22 +6276,10 @@
   banner: steam:1069530
   status: verified
 
-- name: "Monster Prom 2: Monster Camp"
-  platform: gog
-  id: 1607286183
-  banner: steam:1140270
-  status: verified
-
 - name: "Neurodeck: Psychological Deckbuilder"
   platform: gog
   id: 1739122581
   banner: steam:1253860
-  status: verified
-
-- name: "Mordheim: City of the Damned"
-  platform: gog
-  id: 1848744423
-  banner: steam:276810
   status: verified
 
 - name: "Phoning Home"
@@ -6269,14 +6334,6 @@
   id: 2116968103
   banner: steam:1019310
   status: verified
-
-- name: "Master of Magic Classic"
-  platform: gog
-  id: 1207658855
-  banner: steam:1146370
-  status: playable
-  notes:
-    - No controller support
 
 - name: "Ozymandias: Bronze Age Empire Sim"
   platform: gog
@@ -6570,34 +6627,6 @@
   notes:
     - Online play not possible anymore due to server shutdown
 
-- name: "Mutant Year Zero Road to Eden"
-  platform: epic-store
-  id: Falcon
-  banner: steam:760060
-  compat_tool: proton-stable
-  status: verified
-
-- name: "Mortal Shell"
-  platform: epic-store
-  id: 0055e45ce7654c55aade646467349e83
-  banner: steam:1110910
-  compat_tool: proton-stable
-  status: verified
-
-- name: "Murder by Numbers"
-  platform: epic-store
-  id: 2c3dd568cada4c229753f550a44dcf2b
-  banner: steam:1140290
-  compat_tool: proton-stable
-  status: verified
-
-- name: "Minit"
-  platform: epic-store
-  id: Petrel
-  banner: steam:609490
-  compat_tool: proton-stable
-  status: verified
-
 - name: "Offworld Trading Company"
   platform: epic-store
   id: Snapper
@@ -6637,29 +6666,6 @@
     - Launcher requires mouse
     - Game has full controller support
 
-- name: "MORDHAU"
-  platform: epic-store
-  id: 2e26af55c1a146e7a939dcc1014fc9fd
-  banner: steam:629760
-  compat_tool: proton-stable
-  status: playable
-  notes:
-    - First time start requires installation of MS VisualC++ Runtime with mouse
-    - Game has full controller support
-
-- name: "Mages of Mystralia"
-  platform: epic-store
-  id: 4b920bb4aebf4586a4f6d823817fe32d
-  banner: steam:529660
-  poster: https://cdn2.steamgriddb.com/grid/541d0aeb0cb18680fdac99023d1f2f55.png
-  background: https://cdn2.steamgriddb.com/hero/bf39eb8ed254b605bb3abdec33573855.jpg
-  logo: https://cdn2.steamgriddb.com/logo/32f6c513b25df1c670753eb7335c4258.png
-  icon: https://cdn2.steamgriddb.com/icon/e6bd889d5bb3c383e918c7cc6daff45b.png
-  compat_tool: proton-stable
-  status: playable
-  notes:
-    - Sound isn't working in intro and ending video
-
 - name: "Q.U.B.E. 2"
   platform: epic-store
   id: Auk
@@ -6676,8 +6682,3 @@
   notes:
     - Requires VC++ to be installed
 
-- name: "Midnight Ghost Hunt"
-  platform: epic-store
-  id: 456f53b28c384f02865874299f956501
-  banner: steam:915810
-  status: unsupported
