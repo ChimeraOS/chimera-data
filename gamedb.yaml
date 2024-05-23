@@ -4654,10 +4654,38 @@
   id: 227080
   poster: https://cdn2.steamgriddb.com/grid/725c0f47dc8449a54619147ff1809c67.jpg
 
+- name: Path of Giants
+  platform: steam
+  id: 1181400
+  status: verified
+
 - name: Pathway
   platform: epic-store
   id: 8fceb562623c430db9bb6abf0549c43e
   banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/107323b791247ca0394de28f514ef194.png
+
+# native version is no longer supported  
+- name: PAYDAY 2
+  platform: steam
+  id: 218620
+  compat_tool: proton-stable
+
+- name: PGA TOUR 2K21
+  platform: steam
+  id: 1016120
+  store: humble:pga-tour-2k21
+  status: playable
+  notes:
+    - Displays keyboard icons during tutorial
+
+- name: "Phoning Home"
+  platform: gog
+  id: 1167911806
+  banner: steam:431650
+  poster: https://cdn2.steamgriddb.com/grid/070c61a09952fe8d1d8580e54d2e5077.png
+  background: https://cdn2.steamgriddb.com/hero/a8681f254add165d857ccb664b802bed.png
+  logo: https://cdn2.steamgriddb.com/logo/65114c75977259d4240b47d6746276d7.png
+  status: verified
 
 - name: Pier Solar and the Great Architects
   platform: steam
@@ -4686,6 +4714,12 @@
   id: 105800
   poster: https://cdn2.steamgriddb.com/grid/5d2173cf1345c04c4c238e84b0f85424.png
 
+- name: PixelJunk Monsters Ultimate
+  platform: steam
+  id: 243780
+  status: verified
+  store: humble:pixeljunk-monsters-ultimate
+
 # native version crashes on startup
 - name: PixelJunk Shooter
   platform: steam
@@ -4703,6 +4737,12 @@
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/ba7fb7aa93b1203a1f5e19b0857870e3.jpg
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/da43646f8d1a36b67a87aa2e48f5194f.png
 
+- name: 'A Plague Tale: Innocence'
+  platform: epic-store
+  id: e0fa47ae79514345823bff209ae29451
+  banner: steam:752590
+  compat_tool: proton-stable
+
 - name: The Plan
   platform: steam
   id: 250600
@@ -4713,15 +4753,43 @@
   id: 67000
   poster: https://cdn2.steamgriddb.com/grid/98f204b32907c82b1ea7c4ed2128d4c2.png
 
+- name: Portal 2
+  platform: steam
+  id: 620
+  status: verified
+
+- name: Portal Knights
+  platform: steam
+  id: 374040
+  compat_tool: proton-stable
+  patch_dir: Portal Knights
+  patches:
+    - copy:
+        src: Portal Knights/portal_knights.cfg
+        dst: portal_knights.cfg
+
 - name: 'The Powerpuff Girls: Defenders of Townsville'
   platform: steam
   id: 274450
   poster: https://cdn2.steamgriddb.com/grid/ee9baf094a9abdae5edec7b60911a58b.png
 
+- name: "Powers in the Basement"
+  platform: gog
+  id: 1985215349
+  banner: steam:2520280
+  status: playable
+  notes:
+    - No controller support
+
 - name: Prey
   platform: epic-store
   id: 52d88e9a6df248da913c8e99f1e4c526
   banner: steam:480490
+  status: verified
+
+- name: Primal Light
+  platform: steam
+  id: 771420
   status: verified
 
 - name: Prince of Persia
@@ -4738,19 +4806,19 @@
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/9da187a7a191431db943a9a5a6fec6f4.png
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/7553e94d39fd4649ff75386a83ed3789.png
 
-- name: 'Prince of Persia: The Two Thrones'
-  platform: steam
-  id: 13530
-  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/abae7d98a0ce038be2705fc36f5de8d9.png
-  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/7974a38b2a42268066c03442b2cc922b.jpg
-  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/0bc10d8a74dbafbf242e30433e83aa56.png
-
 - name: 'Prince of Persia: The Sands of Time'
   platform: steam
   id: 13600
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/6a8cfab2aa11fbb342063df25c16a5f1.png
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/c4211b6fddf7ddf821087989ae514550.png
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/22f2729737ae3dc9702e4cee0eb3e900.png
+
+- name: 'Prince of Persia: The Two Thrones'
+  platform: steam
+  id: 13530
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/abae7d98a0ce038be2705fc36f5de8d9.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/7974a38b2a42268066c03442b2cc922b.jpg
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/0bc10d8a74dbafbf242e30433e83aa56.png
 
 - name: 'Prince of Persia: Warrior Within'
   platform: steam
@@ -4765,6 +4833,20 @@
   banner: steam:233450
   status: unsupported
 
+- name: "Prison Architect"
+  platform: gog
+  id: 1441974651
+  banner: steam:233450
+  status: playable
+  notes:
+    - No controller support
+
+- name: Project Cars 3
+  platform: steam
+  id: 958400
+  status: verified
+  store: humble:project-cars-3
+
 - name: 'Project CARS - Pagani Edition'
   platform: steam
   id: 429180
@@ -4774,6 +4856,14 @@
   platform: steam
   id: 219680
   poster: https://cdn2.steamgriddb.com/grid/08fdf424f2ba3c4e61dc1bc8e00e8915.png
+
+- name: Psychonauts 2
+  platform: steam
+  id: 607080
+  status: verified
+  store: humble:psychonauts-2
+  compat_tool: proton-stable
+  launch_options: -force -dx11
 
 - name: Puddle
   platform: steam
@@ -4791,6 +4881,19 @@
   status: verified
   store: humble:pumpkin-jack
   compat_tool: proton-stable
+
+- name: Puyo Puyo Champions
+  platform: steam
+  id: 971620
+  compat_tool: proton-stable
+  status: verified
+  launch_options: WINEDLLOVERRIDES="xaudio2_7=native,builtin" %command%
+
+- name: Puyo Puyo Tetris
+  platform: steam
+  id: 546050
+  store: humble:puyo-puyo-tetris
+  status: verified
 
 - name: Puzzle Agent
   platform: steam
@@ -5610,20 +5713,6 @@
   store: humble:relicta
   status: verified
 
-- name: Puyo Puyo Tetris
-  platform: steam
-  id: 546050
-  store: humble:puyo-puyo-tetris
-  status: verified
-
-- name: PGA TOUR 2K21
-  platform: steam
-  id: 1016120
-  store: humble:pga-tour-2k21
-  status: playable
-  notes:
-    - Displays keyboard icons during tutorial
-
 - name: The Surge 2
   platform: steam
   id: 644830
@@ -5689,14 +5778,6 @@
   status: verified
   store: humble:roki
 
-- name: Psychonauts 2
-  platform: steam
-  id: 607080
-  status: verified
-  store: humble:psychonauts-2
-  compat_tool: proton-stable
-  launch_options: -force -dx11
-
 - name: SOULCALIBUR VI
   platform: steam
   id: 544750
@@ -5708,17 +5789,6 @@
 - name: Skatemasta Tcheco
   platform: steam
   id: 619320
-  status: verified
-
-- name: Project Cars 3
-  platform: steam
-  id: 958400
-  status: verified
-  store: humble:project-cars-3
-
-- name: Primal Light
-  platform: steam
-  id: 771420
   status: verified
 
 - name: WWE 2K BATTLEGROUNDS
@@ -5750,11 +5820,6 @@
   id: 790820
   status: verified
   store: humble:valkyria-chronicles-4-complete-edition
-
-- name: Path of Giants
-  platform: steam
-  id: 1181400
-  status: verified
 
 # native version displays incorrect controller icons
 - name: Yuppie Psycho
@@ -5946,12 +6011,6 @@
   status: verified
   store: humble:regular-human-basketball
 
-- name: PixelJunk Monsters Ultimate
-  platform: steam
-  id: 243780
-  status: verified
-  store: humble:pixeljunk-monsters-ultimate
-
 - name: 'Wolfenstein: The New Order'
   platform: steam
   id: 201810
@@ -5990,11 +6049,6 @@
 - name: Rise of the Tomb Raider
   platform: steam
   id: 391220
-  status: verified
-
-- name: Portal 2
-  platform: steam
-  id: 620
   status: verified
 
 - name: Race Arcade
@@ -6120,29 +6174,6 @@
   id: 250760
   status: verified
   store: humble:shovel-knight-treasure-trove
-
-# native version does not recognize controllers
-- id: 749800
-  platform: steam
-  name: PixelJunk Monsters Ultimate
-  compat_tool: proton-stable
-
-- id: 374040
-  platform: steam
-  name: Portal Knights
-  compat_tool: proton-stable
-  patch_dir: Portal Knights
-  patches:
-    - copy:
-        src: Portal Knights/portal_knights.cfg
-        dst: portal_knights.cfg
-
-- id: 971620
-  platform: steam
-  name: Puyo Puyo Champions
-  compat_tool: proton-stable
-  status: verified
-  launch_options: WINEDLLOVERRIDES="xaudio2_7=native,builtin" %command%
 
 - id: 1057560
   platform: steam
@@ -6318,12 +6349,6 @@
   name: 'The Witcher 2: Assassins of Kings Enhanced Edition'
   compat_tool: proton-stable
 
-# native version is no longer supported  
-- id: 218620
-  platform: steam
-  name: PAYDAY 2
-  compat_tool: proton-stable
-
 - name: Remember Me
   id: 228300
   platform: steam
@@ -6336,12 +6361,6 @@
     - exec: mv ExampleGame/Movies/BIK_Boot_Capcom.bik ExampleGame/Movies/BIK_Boot_Capcom.bik.disabled
     - exec: mv ExampleGame/Movies/BIK_Boot_Legal.bik ExampleGame/Movies/BIK_Boot_Legal.bik.disabled
     - exec: mv ExampleGame/Movies/BIK_Boot_Legal_DD_SCEA.bik ExampleGame/Movies/BIK_Boot_Legal_DD_SCEA.bik.disabled
-
-- name: 'A Plague Tale: Innocence'
-  platform: epic-store
-  id: e0fa47ae79514345823bff209ae29451
-  banner: steam:752590
-  compat_tool: proton-stable
 
 - name: 'Remnant: From the Ashes'
   platform: epic-store
@@ -6381,15 +6400,6 @@
   notes:
     - Gameplay supports controller
     - Painting spaceship requires mouse 
-
-- name: "Phoning Home"
-  platform: gog
-  id: 1167911806
-  banner: steam:431650
-  poster: https://cdn2.steamgriddb.com/grid/070c61a09952fe8d1d8580e54d2e5077.png
-  background: https://cdn2.steamgriddb.com/hero/a8681f254add165d857ccb664b802bed.png
-  logo: https://cdn2.steamgriddb.com/logo/65114c75977259d4240b47d6746276d7.png
-  status: verified
 
 - name: "Seven: Enhanced Edition"
   platform: gog
@@ -6434,22 +6444,6 @@
   id: 2116968103
   banner: steam:1019310
   status: verified
-
-- name: "Powers in the Basement"
-  platform: gog
-  id: 1985215349
-  banner: steam:2520280
-  status: playable
-  notes:
-    - No controller support
-
-- name: "Prison Architect"
-  platform: gog
-  id: 1441974651
-  banner: steam:233450
-  status: playable
-  notes:
-    - No controller support
 
 - name: "Shadow Tactics: Blades of the Shogun"
   platform: gog
