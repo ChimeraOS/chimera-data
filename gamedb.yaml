@@ -4468,6 +4468,27 @@
   banner: steam:242680
   status: verified
 
+- name: "Obduction"
+  platform: epic-store
+  id: 635e08e4b4824baabd24ef3cf941743c
+  banner: steam:306760
+  compat_tool: proton-stable
+  status: verified
+
+- name: "Oddworld: New 'n' Tasty"
+  platform: steam
+  id: 314660
+  status: verified
+  store: humble:oddworld-new-n-tasty
+  steam_input: enabled
+
+- name: "Oddworld: New 'n' Tasty"
+  platform: epic-store
+  id: 7c566548d24343e48151125ced4b494c
+  banner: steam:314660
+  compat_tool: proton-stable
+  status: verified
+
 - name: 'Offensive Combat: Redux!'
   platform: steam
   id: 622170
@@ -4475,10 +4496,37 @@
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/ab4c389364232588a6680ad92ec170c7.png
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/1b38735595369838f208dd2b25315195.png
 
+- name: "Offworld Trading Company"
+  platform: epic-store
+  id: Snapper
+  banner: steam:271240
+  compat_tool: proton-stable
+  status: playable
+  notes:
+    - No controller support
+
 - name: Oil Rush
   platform: steam
   id: 200390
   poster: https://cdn2.steamgriddb.com/grid/e281f682fab884aafadb53f9711eaffb.png
+
+- name: Okami HD
+  platform: steam
+  id: 587620
+  status: verified
+  store: humble:okami-hd
+
+- name: OlliOlli
+  platform: steam
+  id: 274250
+  status: verified
+  store: humble:olliolli
+
+- name: 'OlliOlli2: Welcome to Olliwood'
+  platform: steam
+  id: 365660
+  status: verified
+  store: humble:olliolli2-welcome-to-olliwood
 
 - name: One Piece Pirate Warriors 3
   platform: steam
@@ -4488,11 +4536,61 @@
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/d8ab1a52f058358b947cdf8261b5e1a2.png
   status: verified
 
+- name: One Ship Two Ship Redshift Blueshift
+  platform: steam
+  id: 367430
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/3ee5bbf49053b0476c94304156f2e0f4.png
+  status: verified
+
+- name: 'Ori and the Blind Forest: Definitive Edition'
+  platform: steam
+  id: 387290
+  status: verified
+
+- name: "Orwell: Keeping an Eye on You"
+  platform: epic-store
+  id: 8dac074a82a6492ba969bd38df266e58
+  banner: steam:491950
+  compat_tool: proton-stable
+  status: playable
+  notes:
+    - No controller support
+
+- name: "Outcast 1.1"
+  platform: gog
+  id: 1207658853
+  banner: steam:336610
+  status: unsupported
+
+- name: "The Outer Worlds: Spacer's Choice Edition"
+  platform: epic-store
+  id: cb3bf7ba89574a66ae3b795e039d4dbc
+  banner: steam:1920490
+  status: verified
+  
+- name: Outward
+  platform: steam
+  id: 794260
+  status: verified
+  store: humble:outward
+
+- name: Overcooked
+  platform: steam
+  id: 448510
+  status: verified
+  store: humble:overcooked
+
 - name: Overcooked
   platform: epic-store
   id: Sage
   banner: steam:448510
   status: verified
+
+- name: Overcooked! 2
+  platform: steam
+  id: 728880
+  status: verified
+  store: humble:overcooked-2
 
 - name: Overcooked! 2
   platform: epic-store
@@ -4508,6 +4606,20 @@
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/a00e5eb0973d24649a4a920fc53d9564.png
   status: verified
   store: humble:overload
+
+- name: Owlboy
+  platform: steam
+  id: 115800
+  status: verified
+  store: humble:owlboy
+
+- name: "Ozymandias: Bronze Age Empire Sim"
+  platform: gog
+  id: 1166262945
+  banner: steam:1768280
+  status: playable
+  notes:
+    - No controller support
 
 - name: PAC-MAN 256
   platform: steam
@@ -5621,12 +5733,6 @@
   status: verified
   store: humble:trine-4-the-nightmare-prince
 
-- name: Outward
-  platform: steam
-  id: 794260
-  status: verified
-  store: humble:outward
-
 - name: The Wild Eight
   platform: steam
   id: 526160
@@ -5674,12 +5780,6 @@
   id: 809890
   status: verified
   store: humble:shining-resonance-refrain
-
-- name: Overcooked! 2
-  platform: steam
-  id: 728880
-  status: verified
-  store: humble:overcooked-2
 
 - name: Yakuza Kiwami 2
   platform: steam
@@ -5777,12 +5877,6 @@
   status: verified
   compat_tool: proton-stable
 
-- name: Okami HD
-  platform: steam
-  id: 587620
-  status: verified
-  store: humble:okami-hd
-
 - name: Them's Fightin' Herds
   platform: steam
   id: 574980
@@ -5864,11 +5958,6 @@
   status: verified
   store: humble:wolfenstein-the-new-order
 
-- name: 'Ori and the Blind Forest: Definitive Edition'
-  platform: steam
-  id: 387290
-  status: verified
-
 - name: 'Turok 2: Seeds of Evil'
   platform: steam
   id: 405830
@@ -5913,20 +6002,6 @@
   id: 355010
   status: verified
   steam_input: enabled
-
-- name: "Oddworld: New 'n' Tasty"
-  platform: steam
-  id: 314660
-  status: verified
-  store: humble:oddworld-new-n-tasty
-  steam_input: enabled
-
-- name: "Oddworld: New 'n' Tasty"
-  platform: epic-store
-  id: 7c566548d24343e48151125ced4b494c
-  banner: steam:314660
-  compat_tool: proton-stable
-  status: verified
 
 - name: A Story About My Uncle
   platform: steam
@@ -5987,12 +6062,6 @@
   status: verified
   store: humble:speedrunners
 
-- name: OlliOlli
-  platform: steam
-  id: 274250
-  status: verified
-  store: humble:olliolli
-
 - name: Tomb Raider
   platform: steam
   id: 203160
@@ -6037,24 +6106,6 @@
   id: 355050
   status: verified
 
-- name: One Ship Two Ship Redshift Blueshift
-  platform: steam
-  id: 367430
-  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/3ee5bbf49053b0476c94304156f2e0f4.png
-  status: verified
-
-- name: Owlboy
-  platform: steam
-  id: 115800
-  status: verified
-  store: humble:owlboy
-
-- name: 'OlliOlli2: Welcome to Olliwood'
-  platform: steam
-  id: 365660
-  status: verified
-  store: humble:olliolli2-welcome-to-olliwood
-
 - name: TowerFall Ascension
   platform: steam
   id: 251470
@@ -6069,12 +6120,6 @@
   id: 250760
   status: verified
   store: humble:shovel-knight-treasure-trove
-
-- name: Overcooked
-  platform: steam
-  id: 448510
-  status: verified
-  store: humble:overcooked
 
 # native version does not recognize controllers
 - id: 749800
@@ -6166,12 +6211,6 @@
   name: Tomb Raider III
   compat_tool: Proton-6.1-GE-2
 
-- name: "The Outer Worlds: Spacer's Choice Edition"
-  platform: epic-store
-  id: cb3bf7ba89574a66ae3b795e039d4dbc
-  banner: steam:1920490
-  status: verified
-  
 - id: 499520
   platform: steam
   name: The Turing Test
@@ -6396,14 +6435,6 @@
   banner: steam:1019310
   status: verified
 
-- name: "Ozymandias: Bronze Age Empire Sim"
-  platform: gog
-  id: 1166262945
-  banner: steam:1768280
-  status: playable
-  notes:
-    - No controller support
-
 - name: "Powers in the Basement"
   platform: gog
   id: 1985215349
@@ -6503,12 +6534,6 @@
   platform: gog
   id: 1581756945
   banner: https://cdn2.steamgriddb.com/grid/3a19f212ae83929a1209377c627c3912.png
-  status: unsupported
-
-- name: "Outcast 1.1"
-  platform: gog
-  id: 1207658853
-  banner: steam:336610
   status: unsupported
 
 - name: "Sanitarium"
@@ -6640,31 +6665,6 @@
   id: 1836059896
   banner: steam:2210
   status: unsupported
-
-- name: "Obduction"
-  platform: epic-store
-  id: 635e08e4b4824baabd24ef3cf941743c
-  banner: steam:306760
-  compat_tool: proton-stable
-  status: verified
-
-- name: "Offworld Trading Company"
-  platform: epic-store
-  id: Snapper
-  banner: steam:271240
-  compat_tool: proton-stable
-  status: playable
-  notes:
-    - No controller support
-
-- name: "Orwell: Keeping an Eye on You"
-  platform: epic-store
-  id: 8dac074a82a6492ba969bd38df266e58
-  banner: steam:491950
-  compat_tool: proton-stable
-  status: playable
-  notes:
-    - No controller support
 
 - name: "Q.U.B.E. 2"
   platform: epic-store
