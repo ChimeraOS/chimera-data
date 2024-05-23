@@ -4255,10 +4255,17 @@
     - Displays keyboard icons
     - Entering some text requires manually invoking the on-screen keyboard
 
-- name: 'NARUTO: Ultimate Ninja STORM'
+- name: Narita Boy
   platform: steam
-  id: 495140
-  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/913034dd0b1b8c3d5bcccbac38d13b9a.png
+  id: 1069530
+  status: verified
+  store: humble:narita-boy
+
+- name: "Narita Boy"
+  platform: gog
+  id: 2029460067
+  banner: steam:1069530
+  status: verified
 
 - name: 'NARUTO SHIPPUDEN: Ultimate Ninja STORM 2'
   platform: steam
@@ -4288,11 +4295,137 @@
   notes:
     - Uses a launcher
 
+- name: 'NARUTO: Ultimate Ninja STORM'
+  platform: steam
+  id: 495140
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/913034dd0b1b8c3d5bcccbac38d13b9a.png
+
+- name: NBA 2K20
+  platform: steam
+  id: 1089350
+  status: verified
+
+- name: "NBA 2K21"
+  platform: epic-store
+  id: 639977eecfd2497c941b71af949b5067
+  banner: steam:1225330
+  compat_tool: proton-stable
+  status: verified
+  notes:
+    - Online play not possible anymore due to server shutdown
+
+- name: NBA Playgrounds
+  platform: steam
+  id: 545270
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/d5eac1e9308bcc90cb100d80979f8d98.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/5de310fd9365cd111d778791085b1eb3.jpg
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/c5b3966bd2d4c690da368b3ecbece868.png
+
+- name: Neon Abyss
+  platform: steam
+  id: 788100
+  status: verified
+  store: humble:neon-abyss
+
+- name: "Neon Abyss"
+  platform: epic-store
+  id: a26f991a5e6c4e9c9572fc200cbea47f
+  banner: steam:788100
+  compat_tool: proton-stable
+  status: verified
+
+- name: Neon Drive
+  platform: steam
+  id: 433910
+  status: verified
+  store: humble:neon-drive
+
+- name: "Neurodeck: Psychological Deckbuilder"
+  platform: gog
+  id: 1739122581
+  banner: steam:1253860
+  status: verified
+
 - name: Never Alone (Kisima Ingitchuna)
   platform: epic-store
   id: f38de9fa4c6d43eabac080942cb394a1
   banner: steam:295790
   status: verified
+
+- name: "Neverwinter Nights Diamond"
+  platform: gog
+  id: 1207658890
+  banner: https://cdn2.steamgriddb.com/grid/7012fda2190dc3120e31b667cf9e2c06.jpg
+  status: unsupported
+
+- name: "Neverwinter Nights: Enhanced Edition"
+  platform: gog
+  id: 1097893768
+  banner: steam:704450
+  status: unsupported
+
+- name: A New Beginning - Final Cut
+  platform: steam
+  id: 105000
+  compat_tool: proton-stable
+  launch_options: IFS=:; for PROTON_PATH in ${STEAM_COMPAT_TOOL_PATHS}; do if [ -f "$PROTON_PATH/dist/bin/wine" ]; then WINEPREFIX=$STEAM_COMPAT_DATA_PATH/pfx $PROTON_PATH/dist/bin/wine "C:\windows\system32\reg.exe" ADD "HKLM\System\CurrentControlSet\Control\Session Manager\Environment" /v "SDL_AUDIODRIVER" /d "winmm" /f; break; fi; done; %command%
+
+- name: "New Super Lucky's Tale"
+  platform: steam
+  id: 1038300
+  store: humble:new-super-luckys-tale
+  status: verified
+
+- id: 404540
+  platform: steam
+  name: Nex Machina
+  compat_config: noesync,nofsync
+  launch_options: PULSE_LATENCY_MSEC=60 %command%
+
+- name: "Next Up Hero"
+  platform: epic-store
+  id: Sumac
+  banner: steam:667810
+  compat_tool: proton-stable
+  status: playable
+  notes:
+    - Launcher requires mouse
+    - Game has full controller support
+
+- name: Night in the Woods
+  platform: epic-store
+  id: cd1b8a6e5b6c47369e2a1e2cf7b7f536
+  banner: steam:481510
+  status: unsupported
+
+- name: The Night of the Rabbit
+  platform: steam
+  id: 230820
+  compat_tool: proton-stable
+  launch_options: IFS=:; for PROTON_PATH in ${STEAM_COMPAT_TOOL_PATHS}; do if [ -f "$PROTON_PATH/dist/bin/wine" ]; then WINEPREFIX=$STEAM_COMPAT_DATA_PATH/pfx $PROTON_PATH/dist/bin/wine "C:\windows\system32\reg.exe" ADD "HKLM\System\CurrentControlSet\Control\Session Manager\Environment" /v "SDL_AUDIODRIVER" /d "directsound" /f; break; fi; done; %command%
+
+- name: "The Night of the Rabbit"
+  platform: gog
+  id: 1207659218
+  banner: steam:230820
+  status: unsupported
+
+- name: NiGHTS Into Dreams
+  platform: steam
+  id: 219950
+  compat_tool: proton-stable
+  compat_config: noesync,nofsync
+
+- name: Nimble Quest
+  platform: steam
+  id: 259780
+  poster: https://cdn2.steamgriddb.com/grid/72750ee512b0ef9c77aa7e84765a8173.png
+
+- name: 'Ni no Kuni II: Revenant Kingdom'
+  platform: steam
+  id: 589360
+  status: verified
+  store: humble:ni-no-kuni-2-revenant-kingdom
 
 - name: Ni no Kuni Wrath of the White Witch Remastered
   platform: steam
@@ -4301,16 +4434,33 @@
   store: humble:ni-no-kuni-wrath-of-the-white-witch-remastered
   compat_tool: proton-stable
 
-- name: Night in the Woods
+- name: "Nioh: The Complete Edition"
   platform: epic-store
-  id: cd1b8a6e5b6c47369e2a1e2cf7b7f536
-  banner: steam:481510
+  id: b5e42b0dc2f544a5bbb4080a433b8b71
+  banner: steam:485510
+  compat_tool: proton-stable
+  status: playable
+  notes:
+    - Launcher can be by-passed with controller
+    - Changing settings in launcher requires mouse
+    - Game has full controller support
+
+# native version crashes
+- name: N++ (NPLUSPLUS)
+  platform: steam
+  id: 230270
+  compat_tool: proton-stable
+
+- name: "Nomads of Driftland"
+  platform: gog
+  id: 1433027987
+  banner: steam:1400520
   status: unsupported
 
-- name: Nimble Quest
+- name: Nowhere Prophet
   platform: steam
-  id: 259780
-  poster: https://cdn2.steamgriddb.com/grid/72750ee512b0ef9c77aa7e84765a8173.png
+  id: 681730
+  steam_input: enabled
 
 - name: Nuclear Throne
   platform: epic-store
@@ -5362,12 +5512,6 @@
   notes:
     - Displays keyboard icons during tutorial
 
-- name: "New Super Lucky's Tale"
-  platform: steam
-  id: 1038300
-  store: humble:new-super-luckys-tale
-  status: verified
-
 - name: The Surge 2
   platform: steam
   id: 644830
@@ -5427,23 +5571,11 @@
   status: verified
   store: humble:team-sonic-racing
 
-- name: Narita Boy
-  platform: steam
-  id: 1069530
-  status: verified
-  store: humble:narita-boy
-
 - name: Roki
   platform: steam
   id: 1067540
   status: verified
   store: humble:roki
-
-- name: Neon Abyss
-  platform: steam
-  id: 788100
-  status: verified
-  store: humble:neon-abyss
 
 - name: Psychonauts 2
   platform: steam
@@ -5581,11 +5713,6 @@
   status: verified
   store: humble:vampire-the-masquerade-coteries-of-new-york
 
-- name: NBA 2K20
-  platform: steam
-  id: 1089350
-  status: verified
-
 - name: 'Sundered: Eldritch Edition'
   platform: steam
   id: 535480
@@ -5630,12 +5757,6 @@
   status: verified
   store: humble:the-swords-of-ditto-mormos-curse
   compat_tool: proton-stable
-
-- name: 'Ni no Kuni II: Revenant Kingdom'
-  platform: steam
-  id: 589360
-  status: verified
-  store: humble:ni-no-kuni-2-revenant-kingdom
 
 - name: This Is the Police 2
   platform: steam
@@ -5934,12 +6055,6 @@
   status: verified
   store: humble:olliolli2-welcome-to-olliwood
 
-- name: Neon Drive
-  platform: steam
-  id: 433910
-  status: verified
-  store: humble:neon-drive
-
 - name: TowerFall Ascension
   platform: steam
   id: 251470
@@ -5960,29 +6075,6 @@
   id: 448510
   status: verified
   store: humble:overcooked
-
-- id: 105000
-  platform: steam
-  name: A New Beginning - Final Cut
-  compat_tool: proton-stable
-  launch_options: IFS=:; for PROTON_PATH in ${STEAM_COMPAT_TOOL_PATHS}; do if [ -f "$PROTON_PATH/dist/bin/wine" ]; then WINEPREFIX=$STEAM_COMPAT_DATA_PATH/pfx $PROTON_PATH/dist/bin/wine "C:\windows\system32\reg.exe" ADD "HKLM\System\CurrentControlSet\Control\Session Manager\Environment" /v "SDL_AUDIODRIVER" /d "winmm" /f; break; fi; done; %command%
-
-- id: 219950
-  platform: steam
-  name: NiGHTS Into Dreams
-  compat_tool: proton-stable
-  compat_config: noesync,nofsync
-
-- id: 230820
-  platform: steam
-  name: The Night of the Rabbit
-  compat_tool: proton-stable
-  launch_options: IFS=:; for PROTON_PATH in ${STEAM_COMPAT_TOOL_PATHS}; do if [ -f "$PROTON_PATH/dist/bin/wine" ]; then WINEPREFIX=$STEAM_COMPAT_DATA_PATH/pfx $PROTON_PATH/dist/bin/wine "C:\windows\system32\reg.exe" ADD "HKLM\System\CurrentControlSet\Control\Session Manager\Environment" /v "SDL_AUDIODRIVER" /d "directsound" /f; break; fi; done; %command%
-
-- id: 681730
-  platform: steam
-  name: Nowhere Prophet
-  steam_input: enabled
 
 # native version does not recognize controllers
 - id: 749800
@@ -6145,22 +6237,10 @@
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/3a9aa4b8be741e21ba9f80b3c3684ce5.png
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/5e632913bf096e49880cf8b92d53c9ad.png
 
-- id: 404540
-  platform: steam
-  name: Nex Machina
-  compat_config: noesync,nofsync
-  launch_options: PULSE_LATENCY_MSEC=60 %command%
-
 # native version has controller issues
 - id: 323220
   platform: steam
   name: Vagante
-  compat_tool: proton-stable
-
-# native versions crashes
-- id: 230270
-  platform: steam
-  name: N++ (NPLUSPLUS)
   compat_tool: proton-stable
 
 # native versions crashes
@@ -6180,13 +6260,6 @@
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/e4468feba65b34be3ab870882109d5af.png
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/ae0752582ef51ba1b182f3d7f7cd9751.png
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/eb2c115996de9709efa58507c07b40ab.png
-
-- name: NBA Playgrounds
-  platform: steam
-  id: 545270
-  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/d5eac1e9308bcc90cb100d80979f8d98.png
-  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/5de310fd9365cd111d778791085b1eb3.jpg
-  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/c5b3966bd2d4c690da368b3ecbece868.png
 
  # Disable -steamdeck to fix controller issues for Sackboy
 - name: Sackboy A Big Adventure
@@ -6269,18 +6342,6 @@
   notes:
     - Gameplay supports controller
     - Painting spaceship requires mouse 
-
-- name: "Narita Boy"
-  platform: gog
-  id: 2029460067
-  banner: steam:1069530
-  status: verified
-
-- name: "Neurodeck: Psychological Deckbuilder"
-  platform: gog
-  id: 1739122581
-  banner: steam:1253860
-  status: verified
 
 - name: "Phoning Home"
   platform: gog
@@ -6444,18 +6505,6 @@
   banner: https://cdn2.steamgriddb.com/grid/3a19f212ae83929a1209377c627c3912.png
   status: unsupported
 
-- name: "Neverwinter Nights Diamond"
-  platform: gog
-  id: 1207658890
-  banner: https://cdn2.steamgriddb.com/grid/7012fda2190dc3120e31b667cf9e2c06.jpg
-  status: unsupported
-
-- name: "Neverwinter Nights: Enhanced Edition"
-  platform: gog
-  id: 1097893768
-  banner: steam:704450
-  status: unsupported
-
 - name: "Outcast 1.1"
   platform: gog
   id: 1207658853
@@ -6510,12 +6559,6 @@
   banner: steam:46510
   status: unsupported
 
-- name: "The Night of the Rabbit"
-  platform: gog
-  id: 1207659218
-  banner: steam:230820
-  status: unsupported
-
 - name: "The Supper"
   platform: gog
   id: 1481527544
@@ -6545,12 +6588,6 @@
   id: 1421309312
   banner: https://cdn2.steamgriddb.com/grid/729fe11bfd2eab32e7613461d2f5ea74.png
   poster: https://cdn2.steamgriddb.com/grid/12059c268a74f3db7ed26b87efe23461.png
-  status: unsupported
-
-- name: "Nomads of Driftland"
-  platform: gog
-  id: 1433027987
-  banner: steam:1400520
   status: unsupported
 
 - name: "Syndicate Plus™"
@@ -6611,22 +6648,6 @@
   compat_tool: proton-stable
   status: verified
 
-- name: "Neon Abyss"
-  platform: epic-store
-  id: a26f991a5e6c4e9c9572fc200cbea47f
-  banner: steam:788100
-  compat_tool: proton-stable
-  status: verified
-
-- name: "NBA 2K21"
-  platform: epic-store
-  id: 639977eecfd2497c941b71af949b5067
-  banner: steam:1225330
-  compat_tool: proton-stable
-  status: verified
-  notes:
-    - Online play not possible anymore due to server shutdown
-
 - name: "Offworld Trading Company"
   platform: epic-store
   id: Snapper
@@ -6644,27 +6665,6 @@
   status: playable
   notes:
     - No controller support
-
-- name: "Nioh: The Complete Edition"
-  platform: epic-store
-  id: b5e42b0dc2f544a5bbb4080a433b8b71
-  banner: steam:485510
-  compat_tool: proton-stable
-  status: playable
-  notes:
-    - Launcher can be by-passed with controller
-    - Changing settings in launcher requires mouse
-    - Game has full controller support
-
-- name: "Next Up Hero"
-  platform: epic-store
-  id: Sumac
-  banner: steam:667810
-  compat_tool: proton-stable
-  status: playable
-  notes:
-    - Launcher requires mouse
-    - Game has full controller support
 
 - name: "Q.U.B.E. 2"
   platform: epic-store
