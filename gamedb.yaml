@@ -6239,6 +6239,53 @@
   status: verified
   store: humble:turok-2-seeds-of-evil
 
+- name: "Ultima 4: Quest of the Avatar"
+  platform: gog
+  id: 1207658962
+  status: unsupported
+
+- name: Ultimate Marvel vs. Capcom 3
+  platform: steam
+  id: 357190
+  status: verified
+  store: humble:ultimate-marvel-vs-capcom-3
+
+- name: "Ultima Underworld I"
+  platform: gog
+  id: 1207662463
+  status: unsupported
+
+- name: "Ultima Underworld II"
+  platform: gog
+  id: 1207662473
+  status: unsupported
+
+- name: Ultra Street Fighter IV
+  platform: steam
+  id: 45760
+  status: verified
+
+- name: "Under The Moon"
+  platform: gog
+  id: 1386468605
+  banner: steam:1945780
+  status: playable
+  notes:
+    - Controller support isn't fully working
+    - Installing VisualC++ runtime needs mouse
+
+- name: Unrailed!
+  platform: steam
+  id: 1016920
+  status: verified
+  store: humble:unrailed
+
+- name: Untitled Goose Game
+  platform: steam
+  id: 837470
+  status: verified
+  compat_tool: proton-stable
+
 - name: "Valdis Story: Abyssal City"
   platform: steam
   id: 252030
@@ -6392,17 +6439,6 @@
 
 # Steam games
 
-- name: Ultra Street Fighter IV
-  platform: steam
-  id: 45760
-  status: verified
-
-- name: Untitled Goose Game
-  platform: steam
-  id: 837470
-  status: verified
-  compat_tool: proton-stable
-
 - name: WWE 2K BATTLEGROUNDS
   platform: steam
   id: 1142100
@@ -6441,12 +6477,6 @@
   status: verified
   store: humble:yakuza-kiwami-2
 
-- name: Unrailed!
-  platform: steam
-  id: 1016920
-  status: verified
-  store: humble:unrailed
-
 - name: Yooka-Laylee and the Impossible Lair
   platform: steam
   id: 846870
@@ -6464,12 +6494,6 @@
   id: 857980
   status: verified
   store: humble:void-bastards
-
-- name: Ultimate Marvel vs. Capcom 3
-  platform: steam
-  id: 357190
-  status: verified
-  store: humble:ultimate-marvel-vs-capcom-3
 
 - name: Victor Vran
   platform: steam
@@ -6591,15 +6615,6 @@
   banner: steam:1019310
   status: verified
 
-- name: "Under The Moon"
-  platform: gog
-  id: 1386468605
-  banner: steam:1945780
-  status: playable
-  notes:
-    - Controller support isn't fully working
-    - Installing VisualC++ runtime needs mouse
-
 - name: "Wanderlust: Transsiberian"
   platform: gog
   id: 1766556386
@@ -6639,21 +6654,6 @@
   id: 1421309312
   banner: https://cdn2.steamgriddb.com/grid/729fe11bfd2eab32e7613461d2f5ea74.png
   poster: https://cdn2.steamgriddb.com/grid/12059c268a74f3db7ed26b87efe23461.png
-  status: unsupported
-
-- name: "Ultima™ 4: Quest of the Avatar"
-  platform: gog
-  id: 1207658962
-  status: unsupported
-
-- name: "Ultima™ Underworld I"
-  platform: gog
-  id: 1207662463
-  status: unsupported
-
-- name: "Ultima™ Underworld II"
-  platform: gog
-  id: 1207662473
   status: unsupported
 
 - name: "Warhammer 40,000: Chaos Gate"
