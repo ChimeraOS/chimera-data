@@ -4949,6 +4949,12 @@
   notes:
     - Requires VC++ to be installed
 
+- name: Race Arcade
+  platform: steam
+  id: 355010
+  status: verified
+  steam_input: enabled
+
 - name: Race The Sun
   platform: steam
   id: 253030
@@ -4976,11 +4982,6 @@
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/cb1a716a70ad58a2f02792dcc8db2039.png
   status: verified
 
-- name: realMyst
-  platform: steam
-  id: 63600
-  poster: https://cdn2.steamgriddb.com/grid/7509ba32f8e79d1585488d660a9fa3a2.jpg
-
 - name: Realms of the Haunting
   platform: steam
   id: 292390
@@ -4988,15 +4989,52 @@
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/84f2e494266e3d8bff012509c07be604.jpg
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/b5b03f06271f8917685d14cea7c6c50a.png
 
+- name: realMyst
+  platform: steam
+  id: 63600
+  poster: https://cdn2.steamgriddb.com/grid/7509ba32f8e79d1585488d660a9fa3a2.jpg
+
 - name: Rebel Galaxy
   platform: epic-store
   id: Weaver
   banner: steam:290300
 
+- name: 'Rebel Galaxy Outlaw'
+  id: 910830
+  platform: steam
+  compat_tool: GE-Proton8-32
+  status: playable
+  notes:
+    - Gameplay supports controller
+    - Painting spaceship requires mouse 
+
+- name: Rebound Dodgeball Evolved
+  platform: steam
+  id: 1057560
+  compat_tool: Proton-6.1-GE-2
+
 - name: "Recettear: An Item Shop's Tale"
   platform: steam
   id: 70400
   poster: https://cdn2.steamgriddb.com/grid/1e71361260ea9d5bc457f719718d0944.png
+
+- name: Regular Human Basketball
+  platform: steam
+  id: 661940
+  status: verified
+  store: humble:regular-human-basketball
+
+- name: "Relic Hunters Zero: Remix"
+  platform: gog
+  id: 1205909172
+  banner: steam:382490
+  status: verified
+
+- name: Relicta
+  platform: steam
+  id: 941570
+  store: humble:relicta
+  status: verified
 
 - name: Relicta
   platform: epic-store
@@ -5005,15 +5043,58 @@
   status: verified
   compat_tool: GE-Proton7-55
 
+- name: Remember Me
+  id: 228300
+  platform: steam
+  status: playable
+  notes:
+    - Has issues when playing with keyboard and mouse
+  patch_dir: Remember Me
+  patches:
+    - exec: mv ExampleGame/Movies/BIK_Boot_NVIDIA.bik ExampleGame/Movies/BIK_Boot_NVIDIA.bik.disabled
+    - exec: mv ExampleGame/Movies/BIK_Boot_Capcom.bik ExampleGame/Movies/BIK_Boot_Capcom.bik.disabled
+    - exec: mv ExampleGame/Movies/BIK_Boot_Legal.bik ExampleGame/Movies/BIK_Boot_Legal.bik.disabled
+    - exec: mv ExampleGame/Movies/BIK_Boot_Legal_DD_SCEA.bik ExampleGame/Movies/BIK_Boot_Legal_DD_SCEA.bik.disabled
+
+- name: 'Remnant: From the Ashes'
+  platform: epic-store
+  id: b4a0d2d15acb4db894a599b810297543
+  banner: steam:617290
+  compat_tool: proton-stable
+  status: verified
+
+# native version crashes on startup
+- name: Remnants of Naezith
+  platform: steam
+  id: 590590
+  status: verified
+  store: humble:remnants-of-naezith
+  compat_tool: proton-stable
+
 - name: Republique
   platform: steam
   id: 317100
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/68c7fca1e3bba5e49ec90847dcdd456b.png
 
+- name: Retimed
+  platform: steam
+  id: 760810
+  status: verified
+
+- name: Return Of The Zombie King
+  platform: steam
+  id: 1152020
+  status: verified
+
 - name: Reveal The Deep
   platform: steam
   id: 411560
   poster: https://cdn2.steamgriddb.com/grid/ff5bfc8100ee213d0a03d280781d3bc1.png
+
+- name: Rise of the Tomb Raider
+  platform: steam
+  id: 391220
+  status: verified
 
 - name: 'Robot Roller-Derby Disco Dodgeball'
   platform: steam
@@ -5032,6 +5113,19 @@
   id: 215510
   poster: https://cdn2.steamgriddb.com/grid/0d233a9541c181e713701de5d0448be4.jpg
 
+# native version no longer supported and does not work online
+- name: Rocket League
+  platform: steam
+  id: 252950
+  status: verified
+  compat_tool: proton-stable
+
+- name: Rocket League
+  platform: epic-store
+  id: Sugar
+  banner: steam:252950
+  status: verified
+
 - name: Rogue Legacy
   platform: steam
   id: 241600
@@ -5044,11 +5138,23 @@
   banner: steam:241600
   status: unsupported
 
-- name: Rocket League
-  platform: epic-store
-  id: Sugar
-  banner: steam:252950
+# proton stable doesn't play cut scenes 
+- id: 1069690
+  platform: steam
+  name: Rogue Lords
+  compat_tool: GE-Proton7-55
+  
+- name: Roki
+  platform: steam
+  id: 1067540
   status: verified
+  store: humble:roki
+
+- name: Roundabout
+  platform: steam
+  id: 303430
+  status: verified
+  store: humble:roundabout
 
 - name: Runner3
   platform: steam
@@ -5729,12 +5835,6 @@
     - Displays keyboard icons
     - Displays a Windows dialog during first time setup
 
-- name: Relicta
-  platform: steam
-  id: 941570
-  store: humble:relicta
-  status: verified
-
 - name: The Surge 2
   platform: steam
   id: 644830
@@ -5745,13 +5845,6 @@
   platform: steam
   id: 1554840
   status: verified
-
-# native version no longer supported and does not work online
-- name: Rocket League
-  platform: steam
-  id: 252950
-  status: verified
-  compat_tool: proton-stable
 
 - name: SteamWorld Dig 2
   platform: steam
@@ -5776,11 +5869,6 @@
   status: verified
   store: humble:tales-of-berseria
 
-- name: Retimed
-  platform: steam
-  id: 760810
-  status: verified
-
 - name: Sunblaze
   platform: steam
   id: 1525660
@@ -5793,12 +5881,6 @@
   id: 785260
   status: verified
   store: humble:team-sonic-racing
-
-- name: Roki
-  platform: steam
-  id: 1067540
-  status: verified
-  store: humble:roki
 
 - name: SOULCALIBUR VI
   platform: steam
@@ -5929,14 +6011,6 @@
         src: Sonic CD/installscript.vdf
         dst: installscript.vdf
 
-# native version crashes on startup
-- name: Remnants of Naezith
-  platform: steam
-  id: 590590
-  status: verified
-  store: humble:remnants-of-naezith
-  compat_tool: proton-stable
-
 # native version controller mappings are wrong
 - name: "The Swords of Ditto: Mormo's Curse"
   platform: steam
@@ -6027,12 +6101,6 @@
   status: verified
   store: humble:shadow-of-the-tomb-raider-definitive-edition
 
-- name: Regular Human Basketball
-  platform: steam
-  id: 661940
-  status: verified
-  store: humble:regular-human-basketball
-
 - name: 'Wolfenstein: The New Order'
   platform: steam
   id: 201810
@@ -6063,22 +6131,6 @@
   status: verified
   store: humble:sky-rogue
 
-- name: Return Of The Zombie King
-  platform: steam
-  id: 1152020
-  status: verified
-
-- name: Rise of the Tomb Raider
-  platform: steam
-  id: 391220
-  status: verified
-
-- name: Race Arcade
-  platform: steam
-  id: 355010
-  status: verified
-  steam_input: enabled
-
 - name: A Story About My Uncle
   platform: steam
   id: 278360
@@ -6095,12 +6147,6 @@
   platform: steam
   id: 213670
   status: verified
-
-- name: Roundabout
-  platform: steam
-  id: 303430
-  status: verified
-  store: humble:roundabout
 
 - name: Wizorb
   platform: steam
@@ -6196,11 +6242,6 @@
   id: 250760
   status: verified
   store: humble:shovel-knight-treasure-trove
-
-- id: 1057560
-  platform: steam
-  name: Rebound Dodgeball Evolved
-  compat_tool: Proton-6.1-GE-2
 
 - id: 289070
   platform: steam
@@ -6359,37 +6400,11 @@
   id: 1599660
   launch_options: SteamDeck=0 %command%
 
-# proton stable doesn't play cut scenes 
-- id: 1069690
-  platform: steam
-  name: Rogue Lords
-  compat_tool: GE-Proton7-55
-  
 # native version doesn't work 
 - id: 20920
   platform: steam
   name: 'The Witcher 2: Assassins of Kings Enhanced Edition'
   compat_tool: proton-stable
-
-- name: Remember Me
-  id: 228300
-  platform: steam
-  status: playable
-  notes:
-    - Has issues when playing with keyboard and mouse
-  patch_dir: Remember Me
-  patches:
-    - exec: mv ExampleGame/Movies/BIK_Boot_NVIDIA.bik ExampleGame/Movies/BIK_Boot_NVIDIA.bik.disabled
-    - exec: mv ExampleGame/Movies/BIK_Boot_Capcom.bik ExampleGame/Movies/BIK_Boot_Capcom.bik.disabled
-    - exec: mv ExampleGame/Movies/BIK_Boot_Legal.bik ExampleGame/Movies/BIK_Boot_Legal.bik.disabled
-    - exec: mv ExampleGame/Movies/BIK_Boot_Legal_DD_SCEA.bik ExampleGame/Movies/BIK_Boot_Legal_DD_SCEA.bik.disabled
-
-- name: 'Remnant: From the Ashes'
-  platform: epic-store
-  id: b4a0d2d15acb4db894a599b810297543
-  banner: steam:617290
-  compat_tool: proton-stable
-  status: verified
 
 - name: 'A Total War Saga: TROY'
   platform: epic-store
@@ -6414,26 +6429,11 @@
   compat_tool: proton-stable
   status: verified
 
-- name: 'Rebel Galaxy Outlaw'
-  id: 910830
-  platform: steam
-  compat_tool: GE-Proton8-32
-  status: playable
-  notes:
-    - Gameplay supports controller
-    - Painting spaceship requires mouse 
-
 - name: "Seven: Enhanced Edition"
   platform: gog
   id: 1276856962
   banner: steam:471010
   compat_tool: GE-Proton9-2
-  status: verified
-
-- name: "Relic Hunters Zero: Remix"
-  platform: gog
-  id: 1205909172
-  banner: steam:382490
   status: verified
 
 - name: "South of the Circle"
