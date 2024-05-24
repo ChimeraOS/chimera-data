@@ -1,3 +1,8 @@
+- name: '1 Screen Platformer'
+  platform: steam
+  id: 791180
+  status: verified
+
 # Native version doesn't support steam achievements
 - name: '12 is Better Than 6'
   platform: steam
@@ -19,11 +24,6 @@
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/7b42e2bdd7970b25e929cfd12c64f23c.png
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/e1c1c18c55ad8fad38e352a95bf4192e.png
   compat_tool: proton-stable
-  status: verified
-
-- name: '1 Screen Platformer'
-  platform: steam
-  id: 791180
   status: verified
 
 - name: '2064: Read Only Memories'
@@ -465,13 +465,6 @@
   status: verified
   store: humble:batman-arkham-origins
 
-# native version crashes on startup with AMD GPUs
-- name: BattleBlock Theater
-  platform: steam
-  id: 238460
-  status: verified
-  compat_tool: proton-stable
-
 - name: 'Battle Breakers'
   platform: epic-store
   id: WorldExplorersLive
@@ -485,19 +478,26 @@
   status: verified
   store: humble:battle-chasers-nightwar
 
-- name: 'Battleplan: American Civil War'
-  platform: steam
-  id: 285130
-  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/6e9365004b6395b837cbc0515b726caf.jpg
-  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/5624e6ca4bb96789d1a7658ac27895d1.png
-  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/ac9768a5017d092a06f8b8b1fc28c20c.png
-
 - name: Battle Riders
   platform: steam
   id: 418060
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/077eb87be8f6ea0f644a0051afb10678.png
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/3b5f657f49a25ad6dae77d4e048d1003.png
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/b83210dd590047ee38c4660f1f6060e5.png
+
+# native version crashes on startup with AMD GPUs
+- name: BattleBlock Theater
+  platform: steam
+  id: 238460
+  status: verified
+  compat_tool: proton-stable
+
+- name: 'Battleplan: American Civil War'
+  platform: steam
+  id: 285130
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/6e9365004b6395b837cbc0515b726caf.jpg
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/5624e6ca4bb96789d1a7658ac27895d1.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/ac9768a5017d092a06f8b8b1fc28c20c.png
 
 - name: Bayonetta
   platform: steam
@@ -645,6 +645,12 @@
   banner: steam:1138660
   status: unsupported
 
+- name: 'Black Widow: Recharged'
+  platform: epic-store
+  id: a21fd90517bf428eb7c995a8c3261722
+  banner: steam:1714180
+  status: unsupported
+
 - name: BLACKHOLE
   platform: steam
   id: 322680
@@ -656,12 +662,6 @@
   id: 1772238447
   banner: steam:1003890
   status: verified
-
-- name: 'Black Widow: Recharged'
-  platform: epic-store
-  id: a21fd90517bf428eb7c995a8c3261722
-  banner: steam:1714180
-  status: unsupported
 
 - name: 'Blair Witch'
   platform: epic-store
@@ -804,16 +804,16 @@
   id: 266130
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/4dd472bdb30a606e5306342fa82246f8.png
 
+- name: Breath of Death VII
+  platform: steam
+  id: 107300
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/65d30ce7ebeb224fbdafebfb0c1fae4f.png
+
 - name: 'Breathedge'
   platform: epic-store
   id: 0a20ccd3f1b3464da750a4dbf8c80d7c
   banner: steam:738520
   status: unsupported
-
-- name: Breath of Death VII
-  platform: steam
-  id: 107300
-  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/65d30ce7ebeb224fbdafebfb0c1fae4f.png
 
 - name: The Bridge
   platform: epic-store
@@ -950,18 +950,6 @@
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/7e448ed9dd44e6e22442dac8e21856ae.jpg
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/288cc0ff022877bd3df94bc9360b9c5d.png
 
-- name: "Caveblazers"
-  platform: gog
-  id: 1600722961
-  banner: steam:452060
-  status: verified
-
-- name: "Caverns of Mars: Recharged"
-  platform: epic-store
-  id: 8dc2dbb961e0490ab85efc7ae0b8b1eb
-  banner: steam:2213980
-  status: unsupported
-
 - name: Cave Story+
   platform: epic-store
   id: 1dea8a6ddb544842a58e4b5c8675ff58
@@ -981,6 +969,18 @@
   id: 1278463559
   banner: steam:1812280
   status: verified
+
+- name: "Caveblazers"
+  platform: gog
+  id: 1600722961
+  banner: steam:452060
+  status: verified
+
+- name: "Caverns of Mars: Recharged"
+  platform: epic-store
+  id: 8dc2dbb961e0490ab85efc7ae0b8b1eb
+  banner: steam:2213980
+  status: unsupported
 
 - name: Celeste
   platform: steam
@@ -1326,6 +1326,12 @@
   compat_tool: proton-stable
   status: verified
 
+- name: 'The Dark Eye: Memoria'
+  platform: steam
+  id: 243200
+  compat_tool: proton-stable
+  launch_options: IFS=:; for PROTON_PATH in ${STEAM_COMPAT_TOOL_PATHS}; do if [ -f "$PROTON_PATH/dist/bin/wine" ]; then WINEPREFIX=$STEAM_COMPAT_DATA_PATH/pfx $PROTON_PATH/dist/bin/wine "C:\windows\system32\reg.exe" ADD "HKLM\System\CurrentControlSet\Control\Session Manager\Environment" /v "SDL_AUDIODRIVER" /d "directsound" /f; break; fi; done; %command%
+
 - name: Darkest Dungeon
   platform: epic-store
   id: 36cbf259e631478eaac6ea244e55a709
@@ -1333,12 +1339,6 @@
   status: playable
   notes:
     - No controller support
-
-- name: 'The Dark Eye: Memoria'
-  platform: steam
-  id: 243200
-  compat_tool: proton-stable
-  launch_options: IFS=:; for PROTON_PATH in ${STEAM_COMPAT_TOOL_PATHS}; do if [ -f "$PROTON_PATH/dist/bin/wine" ]; then WINEPREFIX=$STEAM_COMPAT_DATA_PATH/pfx $PROTON_PATH/dist/bin/wine "C:\windows\system32\reg.exe" ADD "HKLM\System\CurrentControlSet\Control\Session Manager\Environment" /v "SDL_AUDIODRIVER" /d "directsound" /f; break; fi; done; %command%
 
 - name: Darksiders III
   platform: steam
@@ -1394,34 +1394,16 @@
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/3f882a4bb95c43e27924205306955021.png
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/d9eb09a4dbf0b2098faf20331f294afe.png
 
-- name: "Deadlight Director's Cut"
-  platform: gog
-  id: 1230412827
-  banner: steam:423950
-  status: verified
-
 - name: DEAD OR ALIVE 6
   platform: steam
   id: 838380
   status: verified
   store: humble:dead-or-alive-6
 
-- name: "DEATHLOOP"
-  platform: epic-store
-  id: 3206dba3f9b14fd3b01c18f9dcbc864a
-  banner: steam:1252330
-  compat_tool: proton-stable
-  status: verified
-
-- name: "Death's Door"
-  platform: steam
-  id: 894020
-  store: humble:deaths-door
-  status: verified
-
-- name: "Death's Gambit: Afterlife"
-  platform: steam
-  id: 356650
+- name: "Deadlight Director's Cut"
+  platform: gog
+  id: 1230412827
+  banner: steam:423950
   status: verified
 
 - name: Death Stranding
@@ -1440,6 +1422,24 @@
 - name: "Death Stranding Director's Cut"
   platform: steam
   id: 1850570
+  status: verified
+
+- name: "DEATHLOOP"
+  platform: epic-store
+  id: 3206dba3f9b14fd3b01c18f9dcbc864a
+  banner: steam:1252330
+  compat_tool: proton-stable
+  status: verified
+
+- name: "Death's Door"
+  platform: steam
+  id: 894020
+  store: humble:deaths-door
+  status: verified
+
+- name: "Death's Gambit: Afterlife"
+  platform: steam
+  id: 356650
   status: verified
 
 - name: Deep Rock Galactic
@@ -1679,12 +1679,6 @@
   status: verified
   store: humble:disgaea-2-pc
 
-- name: 'Dishonored: Death of the Outsider'
-  platform: epic-store
-  id: 2fb8273dcf6f41e4899c0c881e047053
-  banner: steam:614570
-  status: unsupported
-
 - name: 'Dishonored - Definitive Edition'
   platform: epic-store
   id: d2da64bd4c4e422da4b1a88041492a3a
@@ -1694,6 +1688,12 @@
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/615b9a2a83ec2f84e3b95d14486eab28.png
   compat_tool: proton-stable
   status: verified
+
+- name: 'Dishonored: Death of the Outsider'
+  platform: epic-store
+  id: 2fb8273dcf6f41e4899c0c881e047053
+  banner: steam:614570
+  status: unsupported
 
 - name: "Disjunction"
   platform: gog
@@ -2305,17 +2305,17 @@
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/4d58faf697d47b2ab9908dd1353ac190.png
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/12f9ed7d561f5536e2316645dba28c66.png
 
-- name: Fez
-  platform: epic-store
-  id: Bluebird
-  banner: steam:224760
-  status: verified
-
 - name: FEZ
   platform: steam
   id: 224760
   status: verified
   store: humble:fez
+
+- name: Fez
+  platform: epic-store
+  id: Bluebird
+  banner: steam:224760
+  status: verified
 
 - name: Fight The Dragon
   platform: steam
@@ -2446,14 +2446,6 @@
   notes:
     - No controller support
 
-# native version crashes
-- name: Forager
-  platform: steam
-  id: 751780
-  status: verified
-  store: humble:forager
-  compat_tool: proton-stable
-
 - name: 'For The King'
   platform: epic-store
   id: Discus
@@ -2461,16 +2453,13 @@
   compat_tool: proton-stable
   status: verified
 
-- name: Fortix 2
+# native version crashes
+- name: Forager
   platform: steam
-  id: 45450
-  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/0db1fb75f1918668d1248e31ff9988f5.png
-
-- name: Fortnite
-  platform: epic-store
-  id: Fortnite
-  banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/f5aeecbffe87c62489add19712de0d7e.png
-  status: unsupported
+  id: 751780
+  status: verified
+  store: humble:forager
+  compat_tool: proton-stable
 
 - name: Fort Triumph
   platform: steam
@@ -2482,6 +2471,17 @@
   platform: epic-store
   id: 320ba4df8b36412d983ffcffd3e0e8f0
   banner: steam:612570
+  status: unsupported
+
+- name: Fortix 2
+  platform: steam
+  id: 45450
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/0db1fb75f1918668d1248e31ff9988f5.png
+
+- name: Fortnite
+  platform: epic-store
+  id: Fortnite
+  banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/f5aeecbffe87c62489add19712de0d7e.png
   status: unsupported
 
 - name: Freedom Planet
@@ -2527,13 +2527,6 @@
   id: 44200
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/462734dd578ea71b7515693f85dd4530.png
 
-- name: 'Gamedec - Definitive Edition'
-  platform: epic-store
-  id: a01150ee6deb406c92dd2b2445186163
-  banner: steam:917720
-  compat_tool: proton-stable
-  status: verified
-
 - name: 'A Game of Thrones: The Board Game Official Edition'
   platform: epic-store
   id: 06b8b80d89c24a28a7e91127fcbd9542
@@ -2542,6 +2535,13 @@
   status: playable
   notes:
     - No controller support
+
+- name: 'Gamedec - Definitive Edition'
+  platform: epic-store
+  id: a01150ee6deb406c92dd2b2445186163
+  banner: steam:917720
+  compat_tool: proton-stable
+  status: verified
 
 - name: Gang Beasts
   platform: steam
@@ -2566,18 +2566,6 @@
   id: 310790
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/0135597642178aed62486ddc02136617.png
 
-- name: 'Ghostbusters: The Video Game'
-  platform: steam
-  id: 9870
-  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/1b901d41dcc45c3dca1a3dda74be9193.png
-
-- name: 'Ghostbusters: The Video Game Remastered'
-  platform: epic-store
-  id: Mint
-  banner: steam:1449280
-  compat_tool: proton-stable
-  status: verified
-
 - name: "Ghost Master"
   platform: gog
   id: 1207658687
@@ -2588,6 +2576,18 @@
   platform: gog
   id: 1875167847
   banner: steam:417290
+  status: verified
+
+- name: 'Ghostbusters: The Video Game'
+  platform: steam
+  id: 9870
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/1b901d41dcc45c3dca1a3dda74be9193.png
+
+- name: 'Ghostbusters: The Video Game Remastered'
+  platform: epic-store
+  id: Mint
+  banner: steam:1449280
+  compat_tool: proton-stable
   status: verified
 
 - name: "GigaBash"
@@ -2613,6 +2613,12 @@
   banner: steam:290510
   status: verified
 
+- name: God of War
+  platform: steam
+  id: 1593500
+  status: verified
+  store: humble:god-of-war
+
 - name: 'Godfall'
   platform: epic-store
   id: Carp
@@ -2630,12 +2636,6 @@
   id: f7c6294c948b47378659c9a963f449be
   banner: steam:1432910
   status: unsupported
-
-- name: God of War
-  platform: steam
-  id: 1593500
-  status: verified
-  store: humble:god-of-war
 
 - name: "God's Trigger"
   platform: epic-store
@@ -2874,12 +2874,6 @@
   notes:
     - Tutorial shows keyboard icons
 
-- name: "Hellblade: Senua's Sacrifice"
-  platform: steam
-  id: 414340
-  status: verified
-  store: humble:hellblade-senuas-sacrifice
-
 - name: Hell is Other Demons
   platform: epic-store
   id: 5ade01bafec54a148024665ce978b2a4
@@ -2891,6 +2885,12 @@
   id: 0e70be0cea0446599acb4c26d2e925f9
   banner: steam:964440
   status: unsupported
+
+- name: "Hellblade: Senua's Sacrifice"
+  platform: steam
+  id: 414340
+  status: verified
+  store: humble:hellblade-senuas-sacrifice
 
 - name: Hello Neighbor
   platform: steam
@@ -2928,17 +2928,17 @@
   id: 931690
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/2b384afa1ad2d96062f89b8015f62452.png
 
-- name: 'Hitman'
-  platform: epic-store
-  id: Barbet
-  banner: steam:236870
+# native version doesn't start 
+- name: "HITMAN"
+  platform: steam
+  id: 236870
   compat_tool: proton-stable
   status: verified
 
-# native version doesn't start 
-- name: HITMAN
-  platform: steam
-  id: 236870
+- name: "Hitman"
+  platform: epic-store
+  id: Barbet
+  banner: steam:236870
   compat_tool: proton-stable
   status: verified
 
@@ -3024,17 +3024,17 @@
   store: humble:horizon-zero-dawn-complete-edition
   status: verified
 
-- name: Hotshot Racing
-  platform: steam
-  id: 609920
-  status: verified
-  store: humble:hotshot-racing
-
 - name: Hot Wheels Unleashed
   platform: steam
   id: 1271700
   store: humble:hot-wheels-unleashed
   status: verified
+
+- name: Hotshot Racing
+  platform: steam
+  id: 609920
+  status: verified
+  store: humble:hotshot-racing
 
 - name: 'Hue'
   platform: epic-store
@@ -3067,6 +3067,12 @@
   id: 346510
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/8dcea1fb6917586536de111775961688.png
 
+- name: "I Have No Mouth And I Must Scream"
+  platform: gog
+  id: 1207659593
+  banner: steam:245390
+  status: unsupported
+
 - name: Iconoclasts
   platform: steam
   id: 393520
@@ -3081,12 +3087,6 @@
   status: playable
   notes:
     - No controller support
-
-- name: "I Have No Mouth And I Must Scream"
-  platform: gog
-  id: 1207659593
-  banner: steam:245390
-  status: unsupported
 
 - name: Ikaruga
   platform: steam
@@ -3105,6 +3105,12 @@
   id: 2089001920
   banner: steam:595140
   status: verified
+
+- name: In Sound Mind
+  platform: epic-store
+  id: 29ee5d32f328471590b3bd3ac03ed7d0
+  banner: steam:1119980
+  status: unsupported
 
 - name: Indivisible
   platform: steam
@@ -3129,12 +3135,6 @@
   id: Marigold
   banner: steam:304430
   status: verified
-
-- name: In Sound Mind
-  platform: epic-store
-  id: 29ee5d32f328471590b3bd3ac03ed7d0
-  banner: steam:1119980
-  status: unsupported
 
 - name: 'Intelligent Design: An Evolutionary Sandbox'
   platform: steam
@@ -3192,6 +3192,11 @@
   notes:
     - No controller support
 
+- name: Jack Lumber
+  platform: steam
+  id: 220900
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/019107ecbe557508ad449304fbd4ee43.png
+
 # native version unplayable due to cropped display
 - name: The Jackbox Party Pack
   platform: steam
@@ -3231,11 +3236,6 @@
   status: verified
   store: humble:the-jackbox-party-pack-5
   compat_tool: proton-stable
-
-- name: Jack Lumber
-  platform: steam
-  id: 220900
-  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/019107ecbe557508ad449304fbd4ee43.png
 
 - name: Jamestown
   platform: steam
@@ -3425,6 +3425,12 @@
     - EPIC login and linking account requires keyboard and mouse
     - Games has full controller support
 
+- name: THE KING OF FIGHTERS 2002
+  platform: gog
+  id: 2114035213
+  banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/be4d7403582645fe41d3921ac8ce530d.png
+  status: verified
+
 - name: 'Kingdom: New Lands'
   platform: epic-store
   id: cacao
@@ -3437,12 +3443,6 @@
   id: 409590
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/271b03e712a11c8c4c4b4b9153c2e29a.png
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/0d012a47399f189a1fd2a147eb59130a.png
-
-- name: THE KING OF FIGHTERS 2002
-  platform: gog
-  id: 2114035213
-  banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/be4d7403582645fe41d3921ac8ce530d.png
-  status: verified
 
 - name: The King's Bird
   platform: steam
@@ -3843,7 +3843,12 @@
   notes:
     - Sound isn't working in intro and ending video
 
-- name: Magic The Gathering Arena
+- name: "Magic: The Gathering - Duels of the Planeswalkers 2012"
+  platform: steam
+  id: 49470
+  poster: https://cdn2.steamgriddb.com/grid/9b07dafe243e6b18945a3051f6f3a95b.png
+
+- name: "Magic: The Gathering Arena"
   platform: epic-store
   id: stargazer
   banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/d6d124ffdb821cc19f989f2fa5a28ce7.png
@@ -3853,11 +3858,6 @@
   status: playable
   notes:
     - No controller support
-
-- name: 'Magic: The Gathering - Duels of the Planeswalkers 2012'
-  platform: steam
-  id: 49470
-  poster: https://cdn2.steamgriddb.com/grid/9b07dafe243e6b18945a3051f6f3a95b.png
 
 - name: Major Mayhem
   platform: steam
@@ -4073,15 +4073,15 @@
   banner: steam:1140270
   status: verified
 
-- name: Monsters Ate My Birthday Cake
-  platform: steam
-  id: 297590
-  poster: https://cdn2.steamgriddb.com/grid/ef41b2ad0976c63d21d712e7fa9ec785.png
-
 - name: Monster Trampoline
   platform: steam
   id: 939560
   status: verified
+
+- name: Monsters Ate My Birthday Cake
+  platform: steam
+  id: 297590
+  poster: https://cdn2.steamgriddb.com/grid/ef41b2ad0976c63d21d712e7fa9ec785.png
 
 - name: Moonlight
   platform: flathub
@@ -4180,17 +4180,17 @@
   compat_tool: proton-stable
   status: verified
 
-- name: 'MURDERED: SOUL SUSPECT™'
+- name: Murder Miners
+  platform: steam
+  id: 274900
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/33d84d6852006fdb220a0b7094b76c46.png
+
+- name: "MURDERED: SOUL SUSPECT"
   platform: steam
   id: 233290
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/9a759a33eb79b2130920a5e736219f37.png
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/3464ce4186536a9855a8a7967b121b3e.jpg
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/955fda27a2b8c63b1a738968656ce939.png
-
-- name: Murder Miners
-  platform: steam
-  id: 274900
-  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/33d84d6852006fdb220a0b7094b76c46.png
 
 # needs background and logo
 - name: Murnatan
@@ -4236,6 +4236,12 @@
   banner: steam:666140
   compat_tool: proton-stable
   status: verified
+
+# native version crashes
+- name: N++ (NPLUSPLUS)
+  platform: steam
+  id: 230270
+  compat_tool: proton-stable
 
 - name: Nanooborg
   platform: steam
@@ -4392,6 +4398,19 @@
     - Launcher requires mouse
     - Game has full controller support
 
+- name: 'Ni no Kuni II: Revenant Kingdom'
+  platform: steam
+  id: 589360
+  status: verified
+  store: humble:ni-no-kuni-2-revenant-kingdom
+
+- name: Ni no Kuni Wrath of the White Witch Remastered
+  platform: steam
+  id: 798460
+  status: verified
+  store: humble:ni-no-kuni-wrath-of-the-white-witch-remastered
+  compat_tool: proton-stable
+
 - name: Night in the Woods
   platform: epic-store
   id: cd1b8a6e5b6c47369e2a1e2cf7b7f536
@@ -4421,19 +4440,6 @@
   id: 259780
   poster: https://cdn2.steamgriddb.com/grid/72750ee512b0ef9c77aa7e84765a8173.png
 
-- name: 'Ni no Kuni II: Revenant Kingdom'
-  platform: steam
-  id: 589360
-  status: verified
-  store: humble:ni-no-kuni-2-revenant-kingdom
-
-- name: Ni no Kuni Wrath of the White Witch Remastered
-  platform: steam
-  id: 798460
-  status: verified
-  store: humble:ni-no-kuni-wrath-of-the-white-witch-remastered
-  compat_tool: proton-stable
-
 - name: "Nioh: The Complete Edition"
   platform: epic-store
   id: b5e42b0dc2f544a5bbb4080a433b8b71
@@ -4444,12 +4450,6 @@
     - Launcher can be by-passed with controller
     - Changing settings in launcher requires mouse
     - Game has full controller support
-
-# native version crashes
-- name: N++ (NPLUSPLUS)
-  platform: steam
-  id: 230270
-  compat_tool: proton-stable
 
 - name: "Nomads of Driftland"
   platform: gog
@@ -4841,16 +4841,16 @@
   notes:
     - No controller support
 
+- name: 'Project CARS - Pagani Edition'
+  platform: steam
+  id: 429180
+  poster: https://cdn2.steamgriddb.com/grid/5eaf7e8ee0a94b2ce3fd2f6a32df4b47.png
+
 - name: Project Cars 3
   platform: steam
   id: 958400
   status: verified
   store: humble:project-cars-3
-
-- name: 'Project CARS - Pagani Edition'
-  platform: steam
-  id: 429180
-  poster: https://cdn2.steamgriddb.com/grid/5eaf7e8ee0a94b2ce3fd2f6a32df4b47.png
 
 - name: Proteus
   platform: steam
@@ -5108,11 +5108,6 @@
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/7f9f3bdfd5974f2c11e9d6cd27c5f9f7.jpg
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/a733fa9b25f33689e2adbe72199f0e62.png
 
-- name: 'Rocketbirds: Hardboiled Chicken'
-  platform: steam
-  id: 215510
-  poster: https://cdn2.steamgriddb.com/grid/0d233a9541c181e713701de5d0448be4.jpg
-
 # native version no longer supported and does not work online
 - name: Rocket League
   platform: steam
@@ -5125,6 +5120,11 @@
   id: Sugar
   banner: steam:252950
   status: verified
+
+- name: 'Rocketbirds: Hardboiled Chicken'
+  platform: steam
+  id: 215510
+  poster: https://cdn2.steamgriddb.com/grid/0d233a9541c181e713701de5d0448be4.jpg
 
 - name: Rogue Legacy
   platform: steam
@@ -5235,6 +5235,17 @@
   status: verified
   store: humble:shadow-of-the-tomb-raider-definitive-edition
 
+- name: "Shadow Tactics: Blades of the Shogun"
+  platform: gog
+  id: 1601442230
+  banner: steam:418240
+  compat_tool: GE-Proton9-2
+  status: playable
+  notes:
+    - Controller is not enabled by default
+    - Controller must be enabled in options
+    - Once enabled, games has full controller support
+
 - name: "Shadowrun: Dragonfall - Director's Cut"
   platform: gog
   id: 1207660913
@@ -5252,17 +5263,6 @@
   id: 1207660413
   banner: steam:234650
   status: unsupported
-
-- name: "Shadow Tactics: Blades of the Shogun"
-  platform: gog
-  id: 1601442230
-  banner: steam:418240
-  compat_tool: GE-Proton9-2
-  status: playable
-  notes:
-    - Controller is not enabled by default
-    - Controller must be enabled in options
-    - Once enabled, games has full controller support
 
 - name: "Shantae and the Pirate's Curse"
   platform: gog
@@ -5352,6 +5352,17 @@
   id: 619320
   status: verified
 
+- name: Sky Force Anniversary
+  platform: steam
+  id: 355050
+  status: verified
+
+- name: Sky Rogue
+  platform: steam
+  id: 381020
+  status: verified
+  store: humble:sky-rogue
+
 - name: SkyDrift
   platform: steam
   id: 91100
@@ -5360,23 +5371,12 @@
     - Displays keyboard icons
     - Displays a Windows dialog during first time setup
 
-- name: Sky Force Anniversary
-  platform: steam
-  id: 355050
-  status: verified
-
 - name: Skyhook
   platform: steam
   id: 361350
   status: verified
   store: humble:skyhook
   steam_input: enabled
-
-- name: Sky Rogue
-  platform: steam
-  id: 381020
-  status: verified
-  store: humble:sky-rogue
 
 - name: Sludge Life
   platform: epic-store
@@ -5405,6 +5405,11 @@
   id: 111100
   poster: https://cdn2.steamgriddb.com/grid/059bb927fd3b32d7b4e9ca7edad819f3.png
 
+- name: So Many Me
+  platform: steam
+  id: 260530
+  poster: https://cdn2.steamgriddb.com/grid/ce8b0a8db47b0e3f3dcd282ccf095ffe.png
+
 - name: Solar Flux
   platform: steam
   id: 251910
@@ -5415,11 +5420,6 @@
   id: 4c76beac4e8a4156aa8dfb9c6db09746
   banner: steam:463980
   status: unsupported
-
-- name: So Many Me
-  platform: steam
-  id: 260530
-  poster: https://cdn2.steamgriddb.com/grid/ce8b0a8db47b0e3f3dcd282ccf095ffe.png
 
 - name: 'Sonic 3: Angel Island Revisited'
   platform: flathub
@@ -6060,6 +6060,20 @@
   status: verified
   store: humble:toki-tori-2
 
+- name: "Tom Clancy's Rainbow Six: Vegas"
+  platform: steam
+  id: 13540
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/1087e958e1f1eb9ef2cd21cb270bb30b.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/1be3bc32e6564055d5ca3e5a354acbef.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/0dd95a7728742f77d0bcd4a5988b0daa.png
+
+- name: "Tom Clancy's Rainbow Six: Vegas 2"
+  platform: steam
+  id: 15120
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/1bebc4f67cbeda086e5ac2d8d0eea72f.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/35051070e572e47d2c26c241ab88307f.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/3767ce596a099bc691ee43e67fb6ec03.png
+
 - name: Tomb Raider
   platform: steam
   id: 203160
@@ -6088,20 +6102,6 @@
   notes:
     - Requires installer interaction during first time setup
     - Uses a launcher
-
-- name: "Tom Clancy's Rainbow Six: Vegas"
-  platform: steam
-  id: 13540
-  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/1087e958e1f1eb9ef2cd21cb270bb30b.png
-  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/1be3bc32e6564055d5ca3e5a354acbef.png
-  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/0dd95a7728742f77d0bcd4a5988b0daa.png
-
-- name: "Tom Clancy's Rainbow Six: Vegas 2"
-  platform: steam
-  id: 15120
-  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/1bebc4f67cbeda086e5ac2d8d0eea72f.png
-  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/35051070e572e47d2c26c241ab88307f.png
-  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/3767ce596a099bc691ee43e67fb6ec03.png
 
 - name: Tonight We Riot
   platform: gog
@@ -6153,19 +6153,19 @@
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/f095cedd23b99f1696fc8caecbcf257e.png
   status: verified
 
-- name: Toybox Turbos
-  platform: steam
-  id: 287260
-  status: verified
-  compat_tool: proton-stable
-  compat_config: noesync,nofsync
-
 - name: "Toy Odyssey: The Lost and Found"
   platform: steam
   id: 392410
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/c937a83c368471c796797f022e275555.png
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/0a30a980e3540e51eb25423caa79f0cb.jpg
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/37c9216b00a111ac0e1f81de25ddff77.png
+
+- name: Toybox Turbos
+  platform: steam
+  id: 287260
+  status: verified
+  compat_tool: proton-stable
+  compat_config: noesync,nofsync
 
 - name: Trailmakers
   platform: steam
@@ -6244,12 +6244,6 @@
   id: 1207658962
   status: unsupported
 
-- name: Ultimate Marvel vs. Capcom 3
-  platform: steam
-  id: 357190
-  status: verified
-  store: humble:ultimate-marvel-vs-capcom-3
-
 - name: "Ultima Underworld I"
   platform: gog
   id: 1207662463
@@ -6259,6 +6253,12 @@
   platform: gog
   id: 1207662473
   status: unsupported
+
+- name: Ultimate Marvel vs. Capcom 3
+  platform: steam
+  id: 357190
+  status: verified
+  store: humble:ultimate-marvel-vs-capcom-3
 
 - name: Ultra Street Fighter IV
   platform: steam

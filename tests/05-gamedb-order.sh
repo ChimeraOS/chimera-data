@@ -1,5 +1,5 @@
 cat gamedb.yaml | grep "name:" | sed 's/- name: //' | sed 's/  name: //' | sed -E 's/^"|"$//g' | sed -E "s/^'|'$//g" | sed 's/^A //I' | sed 's/^An //I' | sed 's/^The //I' > /tmp/chimera_gamedb_original_order
-cat /tmp/chimera_gamedb_original_order | sort --ignore-case > /tmp/chimera_gamedb_sorted_order
+cat /tmp/chimera_gamedb_original_order | sort --ignore-nonprinting --dictionary-order --ignore-case > /tmp/chimera_gamedb_sorted_order
 
 diff -u /tmp/chimera_gamedb_original_order /tmp/chimera_gamedb_sorted_order
 if [ $? != 0 ]; then
