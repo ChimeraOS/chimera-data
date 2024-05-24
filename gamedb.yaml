@@ -6387,10 +6387,21 @@
   banner: steam:857980
   status: unsupported
 
-- name: Watch Dogs 2
-  platform: epic-store
-  id: Angelonia
-  banner: steam:447040
+- name: "Wanderlust: Transsiberian"
+  platform: gog
+  id: 1766556386
+  banner: steam:1233420
+  status: playable
+  notes:
+    - No controller support
+
+- name: "Wanderlust: Travel Stories"
+  platform: gog
+  id: 1739170762
+  banner: steam:1051410
+  status: playable
+  notes:
+    - No controller support
 
 - name: Warcraft II Battle.net Edition
   platform: gog
@@ -6402,6 +6413,17 @@
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/6b4a50a07d9f35739bd158b83cca2b48.png
   icon: https://cdn2.steamgriddb.com/file/sgdb-cdn/icon/3e89ebdb49f712c7d90d1b39e348bbbf.ico
 
+- name: Wargroove
+  platform: steam
+  id: 607050
+  compat_tool: proton-stable
+  launch_options: '--skip-intro'
+
+- name: "Warhammer 40,000: Chaos Gate"
+  platform: gog
+  id: 1433928487
+  status: unsupported
+
 - name: 'Warhammer 40,000: Eternal Crusade'
   platform: steam
   id: 375230
@@ -6409,12 +6431,28 @@
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/0390d17683e77e7e9d8c923134b1f5a1.jpg
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/eebe038e47780c96e2762b5e2003cef7.png
 
+- name: "Warhammer: Shadow of the Horned Rat"
+  platform: gog
+  id: 1433929853
+  status: unsupported
+
 - name: Wasted Pizza
   platform: steam
   id: 709820
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/830e6edbfbc984ea5501ddbbad492bb6.png
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/52bdba949576e6bcec5682a4993bfb58.png
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/32b683d9d8e73d3eeb6bf08fe0817402.png
+
+- name: Watch Dogs 2
+  platform: epic-store
+  id: Angelonia
+  banner: steam:447040
+
+# native versions crashes
+- name: 'Waves 2: Notorious'
+  platform: steam
+  id: 217120
+  compat_tool: proton-stable
 
 - name: Wheels of Aurelia
   platform: epic-store
@@ -6435,6 +6473,18 @@
   status: playable
   notes:
     - No controller support
+
+- name: "The Whisperer"
+  platform: gog
+  id: 1426240474
+  banner: steam:1697940
+  status: unsupported
+
+- name: The Wild Eight
+  platform: steam
+  id: 526160
+  status: verified
+  store: humble:the-wild-eight
 
 - name: "Wilmot's Warehouse"
   platform: epic-store
@@ -6457,11 +6507,47 @@
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/8fb276fc273796ca929b7fc45c2bc661.png
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/83469d31a109c3b788af763f8353ff1f.png
 
+# native version doesn't work 
+- name: 'The Witcher 2: Assassins of Kings Enhanced Edition'
+  platform: steam
+  id: 20920
+  compat_tool: proton-stable
+
+- name: 'The Witcher 3: Wild Hunt'
+  platform: steam
+  id: 292030
+  status: verified
+
+- name: "The Witcher: Enhanced Edition"
+  platform: gog
+  id: 1207658924
+  banner: steam:20900
+  status: unsupported
+
+- name: Wizorb
+  platform: steam
+  id: 207420
+  status: verified
+  store: humble:wizorb
+
 - name: The Wolf Among Us
   platform: epic-store
   id: Cobbler
   banner: steam:250320
   status: verified
+
+- name: 'Wolfenstein: The New Order'
+  platform: steam
+  id: 201810
+  status: verified
+  store: humble:wolfenstein-the-new-order
+
+- name: 'Wolfenstein: The New Order'
+  platform: epic-store
+  banner: steam:201810
+  id: a64dcf9b711a4a60a3c0b6f052dfc7da
+  status: verified
+  launch_options: '+com_skipIntroVideo 1'
 
 - name: The World Next Door
   platform: epic-store
@@ -6478,12 +6564,36 @@
   notes:
     - No controller support
 
+# native version doesn't have cross-platform multiplayer
+- name: Worms Reloaded
+  platform: steam
+  id: 22600
+  compat_tool: proton-stable
+
+- name: "Worms Revolution Gold Edition"
+  platform: gog
+  id: 1421309312
+  banner: https://cdn2.steamgriddb.com/grid/729fe11bfd2eab32e7613461d2f5ea74.png
+  poster: https://cdn2.steamgriddb.com/grid/12059c268a74f3db7ed26b87efe23461.png
+  status: unsupported
+
+- name: Worms W.M.D
+  platform: steam
+  id: 327030
+  launch_options: LD_LIBRARY_PATH= %command%
+
  # Disable -steamdeck to fix the game refusing to launch
 - name: WRC
   platform: steam
   id: 1849250
   status: verified
   launch_options: SteamDeck=0 %command%
+
+- name: WWE 2K BATTLEGROUNDS
+  platform: steam
+  id: 1142100
+  status: verified
+  store: humble:wwe-2k-battlegrounds
 
 - name: Xonotic
   platform: flathub
@@ -6500,18 +6610,6 @@
 
 
 # Steam games
-
-- name: WWE 2K BATTLEGROUNDS
-  platform: steam
-  id: 1142100
-  status: verified
-  store: humble:wwe-2k-battlegrounds
-
-- name: The Wild Eight
-  platform: steam
-  id: 526160
-  status: verified
-  store: humble:the-wild-eight
 
 # native version displays incorrect controller icons
 - name: Yuppie Psycho
@@ -6539,45 +6637,11 @@
   status: verified
   store: humble:xcom-enemy-unknown
 
-- name: 'The Witcher 3: Wild Hunt'
-  platform: steam
-  id: 292030
-  status: verified
-
-- name: 'Wolfenstein: The New Order'
-  platform: steam
-  id: 201810
-  status: verified
-  store: humble:wolfenstein-the-new-order
-
 - name: Yakuza Kiwami
   platform: steam
   id: 834530
   status: verified
   store: humble:yakuza-kiwami
-
-- name: Wizorb
-  platform: steam
-  id: 207420
-  status: verified
-  store: humble:wizorb
-
-- id: 607050
-  platform: steam
-  name: Wargroove
-  compat_tool: proton-stable
-  launch_options: '--skip-intro'
-
-# native version doesn't have cross-platform multiplayer
-- id: 22600
-  platform: steam
-  name: Worms Reloaded
-  compat_tool: proton-stable
-
-- id: 327030
-  platform: steam
-  name: Worms W.M.D
-  launch_options: LD_LIBRARY_PATH= %command%
 
 - id: 7760
   platform: steam
@@ -6601,70 +6665,6 @@
   id: 3330
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/3a9aa4b8be741e21ba9f80b3c3684ce5.png
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/5e632913bf096e49880cf8b92d53c9ad.png
-
-# native versions crashes
-- id: 217120
-  platform: steam
-  name: 'Waves 2: Notorious'
-  compat_tool: proton-stable
-
-# native version doesn't work 
-- id: 20920
-  platform: steam
-  name: 'The Witcher 2: Assassins of Kings Enhanced Edition'
-  compat_tool: proton-stable
-
-- name: 'Wolfenstein: The New Order'
-  platform: epic-store
-  banner: steam:201810
-  id: a64dcf9b711a4a60a3c0b6f052dfc7da
-  status: verified
-  launch_options: '+com_skipIntroVideo 1'
-
-- name: "Wanderlust: Transsiberian"
-  platform: gog
-  id: 1766556386
-  banner: steam:1233420
-  status: playable
-  notes:
-    - No controller support
-
-- name: "Wanderlust: Travel Stories"
-  platform: gog
-  id: 1739170762
-  banner: steam:1051410
-  status: playable
-  notes:
-    - No controller support
-
-- name: "The Whisperer"
-  platform: gog
-  id: 1426240474
-  banner: steam:1697940
-  status: unsupported
-
-- name: "The Witcher: Enhanced Edition"
-  platform: gog
-  id: 1207658924
-  banner: steam:20900
-  status: unsupported
-
-- name: "Worms Revolution Gold Edition"
-  platform: gog
-  id: 1421309312
-  banner: https://cdn2.steamgriddb.com/grid/729fe11bfd2eab32e7613461d2f5ea74.png
-  poster: https://cdn2.steamgriddb.com/grid/12059c268a74f3db7ed26b87efe23461.png
-  status: unsupported
-
-- name: "Warhammer 40,000: Chaos Gate"
-  platform: gog
-  id: 1433928487
-  status: unsupported
-
-- name: "Warhammer: Shadow of the Horned Rat"
-  platform: gog
-  id: 1433929853
-  status: unsupported
 
 - name: "X-Morph: Defense Complete Edition"
   platform: gog
