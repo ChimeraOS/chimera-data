@@ -5169,11 +5169,30 @@
   id: 38720
   poster: https://cdn2.steamgriddb.com/grid/9f1b497836bfa48a8f4e25eb55c566e5.jpg
 
+ # Disable -steamdeck to fix controller issues for Sackboy
+- name: Sackboy A Big Adventure
+  platform: steam
+  id: 1599660
+  launch_options: SteamDeck=0 %command%
+
 - name: SAMURAI SHODOWN NEOGEO COLLECTION
   platform: epic-store
   id: 75553c71fa1744a4be89f71d5b862eae
   banner: steam:999660
   status: unsupported  
+
+- name: "Sanitarium"
+  platform: gog
+  id: 1207658811
+  banner: steam:284050
+  status: unsupported
+
+# Controller doesn't work in native version
+- name: 'Savant - Ascent'
+  id: 259530
+  platform: steam
+  compat_tool: proton-stable
+  status: verified
 
 - name: Scribblenauts Unlimited
   platform: steam
@@ -5203,11 +5222,65 @@
   id: 303530
   poster: https://cdn2.steamgriddb.com/grid/59816ab92c4c799f1ad906f6645d29df.png
 
+- name: "Seven: Enhanced Edition"
+  platform: gog
+  id: 1276856962
+  banner: steam:471010
+  compat_tool: GE-Proton9-2
+  status: verified
+
+- name: Shadow of the Tomb Raider
+  platform: steam
+  id: 750920
+  status: verified
+  store: humble:shadow-of-the-tomb-raider-definitive-edition
+
+- name: "Shadowrun: Dragonfall - Director's Cut"
+  platform: gog
+  id: 1207660913
+  banner: steam:300550
+  status: unsupported
+
+- name: "Shadowrun Hong Kong - Extended Edition"
+  platform: gog
+  id: 1436866438
+  banner: steam:346940
+  status: unsupported
+
+- name: "Shadowrun Returns"
+  platform: gog
+  id: 1207660413
+  banner: steam:234650
+  status: unsupported
+
+- name: "Shadow Tactics: Blades of the Shogun"
+  platform: gog
+  id: 1601442230
+  banner: steam:418240
+  compat_tool: GE-Proton9-2
+  status: playable
+  notes:
+    - Controller is not enabled by default
+    - Controller must be enabled in options
+    - Once enabled, games has full controller support
+
+- name: "Shantae and the Pirate's Curse"
+  platform: gog
+  id: 1456141287
+  banner: steam:345820
+  status: unsupported
+
 - name: Shattered Pixel Dungeon
   platform: flathub
   id: com.shatteredpixel.shatteredpixeldungeon
   banner: steam:1769170
   status: playable
+
+- name: Shining Resonance Refrain
+  platform: steam
+  id: 809890
+  status: verified
+  store: humble:shining-resonance-refrain
 
 - name: Shiny The Firefly
   platform: steam
@@ -5220,12 +5293,38 @@
   banner: steam:1055540
   status: verified
 
+- name: 'Shovel Knight: Treasure Trove'
+  platform: steam
+  id: 250760
+  status: verified
+  store: humble:shovel-knight-treasure-trove
+
+- name: Sid Meier's Civilization VI
+  platform: steam
+  id: 289070
+  compat_tool: proton-stable
+  launch_options: eval $( echo "%command%" | sed "s/2KLauncher\/LauncherPatcher.exe'.*/Base\/Binaries\/Win64Steam\/CivilizationVI.exe'/" )
+
 - name: Sid Meier's Covert Action (Classic)
   platform: steam
   id: 327390
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/6e4fd1f8d7082b92ba9842ab88aab57e.jpg
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/7dc8ba1fb483784bbd6125233ef65165.png
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/825acdfe9638ae235c0b9a6fe5d13120.png
+
+- name: Sid Meier's Starships
+  platform: steam
+  id: 282210
+  compat_tool: proton-stable
+  launch_options: eval $(echo "%command%" | sed "s/Starships64.exe/Starships.exe/")
+
+- name: "Sigma Theory: Global Cold War"
+  platform: gog
+  id: 1986246769
+  banner: steam:716640
+  status: playable
+  notes:
+    - No controller support
 
 - name: "Silent Hill: Homecoming"
   platform: steam
@@ -5248,6 +5347,37 @@
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/697f31b39c120bea0d95112b65484d3f.png
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/afab9e1401c7c4b559e2723add38e05a.png
 
+- name: Skatemasta Tcheco
+  platform: steam
+  id: 619320
+  status: verified
+
+- name: SkyDrift
+  platform: steam
+  id: 91100
+  status: playable
+  notes:
+    - Displays keyboard icons
+    - Displays a Windows dialog during first time setup
+
+- name: Sky Force Anniversary
+  platform: steam
+  id: 355050
+  status: verified
+
+- name: Skyhook
+  platform: steam
+  id: 361350
+  status: verified
+  store: humble:skyhook
+  steam_input: enabled
+
+- name: Sky Rogue
+  platform: steam
+  id: 381020
+  status: verified
+  store: humble:sky-rogue
+
 - name: Sludge Life
   platform: epic-store
   id: Morganite
@@ -5264,15 +5394,16 @@
   id: 204220
   poster: https://cdn2.steamgriddb.com/grid/18a970ca757d4b658e65b3efb6cc0dec.png
 
+- name: Sniper Elite 3
+  platform: steam
+  id: 238090
+  compat_tool: proton-stable
+  compat_config: gamedrive
+
 - name: Snuggle Truck
   platform: steam
   id: 111100
   poster: https://cdn2.steamgriddb.com/grid/059bb927fd3b32d7b4e9ca7edad819f3.png
-
-- name: So Many Me
-  platform: steam
-  id: 260530
-  poster: https://cdn2.steamgriddb.com/grid/ce8b0a8db47b0e3f3dcd282ccf095ffe.png
 
 - name: Solar Flux
   platform: steam
@@ -5285,6 +5416,11 @@
   banner: steam:463980
   status: unsupported
 
+- name: So Many Me
+  platform: steam
+  id: 260530
+  poster: https://cdn2.steamgriddb.com/grid/ce8b0a8db47b0e3f3dcd282ccf095ffe.png
+
 - name: 'Sonic 3: Angel Island Revisited'
   platform: flathub
   id: org.sonic3air.Sonic3AIR
@@ -5292,6 +5428,42 @@
   status: playable
   notes:
     - Requires installation of Sonic 3 & Knuckles from Steam
+
+- name: Sonic Adventure DX
+  platform: steam
+  id: 71250
+  status: verified
+  store: humble:sonic-adventure-dx
+
+- name: Sonic CD
+  platform: steam
+  id: 200940
+  status: verified
+  compat_tool: proton-stable
+  launch_options: WINEDLLOVERRIDES="xaudio2_7=native,builtin" %command%
+  patch_dir: Sonic CD
+  patches:
+    - copy:
+        src: Sonic CD/installscript.vdf
+        dst: installscript.vdf
+
+- name: Sonic Forces
+  platform: steam
+  id: 637100
+  compat_tool: proton-stable
+  compat_config: noesync,nofsync
+
+- name: Sonic Generations
+  platform: steam
+  id: 71340
+  compat_tool: proton-stable
+  compat_config: noesync,nofsync
+
+- name: Sonic Mania
+  platform: steam
+  id: 584400
+  status: verified
+  store: humble:sonic-mania
 
 - name: Sonic Mania
   platform: epic-store
@@ -5330,6 +5502,32 @@
   id: 530930
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/627905f21b5ae408516847694d6bf571.png
 
+- name: SOULCALIBUR VI
+  platform: steam
+  id: 544750
+  store: humble:soulcalibur-vi
+  status: playable
+  notes:
+    - Requires keyboard for custom character name
+
+- name: "South of the Circle"
+  platform: gog
+  id: 1787058795
+  banner: steam:1811040
+  status: verified
+
+- name: 'South Park: The Stick of Truth'
+  platform: steam
+  id: 213670
+  status: verified
+
+- name: 'Spec Ops: The Line'
+  platform: steam
+  id: 50300
+  status: verified
+  store: humble:spec-ops-the-line
+  steam_input: enabled
+
 - name: Spectraball
   platform: steam
   id: 18300
@@ -5339,6 +5537,17 @@
   platform: epic-store
   id: 6ffe878bb1ce490ba6d3a359a1f88df2
   banner: steam:468670
+  status: verified
+
+- name: SpeedRunners
+  platform: steam
+  id: 207140
+  status: verified
+  store: humble:speedrunners
+
+- name: Spelunky
+  platform: steam
+  id: 239350
   status: verified
 
 - name: Spirits
@@ -5370,6 +5579,11 @@
   banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/228395bd8e832bff82a6ce90eb27a1f6.png
   status: playable
 
+- name: Spyro Reignited Trilogy
+  platform: steam
+  id: 996580
+  status: verified
+
 # native version does not recognize controllers
 - name: Star Horizon
   platform: steam
@@ -5379,6 +5593,18 @@
   compat_tool: proton-stable
   status: verified
   store: humble:star-horizon
+
+- name: "Star Trek: Elite Force II"
+  platform: gog
+  id: 2125201406
+  banner: https://cdn2.steamgriddb.com/grid/205fe7a394c95477d7348a246a5bf734.png
+  status: unsupported
+
+- name: "Star Trek: Voyager Elite Force"
+  platform: gog
+  id: 1581756945
+  banner: https://cdn2.steamgriddb.com/grid/3a19f212ae83929a1209377c627c3912.png
+  status: unsupported
 
 - name: 'STAR WARS: Dark Forces'
   platform: steam
@@ -5448,14 +5674,6 @@
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/884d247c6f65a96a7da4d1105d584ddd.png
   store: humble:star-wars-starfighter
 
-- name: 'STAR WARS: The Force Unleashed Ultimate Sith Edition'
-  platform: steam
-  id: 32430
-  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/6fcbe11b19a4827c0a8ef7cfc1e33eaf.png
-  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/5a5eab21ca2a8fef4af5e35709ecca15.png
-  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/ab233b682ec355648e7891e66c54191b.png
-  store: humble:star-wars-the-force-unleashed-ultimate-sith-edition
-
 - name: 'STAR WARS: The Force Unleashed II'
   platform: steam
   id: 32500
@@ -5464,10 +5682,48 @@
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/dfc9e4d35fdc35e6f3afeec8d7e0e474.png
   store: humble:star-wars-the-force-unleashed-ii
 
+- name: 'STAR WARS: The Force Unleashed Ultimate Sith Edition'
+  platform: steam
+  id: 32430
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/6fcbe11b19a4827c0a8ef7cfc1e33eaf.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/5a5eab21ca2a8fef4af5e35709ecca15.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/ab233b682ec355648e7891e66c54191b.png
+  store: humble:star-wars-the-force-unleashed-ultimate-sith-edition
+
+- name: "STASIS"
+  platform: gog
+  id: 1439548178
+  banner: steam:380150
+  status: unsupported
+
+- name: SteamWorld Dig
+  platform: steam
+  id: 252410
+  status: verified
+  store: humble:steamworld-dig
+
+- name: SteamWorld Dig 2
+  platform: steam
+  id: 571310
+  status: verified
+  store: humble:steamworld-dig-2
+
 - name: SteamWorld Dig 2
   platform: gog
   id: 1861082507
   banner: steam:571310
+  status: verified
+
+- name: SteamWorld Heist
+  platform: steam
+  id: 322190
+  status: verified
+  store: humble:steamworld-heist
+
+- name: "Steel Rats"
+  platform: gog
+  id: 1452983471
+  banner: steam:619700
   status: verified
 
 - name: StepMania
@@ -5475,6 +5731,12 @@
   id: com.stepmania.StepMania
   banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/c4812a5a8c941cf9d496493c0758e886.png
   status: playable
+
+- name: A Story About My Uncle
+  platform: steam
+  id: 278360
+  status: verified
+  store: humble:a-story-about-my-uncle
 
 - name: Stranded Deep
   platform: epic-store
@@ -5484,6 +5746,14 @@
   notes:
     - No controller support
     - Uses a launcher
+
+- name: Strange Brigade
+  platform: steam
+  id: 312670
+  status: verified
+  store: humble:strange-brigade
+  compat_tool: proton-stable
+  launch_options: eval $(echo "%command%" | sed "s/StrangeBrigade.exe/StrangeBrigade_Vulkan.exe/")
 
 - name: 'Stranger Things 3: The Game'
   platform: epic-store
@@ -5497,11 +5767,58 @@
   status: verified
   compat_tool: proton-stable
 
+- name: Streets of Rage 4
+  platform: steam
+  id: 985890
+  status: verified
+  store: humble:streets-of-rage-4
+
+- name: Struggling
+  platform: steam
+  id: 1035560
+  status: verified
+  store: humble:struggling
+
+- name: "Styx: Shards of Darkness"
+  platform: gog
+  id: 2090261953
+  banner: steam:355790
+  status: verified
+
+- name: Sunblaze
+  platform: steam
+  id: 1525660
+  status: verified
+  store: humble:sunblaze
+  steam_input: enabled
+
+- name: 'Sundered: Eldritch Edition'
+  platform: steam
+  id: 535480
+  status: verified
+  store: humble:sundered
+
+- name: Super Bit Blaster XL
+  platform: steam
+  id: 865040
+  status: verified
+
 - name: Super Hexagon
   platform: steam
   id: 221640
   store: humble:super-hexagon
   status: verified
+
+- name: Super Meat Boy
+  platform: steam
+  id: 40800
+  status: verified
+  store: humble:super-meat-boy
+
+- name: Super Mega Baseball 2
+  platform: steam
+  id: 414870
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/d4b843554caa89f1dc333d8782a11d40.png
 
 - name: Super Monday Night Combat
   platform: steam
@@ -5509,6 +5826,19 @@
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/0d04f7c940c8229d157f55426468e790.png
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/78b8d6620afcd434a4b7fb41b22e595b.png
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/cde380b0be4740a127dd89cc20ecf6f8.png
+
+- name: Super Monkey Ball Banana Mania
+  platform: steam
+  id: 1316910
+  store: humble:super-monkey-ball-banana-mania
+  status: verified
+
+# native version does not recognize controllers
+- name: Super Star Path
+  platform: steam
+  id: 375120
+  status: verified
+  compat_tool: proton-stable
 
 - name: SuperTux
   platform: flathub
@@ -5522,6 +5852,18 @@
   banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/7f1de29e6da19d22b51c68001e7e0e54.png
   status: playable
 
+- name: "The Supper"
+  platform: gog
+  id: 1481527544
+  banner: steam:1171370
+  status: unsupported
+
+- name: The Surge 2
+  platform: steam
+  id: 644830
+  store: humble:the-surge-2
+  status: verified
+
 - name: Sword Coast Legends
   platform: steam
   id: 325600
@@ -5529,10 +5871,54 @@
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/e327b1649d06bf74fceb4fe73f83bdba.jpg
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/767d01b4bac1a1e8824c9b9f7cc79a04.png
 
+# native version controller mappings are wrong
+- name: "The Swords of Ditto: Mormo's Curse"
+  platform: steam
+  id: 619780
+  status: verified
+  store: humble:the-swords-of-ditto-mormos-curse
+  compat_tool: proton-stable
+
+- name: "Syberia"
+  platform: gog
+  id: 1207658848
+  banner: steam:46500
+  status: unsupported
+
 - name: Syberia II
   platform: steam
   id: 46510
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/16d52d2df6ddd1e6efcf6851dec3cf85.png
+
+- name: "Syberia II"
+  platform: gog
+  id: 1207658849
+  banner: steam:46510
+  status: unsupported
+
+- name: SYMMETRY
+  platform: gog
+  id: 1440133968
+  banner: steam:537520
+  status: unsupported
+
+- name: "Syndicate Plus"
+  platform: gog
+  id: 1207658992
+  status: unsupported
+
+- name: "Syndicate Wars"
+  platform: gog
+  id: 1207659193
+  status: unsupported
+
+- name: 'System Shock: Classic'
+  platform: steam
+  id: 410700
+  compat_tool: boxtron
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/79241931403f948d94ea4ea5168f3b12.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/7d8d39116004c0df3b4a9e2e421dd2a2.jpg
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/c52f1bd66cc19d05628bd8bf27af3ad6.png
 
 - name: Tacoma
   platform: epic-store
@@ -5650,12 +6036,6 @@
   status: playable
   notes:
     - No controller support
-
-- name: SYMMETRY
-  platform: gog
-  id: 1440133968
-  banner: steam:537520
-  status: unsupported
 
 - name: "Valdis Story: Abyssal City"
   platform: steam
@@ -5821,42 +6201,10 @@
   status: verified
   compat_tool: proton-stable
 
-- name: Super Monkey Ball Banana Mania
-  platform: steam
-  id: 1316910
-  store: humble:super-monkey-ball-banana-mania
-  status: verified
-
-- name: SkyDrift
-  platform: steam
-  id: 91100
-  status: playable
-  notes:
-    - Displays keyboard icons
-    - Displays a Windows dialog during first time setup
-
-- name: The Surge 2
-  platform: steam
-  id: 644830
-  store: humble:the-surge-2
-  status: verified
-
 - name: Toree 3D
   platform: steam
   id: 1554840
   status: verified
-
-- name: SteamWorld Dig 2
-  platform: steam
-  id: 571310
-  status: verified
-  store: humble:steamworld-dig-2
-
-- name: Streets of Rage 4
-  platform: steam
-  id: 985890
-  status: verified
-  store: humble:streets-of-rage-4
 
 - name: Timelie
   platform: steam
@@ -5869,31 +6217,11 @@
   status: verified
   store: humble:tales-of-berseria
 
-- name: Sunblaze
-  platform: steam
-  id: 1525660
-  status: verified
-  store: humble:sunblaze
-  steam_input: enabled
-
 - name: Team Sonic Racing
   platform: steam
   id: 785260
   status: verified
   store: humble:team-sonic-racing
-
-- name: SOULCALIBUR VI
-  platform: steam
-  id: 544750
-  store: humble:soulcalibur-vi
-  status: playable
-  notes:
-    - Requires keyboard for custom character name
-
-- name: Skatemasta Tcheco
-  platform: steam
-  id: 619320
-  status: verified
 
 - name: WWE 2K BATTLEGROUNDS
   platform: steam
@@ -5933,23 +6261,6 @@
   store: humble:yuppie-psycho
   compat_tool: proton-stable
 
-- name: Struggling
-  platform: steam
-  id: 1035560
-  status: verified
-  store: humble:struggling
-
-- name: Spyro Reignited Trilogy
-  platform: steam
-  id: 996580
-  status: verified
-
-- name: Shining Resonance Refrain
-  platform: steam
-  id: 809890
-  status: verified
-  store: humble:shining-resonance-refrain
-
 - name: Yakuza Kiwami 2
   platform: steam
   id: 927380
@@ -5961,14 +6272,6 @@
   id: 1016920
   status: verified
   store: humble:unrailed
-
-- name: Strange Brigade
-  platform: steam
-  id: 312670
-  status: verified
-  store: humble:strange-brigade
-  compat_tool: proton-stable
-  launch_options: eval $(echo "%command%" | sed "s/StrangeBrigade.exe/StrangeBrigade_Vulkan.exe/")
 
 - name: Yooka-Laylee and the Impossible Lair
   platform: steam
@@ -5982,42 +6285,11 @@
   status: verified
   store: humble:vampire-the-masquerade-coteries-of-new-york
 
-- name: 'Sundered: Eldritch Edition'
-  platform: steam
-  id: 535480
-  status: verified
-  store: humble:sundered
-
-- name: Super Bit Blaster XL
-  platform: steam
-  id: 865040
-  status: verified
-
 - name: Void Bastards
   platform: steam
   id: 857980
   status: verified
   store: humble:void-bastards
-
-- name: Sonic CD
-  platform: steam
-  id: 200940
-  status: verified
-  compat_tool: proton-stable
-  launch_options: WINEDLLOVERRIDES="xaudio2_7=native,builtin" %command%
-  patch_dir: Sonic CD
-  patches:
-    - copy:
-        src: Sonic CD/installscript.vdf
-        dst: installscript.vdf
-
-# native version controller mappings are wrong
-- name: "The Swords of Ditto: Mormo's Curse"
-  platform: steam
-  id: 619780
-  status: verified
-  store: humble:the-swords-of-ditto-mormos-curse
-  compat_tool: proton-stable
 
 - name: This Is the Police 2
   platform: steam
@@ -6031,38 +6303,17 @@
   status: verified
   store: humble:ultimate-marvel-vs-capcom-3
 
-# native version does not recognize controllers
-- name: Super Star Path
-  platform: steam
-  id: 375120
-  status: verified
-  compat_tool: proton-stable
-
 - name: Them's Fightin' Herds
   platform: steam
   id: 574980
   status: verified
   store: humble:thems-fightin-herds
 
-- name: 'Spec Ops: The Line'
-  platform: steam
-  id: 50300
-  status: verified
-  store: humble:spec-ops-the-line
-  steam_input: enabled
-
 - name: Victor Vran
   platform: steam
   id: 345180
   status: verified
   store: humble:victor-vran
-
-- name: Skyhook
-  platform: steam
-  id: 361350
-  status: verified
-  store: humble:skyhook
-  steam_input: enabled
 
 - name: Trailmakers
   platform: steam
@@ -6095,12 +6346,6 @@
   id: 292030
   status: verified
 
-- name: Shadow of the Tomb Raider
-  platform: steam
-  id: 750920
-  status: verified
-  store: humble:shadow-of-the-tomb-raider-definitive-edition
-
 - name: 'Wolfenstein: The New Order'
   platform: steam
   id: 201810
@@ -6113,40 +6358,11 @@
   status: verified
   store: humble:turok-2-seeds-of-evil
 
-- name: Sonic Adventure DX
-  platform: steam
-  id: 71250
-  status: verified
-  store: humble:sonic-adventure-dx
-
 - name: Yakuza Kiwami
   platform: steam
   id: 834530
   status: verified
   store: humble:yakuza-kiwami
-
-- name: Sky Rogue
-  platform: steam
-  id: 381020
-  status: verified
-  store: humble:sky-rogue
-
-- name: A Story About My Uncle
-  platform: steam
-  id: 278360
-  status: verified
-  store: humble:a-story-about-my-uncle
-
-- name: SteamWorld Heist
-  platform: steam
-  id: 322190
-  status: verified
-  store: humble:steamworld-heist
-
-- name: 'South Park: The Stick of Truth'
-  platform: steam
-  id: 213670
-  status: verified
 
 - name: Wizorb
   platform: steam
@@ -6161,12 +6377,6 @@
   compat_tool: proton-stable
   compat_config: noesync,nofsync
 
-- name: Sonic Mania
-  platform: steam
-  id: 584400
-  status: verified
-  store: humble:sonic-mania
-
 - name: Thomas Was Alone
   platform: steam
   id: 220780
@@ -6177,12 +6387,6 @@
   id: 105600
   status: verified
   store: humble:terraria
-
-- name: SpeedRunners
-  platform: steam
-  id: 207140
-  status: verified
-  store: humble:speedrunners
 
 - name: Tomb Raider
   platform: steam
@@ -6206,28 +6410,6 @@
   id: 237930
   status: verified
 
-- name: Super Meat Boy
-  platform: steam
-  id: 40800
-  status: verified
-  store: humble:super-meat-boy
-
-- name: SteamWorld Dig
-  platform: steam
-  id: 252410
-  status: verified
-  store: humble:steamworld-dig
-
-- name: Spelunky
-  platform: steam
-  id: 239350
-  status: verified
-
-- name: Sky Force Anniversary
-  platform: steam
-  id: 355050
-  status: verified
-
 - name: TowerFall Ascension
   platform: steam
   id: 251470
@@ -6236,50 +6418,6 @@
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/f095cedd23b99f1696fc8caecbcf257e.png
   status: verified
   store: humble:towerfall-ascension
-
-- name: 'Shovel Knight: Treasure Trove'
-  platform: steam
-  id: 250760
-  status: verified
-  store: humble:shovel-knight-treasure-trove
-
-- id: 289070
-  platform: steam
-  name: Sid Meier's Civilization VI
-  compat_tool: proton-stable
-  launch_options: eval $( echo "%command%" | sed "s/2KLauncher\/LauncherPatcher.exe'.*/Base\/Binaries\/Win64Steam\/CivilizationVI.exe'/" )
-
-- id: 282210
-  platform: steam
-  name: Sid Meier's Starships
-  compat_tool: proton-stable
-  launch_options: eval $(echo "%command%" | sed "s/Starships64.exe/Starships.exe/")
-
-- id: 238090
-  platform: steam
-  name: Sniper Elite 3
-  compat_tool: proton-stable
-  compat_config: gamedrive
-
-- id: 637100
-  platform: steam
-  name: Sonic Forces
-  compat_tool: proton-stable
-  compat_config: noesync,nofsync
-
-- id: 71340
-  platform: steam
-  name: Sonic Generations
-  compat_tool: proton-stable
-  compat_config: noesync,nofsync
-
-- id: 410700
-  platform: steam
-  name: 'System Shock: Classic'
-  compat_tool: boxtron
-  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/79241931403f948d94ea4ea5168f3b12.png
-  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/7d8d39116004c0df3b4a9e2e421dd2a2.jpg
-  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/c52f1bd66cc19d05628bd8bf27af3ad6.png
 
 # older Proton version required to avoid stuttering
 - id: 8140
@@ -6382,23 +6520,12 @@
   name: 'Waves 2: Notorious'
   compat_tool: proton-stable
 
-- name: Super Mega Baseball 2
-  platform: steam
-  id: 414870
-  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/d4b843554caa89f1dc333d8782a11d40.png
-
 - name: TANKS
   platform: steam
   id: 866420
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/e4468feba65b34be3ab870882109d5af.png
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/ae0752582ef51ba1b182f3d7f7cd9751.png
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/eb2c115996de9709efa58507c07b40ab.png
-
- # Disable -steamdeck to fix controller issues for Sackboy
-- name: Sackboy A Big Adventure
-  platform: steam
-  id: 1599660
-  launch_options: SteamDeck=0 %command%
 
 # native version doesn't work 
 - id: 20920
@@ -6422,38 +6549,6 @@
   status: verified
   launch_options: '+com_skipIntroVideo 1'
 
-# Controller doesn't work in native version
-- name: 'Savant - Ascent'
-  id: 259530
-  platform: steam
-  compat_tool: proton-stable
-  status: verified
-
-- name: "Seven: Enhanced Edition"
-  platform: gog
-  id: 1276856962
-  banner: steam:471010
-  compat_tool: GE-Proton9-2
-  status: verified
-
-- name: "South of the Circle"
-  platform: gog
-  id: 1787058795
-  banner: steam:1811040
-  status: verified
-
-- name: "Steel Rats"
-  platform: gog
-  id: 1452983471
-  banner: steam:619700
-  status: verified
-
-- name: "Styx: Shards of Darkness"
-  platform: gog
-  id: 2090261953
-  banner: steam:355790
-  status: verified
-
 - name: "The Textorcist: The Story of Ray Bibbia"
   platform: gog
   id: 1591938132
@@ -6466,25 +6561,6 @@
   id: 2116968103
   banner: steam:1019310
   status: verified
-
-- name: "Shadow Tactics: Blades of the Shogun"
-  platform: gog
-  id: 1601442230
-  banner: steam:418240
-  compat_tool: GE-Proton9-2
-  status: playable
-  notes:
-    - Controller is not enabled by default
-    - Controller must be enabled in options
-    - Once enabled, games has full controller support
-
-- name: "Sigma Theory: Global Cold War"
-  platform: gog
-  id: 1986246769
-  banner: steam:716640
-  status: playable
-  notes:
-    - No controller support
 
 - name: "Terroir"
   platform: gog
@@ -6540,72 +6616,6 @@
   notes:
     - No controller support
 
-- name: "Star Trek™: Elite Force II"
-  platform: gog
-  id: 2125201406
-  banner: https://cdn2.steamgriddb.com/grid/205fe7a394c95477d7348a246a5bf734.png
-  status: unsupported
-
-- name: "Star Trek™: Voyager Elite Force"
-  platform: gog
-  id: 1581756945
-  banner: https://cdn2.steamgriddb.com/grid/3a19f212ae83929a1209377c627c3912.png
-  status: unsupported
-
-- name: "Sanitarium"
-  platform: gog
-  id: 1207658811
-  banner: steam:284050
-  status: unsupported
-
-- name: "STASIS"
-  platform: gog
-  id: 1439548178
-  banner: steam:380150
-  status: unsupported
-
-- name: "Shadowrun Hong Kong - Extended Edition"
-  platform: gog
-  id: 1436866438
-  banner: steam:346940
-  status: unsupported
-
-- name: "Shadowrun Returns"
-  platform: gog
-  id: 1207660413
-  banner: steam:234650
-  status: unsupported
-
-- name: "Shadowrun: Dragonfall - Director's Cut"
-  platform: gog
-  id: 1207660913
-  banner: steam:300550
-  status: unsupported
-
-- name: "Shantae and the Pirate's Curse"
-  platform: gog
-  id: 1456141287
-  banner: steam:345820
-  status: unsupported
-
-- name: "Syberia"
-  platform: gog
-  id: 1207658848
-  banner: steam:46500
-  status: unsupported
-
-- name: "Syberia II"
-  platform: gog
-  id: 1207658849
-  banner: steam:46510
-  status: unsupported
-
-- name: "The Supper"
-  platform: gog
-  id: 1481527544
-  banner: steam:1171370
-  status: unsupported
-
 - name: "The Whisperer"
   platform: gog
   id: 1426240474
@@ -6629,16 +6639,6 @@
   id: 1421309312
   banner: https://cdn2.steamgriddb.com/grid/729fe11bfd2eab32e7613461d2f5ea74.png
   poster: https://cdn2.steamgriddb.com/grid/12059c268a74f3db7ed26b87efe23461.png
-  status: unsupported
-
-- name: "Syndicate Plus™"
-  platform: gog
-  id: 1207658992
-  status: unsupported
-
-- name: "Syndicate Wars™"
-  platform: gog
-  id: 1207659193
   status: unsupported
 
 - name: "Ultima™ 4: Quest of the Avatar"
