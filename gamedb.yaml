@@ -6286,6 +6286,12 @@
   status: verified
   compat_tool: proton-stable
 
+# native version has controller issues
+- name: Vagante
+  platform: steam
+  id: 323220
+  compat_tool: proton-stable
+
 - name: "Valdis Story: Abyssal City"
   platform: steam
   id: 252030
@@ -6293,11 +6299,43 @@
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/1013c8b99e603831ad123eab4b27660f.png
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/4496bf24afe7fab6f046bf4923da8de6.png
 
+- name: Valfaris
+  platform: steam
+  id: 600130
+  status: verified
+  store: humble:valfaris
+
+- name: Valkyria Chronicles
+  platform: steam
+  id: 294860
+  compat_tool: proton-stable
+  compat_config: noesync
+
+- name: Valkyria Chronicles 4 Complete Edition
+  platform: steam
+  id: 790820
+  status: verified
+  store: humble:valkyria-chronicles-4-complete-edition
+
+- name: "Valley"
+  platform: steam
+  id: 378610
+  status: playable
+  notes:
+    - Shows a configuration dialog on launch
+    - Icons for keyboard and controller toggle during gameplay
+
 - name: VALORANT
   platform: epic-store
   id: 602eb4abc8764c87b7f2607a1ef8c18e
   banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/3031edd9d9431ac8a6598b5a47997a9c.jpg
   status: unsupported
+
+- name: 'Vampire: The Masquerade - Coteries of New York'
+  platform: steam
+  id: 1096410
+  status: verified
+  store: humble:vampire-the-masquerade-coteries-of-new-york
 
 - name: Vampyr
   platform: epic-store
@@ -6313,11 +6351,35 @@
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/0be6d77a4368b110b77c1437d13198bd.png
   status: playable
 
+- name: "Venetica - Gold Edition"
+  platform: gog
+  id: 1345182195
+  banner: steam:338140
+  status: unsupported
+
+- name: Victor Vran
+  platform: steam
+  id: 345180
+  status: verified
+  store: humble:victor-vran
+
 - name: Vintage Story
   platform: flathub
   id: at.vintagestory.VintageStory
   banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/60f4bacddeef710675c768a57768844c.png
   status: playable
+
+- name: "VirtuaVerse"
+  platform: gog
+  id: 2116968103
+  banner: steam:1019310
+  status: verified
+
+- name: Void Bastards
+  platform: steam
+  id: 857980
+  status: verified
+  store: humble:void-bastards
 
 - name: Void Bastards
   platform: epic-store
@@ -6451,18 +6513,6 @@
   status: verified
   store: humble:the-wild-eight
 
-- name: Valfaris
-  platform: steam
-  id: 600130
-  status: verified
-  store: humble:valfaris
-
-- name: Valkyria Chronicles 4 Complete Edition
-  platform: steam
-  id: 790820
-  status: verified
-  store: humble:valkyria-chronicles-4-complete-edition
-
 # native version displays incorrect controller icons
 - name: Yuppie Psycho
   platform: steam
@@ -6482,24 +6532,6 @@
   id: 846870
   status: verified
   store: humble:yookalaylee-and-the-impossible-lair
-
-- name: 'Vampire: The Masquerade - Coteries of New York'
-  platform: steam
-  id: 1096410
-  status: verified
-  store: humble:vampire-the-masquerade-coteries-of-new-york
-
-- name: Void Bastards
-  platform: steam
-  id: 857980
-  status: verified
-  store: humble:void-bastards
-
-- name: Victor Vran
-  platform: steam
-  id: 345180
-  status: verified
-  store: humble:victor-vran
 
 - name: 'XCOM: Enemy Unknown'
   platform: steam
@@ -6529,20 +6561,6 @@
   id: 207420
   status: verified
   store: humble:wizorb
-
-- id: 294860
-  platform: steam
-  name: Valkyria Chronicles
-  compat_tool: proton-stable
-  compat_config: noesync
-
-- name: "Valley"
-  platform: steam
-  id: 378610
-  status: playable
-  notes:
-    - Shows a configuration dialog on launch
-    - Icons for keyboard and controller toggle during gameplay
 
 - id: 607050
   platform: steam
@@ -6584,12 +6602,6 @@
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/3a9aa4b8be741e21ba9f80b3c3684ce5.png
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/5e632913bf096e49880cf8b92d53c9ad.png
 
-# native version has controller issues
-- id: 323220
-  platform: steam
-  name: Vagante
-  compat_tool: proton-stable
-
 # native versions crashes
 - id: 217120
   platform: steam
@@ -6608,12 +6620,6 @@
   id: a64dcf9b711a4a60a3c0b6f052dfc7da
   status: verified
   launch_options: '+com_skipIntroVideo 1'
-
-- name: "VirtuaVerse"
-  platform: gog
-  id: 2116968103
-  banner: steam:1019310
-  status: verified
 
 - name: "Wanderlust: Transsiberian"
   platform: gog
@@ -6641,12 +6647,6 @@
   platform: gog
   id: 1207658924
   banner: steam:20900
-  status: unsupported
-
-- name: "Venetica - Gold Edition"
-  platform: gog
-  id: 1345182195
-  banner: steam:338140
   status: unsupported
 
 - name: "Worms Revolution Gold Edition"
