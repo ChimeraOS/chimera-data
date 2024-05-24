@@ -271,9 +271,9 @@
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/883e881bb4d22a7add958f2d6b052c9f.png
 
 # native version doesn't play cut scenes 
-- id: 280160
+- name: Aragami
   platform: steam
-  name: Aragami
+  id: 280160
   compat_tool: proton-stable
   
 - name: 'ARCADE GAME SERIES: DIG DUG'
@@ -1811,8 +1811,8 @@
 
 # Controller doesn't work in native version
 - name: 'Duke of Alpha Centauri'
-  id: 567580
   platform: steam
+  id: 567580
   poster: https://cdn2.steamgriddb.com/grid/6373a3c0273eb185ad1dacf4295c3247.png
   compat_tool: proton-stable
   status: playable
@@ -3497,8 +3497,8 @@
 
 - name: "The Last Door - Collector's Edition"
   platform: steam
-  poster: https://cdn2.steamgriddb.com/grid/db942ab6ce5deb8d2dd0a50d401e40cb.jpg
   id: 284390
+  poster: https://cdn2.steamgriddb.com/grid/db942ab6ce5deb8d2dd0a50d401e40cb.jpg
 
 # SteamDeck=0 to allow resolutions above 1080P
 - name: Last Epoch
@@ -3877,8 +3877,8 @@
   status: verified
 
 - name: 'Master Levels for Doom II'
-  id: 9160
   platform: steam
+  id: 9160
   compat_tool: boxtron
 
 - name: "Master of Magic Classic"
@@ -3960,8 +3960,8 @@
   status: unsupported 
 
 - name: 'The Metronomicon: Slay The Dance Floor'
-  id: 416790
   platform: steam
+  id: 416790
   status: verified
 
 # native version has poor controller support
@@ -4376,9 +4376,9 @@
   store: humble:new-super-luckys-tale
   status: verified
 
-- id: 404540
+- name: Nex Machina
   platform: steam
-  name: Nex Machina
+  id: 404540
   compat_config: noesync,nofsync
   launch_options: PULSE_LATENCY_MSEC=60 %command%
 
@@ -5000,8 +5000,8 @@
   banner: steam:290300
 
 - name: 'Rebel Galaxy Outlaw'
-  id: 910830
   platform: steam
+  id: 910830
   compat_tool: GE-Proton8-32
   status: playable
   notes:
@@ -5044,8 +5044,8 @@
   compat_tool: GE-Proton7-55
 
 - name: Remember Me
-  id: 228300
   platform: steam
+  id: 228300
   status: playable
   notes:
     - Has issues when playing with keyboard and mouse
@@ -5139,9 +5139,9 @@
   status: unsupported
 
 # proton stable doesn't play cut scenes 
-- id: 1069690
+- name: Rogue Lords
   platform: steam
-  name: Rogue Lords
+  id: 1069690
   compat_tool: GE-Proton7-55
   
 - name: Roki
@@ -5189,8 +5189,8 @@
 
 # Controller doesn't work in native version
 - name: 'Savant - Ascent'
-  id: 259530
   platform: steam
+  id: 259530
   compat_tool: proton-stable
   status: verified
 
@@ -6065,19 +6065,19 @@
   id: 203160
   status: verified
 
-- id: 224960
+- name: Tomb Raider I
   platform: steam
-  name: Tomb Raider I
+  id: 224960
   compat_tool: boxtron
 
-- id: 225300
+- name: Tomb Raider II
   platform: steam
-  name: Tomb Raider II
+  id: 225300
   compat_tool: Proton-6.1-GE-2
 
-- id: 225320
+- name: Tomb Raider III
   platform: steam
-  name: Tomb Raider III
+  id: 225320
   compat_tool: Proton-6.1-GE-2
 
 # older Proton version required to avoid stuttering
@@ -6544,8 +6544,8 @@
 
 - name: 'Wolfenstein: The New Order'
   platform: epic-store
-  banner: steam:201810
   id: a64dcf9b711a4a60a3c0b6f052dfc7da
+  banner: steam:201810
   status: verified
   launch_options: '+com_skipIntroVideo 1'
 

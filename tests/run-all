@@ -6,4 +6,5 @@ set -e
 ./tests/02-gamedb-duplicates.sh
 ./tests/03-hwdb-syntax.py
 ./tests/04-gamedb-platforms.sh
-#./tests/05-gamedb-order.sh
+./tests/05-gamedb-order.sh
+./tests/06-gamedb-field-order.sh
