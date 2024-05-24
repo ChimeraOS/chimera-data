@@ -4900,6 +4900,12 @@
   id: 31270
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/8c05cf5bf084d8a1908738d8f5f6bad7.png
 
+- name: "Quake 4"
+  platform: gog
+  id: 1836059896
+  banner: steam:2210
+  status: unsupported
+
 - name: 'Quake Mission Pack 1: Scourge of Armagon'
   platform: steam
   id: 9040
@@ -4926,6 +4932,22 @@
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/b36019444e116803b9dc9f27eebd56be.png
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/cd61a580392a70389e27b0bc2b439f49.png
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/06ee4c5c93a9957c9b1bb3bd89e800c8.png
+
+- name: "Q.U.B.E. 10th Anniversary"
+  platform: epic-store
+  id: 440abc2d035f494a9bf172ed29f9fa2f
+  banner: steam:1564220
+  status: unsupported
+  notes:
+    - Requires VC++ to be installed
+
+- name: "Q.U.B.E. 2"
+  platform: epic-store
+  id: Auk
+  banner: steam:359100
+  status: unsupported
+  notes:
+    - Requires VC++ to be installed
 
 - name: Race The Sun
   platform: steam
@@ -6654,25 +6676,4 @@
   id: 1207658920
   status: unsupported
 
-- name: "Quake 4"
-  platform: gog
-  id: 1836059896
-  banner: steam:2210
-  status: unsupported
-
-- name: "Q.U.B.E. 2"
-  platform: epic-store
-  id: Auk
-  banner: steam:359100
-  status: unsupported
-  notes:
-    - Requires VC++ to be installed
-
-- name: "Q.U.B.E. 10th Anniversary"
-  platform: epic-store
-  id: 440abc2d035f494a9bf172ed29f9fa2f
-  banner: steam:1564220
-  status: unsupported
-  notes:
-    - Requires VC++ to be installed
 
