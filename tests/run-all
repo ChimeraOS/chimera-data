@@ -8,3 +8,4 @@ set -e
 ./tests/04-gamedb-platforms.sh
 ./tests/05-gamedb-order.sh
 ./tests/06-gamedb-field-order.sh
+./tests/07-name-double-quotes.sh
