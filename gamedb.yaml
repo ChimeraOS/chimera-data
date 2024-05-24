@@ -6595,21 +6595,61 @@
   status: verified
   store: humble:wwe-2k-battlegrounds
 
+- name: 'XCOM: Enemy Unknown'
+  platform: steam
+  id: 200510
+  status: verified
+  store: humble:xcom-enemy-unknown
+
+- name: 'X-COM: UFO Defense'
+  platform: steam
+  id: 7760
+  compat_tool: boxtron
+
+- name: "XIII"
+  platform: gog
+  id: 1207658920
+  status: unsupported
+
+- name: "X-Morph: Defense Complete Edition"
+  platform: gog
+  id: 1135975449
+  status: unsupported
+
 - name: Xonotic
   platform: flathub
   id: org.xonotic.Xonotic
   banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/220ddf008416e895e6e649a2bba33484.png
   status: playable
 
+- name: Yakuza Kiwami
+  platform: steam
+  id: 834530
+  status: verified
+  store: humble:yakuza-kiwami
+
+- name: Yakuza Kiwami 2
+  platform: steam
+  id: 927380
+  status: verified
+  store: humble:yakuza-kiwami-2
+
+- name: Yooka-Laylee
+  platform: steam
+  id: 360830
+  steam_input: enabled
+
+- name: Yooka-Laylee and the Impossible Lair
+  platform: steam
+  id: 846870
+  status: verified
+  store: humble:yookalaylee-and-the-impossible-lair
+
 - name: Yooka-Laylee and the Impossible Lair
   platform: epic-store
   id: Duckbill
   banner: steam:846870
   status: verified
-
-
-
-# Steam games
 
 # native version displays incorrect controller icons
 - name: Yuppie Psycho
@@ -6618,40 +6658,6 @@
   status: verified
   store: humble:yuppie-psycho
   compat_tool: proton-stable
-
-- name: Yakuza Kiwami 2
-  platform: steam
-  id: 927380
-  status: verified
-  store: humble:yakuza-kiwami-2
-
-- name: Yooka-Laylee and the Impossible Lair
-  platform: steam
-  id: 846870
-  status: verified
-  store: humble:yookalaylee-and-the-impossible-lair
-
-- name: 'XCOM: Enemy Unknown'
-  platform: steam
-  id: 200510
-  status: verified
-  store: humble:xcom-enemy-unknown
-
-- name: Yakuza Kiwami
-  platform: steam
-  id: 834530
-  status: verified
-  store: humble:yakuza-kiwami
-
-- id: 7760
-  platform: steam
-  name: 'X-COM: UFO Defense'
-  compat_tool: boxtron
-
-- id: 360830
-  platform: steam
-  name: Yooka-Laylee
-  steam_input: enabled
 
 - name: 'Zen of Sudoku'
   platform: steam
@@ -6665,15 +6671,3 @@
   id: 3330
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/3a9aa4b8be741e21ba9f80b3c3684ce5.png
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/5e632913bf096e49880cf8b92d53c9ad.png
-
-- name: "X-Morph: Defense Complete Edition"
-  platform: gog
-  id: 1135975449
-  status: unsupported
-
-- name: "XIII"
-  platform: gog
-  id: 1207658920
-  status: unsupported
-
-
