@@ -5926,6 +5926,25 @@
   banner: steam:343860
   status: verified
 
+- name: Tales of Berseria
+  platform: steam
+  id: 429660
+  status: verified
+  store: humble:tales-of-berseria
+
+- name: The Talos Principle
+  platform: steam
+  id: 257510
+  status: verified
+  store: humble:the-talos-principle
+
+- name: TANKS
+  platform: steam
+  id: 866420
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/e4468feba65b34be3ab870882109d5af.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/ae0752582ef51ba1b182f3d7f7cd9751.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/eb2c115996de9709efa58507c07b40ab.png
+
 - name: Tanks of Freedom
   platform: flathub
   id: in.p1x.TanksOfFreedom
@@ -5939,16 +5958,46 @@
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/a1d2a5b05d09395f32299a4d270a9a32.png
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/cf9a063bb9be814a77a491171cca236d.png
 
+- name: Team Sonic Racing
+  platform: steam
+  id: 785260
+  status: verified
+  store: humble:team-sonic-racing
+
 - name: "Teenage Mutant Ninja Turtles: Shredder's Revenge"
   platform: steam
   id: 1361510
   store: humble:teenage-mutant-ninja-turtles-shredders-revenge
   status: verified
   
+- name: TEKKEN 7
+  platform: steam
+  id: 389730
+  status: verified
+  store: humble:tekken-7
+
 - name: Tell Me Why
   platform: steam
   id: 1180660
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/e1d351219a44905eb5f80749d63ce379.png
+
+- name: Terraria
+  platform: steam
+  id: 105600
+  status: verified
+  store: humble:terraria
+
+- name: "Terroir"
+  platform: gog
+  id: 1990946201
+  banner: steam:559910
+  poster: https://cdn2.steamgriddb.com/grid/3b1aff9200e33d50f49363637e918f70.png
+  background: https://cdn2.steamgriddb.com/hero/8c9b0580ebd12c014a772c9cec371011.jpg
+  logo: https://cdn2.steamgriddb.com/logo/6e4a73786d958ce48cf0eed06b0c8aab.png
+  icon: https://cdn2.steamgriddb.com/icon/4027eb61381d305455b47f9404266be3.png
+  status: playable
+  notes:
+    - No controller support
 
 - name: The Textorcist
   platform: epic-store
@@ -5957,6 +6006,43 @@
   status: playable
   notes:
     - No controller support
+
+- name: "The Textorcist: The Story of Ray Bibbia"
+  platform: gog
+  id: 1591938132
+  banner: steam:940680
+  compat_tool: GE-Proton9-2
+  status: verified
+
+- name: "Thea 2: The Shattering"
+  platform: gog
+  id: 1582025844
+  banner: steam:606230
+  status: playable
+  notes:
+    - No controller support
+
+- name: Them's Fightin' Herds
+  platform: steam
+  id: 574980
+  status: verified
+  store: humble:thems-fightin-herds
+
+- name: This Is the Police 2
+  platform: steam
+  id: 785740
+  status: verified
+  store: humble:this-is-the-police-2
+
+- name: Thomas Was Alone
+  platform: steam
+  id: 220780
+  status: verified
+
+- name: Timelie
+  platform: steam
+  id: 1150950
+  status: verified
 
 - name: TinyKeep
   platform: steam
@@ -5973,6 +6059,35 @@
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/0f46c64b74a6c964c674853a89796c8e.png
   status: verified
   store: humble:toki-tori-2
+
+- name: Tomb Raider
+  platform: steam
+  id: 203160
+  status: verified
+
+- id: 224960
+  platform: steam
+  name: Tomb Raider I
+  compat_tool: boxtron
+
+- id: 225300
+  platform: steam
+  name: Tomb Raider II
+  compat_tool: Proton-6.1-GE-2
+
+- id: 225320
+  platform: steam
+  name: Tomb Raider III
+  compat_tool: Proton-6.1-GE-2
+
+# older Proton version required to avoid stuttering
+- name: 'Tomb Raider: Underworld'
+  platform: steam
+  id: 8140
+  compat_tool: proton_42
+  notes:
+    - Requires installer interaction during first time setup
+    - Uses a launcher
 
 - name: "Tom Clancy's Rainbow Six: Vegas"
   platform: steam
@@ -6000,26 +6115,34 @@
   compat_tool: proton-stable
   status: verified
 
+- name: Toree 3D
+  platform: steam
+  id: 1554840
+  status: verified
+
 - name: Tormentor X Punisher
   platform: epic-store
   id: Goby
   banner: steam:500670
   status: unsupported
 
-- name: "Toy Odyssey: The Lost and Found"
-  platform: steam
-  id: 392410
-  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/c937a83c368471c796797f022e275555.png
-  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/0a30a980e3540e51eb25423caa79f0cb.jpg
-  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/37c9216b00a111ac0e1f81de25ddff77.png
+- name: 'A Total War Saga: TROY'
+  platform: epic-store
+  id: 11e598b192324994abce05bad4f81b50
+  banner: steam:1099410
+  compat_tool: proton-stable
+  status: playable
+  notes:
+    - No controller support
 
-# needs background and logo
-- name: TUG
+- name: TowerFall Ascension
   platform: steam
-  id: 277930
-  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/e773dbc579a0ef997675d836974d747c.png
-  background:
-  logo:
+  id: 251470
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/5c9f93b2fdb3614e052123bba6301e64.jpg
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/4b86ca48d90bd5f0978afa3a012503a4.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/f095cedd23b99f1696fc8caecbcf257e.png
+  status: verified
+  store: humble:towerfall-ascension
 
 - name: TowerFall Ascension
   platform: epic-store
@@ -6030,12 +6153,91 @@
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/f095cedd23b99f1696fc8caecbcf257e.png
   status: verified
 
+- name: Toybox Turbos
+  platform: steam
+  id: 287260
+  status: verified
+  compat_tool: proton-stable
+  compat_config: noesync,nofsync
+
+- name: "Toy Odyssey: The Lost and Found"
+  platform: steam
+  id: 392410
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/c937a83c368471c796797f022e275555.png
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/0a30a980e3540e51eb25423caa79f0cb.jpg
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/37c9216b00a111ac0e1f81de25ddff77.png
+
+- name: Trailmakers
+  platform: steam
+  id: 585420
+  status: verified
+  store: humble:trailmakers
+
+- name: Transistor
+  platform: steam
+  id: 237930
+  status: verified
+
+# native version displays generic controller icons
+- name: 'Trine 3: The Artifacts of Power'
+  platform: steam
+  id: 319910
+  status: verified
+  store: humble:trine-3-the-artifacts-of-power
+  compat_tool: proton-stable
+
+- name: 'Trine 4: The Nightmare Prince'
+  platform: steam
+  id: 690640
+  status: verified
+  store: humble:trine-4-the-nightmare-prince
+
 - name: Trombone Champ
   platform: steam
   id: 1059990
   status: playable
   notes:
     - No controller support
+
+- name: "Trüberbrook"
+  platform: gog
+  id: 1289701346
+  banner: steam:757300
+  compat_tool: GE-Proton9-2
+  status: playable
+  notes:
+    - No controller support
+
+# needs background and logo
+- name: TUG
+  platform: steam
+  id: 277930
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/e773dbc579a0ef997675d836974d747c.png
+  background:
+  logo:
+
+- name: The Turing Test
+  platform: steam
+  id: 499520
+  compat_tool: proton-stable
+  patch_dir: The Turing Test
+  patches:
+    - exec: echo "459610a64e715fda06fc3caaa1bcb266 installer.vdf" | md5sum --status -c && sed -i 1,26d installer.vdf
+  status: playable
+  notes:
+    - Icons for keyboard and controller toggle during gameplay
+
+- name: Turok
+  platform: steam
+  id: 405820
+  status: verified
+  store: humble:turok
+
+- name: 'Turok 2: Seeds of Evil'
+  platform: steam
+  id: 405830
+  status: verified
+  store: humble:turok-2-seeds-of-evil
 
 - name: "Valdis Story: Abyssal City"
   platform: steam
@@ -6201,39 +6403,11 @@
   status: verified
   compat_tool: proton-stable
 
-- name: Toree 3D
-  platform: steam
-  id: 1554840
-  status: verified
-
-- name: Timelie
-  platform: steam
-  id: 1150950
-  status: verified
-
-- name: Tales of Berseria
-  platform: steam
-  id: 429660
-  status: verified
-  store: humble:tales-of-berseria
-
-- name: Team Sonic Racing
-  platform: steam
-  id: 785260
-  status: verified
-  store: humble:team-sonic-racing
-
 - name: WWE 2K BATTLEGROUNDS
   platform: steam
   id: 1142100
   status: verified
   store: humble:wwe-2k-battlegrounds
-
-- name: 'Trine 4: The Nightmare Prince'
-  platform: steam
-  id: 690640
-  status: verified
-  store: humble:trine-4-the-nightmare-prince
 
 - name: The Wild Eight
   platform: steam
@@ -6291,49 +6465,17 @@
   status: verified
   store: humble:void-bastards
 
-- name: This Is the Police 2
-  platform: steam
-  id: 785740
-  status: verified
-  store: humble:this-is-the-police-2
-
 - name: Ultimate Marvel vs. Capcom 3
   platform: steam
   id: 357190
   status: verified
   store: humble:ultimate-marvel-vs-capcom-3
 
-- name: Them's Fightin' Herds
-  platform: steam
-  id: 574980
-  status: verified
-  store: humble:thems-fightin-herds
-
 - name: Victor Vran
   platform: steam
   id: 345180
   status: verified
   store: humble:victor-vran
-
-- name: Trailmakers
-  platform: steam
-  id: 585420
-  status: verified
-  store: humble:trailmakers
-
-# native version displays generic controller icons
-- name: 'Trine 3: The Artifacts of Power'
-  platform: steam
-  id: 319910
-  status: verified
-  store: humble:trine-3-the-artifacts-of-power
-  compat_tool: proton-stable
-
-- name: The Talos Principle
-  platform: steam
-  id: 257510
-  status: verified
-  store: humble:the-talos-principle
 
 - name: 'XCOM: Enemy Unknown'
   platform: steam
@@ -6352,12 +6494,6 @@
   status: verified
   store: humble:wolfenstein-the-new-order
 
-- name: 'Turok 2: Seeds of Evil'
-  platform: steam
-  id: 405830
-  status: verified
-  store: humble:turok-2-seeds-of-evil
-
 - name: Yakuza Kiwami
   platform: steam
   id: 834530
@@ -6369,90 +6505,6 @@
   id: 207420
   status: verified
   store: humble:wizorb
-
-- name: Toybox Turbos
-  platform: steam
-  id: 287260
-  status: verified
-  compat_tool: proton-stable
-  compat_config: noesync,nofsync
-
-- name: Thomas Was Alone
-  platform: steam
-  id: 220780
-  status: verified
-
-- name: Terraria
-  platform: steam
-  id: 105600
-  status: verified
-  store: humble:terraria
-
-- name: Tomb Raider
-  platform: steam
-  id: 203160
-  status: verified
-
-- name: TEKKEN 7
-  platform: steam
-  id: 389730
-  status: verified
-  store: humble:tekken-7
-
-- name: Turok
-  platform: steam
-  id: 405820
-  status: verified
-  store: humble:turok
-
-- name: Transistor
-  platform: steam
-  id: 237930
-  status: verified
-
-- name: TowerFall Ascension
-  platform: steam
-  id: 251470
-  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/5c9f93b2fdb3614e052123bba6301e64.jpg
-  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/4b86ca48d90bd5f0978afa3a012503a4.png
-  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/f095cedd23b99f1696fc8caecbcf257e.png
-  status: verified
-  store: humble:towerfall-ascension
-
-# older Proton version required to avoid stuttering
-- id: 8140
-  platform: steam
-  name: 'Tomb Raider: Underworld'
-  compat_tool: proton_42
-  notes:
-    - Requires installer interaction during first time setup
-    - Uses a launcher
-
-- id: 224960
-  platform: steam
-  name: Tomb Raider I
-  compat_tool: boxtron
-
-- id: 225300
-  platform: steam
-  name: Tomb Raider II
-  compat_tool: Proton-6.1-GE-2
-
-- id: 225320
-  platform: steam
-  name: Tomb Raider III
-  compat_tool: Proton-6.1-GE-2
-
-- id: 499520
-  platform: steam
-  name: The Turing Test
-  compat_tool: proton-stable
-  patch_dir: The Turing Test
-  patches:
-    - exec: echo "459610a64e715fda06fc3caaa1bcb266 installer.vdf" | md5sum --status -c && sed -i 1,26d installer.vdf
-  status: playable
-  notes:
-    - Icons for keyboard and controller toggle during gameplay
 
 - id: 294860
   platform: steam
@@ -6520,27 +6572,11 @@
   name: 'Waves 2: Notorious'
   compat_tool: proton-stable
 
-- name: TANKS
-  platform: steam
-  id: 866420
-  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/e4468feba65b34be3ab870882109d5af.png
-  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/ae0752582ef51ba1b182f3d7f7cd9751.png
-  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/eb2c115996de9709efa58507c07b40ab.png
-
 # native version doesn't work 
 - id: 20920
   platform: steam
   name: 'The Witcher 2: Assassins of Kings Enhanced Edition'
   compat_tool: proton-stable
-
-- name: 'A Total War Saga: TROY'
-  platform: epic-store
-  id: 11e598b192324994abce05bad4f81b50
-  banner: steam:1099410
-  compat_tool: proton-stable
-  status: playable
-  notes:
-    - No controller support
 
 - name: 'Wolfenstein: The New Order'
   platform: epic-store
@@ -6549,47 +6585,11 @@
   status: verified
   launch_options: '+com_skipIntroVideo 1'
 
-- name: "The Textorcist: The Story of Ray Bibbia"
-  platform: gog
-  id: 1591938132
-  banner: steam:940680
-  compat_tool: GE-Proton9-2
-  status: verified
-
 - name: "VirtuaVerse"
   platform: gog
   id: 2116968103
   banner: steam:1019310
   status: verified
-
-- name: "Terroir"
-  platform: gog
-  id: 1990946201
-  banner: steam:559910
-  poster: https://cdn2.steamgriddb.com/grid/3b1aff9200e33d50f49363637e918f70.png
-  background: https://cdn2.steamgriddb.com/hero/8c9b0580ebd12c014a772c9cec371011.jpg
-  logo: https://cdn2.steamgriddb.com/logo/6e4a73786d958ce48cf0eed06b0c8aab.png
-  icon: https://cdn2.steamgriddb.com/icon/4027eb61381d305455b47f9404266be3.png
-  status: playable
-  notes:
-    - No controller support
-
-- name: "Thea 2: The Shattering"
-  platform: gog
-  id: 1582025844
-  banner: steam:606230
-  status: playable
-  notes:
-    - No controller support
-
-- name: "Trüberbrook"
-  platform: gog
-  id: 1289701346
-  banner: steam:757300
-  compat_tool: GE-Proton9-2
-  status: playable
-  notes:
-    - No controller support
 
 - name: "Under The Moon"
   platform: gog
