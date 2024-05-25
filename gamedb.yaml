@@ -330,7 +330,8 @@
 - name: "Armagetron Advanced"
   platform: flathub
   id: org.armagetronad.ArmagetronAdvanced
-  banner: /images/flathub/org.armagetronad.ArmagetronAdvanced
+  banner: https://cdn2.steamgriddb.com/grid/988ff598513a313c79dc21f22e164a3b.png
+  poster: https://cdn2.steamgriddb.com/grid/0b1ef9f12fada942e4441fbbfbdca8b3.png
   status: playable
 
 - name: "art of rally"
@@ -1045,7 +1046,8 @@
 - name: "Chiaki"
   platform: flathub
   id: re.chiaki.Chiaki
-  banner: /images/flathub/re.chiaki.Chiaki
+  banner: https://cdn2.steamgriddb.com/grid/3da7a050aaceae135cb145527c29a6a4.jpg
+  poster: https://cdn2.steamgriddb.com/grid/958dbde30754c9ab10d40017bc4cf956.jpg
   status: playable
 
 - name: "Children of Morta"
@@ -1062,7 +1064,8 @@
 - name: "Chromium"
   platform: flathub
   id: org.chromium.Chromium
-  banner: /images/flathub/org.chromium.Chromium
+  banner: https://cdn2.steamgriddb.com/grid/facdb98a89141587174f1191f648061d.png
+  poster: https://cdn2.steamgriddb.com/grid/2b7b701df4cf5180dd5a8bb101b96321.png
   status: playable
   notes:
     - No controller support
@@ -4091,7 +4094,8 @@
 - name: "Moonlight"
   platform: flathub
   id: com.moonlight_stream.Moonlight
-  banner: /images/flathub/com.moonlight_stream.Moonlight
+  banner: https://cdn2.steamgriddb.com/grid/3761e3aadc91d2c55d812ba5570bed1f.png
+  poster: https://cdn2.steamgriddb.com/grid/fe8556b719f64cdddb95958b774f9c28.png
   status: playable
 
 - name: "MORDHAU"
@@ -4167,7 +4171,8 @@
 - name: "Mr. Rescue"
   platform: flathub
   id: dk.tangramgames.mrrescue
-  banner: /images/flathub/dk.tangramgames.mrrescue
+  banner: https://cdn2.steamgriddb.com/grid/eb02357a0321372f794c8462ac405d08.png
+  poster: https://cdn2.steamgriddb.com/grid/078b935538b6b13e72a32f20d8e76568.png
   status: playable
   notes:
     - Displays keyboard icons
@@ -5953,7 +5958,8 @@
 - name: "Tanks of Freedom"
   platform: flathub
   id: in.p1x.TanksOfFreedom
-  banner: /images/flathub/in.p1x.TanksOfFreedom
+  banner: https://cdn2.steamgriddb.com/grid/98426ffdf306ec798cbed33e039e99bf.png
+  poster: https://cdn2.steamgriddb.com/grid/e616255f31c4de9a6797341e7405ff4d.png
   status: playable
 
 - name: "Team Racing League"
