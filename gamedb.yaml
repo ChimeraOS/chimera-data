@@ -4271,6 +4271,14 @@
     - Displays keyboard icons
     - Entering some text requires manually invoking the on-screen keyboard
 
+- name: "Nanosaur 2: Hatchling"
+  platform: flathub
+  id: io.jor.nanosaur2
+  banner: https://cdn2.steamgriddb.com/grid/5b37778fa995e08b0a3455df5c896e97.png
+  poster: https://cdn2.steamgriddb.com/grid/e46821a28446c5a2b91908a2c6d82313.png
+  logo: https://cdn2.steamgriddb.com/logo/4a078ac98832dd2ce45a5af8bb1d98f1.png
+  status: playable
+
 - name: "Narita Boy"
   platform: steam
   id: 1069530
