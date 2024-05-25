@@ -2364,6 +2364,7 @@
   platform: flathub
   id: org.mozilla.firefox
   banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/2082428d280d13163bb67644f5b0274c.png
+  poster: https://cdn2.steamgriddb.com/grid/4529f985441a035ae4a107b8862ba4dd.png
   status: playable
   notes:
     - No controller support
@@ -2871,7 +2872,8 @@
 - name: "Hedgewars"
   platform: flathub
   id: org.hedgewars.Hedgewars
-  banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/e3408432c1a48a52fb6c74d926b38886.png
+  banner: https://cdn2.steamgriddb.com/grid/3b6ad1ce7a73bc73cbccaf519c4ef368.png
+  poster: https://cdn2.steamgriddb.com/grid/745cd59c307a0ad8b95a27a5c904528b.png
   status: playable
 
 - name: "Helium Rain"
@@ -3369,7 +3371,8 @@
 - name: "Katawa Shoujo"
   platform: flathub
   id: com.katawa_shoujo.KatawaShoujo
-  banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/a7282c84a4c2109c3697b6aca8b86aba.png
+  banner: https://cdn2.steamgriddb.com/grid/a7282c84a4c2109c3697b6aca8b86aba.png
+  poster: https://cdn2.steamgriddb.com/grid/74d6f5bda24acb755767449631d17282.png
   status: playable
 
 - name: "Keen Dreams"
@@ -5442,7 +5445,8 @@
 - name: "Sonic 3: Angel Island Revisited"
   platform: flathub
   id: org.sonic3air.Sonic3AIR
-  banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/1dec6d605fbdbf9e3bd583f950311d0b.png
+  banner: https://cdn2.steamgriddb.com/grid/1bd5bcfc8d045056174d204be3e365ad.png
+  poster: https://cdn2.steamgriddb.com/grid/a618794d568148c77e74314e9d3bccfb.png
   status: playable
   notes:
     - Requires installation of Sonic 3 & Knuckles from Steam
@@ -5512,7 +5516,8 @@
 - name: "Sonic Robo Blast 2 Kart"
   platform: flathub
   id: org.srb2.SRB2Kart
-  banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/4703af37c2925cf2191b72dcb5f7f286.png
+  banner: https://cdn2.steamgriddb.com/grid/4703af37c2925cf2191b72dcb5f7f286.png
+  poster: https://cdn2.steamgriddb.com/grid/e1337663bad9b826bde21203e72aa145.png
   status: playable
 
 - name: "Soulblight"
@@ -5594,7 +5599,8 @@
 - name: "Spotify"
   platform: flathub
   id: com.spotify.Client
-  banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/228395bd8e832bff82a6ce90eb27a1f6.png
+  banner: https://cdn2.steamgriddb.com/grid/228395bd8e832bff82a6ce90eb27a1f6.png
+  poster: https://cdn2.steamgriddb.com/grid/2971c9081bacdf567db4c6031e5a2402.png
   status: playable
 
 - name: "Spyro Reignited Trilogy"
@@ -5747,7 +5753,8 @@
 - name: "StepMania"
   platform: flathub
   id: com.stepmania.StepMania
-  banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/c4812a5a8c941cf9d496493c0758e886.png
+  banner: https://cdn2.steamgriddb.com/grid/c4812a5a8c941cf9d496493c0758e886.png
+  poster: https://cdn2.steamgriddb.com/grid/97a1127d076cf830942fdc8f0786d518.png
   status: playable
 
 - name: "A Story About My Uncle"
@@ -5867,7 +5874,8 @@
 - name: "SuperTuxKart"
   platform: flathub
   id: net.supertuxkart.SuperTuxKart
-  banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/7f1de29e6da19d22b51c68001e7e0e54.png
+  banner: https://cdn2.steamgriddb.com/grid/168f6513fd770f0a1e48666f60950251.jpg
+  poster: https://cdn2.steamgriddb.com/grid/27d2cb1a3963d82eec5cfddc21d15fd9.png
   status: playable
 
 - name: "The Supper"
@@ -6385,7 +6393,8 @@
 - name: "Vintage Story"
   platform: flathub
   id: at.vintagestory.VintageStory
-  banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/60f4bacddeef710675c768a57768844c.png
+  banner: https://cdn2.steamgriddb.com/grid/60f4bacddeef710675c768a57768844c.png
+  poster: https://cdn2.steamgriddb.com/grid/a415e4fdede977907b56b9a90093e977.png
   status: playable
 
 - name: "VirtuaVerse"
@@ -6638,7 +6647,8 @@
 - name: "Xonotic"
   platform: flathub
   id: org.xonotic.Xonotic
-  banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/220ddf008416e895e6e649a2bba33484.png
+  banner: https://cdn2.steamgriddb.com/grid/220ddf008416e895e6e649a2bba33484.png
+  poster: https://cdn2.steamgriddb.com/grid/e65d9329de8c0cfb88e22b924208f9bc.png
   status: playable
 
 - name: "Yakuza Kiwami"
