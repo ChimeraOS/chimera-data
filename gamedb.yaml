@@ -296,6 +296,11 @@
   id: 394160
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/02dd0428a167bde5e5b544cc1aae3f74.png
 
+- name: "A.R.E.S."
+  platform: steam
+  id: 92300
+  poster: https://cdn2.steamgriddb.com/grid/b9824e30cdd549d8a5d1ec681a91e378.png
+
 - name: "Aritana and the Harpy's Feather"
   platform: steam
   id: 314360
