@@ -3128,6 +3128,14 @@
   status: verified
   store: humble:indivisible
 
+- name: "INDUSTRIA"
+  platform: epic-store
+  id: 78903903b1f1419bae248467f27ff470
+  banner: steam:1172650
+  status: playable
+  notes:
+    - Menu is mouse-only
+
 - name: "Inescapable"
   platform: steam
   id: 295610
