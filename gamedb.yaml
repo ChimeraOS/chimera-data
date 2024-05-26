@@ -4387,6 +4387,11 @@
   banner: steam:295790
   status: verified
 
+- name: "Never Alone (Kisima Ingitchuna)"
+  platform: steam
+  id: 295790
+  status: verified
+
 - name: "Neverwinter Nights Diamond"
   platform: gog
   id: 1207658890
