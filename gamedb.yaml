@@ -5114,6 +5114,7 @@
   platform: steam
   id: 317100
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/68c7fca1e3bba5e49ec90847dcdd456b.png
+  status: verified
 
 - name: "Retimed"
   platform: steam
