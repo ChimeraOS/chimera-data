@@ -4787,6 +4787,11 @@
   id: 67000
   poster: https://cdn2.steamgriddb.com/grid/98f204b32907c82b1ea7c4ed2128d4c2.png
 
+- name: "Portal"
+  platform: steam
+  id: 400
+  status: verified
+
 - name: "Portal 2"
   platform: steam
   id: 620
