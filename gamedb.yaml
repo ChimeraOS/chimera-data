@@ -3128,6 +3128,14 @@
   status: verified
   store: humble:indivisible
 
+- name: "INDUSTRIA"
+  platform: epic-store
+  id: 78903903b1f1419bae248467f27ff470
+  banner: steam:1172650
+  status: playable
+  notes:
+    - Menu is mouse-only
+
 - name: "Inescapable"
   platform: steam
   id: 295610
@@ -4379,6 +4387,11 @@
   banner: steam:295790
   status: verified
 
+- name: "Never Alone (Kisima Ingitchuna)"
+  platform: steam
+  id: 295790
+  status: verified
+
 - name: "Neverwinter Nights Diamond"
   platform: gog
   id: 1207658890
@@ -4774,6 +4787,11 @@
   id: 67000
   poster: https://cdn2.steamgriddb.com/grid/98f204b32907c82b1ea7c4ed2128d4c2.png
 
+- name: "Portal"
+  platform: steam
+  id: 400
+  status: verified
+
 - name: "Portal 2"
   platform: steam
   id: 620
@@ -5096,6 +5114,7 @@
   platform: steam
   id: 317100
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/68c7fca1e3bba5e49ec90847dcdd456b.png
+  status: verified
 
 - name: "Retimed"
   platform: steam
