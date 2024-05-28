@@ -1659,6 +1659,11 @@
         src: common/xlive.dll
         dst: xlive.dll
 
+- name: "DiRT 3"
+  platform: steam
+  id: 44320
+  poster: https://cdn2.steamgriddb.com/grid/6bd317c7e4bd9f801389bd8878d7d6f8.jpg
+
 - name: "DiRT 3 Complete Edition"
   platform: steam
   id: 321040
@@ -1752,6 +1757,11 @@
   notes:
     - EPIC login requires keyboard and mouse
     - Game has full controller support
+
+- name: "Doc Clock: The Toasted Sandwich of Time"
+  platform: steam
+  id: 57800
+  poster: https://cdn2.steamgriddb.com/grid/46d55a927002038e5cd3137272fb6de7.png
 
 - name: "Dodo Peak"
   platform: epic-store
@@ -2069,6 +2079,11 @@
   id: 812160
   status: verified
   store: humble:etherborn
+
+- name: "Eufloria"
+  platform: steam
+  id: 41210
+  poster: https://cdn2.steamgriddb.com/grid/bc9f0f7cc74131bec2707aad4acb1c46.png
 
 - name: "Eufloria HD"
   platform: steam
@@ -3220,6 +3235,11 @@
   notes:
     - Launcher needs mouse to set graphics
     - Game is fully controller enabled
+
+- name: "Iron Grip: Warlord"
+  platform: steam
+  id: 31700
+  poster: https://cdn2.steamgriddb.com/grid/75646c7a385a0408a407f85db77da790.png
 
 - name: "Ironcast"
   platform: epic-store
@@ -4959,6 +4979,11 @@
   id: 31270
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/8c05cf5bf084d8a1908738d8f5f6bad7.png
 
+- name: "Puzzle Quest"
+  platform: steam
+  id: 12500
+  poster: https://cdn2.steamgriddb.com/grid/4aa235219753273941bab0a2b1b3adff.png
+
 - name: "Quake 4"
   platform: gog
   id: 1836059896
@@ -5052,6 +5077,11 @@
   platform: steam
   id: 63600
   poster: https://cdn2.steamgriddb.com/grid/7509ba32f8e79d1585488d660a9fa3a2.jpg
+
+- name: "realMyst: Masterpiece Edition"
+  platform: steam
+  id: 244430
+  poster: https://cdn2.steamgriddb.com/grid/86166197b5c267a43d46abb60eed1e6b.png
 
 - name: "Rebel Galaxy"
   platform: epic-store
@@ -5825,6 +5855,11 @@
   banner: steam:1097800
   status: verified
 
+- name: "Strata"
+  platform: steam
+  id: 286380
+  poster: https://cdn2.steamgriddb.com/grid/bcf737121e655f95d5482fe75963ed2d.png
+
 - name: "Stray"
   platform: steam
   id: 1332010
@@ -5897,6 +5932,11 @@
   store: humble:super-monkey-ball-banana-mania
   status: verified
 
+- name: "Super Splatters"
+  platform: steam
+  id: 95000
+  poster: https://cdn2.steamgriddb.com/grid/af9370965df770606185339c69f1b751.png
+
 # native version does not recognize controllers
 - name: "Super Star Path"
   platform: steam
@@ -5928,6 +5968,11 @@
   id: 644830
   store: humble:the-surge-2
   status: verified
+
+- name: "The Swapper"
+  platform: steam
+  id: 231160
+  poster: https://cdn2.steamgriddb.com/grid/d189830a75b59dc21a8dd3f811647039.png
 
 - name: "Sword Coast Legends"
   platform: steam
@@ -5967,6 +6012,11 @@
   banner: steam:537520
   status: unsupported
 
+- name: "Symphony"
+  platform: steam
+  id: 207750
+  poster: https://cdn2.steamgriddb.com/grid/f0f915de822b7ed9230c5c4a7998210b.png
+
 - name: "Syndicate Plus"
   platform: gog
   id: 1207658992
@@ -5996,6 +6046,11 @@
   id: 429660
   status: verified
   store: humble:tales-of-berseria
+
+- name: "Tales of Zestiria"
+  platform: steam
+  id: 351970
+  poster: https://cdn2.steamgriddb.com/grid/6e6ccfa43210ed80addaa0a8e7b915d8.png
 
 - name: "The Talos Principle"
   platform: steam
