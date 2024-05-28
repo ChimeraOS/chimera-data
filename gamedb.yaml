@@ -901,12 +901,32 @@
   id: 92400
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/55b8db1a622cf24ddc99462f2444e226.png
 
+- name: "Call of Duty: Black Ops - Multiplayer"
+  platform: steam
+  id: 42710
+  poster: https://cdn2.steamgriddb.com/grid/8359bc4376e89b729d92ddd9b8a53c46.png
+
+- name: "Call of Duty: Modern Warfare 2 (2009) - Multiplayer"
+  platform: steam
+  id: 10190
+  poster: https://cdn2.steamgriddb.com/grid/114234b0d73c7887a1364b5c4405b29a.png
+
+- name: "Call of Duty: Modern Warfare 3 (2011) - Multiplayer"
+  platform: steam
+  id: 42690
+  poster: https://cdn2.steamgriddb.com/grid/0e0033c73acf01c716d0d0785cf5683a.png
+
 - name: "Call of Duty: United Offensive"
   platform: steam
   id: 2640
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/f9fb7c79045fc492a18b051150c2b269.png
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/3546ab441e56fa333f8b44b610d95691.jpg
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/50c3d7614917b24303ee6a220679dab3.png
+
+- name: "Call of Duty: WWII - Multiplayer"
+  platform: steam
+  id: 476620
+  poster: https://cdn2.steamgriddb.com/grid/40ce06f8aff01d15f97665a342933066.png
 
 - name: "Call of the Sea"
   platform: epic-store
