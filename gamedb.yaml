@@ -4112,6 +4112,11 @@
   patches:
     - exec: echo "fc73cf63e54e9858a45e1786f5881ad9 17410_install.vdf" | md5sum --status -c && sed -i 122,143d 17410_install.vdf
 
+- name: "Moirai"
+  platform: steam
+  id: 496920
+  poster: https://cdn2.steamgriddb.com/grid/ccbb6ceb296face557176ba0fc18a53f.png
+
 - name: "Monkey Island 2 Special Edition: LeChuck's Revenge"
   platform: steam
   id: 32460
@@ -6135,6 +6140,11 @@
   compat_tool: GE-Proton9-2
   status: verified
 
+- name: "TGV Voyages Train Simulator"
+  platform: steam
+  id: 443910
+  poster: https://cdn2.steamgriddb.com/grid/441b87b444d194e0ab0b8295b4249442.png
+
 - name: "Thea 2: The Shattering"
   platform: gog
   id: 1582025844
@@ -6160,6 +6170,11 @@
   id: 220780
   status: verified
 
+- name: "Tidalis"
+  platform: steam
+  id: 40420
+  poster: https://cdn2.steamgriddb.com/grid/e55023d551a371eacf5d7f0af5a8c710.jpg
+
 - name: "Timelie"
   platform: steam
   id: 1150950
@@ -6172,6 +6187,11 @@
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/fd570928c75cc9b4e22488e1661d846e.png
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/ce50d5be7b6c6e7afb55b9db35388d43.png
 
+- name: "Toki Tori"
+  platform: steam
+  id: 38700
+  poster: https://cdn2.steamgriddb.com/grid/57328a5364e7b7d0dc23e511b445c777.png
+
 - name: "Toki Tori 2+"
   platform: steam
   id: 201420
@@ -6180,6 +6200,36 @@
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/0f46c64b74a6c964c674853a89796c8e.png
   status: verified
   store: humble:toki-tori-2
+
+- name: "Tom Clancy's Ghost Recon"
+  platform: steam
+  id: 15300
+  poster: https://cdn2.steamgriddb.com/grid/82bc092d3037e923b596821ff761e1a4.png
+
+- name: "Tom Clancy's Ghost Recon: Advanced Warfighter"
+  platform: steam
+  id: 13640
+  poster: https://cdn2.steamgriddb.com/grid/3593b6d6a61c9307bb8177ae57e42c4a.png
+
+- name: "Tom Clancy's Ghost Recon: Advanced Warfighter 2"
+  platform: steam
+  id: 13510
+  poster: https://cdn2.steamgriddb.com/grid/b249bc1736c7b63b1d5abad05dee73b2.png
+
+- name: "Tom Clancy's Ghost Recon: Desert Siege"
+  platform: steam
+  id: 13620
+  poster: https://cdn2.steamgriddb.com/grid/6023ccae8267a91399dae0778ee825b9.jpg
+
+- name: "Tom Clancy's Ghost Recon: Island Thunder"
+  platform: steam
+  id: 13630
+  poster: https://cdn2.steamgriddb.com/grid/52836c76fd8dedb1337663e14148fbf8.png
+
+- name: "Tom Clancy's H.A.W.X."
+  platform: steam
+  id: 21900
+  poster: https://cdn2.steamgriddb.com/grid/0a9e23be1aff6c3782ed35cead4efda4.png
 
 - name: "Tom Clancy's Rainbow Six: Vegas"
   platform: steam
@@ -6299,6 +6349,11 @@
   id: 237930
   status: verified
 
+- name: "Tribes: Ascend"
+  platform: steam
+  id: 17080
+  poster: https://cdn2.steamgriddb.com/grid/d85498034b3913489c5f9f77e7feef78.png
+
 # native version displays generic controller icons
 - name: "Trine 3: The Artifacts of Power"
   platform: steam
@@ -6374,6 +6429,11 @@
   platform: gog
   id: 1207662473
   status: unsupported
+
+- name: "Ultimate Epic Battle Simulator"
+  platform: steam
+  id: 616560
+  poster: https://cdn2.steamgriddb.com/grid/3ad6f7d10dc8b1368c50877ef3760916.png
 
 - name: "Ultimate Marvel vs. Capcom 3"
   platform: steam
