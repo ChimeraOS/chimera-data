@@ -6455,6 +6455,11 @@
     - Controller support isn't fully working
     - Installing VisualC++ runtime needs mouse
 
+- name: "Unity of Command"
+  platform: steam
+  id: 218090
+  poster: https://cdn2.steamgriddb.com/grid/40fcd3ed2777e47dba58bdd57698f321.png
+
 - name: "Unrailed!"
   platform: steam
   id: 1016920
@@ -6523,6 +6528,11 @@
   id: Nautilus
   banner: steam:427290
 
+- name: "Velocibox"
+  platform: steam
+  id: 317710
+  poster: https://cdn2.steamgriddb.com/grid/28f381dbb9568c0a11064b22a71798d2.jpg
+
 - name: "Veloren"
   platform: flathub
   id: net.veloren.veloren
@@ -6568,6 +6578,11 @@
   id: 595e35287b824902a2f7107139603732
   banner: steam:857980
   status: unsupported
+
+- name: "Wanderlust: Rebirth"
+  platform: steam
+  id: 211580
+  poster: https://cdn2.steamgriddb.com/grid/3f8b41ca55adc5ad0b56522aed203f7f.png
 
 - name: "Wanderlust: Transsiberian"
   platform: gog
@@ -6618,6 +6633,11 @@
   id: 1433929853
   status: unsupported
 
+- name: "Warlocks vs Shadows"
+  platform: steam
+  id: 330270
+  poster: https://cdn2.steamgriddb.com/grid/105e44e33d60cff181a21b6691f2544a.png
+
 - name: "Wasted Pizza"
   platform: steam
   id: 709820
@@ -6625,16 +6645,39 @@
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/52bdba949576e6bcec5682a4993bfb58.png
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/32b683d9d8e73d3eeb6bf08fe0817402.png
 
+- name: "Wasteland 2"
+  platform: steam
+  id: 240760
+  poster: https://cdn2.steamgriddb.com/grid/74d42ef662abeb5440270feab71925d7.png
+  banner: https://cdn2.steamgriddb.com/grid/9c9c19e67f8f780d141617a7ba01ca07.jpg
+  background: https://cdn2.steamgriddb.com/hero/c3a690be93aa602ee2dc0ccab5b7b67e.jpg
+  logo: https://cdn2.steamgriddb.com/logo/4b26dc4663ccf960c8538d595d0a1d3a.png
+
 - name: "Watch Dogs 2"
   platform: epic-store
   id: Angelonia
   banner: steam:447040
+
+- name: "Waveform"
+  platform: steam
+  id: 204180
+  poster: https://cdn2.steamgriddb.com/grid/009730d34197a205d5f1b03804a118a8.png
 
 # native versions crashes
 - name: "Waves 2: Notorious"
   platform: steam
   id: 217120
   compat_tool: proton-stable
+
+# native version locks up at black screen
+- name: "The Way"
+  platform: steam
+  id: 311010
+  poster: https://cdn2.steamgriddb.com/grid/5add5db297c75d7961df70df1c661991.png
+  compat_tool: proton-stable
+  status: playable
+  notes:
+    - Requires manually switching to gamepad in settings
 
 - name: "Wheels of Aurelia"
   platform: epic-store
@@ -6777,6 +6820,11 @@
   status: verified
   store: humble:wwe-2k-battlegrounds
 
+- name: "Wyv and Keep: The Temple of the Lost Idol"
+  platform: steam
+  id: 263960
+  poster: https://cdn2.steamgriddb.com/grid/b5c686f6a251465c27f2c64f0135ed26.png
+
 - name: "XCOM: Enemy Unknown"
   platform: steam
   id: 200510
@@ -6842,12 +6890,22 @@
   store: humble:yuppie-psycho
   compat_tool: proton-stable
 
+- name: "Zen Bound 2"
+  platform: steam
+  id: 61600
+  poster: https://cdn2.steamgriddb.com/grid/88d70f07879c075f1202535f1b2a7936.png
+
 - name: "Zen of Sudoku"
   platform: steam
   id: 4900
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/075ca4527ee5aa9ad9e4937b479c132e.png
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/13d8efdc6a5cb721fe7031be062b9b74.jpg
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/8e3f7abc5de7f3c97a1207a55a38e6bd.png
+
+- name: "Zombie Grinder"
+  platform: steam
+  id: 263920
+  poster: https://cdn2.steamgriddb.com/grid/9852b4fc22fc5d2746abdbccd7c094e2.png
 
 - name: "Zuma Deluxe"
   platform: steam
