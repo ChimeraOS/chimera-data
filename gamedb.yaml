@@ -1216,6 +1216,7 @@
   id: 440880
   status: verified
   store: humble:the-count-lucanor
+  poster: https://cdn2.steamgriddb.com/grid/3072178819220ff5699a6ef70be68566.jpg
 
 - name: "Crash Bandicoot N. Sane Trilogy"
   platform: steam
@@ -1883,6 +1884,11 @@
   platform: steam
   id: 98800
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/83b887e6ca1b28752a8d05b96c04ba35.jpg
+
+- name: "DUSK"
+  platform: steam
+  id: 519860
+  poster: https://cdn2.steamgriddb.com/grid/716d06e9a0b985b5ce54e831ae16ab52.png
 
 - name: "Duskers"
   platform: epic-store
@@ -5209,12 +5215,21 @@
   id: 252950
   status: verified
   compat_tool: proton-stable
+  banner: https://cdn2.steamgriddb.com/grid/06286ef31724d911b362cefde6fdbf0f.png
+  poster: https://cdn2.steamgriddb.com/grid/0e765b51996b81c6ccf9a63e943a2dc7.png
+  background: https://cdn2.steamgriddb.com/hero/e6da32eef072f987685b6eddca072d4f.jpg
+  logo: https://cdn2.steamgriddb.com/logo/7b4773c039d539af17c883eb9283dd14.png
+  icon: https://cdn2.steamgriddb.com/icon/f1e513f02d2dbe70b939178cb7d4fbac.ico
 
 - name: "Rocket League"
   platform: epic-store
   id: Sugar
-  banner: steam:252950
   status: verified
+  banner: https://cdn2.steamgriddb.com/grid/06286ef31724d911b362cefde6fdbf0f.png
+  poster: https://cdn2.steamgriddb.com/grid/0e765b51996b81c6ccf9a63e943a2dc7.png
+  background: https://cdn2.steamgriddb.com/hero/e6da32eef072f987685b6eddca072d4f.jpg
+  logo: https://cdn2.steamgriddb.com/logo/7b4773c039d539af17c883eb9283dd14.png
+  icon: https://cdn2.steamgriddb.com/icon/f1e513f02d2dbe70b939178cb7d4fbac.ico
 
 - name: "Rocketbirds: Hardboiled Chicken"
   platform: steam
@@ -6824,6 +6839,16 @@
   platform: steam
   id: 263960
   poster: https://cdn2.steamgriddb.com/grid/b5c686f6a251465c27f2c64f0135ed26.png
+
+- name: "X: Beyond the Frontier"
+  platform: steam
+  id: 2840
+  poster: https://cdn2.steamgriddb.com/grid/cf1bdb0bb9ce90febc23c2605ab21b82.png
+
+- name: "X: Tension"
+  platform: steam
+  id: 2850
+  poster: https://cdn2.steamgriddb.com/grid/d3297c932de2b7bc10c4a1560dc01f76.jpg
 
 - name: "XCOM: Enemy Unknown"
   platform: steam
