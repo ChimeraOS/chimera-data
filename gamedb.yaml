@@ -2728,6 +2728,7 @@
   banner: https://cdn2.steamgriddb.com/grid/a220b2ebf15997ebc81d3e445a586259.jpg
   poster: https://cdn2.steamgriddb.com/grid/9afeb5a03232c6a078838f3c0974182a.png
   background: https://cdn2.steamgriddb.com/hero/33e4bac95a3b87f95ac2e2a0c66c4c4d.jpg
+  logo: https://cdn2.steamgriddb.com/logo/2abbb67d13de26bdb4b9487c072ce63f.png
 
 - name: "Golf With Your Friends"
   platform: steam
@@ -6223,6 +6224,7 @@
   store: humble:thems-fightin-herds
   poster: https://cdn2.steamgriddb.com/grid/727672f4e7f1c4fd3df8df1a907a394b.png
   background: https://cdn2.steamgriddb.com/hero/0717f2c73ea6313e000a20d1b82ec2ce.png
+  logo: https://cdn2.steamgriddb.com/logo/40ed957abc6634f6666369807f93a6bc.png
 
 - name: "This Is the Police 2"
   platform: steam
