@@ -2175,6 +2175,11 @@
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/a760880003e7ddedfef56acb3b09697f.png
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/fd4f21f2556dad0ea8b7a5c04eabebda.png
 
+- name: "F1 2013"
+  platform: steam
+  id: 223670
+  poster: https://cdn2.steamgriddb.com/grid/96f54d20899f975acb888f6ef6da4d4a.png
+
 - name: "F1 2015"
   platform: steam
   id: 286570
@@ -3432,7 +3437,7 @@
 - name: "Keen Dreams"
   platform: steam
   id: 356200
-  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/e010d1faf316a4dbfe8639481a2a3f90.png
+  poster: https://cdn2.steamgriddb.com/grid/287ba5728023d4b858cfdcef30af8126.png
 
 - name: "Keep Talking and Nobody Explodes"
   platform: steam
