@@ -6162,7 +6162,7 @@
 - name: "Teleglitch: Die More Edition"
   platform: steam
   id: 234390
-  logo: https://cdn2.steamgriddb.com/grid/4e46d1edc93b10616b2d66a5403f8aee.png
+  poster: https://cdn2.steamgriddb.com/grid/4e46d1edc93b10616b2d66a5403f8aee.png
 
 - name: "Tell Me Why"
   platform: steam
