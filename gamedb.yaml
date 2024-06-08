@@ -163,6 +163,11 @@
   banner: steam:549260
   status: verified
 
+- name: "AMID EVIL"
+  platform: steam
+  id: 673130
+  poster: https://cdn2.steamgriddb.com/grid/1ee799704c561645258fee3161779773.png
+
 - name: "Amnesia: A Machine for Pigs"
   platform: epic-store
   id: d7db33dfe7634d6b8a188c708f2caa3c
@@ -370,6 +375,11 @@
   id: 400020
   status: verified
   store: humble:atari-vault
+
+- name: "Atom Zombie Smasher"
+  platform: steam
+  id: 55040
+  poster: https://cdn2.steamgriddb.com/grid/6c5bbaa133d30e1df4ac9ee7d0612f20.png
 
 - name: "Atomicrops"
   platform: steam
@@ -2712,6 +2722,12 @@
   compat_tool: proton-stable
   status: verified
 
+- name: "Golf Gang"
+  platform: steam
+  id: 1151050
+  banner: https://cdn2.steamgriddb.com/grid/a220b2ebf15997ebc81d3e445a586259.jpg
+  poster: https://cdn2.steamgriddb.com/grid/9afeb5a03232c6a078838f3c0974182a.png
+
 - name: "Golf With Your Friends"
   platform: steam
   id: 431240
@@ -3950,6 +3966,7 @@
   platform: steam
   id: 9160
   compat_tool: boxtron
+  poster: https://cdn2.steamgriddb.com/grid/b9115093216e447b1c310754f9cfb736.png
 
 - name: "Master of Magic Classic"
   platform: gog
@@ -4551,6 +4568,11 @@
   platform: steam
   id: 681730
   steam_input: enabled
+
+- name: "Nuclear Dawn"
+  platform: steam
+  id: 17710
+  poster: https://cdn2.steamgriddb.com/grid/422cf6c6f212dde0fa96c532de240104.png
 
 - name: "Nuclear Throne"
   platform: epic-store
@@ -5271,6 +5293,11 @@
   status: verified
   store: humble:roundabout
 
+- name: "Rubber Bandits"
+  platform: steam
+  id: 1206610
+  poster: https://cdn2.steamgriddb.com/grid/a2109fe8b7112c3cc023100f6fe7b84d.png
+
 - name: "Runner3"
   platform: steam
   id: 516130
@@ -5447,6 +5474,16 @@
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/33fe8ff56f35eddfd39d1df621c9f57a.png
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/2fc4a68635c26db1019047965180ce1b.jpg
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/1e48c4420b7073bc11916c6c1de226bb.png
+
+- name: "Simulacra"
+  platform: steam
+  id: 712730
+  poster: https://cdn2.steamgriddb.com/grid/837099d0aa96dcaba055155970b0f4b3.png
+
+- name: "Simulacra 2"
+  platform: steam
+  id: 1011190
+  poster: https://cdn2.steamgriddb.com/grid/2b9823c0bc891d2cdcc165db7b11ec53.png
 
 - name: "Sixtieth Kilometer"
   platform: steam
@@ -6122,6 +6159,11 @@
   status: verified
   store: humble:tekken-7
 
+- name: "Teleglitch: Die More Edition"
+  platform: steam
+  id: 234390
+  logo: https://cdn2.steamgriddb.com/grid/4e46d1edc93b10616b2d66a5403f8aee.png
+
 - name: "Tell Me Why"
   platform: steam
   id: 1180660
@@ -6178,6 +6220,7 @@
   id: 574980
   status: verified
   store: humble:thems-fightin-herds
+  poster: https://cdn2.steamgriddb.com/grid/727672f4e7f1c4fd3df8df1a907a394b.png
 
 - name: "This Is the Police 2"
   platform: steam
@@ -6492,6 +6535,12 @@
   status: verified
   compat_tool: proton-stable
 
+- name: "Vacation Simulator"
+  platform: steam
+  id: 726830
+  banner: https://cdn2.steamgriddb.com/grid/0584e88d250765fcc04a695991afa012.png
+  poster: https://cdn2.steamgriddb.com/grid/67de0228d7fd9f3f78d0e57157bfe4e5.png
+
 # native version has controller issues
 - name: "Vagante"
   platform: steam
@@ -6592,6 +6641,7 @@
   id: 857980
   status: verified
   store: humble:void-bastards
+  poster: https://cdn2.steamgriddb.com/grid/a69d7b04203d27f5d2938fbf779bbc75.png
 
 - name: "Void Bastards"
   platform: epic-store
