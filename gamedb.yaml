@@ -2796,7 +2796,7 @@
 - name: "GRID (2008)"
   platform: steam
   id: 12750
-  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/7b4f4e1f410a49cddb0d906ff0565796.jpg
+  poster: https://cdn2.steamgriddb.com/grid/51b2a44f5d5b92e8bd92343c104cc2ca.jpg
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/6467c327eaf8940b4dd07a08c63c5e85.png
   status: verified
   compat_tool: proton_7
