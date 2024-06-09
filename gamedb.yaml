@@ -429,7 +429,7 @@
 - name: "Bad Hotel"
   platform: steam
   id: 231720
-  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/90a968fc0f70ab11c67b304474027f73.png
+  poster: https://cdn2.steamgriddb.com/grid/edfa0dea401c63103b072fd358c1d702.png
 
 - name: "Bad North: Jotunn Edition"
   platform: epic-store
