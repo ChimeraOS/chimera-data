@@ -243,7 +243,7 @@
 - name: "And Yet It Moves"
   platform: steam
   id: 18700
-  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/79eb48bb4409051aab1602e390c98736.png
+  poster: https://cdn2.steamgriddb.com/grid/2c8672aac7553ab0e242888309515646.png
 
 - name: "Anode"
   platform: steam
@@ -284,22 +284,22 @@
 - name: "ARCADE GAME SERIES: DIG DUG"
   platform: steam
   id: 403400
-  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/9512192a18d42848eef03f3f0a3dfbf6.png
+  poster: https://cdn2.steamgriddb.com/grid/7cb34c0383f7794851a539ae3ac9ea65.png
 
 - name: "ARCADE GAME SERIES: GALAGA"
   platform: steam
   id: 403430
-  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/9165d83699e3d014274f4737d169a2a0.png
+  poster: https://cdn2.steamgriddb.com/grid/957d69a77e6adaf780ee179303385a72.png
 
 - name: "ARCADE GAME SERIES: Ms. PAC-MAN"
   platform: steam
   id: 403410
-  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/e2f964e176efb40969652e3249023645.png
+  poster: https://cdn2.steamgriddb.com/grid/a5659e43487df698265cc0f6c221b84c.png
 
 - name: "ARCADE GAME SERIES: PAC-MAN"
   platform: steam
   id: 394160
-  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/02dd0428a167bde5e5b544cc1aae3f74.png
+  poster: https://cdn2.steamgriddb.com/grid/1ff28419ba8f9066fa5f8de46f4e2976.png
 
 - name: "A.R.E.S."
   platform: steam
@@ -405,6 +405,11 @@
   banner: steam:984800
   compat_tool: proton-stable
   status: verified
+
+- name: "Automobilista"
+  platform: steam
+  id: 431600
+  poster: https://cdn2.steamgriddb.com/grid/004cbc35eed8995456a63ec720fe63c7.png
 
 - name: "Aven Colony"
   platform: epic-store
@@ -4466,6 +4471,11 @@
   platform: steam
   id: 295790
   status: verified
+
+- name: "Neverwinter Nights 2: Platinum"
+  platform: steam
+  id: 2760
+  poster: https://cdn2.steamgriddb.com/grid/fa4ac9f49bcdff98ff49234028741675.png
 
 - name: "Neverwinter Nights Diamond"
   platform: gog
