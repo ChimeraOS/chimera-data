@@ -281,6 +281,11 @@
   id: 280160
   compat_tool: proton-stable
   
+- name: "Arcade Classics Anniversary Collection"
+  platform: steam
+  id: 1018000
+  poster: https://cdn2.steamgriddb.com/grid/9416ee6f8b80c68e03265d13fb136a49.png
+
 - name: "ARCADE GAME SERIES: DIG DUG"
   platform: steam
   id: 403400
@@ -983,6 +988,11 @@
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/e41415343bc2a455161dfe7d19386d0f.png
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/0f304eddb4ad6007a3093fd6d963a1d2.png
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/34609bdc08a07ace4e1526bbb1777673.png
+
+- name: "Castlevania Anniversary Collection"
+  platform: steam
+  id: 1018010
+  poster: https://cdn2.steamgriddb.com/grid/ce63297260f8266fabf1f978049c306c.png
 
 - name: "Cataegis : The White Wind"
   platform: steam
@@ -2970,6 +2980,11 @@
   id: 414340
   status: verified
   store: humble:hellblade-senuas-sacrifice
+
+- name: "Hellblade: Senua's Sacrifice VR Edition"
+  platform: steam
+  id: 747350
+  poster: https://cdn2.steamgriddb.com/grid/3e9664f6d72814973770b856d522dd51.png
 
 - name: "Hello Neighbor"
   platform: steam
