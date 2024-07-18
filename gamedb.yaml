@@ -1937,6 +1937,12 @@
   id: 239140
   status: verified
 
+ # Since version 1.9.0 it has EA Anticheat, can't play it anymore
+- name: "EA Sports WRC"
+  platform: steam
+  id: 1849250
+  status: unsupported
+
 - name: "EARTHLOCK"
   platform: steam
   id: 761030
@@ -6905,12 +6911,6 @@
   platform: steam
   id: 327030
   launch_options: LD_LIBRARY_PATH= %command%
-
- # Since version 1.9.0 it has EA Anticheat, can't play it anymore
-- name: "EA Sports WRC"
-  platform: steam
-  id: 1849250
-  status: unsupported
 
 - name: "WWE 2K BATTLEGROUNDS"
   platform: steam
