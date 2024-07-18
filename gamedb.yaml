@@ -6906,12 +6906,11 @@
   id: 327030
   launch_options: LD_LIBRARY_PATH= %command%
 
- # Disable -steamdeck to fix the game refusing to launch
-- name: "WRC"
+ # Since version 1.9.0 it has EA Anticheat, can't play it anymore
+- name: "EA Sports WRC"
   platform: steam
   id: 1849250
-  status: verified
-  launch_options: SteamDeck=0 %command%
+  status: unsupported
 
 - name: "WWE 2K BATTLEGROUNDS"
   platform: steam
