@@ -344,6 +344,12 @@
   poster: https://cdn2.steamgriddb.com/grid/0b1ef9f12fada942e4441fbbfbdca8b3.png
   status: playable
 
+- name: "ARMORED CORE VI FIRES OF RUBICON"
+  platform: steam
+  id: 1888160
+  status: verified
+  store: humble:armored-core-vi-fires-of-rubicon
+
 - name: "art of rally"
   platform: epic-store
   id: 01805192c8074820b1257fcfd97f2648
@@ -820,6 +826,12 @@
   status: verified
   store: humble:braid
 
+- name: "Braid Anniversary Edition"
+  platform: steam
+  id: 499180
+  status: verified
+  store: humble:braid-anniversary-edition
+
 - name: "Brawlhalla"
   platform: steam
   id: 291550
@@ -988,6 +1000,12 @@
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/e41415343bc2a455161dfe7d19386d0f.png
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/0f304eddb4ad6007a3093fd6d963a1d2.png
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/34609bdc08a07ace4e1526bbb1777673.png
+
+- name: "Castlevania Advance Collection"
+  platform: steam
+  id: 1552550
+  status: verified
+  store: humble:castlevania-advance-collection
 
 - name: "Castlevania Anniversary Collection"
   platform: steam
@@ -2249,6 +2267,11 @@
   status: verified
   compat_tool: proton-experimental
 
+- name: "F1 23"
+  platform: steam
+  id: 2108330
+  status: verified
+
 - name: "F1 Race Stars"
   platform: steam
   id: 203680
@@ -2602,6 +2625,11 @@
   id: 98200
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/5dc869708f170898b1c50bb49a852ad6.png
 
+- name: "Fruit Salad"
+  platform: steam
+  id: 1848520
+  status: verified
+
 - name: "Galactic Civilizations III"
   platform: epic-store
   id: 5f1c66366b2c4a6496d535d88c56e6cf
@@ -2947,6 +2975,8 @@
   id: 960910
   compat_tool: proton-stable
   launch_options: WINEDLLOVERRIDES="xaudio2_7=native,builtin" %command%
+  status: verified
+  store: humble:heavy-rain
 
 - name: "Heavy Rain Demo"
   platform: steam
@@ -4226,6 +4256,12 @@
   banner: steam:276810
   status: verified
 
+- name: "Mortal Kombat 11"
+  platform: steam
+  id: 976310
+  status: verified
+  store: humble:mortal-kombat-11
+
 - name: "Mortal Kombat Arcade Kollection"
   platform: steam
   id: 205350
@@ -4681,6 +4717,12 @@
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/d8ab1a52f058358b947cdf8261b5e1a2.png
   status: verified
 
+- name: "ONE PIECE: PIRATE WARRIORS 4"
+  platform: steam
+  id: 1089090
+  status: verified
+  store: humble:one-piece-pirate-warriors-4
+
 - name: "One Ship Two Ship Redshift Blueshift"
   platform: steam
   id: 367430
@@ -4798,6 +4840,11 @@
   platform: steam
   id: 227080
   poster: https://cdn2.steamgriddb.com/grid/725c0f47dc8449a54619147ff1809c67.jpg
+
+- name: "Party Animals"
+  platform: steam
+  id: 1260320
+  status: verified
 
 - name: "Path of Giants"
   platform: steam
@@ -6187,6 +6234,12 @@
   store: humble:teenage-mutant-ninja-turtles-shredders-revenge
   status: verified
   
+- name: "Teenage Mutant Ninja Turtles: The Cowabunga Collection"
+  platform: steam
+  id: 1659600
+  store: humble:teenage-mutant-ninja-turtles-the-cowabunga-collection
+  status: verified
+
 - name: "TEKKEN 7"
   platform: steam
   id: 389730
@@ -6488,8 +6541,11 @@
   platform: steam
   id: 277930
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/e773dbc579a0ef997675d836974d747c.png
-  background:
-  logo:
+
+- name: "TUNIC"
+  platform: steam
+  id: 553420
+  status: verified
 
 - name: "The Turing Test"
   platform: steam
@@ -6621,6 +6677,11 @@
   id: 602eb4abc8764c87b7f2607a1ef8c18e
   banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/3031edd9d9431ac8a6598b5a47997a9c.jpg
   status: unsupported
+
+- name: "Vampire Survivors"
+  platform: steam
+  id: 1794680
+  status: verified
 
 - name: "Vampire: The Masquerade - Coteries of New York"
   platform: steam
