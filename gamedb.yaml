@@ -5348,7 +5348,7 @@
 - name: "Sackboy A Big Adventure"
   platform: steam
   id: 1599660
-  launch_options: SteamDeck=0 %command%
+  launch_options: SteamDeck=0 %command% -dx11
 
 - name: "SAMURAI SHODOWN NEOGEO COLLECTION"
   platform: epic-store
