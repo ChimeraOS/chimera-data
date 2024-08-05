@@ -5345,6 +5345,7 @@
   poster: https://cdn2.steamgriddb.com/grid/9f1b497836bfa48a8f4e25eb55c566e5.jpg
 
  # Disable -steamdeck to fix controller issues for Sackboy
+ # -dx11 for improved performance
 - name: "Sackboy A Big Adventure"
   platform: steam
   id: 1599660
