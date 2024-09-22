@@ -6432,6 +6432,14 @@
   banner: steam:290690
   status: verified
 
+# GE Proton required for videos to play
+- name: "Tony Hawk's Pro Skater 1 + 2"
+  platform: epic-store
+  id: Guppy
+  banner: steam:2395210
+  compat_tool: GE-Proton9-13
+  status: verified
+
 - name: "Toree 2"
   platform: steam
   id: 1722620
