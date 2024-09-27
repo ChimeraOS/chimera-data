@@ -4934,6 +4934,9 @@
   id: e0fa47ae79514345823bff209ae29451
   banner: steam:752590
   compat_tool: proton-stable
+  status: playable
+  notes:
+    - Icons for keyboard and controller toggle during gameplay
 
 - name: "The Plan"
   platform: steam
@@ -4964,6 +4967,11 @@
     - copy:
         src: Portal Knights/portal_knights.cfg
         dst: portal_knights.cfg
+
+- name: "Portal Stories: Mel"
+  platform: steam
+  id: 317400
+  status: verified
 
 - name: "The Powerpuff Girls: Defenders of Townsville"
   platform: steam
