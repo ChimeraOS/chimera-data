@@ -2253,11 +2253,13 @@
   platform: steam
   id: 1080110
   status: verified
+  logo: https://cdn2.steamgriddb.com/logo/e71d7330357be40fc2f0be46c7e9629a.png
 
 - name: "F1 2021"
   platform: steam
   id: 1134570
   status: verified
+  logo: https://cdn2.steamgriddb.com/logo/5b58d44dc39e233bce114637828099ed.png
 
 - name: "F1 22"
   platform: steam
