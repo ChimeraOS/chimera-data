@@ -2248,13 +2248,11 @@
   platform: steam
   id: 928600
   status: verified
-  compat_tool: proton-stable
 
 - name: "F1 2020"
   platform: steam
   id: 1080110
   status: verified
-  compat_tool: proton-stable
 
 - name: "F1 2021"
   platform: steam
@@ -2265,7 +2263,6 @@
   platform: steam
   id: 1692250
   status: verified
-  compat_tool: proton-experimental
 
 - name: "F1 23"
   platform: steam
