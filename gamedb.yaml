@@ -4019,6 +4019,13 @@
   id: 860950
   status: verified
 
+- name: "Marvel's Guardians of the Galaxy"
+  platform: epic-store
+  id: 63a665088eb1480298f1e57943b225d8
+  status: unsupported
+  notes:
+    - Launches when installed via Heroic Games Launcher, but has mediocre controller support (tested with the Steam Controller)
+  
 - name: "Master Levels for Doom II"
   platform: steam
   id: 9160
