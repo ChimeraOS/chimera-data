@@ -4025,7 +4025,13 @@
   status: unsupported
   notes:
     - Launches when installed via Heroic Games Launcher, but has mediocre controller support (tested with the Steam Controller)
-  
+
+- name: "Marvel's Guardians of the Galaxy"
+  platform: steam
+  id: 1088850
+  status: verified
+  launch_options: mv ../runtime/3C5412CE8B28C5D133F4024887AA8579.pc_binkvid ../runtime/3C5412CE8B28C5D133F4024887AA8579.pc_binkvid.disabled; ln ../runtime/0E3B3BA8C5C9E2E58AF1AFF20B899860.pc_binkvid ../runtime/3C5412CE8B28C5D133F4024887AA8579.pc_binkvid; %command%
+
 - name: "Master Levels for Doom II"
   platform: steam
   id: 9160
