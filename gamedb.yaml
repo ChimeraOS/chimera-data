@@ -4865,6 +4865,7 @@
   platform: steam
   id: 1382330
   compat_tool: GE-Proton9-13
+  status: verified
   
 - name: "PGA TOUR 2K21"
   platform: steam
