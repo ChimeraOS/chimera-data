@@ -3153,6 +3153,12 @@
   store: humble:horizon-zero-dawn-complete-edition
   status: verified
 
+# -showlinkingqr to disable PSN requirement, which disables the overlay, which allows it to play
+- name: "Horizon Zero Dawn Remastered"
+  platform: steam
+  id: 2561580
+  launch_options: -showlinkingqr
+
 - name: "Hot Wheels Unleashed"
   platform: steam
   id: 1271700
