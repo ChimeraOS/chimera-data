@@ -5071,6 +5071,14 @@
   compat_tool: proton-stable
   launch_options: -force -dx11
 
+- name: "Psychonauts 2"
+  platform: gog
+  id: 1731504234
+  status: playable
+  banner: steam:607080
+  notes:
+    - Might have to use keyboard to install MS redis package on first launch
+
 - name: "Puddle"
   platform: steam
   id: 222140
