@@ -4867,6 +4867,7 @@
   id: 218620
   compat_tool: proton-stable
 
+# Game doesn't start with standard proton 9.0-3
 - name: "Persona 5 Strikers"
   platform: steam
   id: 1382330
