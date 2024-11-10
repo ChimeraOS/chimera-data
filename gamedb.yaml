@@ -3649,11 +3649,13 @@
   id: 899770
   launch_options: SteamDeck=0 %command%
 
+# SteamDeck=0 to unlock certain graphical options
 - name: "The Last of Us Part 1"
   platform: steam
   id: 1888930
   store: humble:the-last-of-us-part-i
   status: verified
+  launch_options: SteamDeck=0 %command%
 
 - name: "The Last Remnant"
   platform: steam
