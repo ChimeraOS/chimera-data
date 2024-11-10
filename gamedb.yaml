@@ -989,6 +989,12 @@
   notes:
     - Limited controller support
 
+# native version has controller issues
+- name: "Cassette Beasts"
+  platform: steam
+  id: 1321440
+  compat_tool: proton-stable
+
 - name: "Castle Crashers"
   platform: steam
   id: 204360
