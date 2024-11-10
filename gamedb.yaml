@@ -989,6 +989,12 @@
   notes:
     - Limited controller support
 
+# native version has controller issues
+- name: "Cassette Beasts"
+  platform: steam
+  id: 1321440
+  compat_tool: proton-stable
+
 - name: "Castle Crashers"
   platform: steam
   id: 204360
@@ -4863,6 +4869,13 @@
   id: 218620
   compat_tool: proton-stable
 
+# Game doesn't start with standard proton 9.0-3
+- name: "Persona 5 Strikers"
+  platform: steam
+  id: 1382330
+  compat_tool: GE-Proton9-13
+  status: verified
+  
 - name: "PGA TOUR 2K21"
   platform: steam
   id: 1016120
