@@ -614,29 +614,6 @@
   id: 238910
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/3e3218bd33c9b0f06b2887aafce565df.png
 
-- name: "BioShock 2 Remastered"
-  platform: steam
-  id: 409720
-  compat_tool: proton-stable
-  compat_config: noesync,nofsync
-  launch_options: eval $( echo "%command%" | sed "s/2KLauncher\/LauncherPatcher.exe'.*/Build\/Final\/Bioshock2HD.exe'/" ) -nointro
-
-- name: "BioShock Infinite"
-  platform: steam
-  id: 8870
-  store: humble:bioshock-infinite
-  compat_tool: proton-stable
-  steam_input: enabled
-  launch_options: eval $( echo "%command%" | sed "s/2KLauncher\/LauncherPatcher.exe'.*/Binaries\/Win32\/BioShockInfinite.exe'/" ) -nointro
-
-- name: "BioShock Remastered"
-  platform: steam
-  id: 409710
-  store: humble:bioshock-remastered
-  compat_tool: proton-stable
-  compat_config: noesync,nofsync
-  launch_options: eval $( echo "%command%" | sed "s/2KLauncher\/LauncherPatcher.exe'.*/Build\/Final\/BioshockHD.exe'/" ) -nointro
-
 - name: "Birdsketball"
   platform: steam
   id: 470470
@@ -3960,12 +3937,6 @@
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/bc3fb8a4b6e4a83feb535917ce574d31.png
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/5d785002be68f41c87a4ba51760dcaf9.png
 
-- name: "Mafia: Definitive Edition"
-  platform: steam
-  id: 1030840
-  compat_tool: proton-stable
-  launch_options: eval $( echo "%command%" | sed "s/2KLauncher\/LauncherPatcher.exe'.*/mafiadefinitiveedition.exe'/" )
-
 # proton stable doesn't work 
 - name: "Mafia III: Definitive Edition"
   platform: steam
@@ -5544,12 +5515,6 @@
   id: 250760
   status: verified
   store: humble:shovel-knight-treasure-trove
-
-- name: "Sid Meier's Civilization VI"
-  platform: steam
-  id: 289070
-  compat_tool: proton-stable
-  launch_options: eval $( echo "%command%" | sed "s/2KLauncher\/LauncherPatcher.exe'.*/Base\/Binaries\/Win64Steam\/CivilizationVI.exe'/" )
 
 - name: "Sid Meier's Covert Action (Classic)"
   platform: steam
