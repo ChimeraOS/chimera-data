@@ -545,11 +545,6 @@
   notes:
     - No controller support
 
-- name: "Beatbuddy: Tale of the Guardians"
-  platform: steam
-  id: 231040
-  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/c90f4ac1bac07a2c7c435f474b3aa98e.png
-
 - name: "BEAUTIFUL DESOLATION"
   platform: gog
   id: 1295420179
@@ -642,7 +637,6 @@
 - name: "BIT.TRIP RUNNER"
   platform: steam
   id: 63710
-  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/ef0eff6088e2ed94f6caf720239f40d5.png
   compat_tool: proton-stable
   patch_dir: BIT.TRIP RUNNER
   patches:
@@ -799,7 +793,6 @@
 - name: "Braid"
   platform: steam
   id: 26800
-  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/b068a05e6150657fae301cefcbc9bec0.png
   status: verified
   store: humble:braid
 
@@ -876,6 +869,7 @@
   platform: gog
   id: 1207658900
   banner: steam:57640
+  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/6871e7ecc0d05b7e8c849dcbbc92c9b8.png
   status: playable
   notes:
     - No controller support
@@ -997,9 +991,18 @@
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/288cc0ff022877bd3df94bc9360b9c5d.png
 
 - name: "Cave Story+"
+  platform: steam
+  id: 200900
+  banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/24246693bd6404fae9999736716fdbc7.png
+  status: playable
+  notes:
+    - No controller support
+
+- name: "Cave Story+"
   platform: epic-store
   id: 1dea8a6ddb544842a58e4b5c8675ff58
   banner: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/24246693bd6404fae9999736716fdbc7.png
+  poster: steam:200900
   status: playable
   notes:
     - No controller support
@@ -1014,7 +1017,7 @@
   platform: gog
   id: 1278463559
   banner: steam:1812280
-  status: verified
+  status: unsupported
 
 - name: "Caveblazers"
   platform: gog
@@ -1236,7 +1239,6 @@
   id: 440880
   status: verified
   store: humble:the-count-lucanor
-  poster: https://cdn2.steamgriddb.com/grid/3072178819220ff5699a6ef70be68566.jpg
 
 - name: "Crash Bandicoot N. Sane Trilogy"
   platform: steam
@@ -1588,7 +1590,6 @@
 - name: "Detroit: Become Human"
   platform: steam
   id: 1222140
-  banner: steam:1222140
   status: verified
 
 - name: "Deus Ex: Human Revolution"
@@ -1815,13 +1816,6 @@
   id: 1135892318
   banner: steam:208200
   status: unsupported
-
-- name: "DOOM 3: Resurrection of Evil"
-  platform: steam
-  id: 9070
-  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/26511c846287c3f96c29a0f9ec488abc.png
-  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/1a69e2bdf33aa15664ad3c3cfb4d9453.png
-  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/354ac345fd8c6d7ef634d9a8e3d47b83.png
 
 - name: "DOOM 64"
   platform: epic-store
@@ -2133,11 +2127,6 @@
   id: 576500
   poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/84197cb58253061874fcc43fce417a7c.png
 
-- name: "Eversion"
-  platform: steam
-  id: 33680
-  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/0ca9d7e107eb21fe03a304ce3ca49d0f.png
-
 - name: "EVERSPACE"
   platform: steam
   id: 396750
@@ -2434,7 +2423,6 @@
   id: 1462040
   status: verified
   store: humble:final-fantasy-vii-remake-intergrade
-  compat_tool: proton-stable
 
 - name: "Firefox"
   platform: flathub
@@ -2477,11 +2465,6 @@
   id: 1486529526
   banner: steam:961620
   status: unsupported
-
-- name: "FlatOut: Ultimate Carnage"
-  platform: steam
-  id: 12360
-  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/c977cc56493aead3ae02a7b9ea7a5ce5.png
 
 - name: "Flight Control HD"
   platform: steam
@@ -2747,6 +2730,7 @@
   compat_tool: proton-stable
   status: verified
 
+# artwork overrides to avoid advertising
 - name: "Golf Gang"
   platform: steam
   id: 1151050
@@ -3172,6 +3156,8 @@
   platform: epic-store
   id: Parakeet
   banner: steam:257850
+  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/ca9c267dad0305d1a6308d2a0cf1c39c.png
+  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/f6d9e459b9fbf6dd26c4f7d621adec1d.png
   status: unsupported
 
 - name: "Hyphen"
@@ -3525,12 +3511,6 @@
   notes:
     - First time start requires installation of MS VisualC++ Runtime with mouse
     - Game has full controller support
-
-- name: "Killer Instinct"
-  platform: steam
-  id: 577940
-  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/6aed000af86a084f9cb0264161e29dd3.jpg
-  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/bd6a06f41bae67be959e5b44addc880f.png
 
 # Patch according to https://www.pcgamingwiki.com/wiki/Killer_Is_Dead#Issues_fixed
 - name: "Killer is Dead - Nightmare Edition"
@@ -3914,11 +3894,6 @@
   id: 105100
   poster: https://cdn2.steamgriddb.com/grid/fbdc4c9cf46e2ec05a0918c7ac9a0c69.png
 
-- name: "Lust for Darkness"
-  platform: steam
-  id: 523650
-  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/ce1147ec605e5fbac6b692e762db8881.png
-
 - name: "Luxuria Superbia"
   platform: steam
   id: 269150
@@ -3946,9 +3921,6 @@
 - name: "Mages of Mystralia"
   platform: steam
   id: 529660
-  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/ce7fb789d312196518f2a053adc75382.png
-  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/fdbe012e2e11314b96402b32c0df26b7.jpg
-  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/32f6c513b25df1c670753eb7335c4258.png
   status: verified
   store: humble:mages-of-mystralia
 
@@ -3956,10 +3928,6 @@
   platform: epic-store
   id: 4b920bb4aebf4586a4f6d823817fe32d
   banner: steam:529660
-  poster: https://cdn2.steamgriddb.com/grid/541d0aeb0cb18680fdac99023d1f2f55.png
-  background: https://cdn2.steamgriddb.com/hero/bf39eb8ed254b605bb3abdec33573855.jpg
-  logo: https://cdn2.steamgriddb.com/logo/32f6c513b25df1c670753eb7335c4258.png
-  icon: https://cdn2.steamgriddb.com/icon/e6bd889d5bb3c383e918c7cc6daff45b.png
   compat_tool: proton-stable
   status: playable
   notes:
@@ -4431,11 +4399,6 @@
   notes:
     - Uses a launcher
 
-- name: "NARUTO SHIPPUDEN: Ultimate Ninja STORM 4"
-  platform: steam
-  id: 349040
-  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/5bab3d30b59cbfa316cc0f6d9f8e6ac7.png
-
 - name: "NARUTO SHIPPUDEN: Ultimate Ninja STORM Revolution"
   platform: steam
   id: 272510
@@ -4663,11 +4626,6 @@
   status: playable
   notes:
     - No controller support
-
-- name: "Oil Rush"
-  platform: steam
-  id: 200390
-  poster: https://cdn2.steamgriddb.com/grid/e281f682fab884aafadb53f9711eaffb.png
 
 - name: "Okami HD"
   platform: steam
@@ -5085,11 +5043,6 @@
   id: 546050
   store: humble:puyo-puyo-tetris
   status: verified
-
-- name: "Puzzle Agent"
-  platform: steam
-  id: 31270
-  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/8c05cf5bf084d8a1908738d8f5f6bad7.png
 
 - name: "Puzzle Quest"
   platform: steam
@@ -5537,23 +5490,6 @@
   notes:
     - No controller support
 
-- name: "Silent Hill: Homecoming"
-  platform: steam
-  id: 19000
-  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/33fe8ff56f35eddfd39d1df621c9f57a.png
-  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/2fc4a68635c26db1019047965180ce1b.jpg
-  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/1e48c4420b7073bc11916c6c1de226bb.png
-
-- name: "Simulacra"
-  platform: steam
-  id: 712730
-  poster: https://cdn2.steamgriddb.com/grid/837099d0aa96dcaba055155970b0f4b3.png
-
-- name: "Simulacra 2"
-  platform: steam
-  id: 1011190
-  poster: https://cdn2.steamgriddb.com/grid/2b9823c0bc891d2cdcc165db7b11ec53.png
-
 - name: "Sixtieth Kilometer"
   platform: steam
   id: 448780
@@ -5719,11 +5655,6 @@
   banner: https://cdn2.steamgriddb.com/grid/4703af37c2925cf2191b72dcb5f7f286.png
   poster: https://cdn2.steamgriddb.com/grid/e1337663bad9b826bde21203e72aa145.png
   status: playable
-
-- name: "Soulblight"
-  platform: steam
-  id: 530930
-  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/627905f21b5ae408516847694d6bf571.png
 
 - name: "SOULCALIBUR VI"
   platform: steam
@@ -6462,9 +6393,6 @@
 - name: "TowerFall Ascension"
   platform: steam
   id: 251470
-  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/5c9f93b2fdb3614e052123bba6301e64.jpg
-  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/4b86ca48d90bd5f0978afa3a012503a4.png
-  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/f095cedd23b99f1696fc8caecbcf257e.png
   status: verified
   store: humble:towerfall-ascension
 
@@ -6472,9 +6400,6 @@
   platform: epic-store
   id: Bichir
   banner: steam:251470
-  poster: https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/5c9f93b2fdb3614e052123bba6301e64.jpg
-  background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/4b86ca48d90bd5f0978afa3a012503a4.png
-  logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/f095cedd23b99f1696fc8caecbcf257e.png
   status: verified
 
 - name: "Toy Odyssey: The Lost and Found"
