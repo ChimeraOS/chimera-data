@@ -1457,6 +1457,12 @@
   banner: steam:423950
   status: verified
 
+- name: "Deadlock"
+  platform: steam
+  id: 1422450
+  banner: https://cdn2.steamgriddb.com/grid/54f4d0269247ed8453097b66cb9fca14.png
+  poster: https://cdn2.steamgriddb.com/grid/c94d0c6e3e289ccabe82680234bc5e58.png
+
 - name: "Death Stranding"
   platform: steam
   id: 1190460
@@ -1610,6 +1616,13 @@
   id: 1929434313
   banner: steam:269650
   status: verified
+
+- name: "Diablo IV"
+  platform: steam
+  id: 2344520
+  banner: https://cdn2.steamgriddb.com/grid/059ddf7f138ea43fd72b03cf10fa23d5.png
+  poster: https://cdn2.steamgriddb.com/grid/71c46aef15c9997a5bd7e70b65a720dd.png
+  background: https://cdn2.steamgriddb.com/hero/908d8e95b0c1806ed0c3cbe828bfee73.png
 
 - name: "Diabotical"
   platform: epic-store
@@ -2608,6 +2621,11 @@
   status: playable
   notes:
     - No controller support
+
+- name: "Gamecraft"
+  platform: steam
+  id: 1078000
+  poster: https://cdn2.steamgriddb.com/grid/cc687abbd23b721282cc954171514afa.png
 
 - name: "Gamedec - Definitive Edition"
   platform: epic-store
