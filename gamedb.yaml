@@ -4718,6 +4718,13 @@
   status: verified
   store: humble:olliolli2-welcome-to-olliwood
 
+- name: "Omno"
+  platform: steam
+  id: 969760
+  status: playable
+  notes:
+    - Hints displayed don't always correspond to the controller buttons
+
 - name: "One Piece Pirate Warriors 3"
   platform: steam
   id: 331600
