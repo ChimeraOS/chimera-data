@@ -1,0 +1,3 @@
+TOOL_URL=https://github.com/GloriousEggroll/proton-ge-custom/releases/download/GE-Proton9-22/GE-Proton9-22.tar.gz
+TOOL_MD5SUM=3fa2b2bcce0cbfd51765f547af736340
+TOOL_CMD=proton
