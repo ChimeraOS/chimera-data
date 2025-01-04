@@ -3990,6 +3990,16 @@
   id: 860950
   status: verified
 
+- name: "Marvel's Guardians of the Galaxy"
+  platform: epic-store
+  id: 63a665088eb1480298f1e57943b225d8
+  status: unsupported
+  
+- name: "Marvel's Guardians of the Galaxy"
+  platform: steam
+  id: 1088850
+  status: verified
+
 - name: "Master Levels for Doom II"
   platform: steam
   id: 9160
@@ -4668,6 +4678,13 @@
   id: 365660
   status: verified
   store: humble:olliolli2-welcome-to-olliwood
+
+- name: "Omno"
+  platform: steam
+  id: 969760
+  status: playable
+  notes:
+    - Hints displayed don't always correspond to the controller buttons
 
 - name: "One Piece Pirate Warriors 3"
   platform: steam
