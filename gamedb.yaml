@@ -5277,6 +5277,15 @@
   id: 760810
   status: verified
 
+  name: "RetroArch"
+  platform: flathub
+  id: org.libretro.RetroArch
+  banner: https://cdn2.steamgriddb.com/grid/ebcd0fb1c44b0ed07842254daec4c3cc.png
+  poster: https://cdn2.steamgriddb.com/grid/1bf8a252692338f06a660fa5a5eefc12.png
+  background: https://cdn2.steamgriddb.com/hero/532fe898679b9ab5685207b54541ef29.png
+  logo: https://cdn2.steamgriddb.com/logo/c366c2c97d47b02b24c3ecade4c40a01.png
+  icon: https://cdn2.steamgriddb.com/icon/92b86da424c1b48b9810ce7a448e3e9f.png
+
 - name: "Return Of The Zombie King"
   platform: steam
   id: 1152020
