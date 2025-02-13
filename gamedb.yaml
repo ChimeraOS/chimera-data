@@ -5277,7 +5277,7 @@
   id: 760810
   status: verified
 
-  name: "RetroArch"
+- name: "RetroArch"
   platform: flathub
   id: org.libretro.RetroArch
   banner: https://cdn2.steamgriddb.com/grid/ebcd0fb1c44b0ed07842254daec4c3cc.png
