@@ -2437,12 +2437,6 @@
   background: https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/58d2d622ed4026cae2e56dffc5818a11.png
   logo: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/0b3f44d9054402de39441e165a4bdfe0.png
 
-# SteamDeck=0 to avoid downloading SteamDeck optimized assets
-- name: "FINAL FANTASY VII REBIRTH"
-  platform: steam
-  id: 2909400
-  launch_options: SteamDeck=0 %command%
-
 - name: "FINAL FANTASY VII REMAKE INTERGRADE"
   platform: steam
   id: 1462040
