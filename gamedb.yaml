@@ -5647,13 +5647,6 @@
   platform: steam
   id: 200940
   status: verified
-  compat_tool: proton-stable
-  launch_options: WINEDLLOVERRIDES="xaudio2_7=native,builtin" %command%
-  patch_dir: Sonic CD
-  patches:
-    - copy:
-        src: Sonic CD/installscript.vdf
-        dst: installscript.vdf
 
 - name: "Sonic Forces"
   platform: steam
