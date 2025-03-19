@@ -1118,7 +1118,6 @@
   status: playable
   notes:
     - No controller support
-    - Requires alternative window mode to access menus
 
 - name: "Chronicle of Innsmouth"
   platform: steam
@@ -2451,7 +2450,6 @@
   status: playable
   notes:
     - No controller support
-    - Requires alternative window mode to access menus
 
 - name: "Firewatch"
   platform: steam
