@@ -4234,6 +4234,12 @@
   banner: steam:276810
   status: verified
 
+# SteamDeck=0 to allow full range of graphics settings
+- name: "Mortal Kombat 1"
+  platform: steam
+  id: 1971870
+  launch_options: SteamDeck=0 %command%
+
 - name: "Mortal Kombat 11"
   platform: steam
   id: 976310
