@@ -3916,6 +3916,11 @@
   id: 105100
   poster: https://cdn2.steamgriddb.com/grid/fbdc4c9cf46e2ec05a0918c7ac9a0c69.png
 
+- name: "LUNAR Remastered Collection"
+  platform: steam
+  id: 3255380
+  status: verified
+
 - name: "Luxuria Superbia"
   platform: steam
   id: 269150
