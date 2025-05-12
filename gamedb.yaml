@@ -1163,6 +1163,12 @@
   compat_tool: proton-stable
   status: verified
 
+# SteamDeck=0 to enable resolution options
+- name: "Clair Obscur: Expedition 33"
+  platform: steam
+  id: 1903340
+  launch_options: SteamDeck=0 %command%
+
 - name: "ClusterPuck 99"
   platform: steam
   id: 337960
