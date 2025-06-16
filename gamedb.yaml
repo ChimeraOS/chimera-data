@@ -5939,6 +5939,12 @@
   banner: steam:619700
   status: verified
 
+# SteamDeck=0 to enable high graphical settings
+- name: "Stellar Blade"
+  platform: steam
+  id: 3489700
+  launch_options: SteamDeck=0 %command%
+
 - name: "StepMania"
   platform: flathub
   id: com.stepmania.StepMania
