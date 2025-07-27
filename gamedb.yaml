@@ -2008,6 +2008,11 @@
   platform: steam
   id: 306130
   compat_config: gamedrive
+
+- name: "ElecHead"
+  platform: steam
+  id: 1456880
+  poster: https://cdn2.steamgriddb.com/grid/3974f6173d17a85c952e38bb9235a0a1.jpg
   
 - name: "Elite Dangerous"
   platform: epic-store
