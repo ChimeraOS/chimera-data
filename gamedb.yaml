@@ -1448,6 +1448,7 @@
   id: 588650
   status: verified
   store: humble:dead-cells
+  poster: https://cdn2.steamgriddb.com/grid/8e329312be48f793c2f74742d74b6d3c.png
 
 - name: "Dead Island"
   platform: steam
@@ -1949,6 +1950,7 @@
   platform: steam
   id: 239140
   status: verified
+  poster: https://cdn2.steamgriddb.com/grid/795ced384fdcad15310b46841a6f145c.jpg
 
  # Since version 1.9.0 it has EA Anticheat, can't play it anymore
 - name: "EA Sports WRC"
@@ -2008,6 +2010,11 @@
   platform: steam
   id: 306130
   compat_config: gamedrive
+
+- name: "ELDERBORN"
+  platform: steam
+  id: 727850
+  poster: https://cdn2.steamgriddb.com/grid/50afc5e501ddff6a65cddb9cd69411a2.jpg
 
 - name: "ElecHead"
   platform: steam
@@ -3164,6 +3171,7 @@
   id: 609920
   status: verified
   store: humble:hotshot-racing
+  poster: https://cdn2.steamgriddb.com/grid/8cfb8fd37f9b773e8f7bf3e4b40ef2d7.png
 
 - name: "Hue"
   platform: epic-store
